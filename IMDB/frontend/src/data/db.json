@@ -25,37 +25,11 @@
       "gmail": "dasdasd@gmail.com",
       "role": 2,
       "isBan": false
-    },
-    {
-      "account": "mer2",
-      "name": "Trần Duy Khánh Tùng",
-      "password": "12345678",
-      "gmail": "tungtdkhe163732@fpt.edu.vn",
-      "phone": "0973761021",
-      "city": "Hà Nội",
-      "address": "sds",
-      "gender": "female",
-      "dob": "2023-07-04",
-      "id": 3
-    },
-    {
-      "account": "merr12",
-      "name": "tyfd",
-      "password": "1234",
-      "gmail": "tung@fpt.edu.vn",
-      "phone": "012334456",
-      "city": "haha",
-      "address": "ds",
-      "gender": "male",
-      "dob": "2023-07-06",
-      "id": 4
     }
   ],
   "Vote": [
     {
-      "id": 1,
-      "comments": "hehehe",
-      "rate": 1
+    
     }
   ],
   "movie": [
