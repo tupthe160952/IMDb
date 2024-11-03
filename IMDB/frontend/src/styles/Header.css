@@ -1,8 +1,7 @@
 /*LOGO*/
 .logo img {
-  width: auto;
+  width: 70px;
   height: 35px;
-  max-width: 100%;
 }
 
 .logo {
@@ -25,6 +24,11 @@
   float: right;
 }
 
+.watch-list p {
+  margin: 0;
+  line-height: 1;
+}
+
 .watch-list:hover {
   background-color: rgb(37, 37, 37);
   border-radius: 25px;
@@ -40,14 +44,17 @@
   font-weight: 600;
   cursor: pointer;
   color: white;
-  display: flex;
-  align-items: center;
-  float: right;
+  justify-content: flex-end;
 }
 
 .menu:hover {
   background-color: rgb(37, 37, 37);
   border-radius: 25px;
+}
+
+.menu p {
+  margin: 0;
+  line-height: 1;
 }
 
 /*SIGNIN*/
@@ -60,6 +67,11 @@
   color: white;
   cursor: pointer;
   font-weight: 600;
+}
+
+.sign-in p {
+  margin: 0;
+  line-height: 1;
 }
 
 .sign-in:hover {
@@ -85,13 +97,15 @@
   height: 15px;
   width: 650px;
   border-radius: 7px;
-  padding: 10px;
+  padding: 15px;
 }
 
 /*HEADER CONTAINER*/
-.header.container {
+.header {
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(18, 18, 18);
   height: 70px;
   padding: 0 300px;

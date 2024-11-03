@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import "./Header.css";
-import Genre from "../../types/Interface";
+import "../styles/Header.css";
+import Genre from "../types/Interface";
 
 const Header: React.FC = () => {
   const [movieList, setMovieList] = useState<Genre[]>([]);
@@ -35,7 +35,7 @@ const Header: React.FC = () => {
       setError(null);
     } catch (err) {
       setError(`Failed to fetch data: ${(err as Error).message}`);
-      console.error(err);
+      console.error(error);
     }
   };
 
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
 
   return (
     <>
-      <div className="header container">
+      <div className="header">
         <div className="logo">
           <a href="/">
             <img
@@ -86,7 +86,7 @@ const Header: React.FC = () => {
           </a>
         </div>
       </div>
-      {/* DROP DOWN MENU */}
+      {/* Dropdown menu with collapse effect */}
       <div className={`dropdown ${collapseMenu ? "open" : ""}`}>
         <div className="movie-genre">
           <h3 className="header-title">Movies</h3>
