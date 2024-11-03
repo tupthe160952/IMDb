@@ -7,15 +7,14 @@ const Footer: React.FC = () => {
         <footer className="footer bg-dark text-white py-4">
             <div className="container-fluid">
                 <div className="row text-center text-md-start ">
-                    {/* <div className="col-md-2 mb-3">
-                        <a href="https://m.media-amazon.com/images/G/01/imdb/authportal/images/www_imdb_logo._CB667618033_.png"></a>
-                    </div> */}
+
 
                 </div>
 
                 <div className="row-md-2 mb-3">
                     <ul className="list-unstyled">
                         <li><a href="#" className="footer-link">About Us</a></li>
+
                         <li><a href="#" className="footer-link">Contact Us</a></li>
                         <li><a href="#" className="footer-link">Affiliates</a></li>
                         <li><a href="#" className="footer-link">Resources</a></li>
