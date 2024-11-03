@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../style/footer.css';
+import '../styles/footer.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 const Footer: React.FC = () => {
     return (

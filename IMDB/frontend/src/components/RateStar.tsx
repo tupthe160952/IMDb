@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../style/rateStar.css";
+import "../styles/rateStar.css";
 import { Button } from "react-bootstrap";
 
 const RateStar: React.FC = () => {
