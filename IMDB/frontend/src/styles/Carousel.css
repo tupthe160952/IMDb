@@ -1,0 +1,120 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #333;
+}
+
+.carousel__button {
+  /* position: absolute; */
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  /* top: 50%;
+  transform: translateY(-50%);
+  z-index: 2; */
+}
+
+.carousel__button--left {
+  /* position: absolute; */
+  left: 20px;
+}
+
+.carousel__button--right {
+  /* position: absolute; */
+  right: 20px;
+}
+
+.item-card {
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+  padding: 35px;
+  background-color: rgb(33, 31, 31);
+  /* position: absolute; */
+}
+
+/* .item-card__image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 8px;
+} */
+
+.item-card__image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item-card__info {
+  padding-top: 10px;
+}
+
+.item-card__title {
+  bottom: 24%;
+  left: 250px;
+  position: absolute;
+  font-size: 2.5rem;
+  margin: 5px 0;
+}
+
+.item-card__description {
+  bottom: 10%;
+  left: 250px;
+  position: absolute;
+  font-size: 1.3rem;
+  color: #ccc;
+}
+
+.item-card__duration {
+  bottom: 2%;
+  right: 13%;
+  position: absolute;
+  font-size: 1rem;
+  color: white;
+}
+
+.item-card__likes {
+  position: absolute;
+  bottom: 5%;
+  left: 25%;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+.item-card__poster-container {
+  position: relative;
+  display: inline-block;
+}
+
+.item-card__poster-image {
+  position: absolute;
+  bottom: 0.5%;
+  left: 0.5%;
+  width: 200px;
+  height: 50%;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.item-card__plus-icon {
+  position: absolute;
+  bottom: 42%;
+  left: 1%;
+  font-size: 2.5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10%;
+  width: 24px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
