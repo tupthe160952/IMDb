@@ -6,9 +6,10 @@ const Footer: React.FC = () => {
     return (
         <footer className="footer bg-dark text-white py-10">
             <div className="container mx-auto text-center md:text-left">
-                <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:space-x-4">
+                <div className="flex flex-col md:flex-row justify-between items-center ">
+
                     <div className="md: text-start mx-3 mt-2">
-                        <a style={{ color: '#ccc', maxWidth: '250px' }}>
+                        <a style={{ color: '#ccc'}}>
                             <h3>Our Team</h3>
                             <div>
                                 <div className="bi bi-house-fill mb-2"> : New York, NY 10012, US </div>
@@ -17,21 +18,23 @@ const Footer: React.FC = () => {
                             </div>
                         </a>
                     </div>
+
                     <div className=" justify-content-center my-3 mt-4 mx-5">
                         <h3 style={{ color: '#ccc'}}>Company</h3>
-                        <a href="#" className="footer-link mx-4">
+                        <a href="/" className="footer-link mx-4">
                             Home
                         </a>
                         <a href="#" className="footer-link mx-4">
                             About Us
                         </a>
-                        <a href="#" className="footer-link mx-4">
+                        <a href="/contact_us" className="footer-link mx-4">
                             Contact Us
                         </a>
                         <a href="#" className="footer-link mx-4">
                             Help
                         </a>                       
                     </div>
+
                 </div>
 
 
