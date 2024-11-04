@@ -4,7 +4,7 @@ import '../styles/card.css';
 
 const Card: React.FC = () => {
     return (
-        <div className="card bg-secondary text-white">
+        <div className="card text-white" style={{backgroundColor: '#1a1a1a'}}>
             <div className="card-img-wrapper">
                 <img
                     src="https://placehold.co/256x384"
@@ -19,17 +19,17 @@ const Card: React.FC = () => {
             </div>
             <div className="card-body">
                 <div className="rating-wrapper">
-                    <span className="rating">7.6/10</span>
+                    <span className="rating" style={{fontSize: '18px'}}>7.6/10</span>
                     <button className="star-button" aria-label="Rate this item">
                         <i className="fas fa-star star-icon"></i>
                     </button>
                 </div>
 
-                <h3 className="card-title">Film Name</h3>
-                <button className="btn btn-dark card-button">
+                <h4 className="card-title" style={{ marginBottom: '15px' }}>Film Name</h4>
+                <button className="btn btn-dark card-button" style={{backgroundColor: '#5f5f5f'}}>
                     <i className="fas fa-plus mr-2"></i> Watchlist
                 </button>
-                <button className="btn btn-dark card-button">
+                <button className="btn btn-dark card-button" style={{backgroundColor: '#5f5f5f'}}>
                     <i className="fas fa-play mr-2"></i> Trailer
                 </button>
             </div>
