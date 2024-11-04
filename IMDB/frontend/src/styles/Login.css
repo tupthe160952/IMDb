@@ -61,6 +61,10 @@
     margin: 20px 0;
 }
 
+.login-container button:hover {
+    background-color: #e6b800;
+}
+
 .login-container .checkbox-container {
     display: flex;
     align-items: center;
