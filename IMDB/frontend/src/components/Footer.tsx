@@ -4,7 +4,7 @@ import "../styles/footer.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 const Footer: React.FC = () => {
     return (
-        <footer className="footer mt-4 bg-dark text-white py-10">
+        <footer className="footer bg-dark text-white py-10 mt-1">
             <div className="container mx-auto text-center md:text-left">
                 <div className=" items-center ">
 
@@ -19,18 +19,18 @@ const Footer: React.FC = () => {
                         </a>
                     </div>
 
-                    <div className="my-3 mt-5 mx-5 footer-section">
+                    <div className="my-3 mt-5 mx-2 footer-section">
                         <h3 style={{ color: '#ccc'}}>Company</h3>
-                        <a href="/" className="footer-link mx-2">
+                        <a href="/" className="footer-link mx-4">
                             Home
                         </a>
-                        <a href="#" className="footer-link mx-2">
+                        <a href="#" className="footer-link mx-4">
                             About Us
                         </a>
-                        <a href="/contact_us" className="footer-link mx-2">
+                        <a href="/contact_us" className="footer-link mx-4">
                             Contact Us
                         </a>
-                        <a href="#" className="footer-link mx-2">
+                        <a href="#" className="footer-link mx-4">
                             Help
                         </a>                       
                     </div>
