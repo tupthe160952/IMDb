@@ -4,13 +4,13 @@ import "../styles/footer.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 const Footer: React.FC = () => {
     return (
-        <footer className="footer bg-dark text-white py-10">
+        <footer className="footer mt-4 bg-dark text-white py-10">
             <div className="container mx-auto text-center md:text-left">
-                <div className="flex flex-col md:flex-row justify-between items-center ">
+                <div className=" items-center ">
 
-                    <div className="md: text-start mx-3 mt-2">
+                    <div className=" md: text-start mx-3 mt-4 footer-section">
                         <a style={{ color: '#ccc'}}>
-                            <h3>Our Team</h3>
+                            <h3 >Our Team</h3>
                             <div>
                                 <div className="bi bi-house-fill mb-2"> : New York, NY 10012, US </div>
                                 <div className="bi bi-envelope mb-2"> : info@example.com</div>
@@ -19,18 +19,18 @@ const Footer: React.FC = () => {
                         </a>
                     </div>
 
-                    <div className=" justify-content-center my-3 mt-4 mx-5">
+                    <div className="my-3 mt-5 mx-5 footer-section">
                         <h3 style={{ color: '#ccc'}}>Company</h3>
-                        <a href="/" className="footer-link mx-4">
+                        <a href="/" className="footer-link mx-2">
                             Home
                         </a>
-                        <a href="#" className="footer-link mx-4">
+                        <a href="#" className="footer-link mx-2">
                             About Us
                         </a>
-                        <a href="/contact_us" className="footer-link mx-4">
+                        <a href="/contact_us" className="footer-link mx-2">
                             Contact Us
                         </a>
-                        <a href="#" className="footer-link mx-4">
+                        <a href="#" className="footer-link mx-2">
                             Help
                         </a>                       
                     </div>

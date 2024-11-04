@@ -105,7 +105,7 @@ const Register: React.FC = () => {
           />
 
           <button type="submit">Create your IMDb account</button>
-          <p className='register-p '>Already have an account? <a href="#" register-link >Sign in</a></p>
+          <p className='register-p '>Already have an account? <a href="/login" register-link >Sign in</a></p>
         </form>
       </div>
     </div>

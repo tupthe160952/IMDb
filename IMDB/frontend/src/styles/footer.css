@@ -3,6 +3,24 @@
     width: 100%;
 }
 
+.items-center {
+    display: flex;
+    justify-content: space-between; /* Adjust alignment as needed */
+    padding: 0 40px; /* Ensure there's some padding or margin */
+}
+
+.footer-section {
+    flex: 1; /* Allows sections to grow and shrink equally */
+    margin: 0 10px; /* Adjust spacing between sections */
+}
+
+/* Additional styling for titles, if needed */
+.footer-section h3 {
+    color: #ccc; /* Adjust color as needed */
+    font-size: 18px; /* Adjust font size */
+    margin-bottom: 10px;
+}
+
 .footer .container-fluid {
     padding: 0 40px; /* Increase padding if needed */
 }
