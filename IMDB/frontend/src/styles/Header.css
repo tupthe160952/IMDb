@@ -1,0 +1,173 @@
+/*LOGO*/
+.logo img {
+  width: 70px;
+  height: 35px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+/*WATCHLIST*/
+.watch-list {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  float: right;
+}
+
+.watch-list p {
+  margin: 0;
+  line-height: 1;
+}
+
+.watch-list:hover {
+  background-color: rgb(37, 37, 37);
+  border-radius: 25px;
+}
+
+/*MENU*/
+.menu {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  justify-content: flex-end;
+}
+
+.menu:hover {
+  background-color: rgb(37, 37, 37);
+  border-radius: 25px;
+}
+
+.menu p {
+  margin: 0;
+  line-height: 1;
+}
+
+/*SIGNIN*/
+.sign-in {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 15px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.sign-in p {
+  margin: 0;
+  line-height: 1;
+}
+
+.sign-in:hover {
+  background-color: rgb(37, 37, 37);
+  border-radius: 25px;
+}
+
+.btn-menu {
+  text-decoration: none;
+  color: white;
+}
+
+/*INPUT SEARCH*/
+.search-bar {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.search-bar input {
+  height: 15px;
+  width: 650px;
+  border-radius: 7px;
+  padding: 15px;
+}
+
+/*HEADER CONTAINER*/
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(18, 18, 18);
+  height: 70px;
+  padding: 0 300px;
+}
+
+/*NAV*/
+.dropdown {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 0;
+  overflow: hidden;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  transition: height 0.3s ease-in, 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+.dropdown.open {
+  height: 100vh;
+  opacity: 1;
+  padding-top: 100px;
+}
+
+.header-title {
+  margin: 0.5em 0;
+  font-weight: bold;
+  color: rgb(226, 182, 22);
+}
+
+.nav-list li {
+  list-style-type: none;
+  padding: 0.5em 0;
+  margin: 0;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+/*CLOSE BUTTON*/
+.close-dropdown {
+  height: 50px;
+  width: 50px;
+  border-radius: 59px;
+  background-color: rgb(226, 182, 22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.close-dropdown span {
+  font-size: 30px;
+  font-weight: 600;
+}
