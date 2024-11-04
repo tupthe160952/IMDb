@@ -3,6 +3,8 @@ import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import RateStar from "./components/RateStar";
+import ContactUs from "./pages/ContactUs";
+
 import "./styles/Header.css";
 
 function App() {
@@ -11,7 +13,9 @@ function App() {
       <Routes>
         <Route path="/footer" element={<Footer />} />
         <Route path="/rateStar" element={<RateStar />} />
-        <Route path="/card" element={<Card />}/>
+        <Route path="/card" element={<Card />} />
+        <Route path="/contact_us" element={<ContactUs />} />
+        
         <Route path="/header" element={<Header />} />
       </Routes>
     </BrowserRouter>
