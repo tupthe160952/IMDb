@@ -12,7 +12,7 @@ const Card: React.FC = () => {
                     className="card-img-top"
                 />
                 <div className="icon-button-wrapper">
-                    <button className="btn btn-dark btn-sm rounded-circle">
+                    <button type="button" className="btn btn-dark btn-sm rounded-circle" aria-label="Description of Button">
                         <i className="fas fa-plus"></i>
                     </button>
                 </div>

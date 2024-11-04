@@ -81,7 +81,7 @@ const Header: React.FC = () => {
         </div>
 
         <div className="sign-in">
-          <a href="/" className="btn-menu">
+          <a href="/login" className="btn-menu">
             <p>Sign in</p>
           </a>
         </div>

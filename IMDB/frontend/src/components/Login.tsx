@@ -58,7 +58,7 @@ const LoginForm: React.FC = () => {
             <a href="#">Forgot password?</a>
           </div>
           <div className="create-account">
-            New to IMDb? <a href="#">Create your IMDb account</a>
+            New to IMDb? <a href="/register">Create your IMDb account</a>
           </div>
         </form>
       </div>
