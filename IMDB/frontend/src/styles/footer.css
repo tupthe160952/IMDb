@@ -5,19 +5,14 @@
 
 .items-center {
     display: flex;
-    justify-content: space-between; /* Adjust alignment as needed */
-    padding: 0 40px; /* Ensure there's some padding or margin */
-}
-
-.footer-section {
-    flex: 1; /* Allows sections to grow and shrink equally */
-    margin: 0 10px; /* Adjust spacing between sections */
+    justify-content: space-between; 
+    padding: 0 40px; 
 }
 
 /* Additional styling for titles, if needed */
 .footer-section h3 {
     color: #ccc; /* Adjust color as needed */
-    font-size: 18px; /* Adjust font size */
+    font-size: 25px; /* Adjust font size */
     margin-bottom: 10px;
 }
 
@@ -27,7 +22,7 @@
 
 .footer-link {
     color: #ccc;
-    font-size: 16px; /* Increase font size for better readability */
+    font-size: 17px; /* Increase font size for better readability */
     text-decoration: none;
 }
 
