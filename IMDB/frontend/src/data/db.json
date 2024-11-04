@@ -1,36 +1,14 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Tran Tung",
-      "dob": "2022-07-10",
-      "account": "tung",
-      "password": "123456",
-      "phoneNumber": "0123456789",
-      "city": "Ha Noi",
-      "gender": 0,
-      "gmail": "tung@gmail.com",
-      "role": 1,
-      "isBan": false
-    },
-    {
-      "id": 2,
-      "name": "Tran Tung",
-      "dob": "2002-01-17",
-      "account": "mer",
-      "password": "123",
-      "phoneNumber": "0123255789",
-      "city": "Ha Noi",
-      "gender": 0,
-      "gmail": "dasdasd@gmail.com",
-      "role": 2,
-      "isBan": false
+      "name": "a",
+      "email": "ab@gmail.com",
+      "password": "12345678",
+      "id": 1
     }
   ],
   "Vote": [
-    {
-    
-    }
+    {}
   ],
   "movie": [
     {
