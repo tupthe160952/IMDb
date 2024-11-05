@@ -3,12 +3,11 @@ import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import RateStar from "./components/RateStar";
-import Register from './components/Register';
-import LoginForm from './components/Login';
+import Register from "./components/Register";
+import LoginForm from "./components/Login";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import "./styles/Header.css";
-
 
 function App() {
   return (
@@ -19,8 +18,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="/" element={<Home />} />
-          
-        <Route path="/card" element={<Card />} />
+
         <Route path="/contact_us" element={<ContactUs />} />
 
         <Route path="/header" element={<Header />} />
