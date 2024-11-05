@@ -1,0 +1,9 @@
+.slidecard {
+  padding: 20px;
+  background-color: #121212;
+  color: rgb(226, 182, 22);
+}
+
+.slidecard h2 {
+  margin: 40px 280px;
+}

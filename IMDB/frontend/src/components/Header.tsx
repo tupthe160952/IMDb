@@ -75,7 +75,7 @@ const Header: React.FC = () => {
 
         <div className="watch-list">
           <i className="fa-solid fa-bookmark"></i>
-          <a href="/" className="btn-menu">
+          <a href="/login" className="btn-menu">
             <p>Watchlist</p>
           </a>
         </div>
