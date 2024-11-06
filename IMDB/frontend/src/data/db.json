@@ -4,7 +4,16 @@
       "name": "a",
       "email": "ab@gmail.com",
       "password": "12345678",
-      "id": 1
+      "id": 1,
+      "role": "user"
+
+    },
+    {
+      "name": "aaa",
+      "email": "tu@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "id": 2
     }
   ], 
 

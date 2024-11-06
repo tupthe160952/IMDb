@@ -3,12 +3,15 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import "../styles/Header.css";
 import Genre from "../types/Interface";
+import { useUser } from './UserContext';
 
 const Header: React.FC = () => {
   const [movieList, setMovieList] = useState<Genre[]>([]);
   const [tvList, setTvList] = useState<Genre[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [collapseMenu, setCollapseMenu] = useState<boolean>(false);
+
+  const { user, setUser } = useUser(); const handleLogout = () => { localStorage.removeItem('user'); setUser(null); };
 
   const getList = async () => {
     try {
@@ -81,9 +84,10 @@ const Header: React.FC = () => {
         </div>
 
         <div className="sign-in">
-          <a href="/login" className="btn-menu">
+          {/* <a href="/login" className="btn-menu">
             <p>Sign In</p>
-          </a>
+          </a> */}
+         {user ? ( <select title="User options" onChange={(e) => e.target.value === 'logout' && handleLogout()}> <option value="profile">Profile</option> <option value="logout">Logout</option> </select> ) : ( <a href="/login">Login</a> )}
         </div>
       </div>
       {/* Dropdown menu with collapse effect */}
