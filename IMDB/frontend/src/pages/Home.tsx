@@ -38,6 +38,7 @@ const Home: React.FC = () => {
       <Header />
       <Carousel items={items} />
       <PopularMovie />
+      <PopularMovie />
       <Footer />
     </div>
   );
