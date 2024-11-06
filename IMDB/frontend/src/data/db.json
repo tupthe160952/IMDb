@@ -6,16 +6,96 @@
       "password": "12345678",
       "id": 1
     }
-  ],
+  ], 
+
   "Vote": [
     {}
   ],
+
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10751,
+      "name": "Family"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy"
+    },
+    {
+      "id": 36,
+      "name": "History"
+    },
+    {
+      "id": 27,
+      "name": "Horror"
+    },
+    {
+      "id": 10402,
+      "name": "Music"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 10749,
+      "name": "Romance"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    },
+    {
+      "id": 10770,
+      "name": "TV Movie"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 10752,
+      "name": "War"
+    },
+    {
+      "id": 37,
+      "name": "Western"
+    }
+  ],
+
   "movie": [
     {
       "id": 1,
       "title": "Terrifier 3",
       "date": "09/10/2024",
-      "comments": "",
       "cast": [
         "Lauren LaVera",
         "David Howard Thornton",
@@ -25,8 +105,9 @@
         "Margaret Anne Florence"
       ],
       "genres": [
-        "Horror",
-        "Thriller"
+        27,
+        53,
+        9648
       ],
       "href": "Terrifier_3",
       "extract": "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare.",
@@ -42,7 +123,6 @@
       "id": 2,
       "title": "Venom: The Last Dance",
       "date": "22/10/2024",
-      "comments": "",
       "cast": [
         "Tom Hardy",
         "Chiwetel Ejiofor",
@@ -52,9 +132,9 @@
         "Clark Backo"
       ],
       "genres": [
-        "Science Fiction",
-        "Action",
-        "Adventure"
+        878,
+        28,
+        12
       ],
       "href": "Venom:_The_Last_Dance",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
@@ -70,7 +150,6 @@
       "id": 3,
       "title": "The Wild Robot",
       "date": "12/09/2024",
-      "comments": "",
       "cast": [
         "Lupita Nyong'o",
         "Pedro Pascal",
@@ -80,9 +159,9 @@
         "Matt Berry"
       ],
       "genres": [
-        "Animation",
-        "Science Fiction",
-        "Family"
+        16,
+        878,
+        10751
       ],
       "href": "The_Wild_Robot",
       "extract": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
@@ -98,7 +177,6 @@
       "id": 4,
       "title": "Transformers One",
       "date": "11/09/2024",
-      "comments": "",
       "cast": [
         "Chris Hemsworth",
         "Brian Tyree Henry",
@@ -109,10 +187,10 @@
         "Laurence Fishburne"
       ],
       "genres": [
-        "Animation",
-        "Science Fiction",
-        "Adventure",
-        "Family"
+        16,
+        878,
+        12,
+        10751
       ],
       "href": "Transformers_One",
       "extract": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
@@ -128,7 +206,6 @@
       "id": 5,
       "title": "The Substance",
       "date": "07/09/2024",
-      "comments": "",
       "cast": [
         "Demi Moore",
         "Margaret Qualley",
@@ -139,9 +216,9 @@
         "Tom Morton"
       ],
       "genres": [
-        "Drama",
-        "Horror",
-        "Science Fiction"
+        18,
+        27,
+        878
       ],
       "href": "The_Substance",
       "extract": "Have you ever dreamt of a better version of yourself? You, only better in every way. You should try this new product, it's called The Substance. IT CHANGED MY LIFE.",
@@ -157,7 +234,6 @@
       "id": 6,
       "title": "Joker: Folie à Deux",
       "date": "01/10/2024",
-      "comments": "",
       "cast": [
         "Joaquin Phoenix",
         "Lady Gaga",
@@ -165,9 +241,9 @@
         "Catherine Keener"
       ],
       "genres": [
-        "Drama",
-        "Crime",
-        "Thriller"
+        18,
+        80,
+        53
       ],
       "href": "Joker:_Folie_à_Deux",
       "extract": "While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.",
@@ -183,7 +259,6 @@
       "id": 7,
       "title": "Alien: Romulus",
       "date": "13/08/2024",
-      "comments": "",
       "cast": [
         "Cailee Spaeny",
         "David Jonsson",
@@ -194,8 +269,8 @@
         "Rosie Ede"
       ],
       "genres": [
-        "Science Fiction",
-        "Horror"
+        878,
+        27
       ],
       "href": "Alien:_Romulus",
       "extract": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
@@ -211,7 +286,6 @@
       "id": 8,
       "title": "Inside Out 2",
       "date": "11/06/2024",
-      "comments": "",
       "cast": [
         "Amy Poehler",
         "Maya Hawke",
@@ -224,11 +298,11 @@
         "Lilimar"
       ],
       "genres": [
-        "Animation",
-        "Family",
-        "Adventure",
-        "Comedy",
-        "Drama"
+        16,
+        10751,
+        12,
+        35,
+        18
       ],
       "href": "Inside_Out_2",
       "extract": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
@@ -244,7 +318,6 @@
       "id": 9,
       "title": "Venom",
       "date": "28/09/2018",
-      "comments": "",
       "cast": [
         "Tom Hardy",
         "Chiwetel Ejiofor",
@@ -254,8 +327,8 @@
         "Scott Haze"
       ],
       "genres": [
-        "Science Fiction",
-        "Action"
+        878,
+        28
       ],
       "href": "Venom",
       "extract": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
@@ -271,7 +344,6 @@
       "id": 10,
       "title": "Deadpool & Wolverine",
       "date": "24/07/2024",
-      "comments": "",
       "cast": [
         "Ryan Reynolds",
         "Hugh Jackman",
@@ -281,9 +353,9 @@
         "Jon Favreau"
       ],
       "genres": [
-        "Action",
-        "Comedy",
-        "Science Fiction"
+        28,
+        35,
+        878
       ],
       "href": "Deadpool_&_Wolverine",
       "extract": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
@@ -299,7 +371,6 @@
       "id": 11,
       "title": "Le Comte de Monte-Cristo",
       "date": "28/06/2024",
-      "comments": "",
       "cast": [
         "Pierre Niney",
         "Bastien Bouillon",
@@ -309,11 +380,12 @@
         "Pierfrancesco Favino"
       ],
       "genres": [
-        "Action",
-        "Adventure",
-        "History",
-        "Drama",
-        "Thriller"
+        12,
+        36,
+        28,
+        18,
+        10749,
+        53
       ],
       "href": "Le Comte de Monte-Cristo",
       "extract": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
@@ -329,11 +401,10 @@
       "id": 12,
       "title": "Heavenly Touch",
       "date": "12/05/2009",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Drama",
-        "Romance"
+        18,
+        10749
       ],
       "href": "Heavenly_Touch",
       "extract": "Jonard is having trouble making ends meet. His mother is suffering from depression, and he and his sister are forced to quit school to take care of her. One day, Jonard meets his friend Rodel, who introduces him to the world of massage parlors.",
@@ -352,11 +423,10 @@
       "id": 13,
       "title": "Don't Move",
       "date": "24/10/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Horror",
-        "Thriller"
+        27,
+        53
       ],
       "href": "Dont_Move",
       "extract": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
@@ -375,12 +445,11 @@
       "id": 14,
       "title": "Beetlejuice Beetlejuice",
       "date": "04/09/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Comedy",
-        "Fantasy",
-        "Horror"
+        35,
+        14,
+        27
       ],
       "href": "Beetlejuice_Beetlejuice",
       "extract": "After a family tragedy, three generations of the Deetz family return home to Winter River, only to find Lydia’s life turned upside down when her daughter accidentally opens a portal to the Afterlife.",
@@ -399,13 +468,12 @@
       "id": 15,
       "title": "Sing: Thriller",
       "date": "16/10/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Animation",
-        "Family",
-        "Comedy",
-        "Horror"
+        16,
+        10751,
+        35,
+        27
       ],
       "href": "Sing_Thriller",
       "extract": "Buster Moon dreams up a star-studded spectacle set to Michael Jackson's 'Thriller' in this animated short featuring characters from the hit 'Sing' films.",
@@ -424,10 +492,9 @@
       "id": 16,
       "title": "Terrifier",
       "date": "09/08/2011",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Horror"
+        27
       ],
       "href": "Terrifier",
       "extract": "After witnessing a brutal murder on Halloween night, a young woman becomes the next target of a maniacal entity.",
@@ -446,12 +513,11 @@
       "id": 17,
       "title": "The Silent Hour",
       "date": "03/10/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Crime",
-        "Thriller",
-        "Action"
+        80,
+        53,
+        28
       ],
       "href": "The_Silent_Hour",
       "extract": "A hearing-impaired detective faces off with criminals while working as an interpreter.",
@@ -470,11 +536,10 @@
       "id": 18,
       "title": "El hoyo 2",
       "date": "27/09/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Sci-Fi",
-        "Horror"
+        878,
+        27
       ],
       "href": "El hoyo 2",
       "extract": "A new resident in a brutal vertical prison must fight for survival.",
@@ -493,11 +558,10 @@
       "id": 19,
       "title": "Bagman",
       "date": "20/09/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Horror",
-        "Thriller"
+        27,
+        53
       ],
       "href": "Bagman",
       "extract": "A legendary figure terrorizes children, snatching them away in his bag.",
@@ -516,13 +580,12 @@
       "id": 20,
       "title": "My Hero Academia: You're Next",
       "date": "02/08/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Sci-Fi"
+        16,
+        28,
+        12,
+        878
       ],
       "href": "My_Hero_Academia_Youre_Next",
       "extract": "A mysterious fortress appears, posing a new threat for heroes and villains.",
@@ -541,12 +604,11 @@
       "id": 21,
       "title": "Corpse Bride",
       "date": "12/09/2005",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Romance",
-        "Fantasy",
-        "Animation"
+        10749,
+        14,
+        16
       ],
       "href": "Corpse_Bride",
       "extract": "A young man in a European village marries a corpse while his real bride waits.",
@@ -565,12 +627,11 @@
       "id": 22,
       "title": "Brothers",
       "date": "10/10/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Action",
-        "Comedy",
-        "Crime"
+        28,
+        35,
+        80
       ],
       "href": "Brothers",
       "extract": "A reformed criminal reconnects with his twin for one last heist.",
@@ -589,14 +650,13 @@
       "id": 23,
       "title": "Invasion",
       "date": "11/04/2024",
-      "comments": "",
       "cast": [
         "Cast Not Provided"
       ],
       "genres": [
-        "Action",
-        "Drama",
-        "Thriller"
+        28,
+        18,
+        53
       ],
       "href": "Invasion_(2024_film)",
       "extract": "When neighboring country Veragua suddenly attacks Curaçao and Aruba, the Dutch government is taken by surprise. The conflict escalates as three young Navy recruits face difficult choices.",
@@ -615,13 +675,12 @@
       "id": 24,
       "title": "Smile 2",
       "date": "16/10/2024",
-      "comments": "",
       "cast": [
         "Cast Not Provided"
       ],
       "genres": [
-        "Horror",
-        "Mystery"
+        27,
+        9648
       ],
       "href": "Smile_2_(2024_film)",
       "extract": "Global pop sensation Skye Riley faces terrifying, inexplicable events while on a world tour. To regain control, she must confront her dark past.",
@@ -640,12 +699,11 @@
       "id": 25,
       "title": "All Hallows' Eve",
       "date": "29/10/2013",
-      "comments": "",
       "cast": [
         "Cast Not Provided"
       ],
       "genres": [
-        "Horror"
+        27
       ],
       "href": "All_Hallows'_Eve_(2013_film)",
       "extract": "A babysitter finds an old VHS tape in the kids' trick or treat bag, featuring three terrifying tales linked by a murderous clown.",
@@ -664,13 +722,12 @@
       "id": 26,
       "title": "It Ends with Us",
       "date": "07/08/2024",
-      "comments": "",
       "cast": [
         "Cast Not Provided"
       ],
       "genres": [
-        "Romance",
-        "Drama"
+        10749,
+        18
       ],
       "href": "It_Ends_with_Us_(2024_film)",
       "extract": "A woman’s first love reenters her life, disrupting her relationship with a charming but abusive neurosurgeon, leading her to make a difficult choice.",
@@ -689,14 +746,13 @@
       "id": 27,
       "title": "The Crow",
       "date": "21/08/2024",
-      "comments": "",
       "cast": [
         "Cast Not Provided"
       ],
       "genres": [
-        "Action",
-        "Fantasy",
-        "Horror"
+        28,
+        14,
+        27
       ],
       "href": "The_Crow_(2024_film)",
       "extract": "Eric and Shelly, soulmates, are brutally murdered. Given a chance to save his love, Eric seeks revenge across worlds.",
@@ -715,11 +771,10 @@
       "id": 28,
       "title": "Bad Boys: Ride or Die",
       "date": "05/06/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Action",
-        "Comedy"
+        28,
+        35
       ],
       "href": "Bad_Boys_Ride_or_Die",
       "extract": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
@@ -737,11 +792,10 @@
       "id": 29,
       "title": "Transmorphers: Mech Beasts",
       "date": "09/06/2023",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Action",
-        "Science Fiction"
+        28,
+        878
       ],
       "href": "Transmorphers_Mech_Beasts",
       "extract": "20 years after the events of Transmorphers, a newer, more advanced species of alien robot descends on a rebuilt Earth, threatening once again to destroy the planet.",
@@ -759,12 +813,11 @@
       "id": 30,
       "title": "Flow",
       "date": "29/08/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Animation",
-        "Fantasy",
-        "Adventure"
+        16,
+        14,
+        12
       ],
       "href": "Flow",
       "extract": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
@@ -782,11 +835,10 @@
       "id": 31,
       "title": "The Last Stop in Yuma County",
       "date": "10/05/2024",
-      "comments": "",
       "cast": [],
       "genres": [
-        "Crime",
-        "Thriller"
+        80,
+        53
       ],
       "href": "The_Last_Stop_in_Yuma_County",
       "extract": "While awaiting the next fuel truck at a middle-of-nowhere Arizona rest stop, a traveling young knife salesman is thrust into a high-stakes hostage situation by the arrival of two similarly stranded bank robbers with no qualms about using cruelty—or cold, hard steel—to protect their bloodstained, ill-gotten fortune.",
