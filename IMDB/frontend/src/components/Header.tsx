@@ -87,7 +87,9 @@ const Header: React.FC = () => {
           {/* <a href="/login" className="btn-menu">
             <p>Sign In</p>
           </a> */}
-         {user ? ( <select title="User options" onChange={(e) => e.target.value === 'logout' && handleLogout()}> <option value="profile">Profile</option> <option value="logout">Logout</option> </select> ) : ( <a href="/login">Login</a> )}
+         {user ? ( <select title="User options" value="Profile" onChange={(e) => e.target.value === 'logout' && handleLogout()}> 
+         <option value={user.name}>{user.name}</option>
+            <option value="logout">Logout</option> </select> ) : ( <a href="/login">Login</a> )}
         </div>
       </div>
       {/* Dropdown menu with collapse effect */}

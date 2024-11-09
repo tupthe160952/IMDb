@@ -57,6 +57,10 @@
   color: #ffc107;
 }
 
+.card-button:hover  {
+  color: #ffc107;
+}
+
 .star-button:focus {
   outline: none;
 }

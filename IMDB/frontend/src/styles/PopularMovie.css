@@ -7,3 +7,11 @@
 .slidecard h2 {
   margin: 40px 280px;
 }
+
+
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background-color: rgb(15, 14, 14); /* Slightly different color on hover */
+  color: rgb(226, 182, 22);
+}
+

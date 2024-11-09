@@ -1,12 +1,11 @@
 {
   "users": [
     {
-      "name": "a",
+      "name": "Im tester",
       "email": "ab@gmail.com",
       "password": "12345678",
       "id": 1,
       "role": "user"
-
     },
     {
       "name": "aaa",
@@ -14,13 +13,18 @@
       "password": "12345678",
       "role": "user",
       "id": 2
+    },
+    {
+      "name": "aaa",
+      "email": "ab1@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "id": 3
     }
-  ], 
-
+  ],
   "Vote": [
     {}
   ],
-
   "genres": [
     {
       "id": 28,
@@ -99,7 +103,6 @@
       "name": "Western"
     }
   ],
-
   "movie": [
     {
       "id": 1,

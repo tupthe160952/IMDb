@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import RateStar from "./components/RateStar";
 import Register from "./components/Register";
 import LoginForm from "./components/Login";
+import Watchlist from "./components/Watchlist";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import { UserProvider } from './components/UserContext';
@@ -20,6 +21,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<LoginForm />} />
         <Route path="/" element={<Home />} />
+        <Route path="/watchlist" element={<Watchlist />} />
 
         <Route path="/contact_us" element={<ContactUs />} />
 

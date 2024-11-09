@@ -1,0 +1,56 @@
+.watchlist-container {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .watchlist-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .watchlist-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #1a1a1a;
+    color: white;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .icon-button-wrapper {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .btn {
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .rating-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    margin-bottom: 15px;
+  }
+  
+  .card-button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  
