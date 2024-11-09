@@ -10,6 +10,10 @@ const Header: React.FC = () => {
   const [tvList, setTvList] = useState<Genre[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [collapseMenu, setCollapseMenu] = useState<boolean>(false);
+  const handleWatchlistClick = () => {
+    if (!user) { window.location.href = '/login'; }
+    else { window.location.href = '/watchlist'; }
+  };
 
   const { user, setUser } = useUser(); const handleLogout = () => { localStorage.removeItem('user'); setUser(null); };
 
@@ -78,7 +82,7 @@ const Header: React.FC = () => {
 
         <div className="watch-list">
           <i className="fa-solid fa-bookmark"></i>
-          <a href="/login" className="btn-menu">
+          <a onClick={handleWatchlistClick} className="btn-menu">
             <p>Watchlist</p>
           </a>
         </div>
@@ -87,9 +91,9 @@ const Header: React.FC = () => {
           {/* <a href="/login" className="btn-menu">
             <p>Sign In</p>
           </a> */}
-         {user ? ( <select title="User options" value="Profile" onChange={(e) => e.target.value === 'logout' && handleLogout()}> 
-         <option value={user.name}>{user.name}</option>
-            <option value="logout">Logout</option> </select> ) : ( <a href="/login">Login</a> )}
+          {user ? (<select title="User options" value="Profile" onChange={(e) => e.target.value === 'logout' && handleLogout()}>
+            <option value={user.name}>{user.name}</option>
+            <option value="logout">Logout</option> </select>) : (<a href="/login">Login</a>)}
         </div>
       </div>
       {/* Dropdown menu with collapse effect */}
