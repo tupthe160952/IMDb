@@ -1,4 +1,5 @@
-import React, { createContext, useState, useContext, ReactNode } from 'react';
+// AuthContext.tsx
+import React, { createContext, useState, useEffect, useContext, ReactNode } from 'react';
 
 interface User {
   name: string;
@@ -16,8 +17,24 @@ const UserContext = createContext<UserContextType | undefined>(undefined);
 export const UserProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
 
+  useEffect(() => {
+    const savedUser = localStorage.getItem('user');
+    if (savedUser) {
+      setUser(JSON.parse(savedUser));
+    }
+  }, []);
+
+  const handleSetUser = (user: User | null) => {
+    setUser(user);
+    if (user) {
+      localStorage.setItem('user', JSON.stringify(user));
+    } else {
+      localStorage.removeItem('user');
+    }
+  };
+
   return (
-    <UserContext.Provider value={{ user, setUser }}>
+    <UserContext.Provider value={{ user, setUser: handleSetUser }}>
       {children}
     </UserContext.Provider>
   );

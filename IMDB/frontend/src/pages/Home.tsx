@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import "../styles/Home.css";
 import PopularMovie from "../components/PopularMovie";
+
 const items = [
   {
     id: 1,
@@ -35,7 +36,7 @@ const items = [
 const Home: React.FC = () => {
   return (
     <div className="home">
-      <Header />
+        <Header />
       <Carousel items={items} />
       <PopularMovie />
       <PopularMovie />

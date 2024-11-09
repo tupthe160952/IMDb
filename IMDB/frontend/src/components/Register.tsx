@@ -42,7 +42,7 @@ const Register: React.FC = () => {
   
         if (response.ok) {
           alert('User registered successfully');
-          navigate('/home'); // Điều hướng về trang Home
+          navigate('/login'); // Điều hướng về trang Login
         } else {
           alert('Failed to register user');
         }
