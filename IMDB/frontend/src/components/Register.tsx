@@ -24,7 +24,7 @@ const Register: React.FC = () => {
 
       try {
         // Kiểm tra xem email đã tồn tại hay chưa
-        const checkResponse = await fetch(`http://localhost:3001/users?email=${email}`);
+        const checkResponse = await fetch(`http://localhost:9999/users?email=${email}`);
         const users = await checkResponse.json();
   
         if (users.length > 0) {
@@ -34,7 +34,7 @@ const Register: React.FC = () => {
   
         // Nếu email chưa tồn tại, tiếp tục đăng ký
         const user = { name, email, password,role: 'user' };
-        const response = await fetch('http://localhost:3001/users', {
+        const response = await fetch('http://localhost:9999/users', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(user),
