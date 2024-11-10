@@ -1,17 +1,31 @@
 .slidecard {
   padding: 20px;
   background-color: #121212;
-  color: rgb(226, 182, 22);
 }
 
 .slidecard h2 {
-  margin: 40px 280px;
+  margin: 40px 0px;
+  margin-left: 280px;
 }
 
-
-
-.swiper-button-prev:hover, .swiper-button-next:hover {
-  background-color: rgb(15, 14, 14); /* Slightly different color on hover */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgb(15, 14, 14);
   color: rgb(226, 182, 22);
 }
 
+.road-to-detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.road-to-detail i {
+  font-size: 30px;
+}
+
+.road-to-detail:hover i {
+  color: rgb(226, 182, 22);
+}
