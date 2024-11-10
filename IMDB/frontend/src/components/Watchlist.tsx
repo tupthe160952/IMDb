@@ -13,7 +13,7 @@ const Watchlist: React.FC = () => {
     const fetchMovies = async () => {
       const movies = await Promise.all(
         storedWatchlist.map(async (id: number) => {
-          const response = await fetch(`http://localhost:3001/movies/${id}`);
+          const response = await fetch(`http://localhost:9999/movies/${id}`);
           return await response.json();
         })
       );
