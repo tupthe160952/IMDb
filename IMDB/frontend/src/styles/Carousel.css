@@ -1,120 +1,133 @@
-.carousel {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: black;
-}
+/* App.css or your preferred CSS file */
 
-.carousel__button {
-  /* position: absolute; */
-  background: none;
-  border: none;
-  font-size: 2rem;
-  color: white;
-  cursor: pointer;
-  /* top: 50%;
-  transform: translateY(-50%);
-  z-index: 2; */
-}
-
-.carousel__button--left {
-  /* position: absolute; */
-  left: 20px;
-}
-
-.carousel__button--right {
-  /* position: absolute; */
-  right: 20px;
-}
-
-.item-card {
-  color: white;
-  border-radius: 10px;
+.carousel-container {
   width: 100%;
-  padding: 35px;
-  background-color: black;
-  /* position: absolute; */
-}
-
-/* .item-card__image {
-  width: 1000px;
-  height: 600px;
-  border-radius: 8px;
-} */
-
-.item-card__image {
-  width: 1000px;
-  height: 600px;
-  border-radius: 8px;
-  object-fit: cover;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.item-card__info {
-  padding-top: 10px;
-}
-
-.item-card__title {
-  bottom: 24%;
-  left: 250px;
-  position: absolute;
-  font-size: 2.5rem;
-  margin: 5px 0;
-}
-
-.item-card__description {
-  bottom: 10%;
-  left: 250px;
-  position: absolute;
-  font-size: 1.3rem;
-  color: #ccc;
-}
-
-.item-card__duration {
-  bottom: 2%;
-  right: 13%;
-  position: absolute;
-  font-size: 1rem;
-  color: white;
-}
-
-.item-card__likes {
-  position: absolute;
-  bottom: 5%;
-  left: 25%;
-  margin-top: 10px;
-  font-size: 0.9rem;
-}
-.item-card__poster-container {
+  max-width: 1000px;
+  margin: auto;
   position: relative;
-  display: inline-block;
+  display: flex;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);
+
+  /* margin-top: 100px; */
 }
 
-.item-card__poster-image {
+.carousel-slide {
+  position: relative;
+}
+
+.carousel-image {
+  width: 1000px;
+  height: 600px;
+  border-radius: 13px;
+}
+.carousel-thumbnail {
   position: absolute;
-  bottom: 0.5%;
-  left: 0.5%;
-  width: 200px;
-  height: 50%;
-  border-radius: 15px;
+  bottom: 4.2%;
+  left: 5%;
+  width: 170px;
+  height: 45%;
+  border-radius: 13px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+  /* border: 2px solid #fff;  */
   object-fit: cover;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.7);
 }
-
-.item-card__plus-icon {
+.plus-button {
   position: absolute;
-  bottom: 42%;
-  left: 1%;
+  left: 5%;
+  bottom: 39.1%;
   font-size: 2.5rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 10%;
-  width: 24px;
-  height: 28px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0px 9px 1px 5px;
+  border-radius: 13px 0px 13px 0px;
+  cursor: pointer;
+  z-index: 1;
+  transition: background-color 0.4s;
+}
+
+.plus-button:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+.carousel-content {
+  position: absolute;
+  bottom: 3.5%;
+  left: 23%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.068);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.carousel-content h3 {
+  font-size: 3rem;
+  margin-bottom: 17px;
+}
+
+.carousel-content a {
+  color: #ff8c00;
+  font-size: 1.4rem;
+  text-decoration: none;
   font-weight: bold;
 }
+
+.carousel-content a:hover {
+  text-decoration: underline;
+}
+
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #222;
+} */
+
+/* 
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+.carousel-container {
+  --border-width: 3px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: Lato, sans-serif;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: white;
+  background: #222;
+  border-radius: 10px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: calc(-1 * var(--border-width));
+    left: calc(-1 * var(--border-width));
+    z-index: -1;
+    width: calc(100% + var(--border-width) * 2);
+    height: calc(100% + var(--border-width) * 2);
+    background: linear-gradient(
+      60deg,
+      hsl(224, 85%, 66%),
+      hsl(269, 85%, 66%),
+      hsl(314, 85%, 66%),
+      hsl(359, 85%, 66%),
+      hsl(44, 85%, 66%),
+      hsl(89, 85%, 66%),
+      hsl(134, 85%, 66%),
+      hsl(179, 85%, 66%)
+    );
+    background-size: 300% 300%;
+    background-position: 0 50%;
+    border-radius: 10px;
+    animation: moveGradient 20s alternate infinite;
+  }
+}
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+} */

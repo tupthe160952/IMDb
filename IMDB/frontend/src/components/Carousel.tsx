@@ -1,85 +1,80 @@
-import React, { useState } from "react";
+// Carousel.js
+
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/swiper-bundle.min.css";
+import "swiper/swiper-bundle.css";
+import SliderProps from "../types/Interface";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "../styles/Carousel.css";
+const Carousel2: React.FC = () => {
+  const [movies, setMovies] = useState<SliderProps[]>([]);
 
-interface CarouselItem {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-  posterImage: string;
-  duration: string;
-  likeCount: number;
-  dislikeCount: number;
-}
-
-interface CarouselProps {
-  items: CarouselItem[];
-}
-
-const Carousel: React.FC<CarouselProps> = ({ items }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const goToPrevious = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? items.length - 1 : prevIndex - 1
-    );
+  const getMovie = (): void => {
+    axios
+      .get(`http://localhost:9999/movie`)
+      .then((res) => {
+        setMovies(res.data);
+      })
+      .catch((error) => {
+        console.error("Error fetching popular movies:", error);
+      });
   };
 
-  const goToNext = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === items.length - 1 ? 0 : prevIndex + 1
-    );
-  };
+  useEffect(() => {
+    getMovie();
+  }, []);
 
   return (
-    <div className="carousel">
-      <button
-        className="carousel__button carousel__button--left"
-        onClick={goToPrevious}
+    <div className="carousel-container">
+      <Swiper
+        spaceBetween={30}
+        slidesPerView={1}
+        centeredSlides={true}
+        autoplay={{
+          delay: 6000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
       >
-        &#8249;
-      </button>
-
-      <div className="carousel__item">
-        <ItemCard item={items[currentIndex]} />
-      </div>
-
-      <button
-        className="carousel__button carousel__button--right"
-        onClick={goToNext}
-      >
-        &#8250;
-      </button>
+        {movies.map((movie) => (
+          <SwiperSlide key={movie.id}>
+            <div className="carousel-slide">
+              <img
+                src={movie.banner}
+                alt={movie.title}
+                className="carousel-image"
+              />
+              <img
+                src={movie.thumbnail}
+                alt={`Thumbnail of ${movie.title}`}
+                className="carousel-thumbnail"
+              />
+              <div className="plus-button">+</div>
+              <div className="carousel-content">
+                <h3>{movie.title}</h3>
+                <a
+                  href={`https://www.youtube.com/watch?v=${
+                    movie.trailer.split("v=")[1]
+                  }`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Watch Trailer
+                </a>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
 };
 
-interface ItemCardProps {
-  item: CarouselItem;
-}
-
-const ItemCard: React.FC<ItemCardProps> = ({ item }) => (
-  <div className="item-card">
-    <div className="item-card__poster-container">
-      <img
-        src={item.posterImage}
-        alt="Poster"
-        className="item-card__poster-image"
-      />
-      <span className="item-card__plus-icon">+</span>
-
-      <img src={item.image} alt={item.title} className="item-card__image" />
-
-      <h2 className="item-card__title">{item.title}</h2>
-
-      <p className="item-card__description">{item.description}</p>
-      <p className="item-card__duration">{item.duration}</p>
-      <div className="item-card__likes">
-        <span>❤️ {item.likeCount}</span>
-        <span>👎 {item.dislikeCount}</span>
-      </div>
-    </div>
-  </div>
-);
-
-export default Carousel;
+export default Carousel2;
