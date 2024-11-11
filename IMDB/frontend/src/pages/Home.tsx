@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import Carousel from "../components/Carousel";
 import "../styles/Home.css";
 import PopularMovie from "../components/PopularMovie";
+import TopMovie from "../components/TopMovie";
 
 const Home: React.FC = () => {
   return (
@@ -12,7 +13,7 @@ const Home: React.FC = () => {
       <Header />
       <Carousel />
       <PopularMovie />
-      <PopularMovie />
+      <TopMovie />
       <Footer />
     </div>
   );
