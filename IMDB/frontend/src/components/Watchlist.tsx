@@ -1,71 +1,63 @@
-import React, { useState, useEffect } from 'react';
-import '../styles/Watchlist.css';
-import { useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import Card from "../components/Card";
+import CardProps from "../types/Interface";
+import "../styles/watchlist.css"; // Import the new CSS file
+import axios from "axios";
 
-const Watchlist: React.FC = () => {
+const PopularMovie: React.FC = () => {
+  const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
+  const [watchlist, setWatchlist] = useState<number[]>([]);
 
-  const [watchlist, setWatchlist] = useState<any[]>([]);
- 
+  const getWatchlist = (): void => {
+    axios
+      .get(`http://localhost:9999/watchlist`)
+      .then((res) => {
+        const watchlistMovieIds = res.data.map((item: { movieId: number }) => item.movieId);
+        setWatchlist(watchlistMovieIds);
+      })
+      .catch((error) => {
+        console.error("Error fetching watchlist:", error);
+      });
+  };
+
+  const getMoviesFromWatchlist = (): void => {
+    const promises = watchlist.map((id) =>
+      axios.get(`http://localhost:9999/movie/${id}`)
+    );
+
+    Promise.all(promises)
+      .then((responses) => {
+        const movies = responses.map((res) => res.data);
+        setCardFilm(movies);
+      })
+      .catch((error) => {
+        console.error("Error fetching watchlist movies:", error);
+      });
+  };
 
   useEffect(() => {
-    const storedWatchlist = JSON.parse(localStorage.getItem('watchlist') || '[]');
-    // Fetch movie details from the server or local JSON file
-    const fetchMovies = async () => {
-      const movies = await Promise.all(
-        storedWatchlist.map(async (id: number) => {
-          const response = await fetch(`http://localhost:9999/movies/${id}`);
-          return await response.json();
-        })
-      );
-      setWatchlist(movies);
-    };
-    fetchMovies();
+    getWatchlist();
   }, []);
 
-  return (
-    <div className="watchlist-container">
-      <h1 className="watchlist-title">Your Watchlist</h1>
-      <div className="watchlist-grid">
-        {watchlist.map(movie => (
-          <div key={movie.id} className="card text-white" style={{ backgroundColor: "#1a1a1a" }}>
-            <div className="card-img-wrapper">
-              <img src={movie.thumbnail} alt="Movie poster" className="card-img-top" />
-              <div className="icon-button-wrapper">
-                <button
-                  type="button"
-                  className="btn btn-dark btn-sm rounded-circle"
-                  aria-label="Description of Button"
-                >
-                  <i className="fas fa-plus"></i>
-                </button>
-              </div>
-            </div>
-            <div className="card-body">
-              <div className="rating-wrapper">
-                <span className="rating" style={{ fontSize: "18px" }}>
-                  {movie.vote_average}
-                </span>
-                <button className="star-button" aria-label="Rate this item">
-                  <i className="fas fa-star star-icon"></i>
-                </button>
-              </div>
+  useEffect(() => {
+    if (watchlist.length > 0) {
+      getMoviesFromWatchlist();
+    }
+  }, [watchlist]);
 
-              <h4 className="card-title" style={{ marginBottom: "15px" }}>
-                {movie.title}
-              </h4>
-              <button
-                className="btn btn-dark card-button"
-                style={{ backgroundColor: "#FFD700" }}
-              >
-                <i className="fas fa-check mr-2"></i> Watchlist
-              </button>
-              <button
-                className="btn btn-dark card-button"
-                style={{ backgroundColor: "#5f5f5f" }}
-              >
-                <i className="fas fa-play mr-2"></i> Trailer
-              </button>
-            </div>
+  return (
+    <div className="movie-container">
+      <a className="road-to-detail" href="/">
+        <h2>Watchlist Movies</h2>
+      </a>
+      <div className="movies-grid">
+        {cardFilm.map((film) => (
+          <div className="movie-card" key={film.id}>
+            <Card
+              id={film.id}
+              image={film.thumbnail}
+              rating={film.vote_average}
+              name={film.title} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""}            />
           </div>
         ))}
       </div>
@@ -73,4 +65,4 @@ const Watchlist: React.FC = () => {
   );
 };
 
-export default Watchlist;
+export default PopularMovie;

@@ -1,13 +1,13 @@
-// Card.tsx
-import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/card.css";
 import CardProps from "../types/Interface";
 import { useUser } from "./UserContext";
+import axios from "axios";
 
 const Card: React.FC<CardProps> = (props) => {
   const { user } = useUser();
   const [inWatchlist, setInWatchlist] = useState(false);
+  const [watchlistItemId, setWatchlistItemId] = useState<number | null>(null);
 
   useEffect(() => {
     if (user) {
@@ -16,6 +16,7 @@ const Card: React.FC<CardProps> = (props) => {
         .then((res) => {
           if (res.data.length > 0) {
             setInWatchlist(true);
+            setWatchlistItemId(res.data[0].id); // Save ID of watchlist item
           }
         })
         .catch((error) => {
@@ -24,35 +25,37 @@ const Card: React.FC<CardProps> = (props) => {
     }
   }, [user, props.id]);
 
-  const handleWatchlistToggle = () => {
+  const handleWatchlistToggle = async () => {
     if (!user) {
       alert("Please log in to add to your watchlist.");
       return;
     }
 
-    if (inWatchlist) {
-      // Remove from watchlist
-      axios.delete(`http://localhost:9999/watchlist`, { params: { userId: user.id, movieId: props.id } })
-        .then(() => {
+    if (inWatchlist && watchlistItemId !== null) {
+      try {
+        const response = await axios.delete(`http://localhost:9999/watchlist/${watchlistItemId}`);
+        if (response.status === 200 || response.status === 204) {
           setInWatchlist(false);
+          setWatchlistItemId(null);
           alert("Removed from watchlist");
-        })
-        .catch((error) => {
-          console.error("Error removing from watchlist:", error);
-        });
+        }
+      } catch (error) {
+        console.error("Error removing from watchlist:", error);
+      }
     } else {
-      // Add to watchlist
-      axios.post("http://localhost:9999/watchlist", {
-        userId: user.id,
-        movieId: props.id,
-      })
-        .then(() => {
-          setInWatchlist(true);
-          alert("Added to watchlist");
-        })
-        .catch((error) => {
-          console.error("Error adding to watchlist:", error);
+      try {
+        const response = await axios.post("http://localhost:9999/watchlist", {
+          userId: user.id,
+          movieId: props.id,
         });
+        if (response.status === 200 || response.status === 201) {
+          setInWatchlist(true);
+          setWatchlistItemId(response.data.id); // Save ID of newly added item
+          alert("Added to watchlist");
+        }
+      } catch (error) {
+        console.error("Error adding to watchlist:", error);
+      }
     }
   };
 
@@ -65,7 +68,7 @@ const Card: React.FC<CardProps> = (props) => {
             type="button"
             className="btn btn-dark btn-sm rounded-circle"
             style={{ backgroundColor: inWatchlist ? "#FFD700" : "#5f5f5f", color: inWatchlist ? "black" : "" }}
-            aria-label="Description of Button"
+            aria-label="Toggle Watchlist"
             onClick={handleWatchlistToggle}
           >
             <i className={inWatchlist ? "fas fa-check" : "fas fa-plus"}></i>
@@ -75,7 +78,7 @@ const Card: React.FC<CardProps> = (props) => {
       <div className="card-body"> 
         <div className="rating-wrapper">
           <span className="rating" style={{ fontSize: "18px" }}>
-            {props.rating}/10
+            {props.rating}
           </span>
           <button className="star-button" aria-label="Rate this item">
             <i className="fas fa-star star-icon"></i>

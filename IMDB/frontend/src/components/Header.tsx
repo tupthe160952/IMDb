@@ -15,7 +15,7 @@ const Header: React.FC = () => {
     else { window.location.href = '/watchlist'; }
   };
 
-  const { user, setUser } = useUser(); const handleLogout = () => { localStorage.removeItem('user'); setUser(null); };
+  const { user, setUser } = useUser(); const handleLogout = () => { localStorage.removeItem('user'); setUser(null); window.location.href = '/'; };
 
   const getList = async () => {
     try {
