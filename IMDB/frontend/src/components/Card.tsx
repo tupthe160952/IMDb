@@ -1,3 +1,4 @@
+// Card.tsx
 import React, { useState, useEffect } from "react";
 import "../styles/card.css";
 import CardProps from "../types/Interface";
@@ -11,7 +12,7 @@ const Card: React.FC<CardProps> = (props) => {
   useEffect(() => {
     if (user) {
       // Check if the movie is already in the watchlist
-      axios.get(`http://localhost:9999/watchlist?userId=${user.id}&movieId=${props.id}`)
+      axios.get(`http://localhost:9999/watchlist`, { params: { userId: user.id, movieId: props.id } })
         .then((res) => {
           if (res.data.length > 0) {
             setInWatchlist(true);
@@ -31,7 +32,7 @@ const Card: React.FC<CardProps> = (props) => {
 
     if (inWatchlist) {
       // Remove from watchlist
-      axios.delete(`http://localhost:9999/watchlist?userId=${user.id}&movieId=${props.id}`)
+      axios.delete(`http://localhost:9999/watchlist`, { params: { userId: user.id, movieId: props.id } })
         .then(() => {
           setInWatchlist(false);
           alert("Removed from watchlist");
@@ -65,6 +66,7 @@ const Card: React.FC<CardProps> = (props) => {
             className="btn btn-dark btn-sm rounded-circle"
             style={{ backgroundColor: inWatchlist ? "#FFD700" : "#5f5f5f", color: inWatchlist ? "black" : "" }}
             aria-label="Description of Button"
+            onClick={handleWatchlistToggle}
           >
             <i className={inWatchlist ? "fas fa-check" : "fas fa-plus"}></i>
           </button>
