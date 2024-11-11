@@ -3,12 +3,19 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import "../styles/Header.css";
 import Genre from "../types/Interface";
+import { useUser } from './UserContext';
 
 const Header: React.FC = () => {
   const [movieList, setMovieList] = useState<Genre[]>([]);
   const [tvList, setTvList] = useState<Genre[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [collapseMenu, setCollapseMenu] = useState<boolean>(false);
+  const handleWatchlistClick = () => {
+    if (!user) { window.location.href = '/login'; }
+    else { window.location.href = '/watchlist'; }
+  };
+
+  const { user, setUser } = useUser(); const handleLogout = () => { localStorage.removeItem('user'); setUser(null); };
 
   const getList = async () => {
     try {
@@ -75,15 +82,18 @@ const Header: React.FC = () => {
 
         <div className="watch-list">
           <i className="fa-solid fa-bookmark"></i>
-          <a href="/" className="btn-menu">
+          <a onClick={handleWatchlistClick} className="btn-menu">
             <p>Watchlist</p>
           </a>
         </div>
 
         <div className="sign-in">
-          <a href="/" className="btn-menu">
-            <p>Sign in</p>
-          </a>
+          {/* <a href="/login" className="btn-menu">
+            <p>Sign In</p>
+          </a> */}
+          {user ? (<select title="User options" value="Profile" onChange={(e) => e.target.value === 'logout' && handleLogout()}>
+            <option value={user.name}>{user.name}</option>
+            <option value="logout">Logout</option> </select>) : (<a href="/login">Login</a>)}
         </div>
       </div>
       {/* Dropdown menu with collapse effect */}

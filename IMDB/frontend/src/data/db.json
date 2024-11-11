@@ -1,335 +1,739 @@
 {
   "users": [
     {
-      "name": "a",
+      "name": "Im tester",
       "email": "ab@gmail.com",
       "password": "12345678",
-      "id": 1
+      "id": 1,
+      "role": "user"
+    },
+    {
+      "name": "aaa",
+      "email": "tu@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "name": "aaa",
+      "email": "ab1@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "id": 3
     }
   ],
-  "Vote": [
-    {}
+  "Vote": [{}],
+  "genres": [
+    {
+      "id": 28,
+      "name": "Action"
+    },
+    {
+      "id": 12,
+      "name": "Adventure"
+    },
+    {
+      "id": 16,
+      "name": "Animation"
+    },
+    {
+      "id": 35,
+      "name": "Comedy"
+    },
+    {
+      "id": 80,
+      "name": "Crime"
+    },
+    {
+      "id": 99,
+      "name": "Documentary"
+    },
+    {
+      "id": 18,
+      "name": "Drama"
+    },
+    {
+      "id": 10751,
+      "name": "Family"
+    },
+    {
+      "id": 14,
+      "name": "Fantasy"
+    },
+    {
+      "id": 36,
+      "name": "History"
+    },
+    {
+      "id": 27,
+      "name": "Horror"
+    },
+    {
+      "id": 10402,
+      "name": "Music"
+    },
+    {
+      "id": 9648,
+      "name": "Mystery"
+    },
+    {
+      "id": 10749,
+      "name": "Romance"
+    },
+    {
+      "id": 878,
+      "name": "Science Fiction"
+    },
+    {
+      "id": 10770,
+      "name": "TV Movie"
+    },
+    {
+      "id": 53,
+      "name": "Thriller"
+    },
+    {
+      "id": 10752,
+      "name": "War"
+    },
+    {
+      "id": 37,
+      "name": "Western"
+    }
   ],
   "movie": [
     {
       "id": 1,
-      "title": "The Grudge",
-      "date": "14/07/2023",
-      "comments": "",
+      "title": "Terrifier 3",
+      "date": "09/10/2024",
       "cast": [
-        "Andrea Riseborough,",
-        "Demián Bichir,",
-        "John Cho"
+        "Lauren LaVera",
+        "David Howard Thornton",
+        "Antonella Rose",
+        "Elliott Fullam",
+        "Samantha Scaffidi",
+        "Margaret Anne Florence"
       ],
-      "genres": [
-        "Supernatural"
-      ],
-      "href": "The_Grudge_(2020_film)",
-      "extract": "The Grudge is a 2020 American psychological supernatural horror film written and directed by Nicolas Pesce. Originally announced as a reboot of the 2004 American remake and the original 2002 Japanese horror film Ju-On: The Grudge, the film ended up taking place before and during the events of the 2004 film and its two direct sequels, and is the fourth installment in the American The Grudge film series. The film stars Andrea Riseborough, Demián Bichir, John Cho, Betty Gilpin, Lin Shaye, and Jacki Weaver, and follows a police officer who investigates several murders that are seemingly connected to a single house.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/34/The_Grudge_2020_Poster.jpeg",
-      "banner": "https://www.comingsoon.net/wp-content/uploads/sites/3/2019/10/Grudge.jpg",
-      "thumbnail_width": 220,
-      "thumbnail_height": 326,
-      "vote": 8,
-      "vote_average": 12,
-      "time": 120,
-      "overview": "An American nurse living and working in Tokyo is exposed to a mysterious supernatural curse, one that locks a person in a powerful rage before claiming their life and spreading to another victim.",
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+      "genres": [27, 53, 9648],
+      "href": "Terrifier_3",
+      "extract": "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.SRBO7MiyPcTHYgTC-jnmNgHaLV?rs=1&pid=ImgDetMain",
+      "banner": "https://pipocasclub.com.br/wp-content/uploads/2023/11/terrifier3-1-e1699438190145.webp",
+      "overview": "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare. The festive season quickly unravels as Art unleashes his twisted brand of terror, proving that no holiday is safe.",
+      "popularity": 5444.687,
+      "vote_average": 7.3,
+      "vote_count": 616,
+      "trailer": "https://www.youtube.com/watch?v=zaPcin5knJk"
     },
     {
       "id": 2,
-      "title": "Underwater",
-      "year": 2020,
+      "title": "Venom: The Last Dance",
+      "date": "22/10/2024",
       "cast": [
-        "Kristen Stewart",
-        "Vincent Cassel",
-        "Jessica Henwick",
-        "John Gallagher Jr.",
-        "Mamoudou Athie",
-        "T.J. Miller"
+        "Tom Hardy",
+        "Chiwetel Ejiofor",
+        "Juno Temple",
+        "Peggy Lu",
+        "Rhys Ifans",
+        "Clark Backo"
       ],
-      "genres": [
-        "Action",
-        "Horror",
-        "Science Fiction"
-      ],
-      "href": "Underwater_(film)",
-      "extract": "Underwater is a 2020 American science fiction action horror film directed by William Eubank. The film stars Kristen Stewart, Vincent Cassel, Jessica Henwick, John Gallagher Jr., Mamoudou Athie, and T.J. Miller.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4a/Underwater_poster.jpeg",
-      "banner": "https://flixchatter.files.wordpress.com/2020/01/underwater-bnr.jpg?w=610&h=263",
-      "thumbnail_width": 250,
-      "thumbnail_height": 398
+      "genres": [878, 28, 12],
+      "href": "Venom:_The_Last_Dance",
+      "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
+      "thumbnail": "https://i.pinimg.com/originals/67/44/3f/67443f455bf514bf972eb413301e03c3.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
+      "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
+      "popularity": 5184.196,
+      "vote_average": 6.7,
+      "vote_count": 491,
+      "trailer": "https://www.youtube.com/watch?v=HyIyd9joTTc"
     },
     {
       "id": 3,
-      "title": "Like a Boss",
-      "year": 2020,
+      "title": "The Wild Robot",
+      "date": "12/09/2024",
       "cast": [
-        "Tiffany Haddish",
-        "Rose Byrne",
-        "Salma Hayek",
-        "Jennifer Coolidge",
-        "Billy Porter"
+        "Lupita Nyong'o",
+        "Pedro Pascal",
+        "Kit Connor",
+        "Bill Nighy",
+        "Stephanie Hsu",
+        "Matt Berry"
       ],
-      "genres": [
-        "Comedy"
-      ],
-      "href": "Like_a_Boss_(film)",
-      "extract": "Like a Boss is a 2020 American comedy film directed by Miguel Arteta, written by Sam Pitman and Adam Cole-Kelly, and starring Tiffany Haddish, Rose Byrne, and Salma Hayek. The plot follows two friends who attempt to take back control of their cosmetics company from an industry titan.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/9a/LikeaBossPoster.jpg",
-      "banner": "https://m.media-amazon.com/images/M/MV5BZDUyZTU2ZjUtMDlmNS00OTc2LTk4YzItNjk3YWY0MGQ0NzI3XkEyXkFqcGdeQXVyMjI0Mjg2NzE@._V1_.jpg",
-      "thumbnail_width": 259,
-      "thumbnail_height": 383
+      "genres": [16, 878, 10751],
+      "href": "The_Wild_Robot",
+      "extract": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.tkk2Rk1OREKhKpT1b9F1TwHaLu?w=115&h=182&c=7&r=0&o=5&dpr=1.6&pid=1.7",
+      "banner": "https://img.youtube.com/vi/67vbA5ZJdKQ/maxresdefault.jpg",
+      "overview": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
+      "popularity": 3545.825,
+      "vote_average": 8.547,
+      "vote_count": 2398,
+      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
       "id": 4,
-      "title": "Three Christs",
-      "year": 2020,
+      "title": "Transformers One",
+      "date": "11/09/2024",
       "cast": [
-        "Richard Gere",
-        "Peter Dinklage",
-        "Walton Goggins",
-        "Bradley Whitford"
+        "Chris Hemsworth",
+        "Brian Tyree Henry",
+        "Scarlett Johansson",
+        "Keegan-Michael Key",
+        "Jon Hamm",
+        "Steve Buscemi",
+        "Laurence Fishburne"
       ],
-      "genres": [
-        "Drama"
-      ],
-      "href": "Three_Christs",
-      "extract": "Three Christs, also known as State of Mind, is a 2017 American drama film directed, co-produced, and co-written by Jon Avnet and based on Milton Rokeach's nonfiction book The Three Christs of Ypsilanti. It screened in the Gala Presentations section at the 2017 Toronto International Film Festival. The film is also known as: Three Christs of Ypsilanti, The Three Christs of Ypsilanti, Three Christs of Santa Monica, and The Three Christs of Santa Monica.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a1/Three_Christs_poster.jpg",
-      "thumbnail_width": 259,
-      "thumbnail_height": 383
+      "genres": [16, 878, 12, 10751],
+      "href": "Transformers_One",
+      "extract": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
+      "thumbnail": "https://image.tmdb.org/t/p/original/oz7WsSLalkh60q1e0uzqqpbaB2g.jpg",
+      "banner": "https://m.media-amazon.com/images/S/pv-target-images/bba020cf40bb4d2bf092872da97c9fc50299485ab72dcbc4f8c45e9dee7896c6._UR1920,1080_SX720_FMjpg_.jpg",
+      "overview": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
+      "popularity": 1958.212,
+      "vote_average": 8.18,
+      "vote_count": 540,
+      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
       "id": 5,
-      "title": "Inherit the Viper",
-      "year": 2020,
+      "title": "The Substance",
+      "date": "07/09/2024",
       "cast": [
-        "Josh Hartnett",
-        "Margarita Levieva",
-        "Chandler Riggs",
-        "Bruce Dern",
-        "Owen Teague"
+        "Demi Moore",
+        "Margaret Qualley",
+        "Dennis Quaid",
+        "Edward Hamilton-Clark",
+        "Gore Abrams",
+        "Oscar Lesage",
+        "Tom Morton"
       ],
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "href": "Inherit_the_Viper",
-      "extract": "Inherit the Viper is a 2019 American crime drama film directed by Anthony Jerjen, in his feature directorial debut, from a screenplay by Andrew Crabtree. It stars Josh Hartnett, Margarita Levieva, Chandler Riggs, Bruce Dern, Valorie Curry, Owen Teague, and Dash Mihok.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1c/Inherit_the_Viper_%282019%29_Film_Poster.jpg",
-      "thumbnail_width": 236,
-      "thumbnail_height": 350
+      "genres": [18, 27, 878],
+      "href": "The_Substance",
+      "extract": "Have you ever dreamt of a better version of yourself? You, only better in every way. You should try this new product, it's called The Substance. IT CHANGED MY LIFE.",
+      "thumbnail": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/07/the-substance-movie-poster.jpg",
+      "banner": "https://www.denofgeek.com/wp-content/uploads/2024/09/Demi-Moore-in-The-Substance-Review.jpg",
+      "overview": "Have you ever dreamt of a better version of yourself? You, only better in every way. You should try this new product, it's called The Substance. IT CHANGED MY LIFE.",
+      "popularity": 2457.1,
+      "vote_average": 7.321,
+      "vote_count": 1404,
+      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "title": "The Sonata",
-      "year": 2020,
+      "id": 6,
+      "title": "Joker: Folie à Deux",
+      "date": "01/10/2024",
       "cast": [
-        "Freya Tingley",
-        "Simon Abkarian",
-        "Rutger Hauer",
-        "James Faulkner"
+        "Joaquin Phoenix",
+        "Lady Gaga",
+        "Brendan Gleeson",
+        "Catherine Keener"
       ],
-      "genres": [
-        "Mystery",
-        "Thriller"
-      ],
-      "href": "The_Sonata_(film)",
-      "extract": "The Sonata is a 2018 mystery thriller film, directed by Andrew Desmond, from a screenplay by Desmond and Arthur Morin. It stars Freya Tingley, Simon Abkarian, James Faulkner, Rutger Hauer, Matt Barber and James Kermack. It was released in the United States on January 10, 2020, by Screen Media Films. It grossed $146,595 at the box office and received mixed reviews from critics.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/13/The_Sonata_%282018%29_Film_Poster.jpg",
-      "thumbnail_width": 246,
-      "thumbnail_height": 350
+      "genres": [18, 80, 53],
+      "href": "Joker:_Folie_à_Deux",
+      "extract": "While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.",
+      "thumbnail": "https://cdn.kinocheck.com/i/y43dk5voar.jpg",
+      "banner": "https://i.ytimg.com/vi/vDX6Yt-Uat0/maxresdefault.jpg",
+      "overview": "While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.",
+      "popularity": 2075.981,
+      "vote_average": 5.7,
+      "vote_count": 1360,
+      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "title": "Bad Boys for Life",
-      "year": 2020,
+      "id": 7,
+      "title": "Alien: Romulus",
+      "date": "13/08/2024",
       "cast": [
-        "Will Smith",
-        "Martin Lawrence",
-        "Vanessa Hudgens",
-        "Alexander Ludwig",
-        "Charles Melton",
-        "Paola Núñez",
-        "Kate del Castillo",
-        "Nicky Jam",
-        "Joe Pantoliano"
+        "Cailee Spaeny",
+        "David Jonsson",
+        "Archie Renaux",
+        "Isabela Merced",
+        "Spike Fearn",
+        "Aileen Wu",
+        "Rosie Ede"
       ],
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "href": "Bad_Boys_for_Life",
-      "extract": "Bad Boys for Life is a 2020 American buddy cop action comedy film directed by Adil & Bilall. It is the sequel to Bad Boys II (2003) and the third installment in the Bad Boys franchise. Will Smith, Martin Lawrence, Joe Pantoliano and Theresa Randle reprise their roles in the film and are joined by Paola Núñez, Vanessa Hudgens, Jacob Scipio, Alexander Ludwig, Charles Melton, Kate del Castillo and Nicky Jam. The film was produced by Smith, Jerry Bruckheimer, and Doug Belgrad, with a screenplay written by Chris Bremner, Peter Craig and Joe Carnahan. In Bad Boys for Life, Miami detectives Mike Lowrey and Marcus Burnett investigate a string of murders tied to Lowrey's troubled past.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/9/90/Bad_Boys_for_Life_poster.jpg",
-      "thumbnail_width": 219,
-      "thumbnail_height": 325
+      "genres": [878, 27],
+      "href": "Alien:_Romulus",
+      "extract": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.NSPRr13UctpfEOp5IpQFXAHaJP?rs=1&pid=ImgDetMain",
+      "banner": "https://th.bing.com/th/id/OIP.NSPRr13UctpfEOp5IpQFXAHaJP?rs=1&pid=ImgDetMain",
+      "overview": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
+      "popularity": 1488.643,
+      "vote_average": 7.269,
+      "vote_count": 2137,
+      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "title": "Dolittle",
-      "year": 2020,
+      "id": 8,
+      "title": "Inside Out 2",
+      "date": "11/06/2024",
       "cast": [
-        "Robert Downey Jr.",
-        "Antonio Banderas",
-        "Michael Sheen",
-        "Emma Thompson",
-        "Rami Malek",
-        "John Cena",
-        "Kumail Nanjiani",
-        "Octavia Spencer",
-        "Tom Holland",
-        "Craig Robinson",
-        "Ralph Fiennes",
-        "Selena Gomez",
-        "Marion Cotillard"
+        "Amy Poehler",
+        "Maya Hawke",
+        "Kensington Tallman",
+        "Liza Lapira",
+        "Tony Hale",
+        "Lewis Black",
+        "Phyllis Smith",
+        "Ayo Edebiri",
+        "Lilimar"
       ],
-      "genres": [
-        "Adventure",
-        "Fantasy"
+      "genres": [16, 10751, 12, 35, 18],
+      "href": "Inside_Out_2",
+      "extract": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.yIaexla70j3o71oPZ0BV3QHaJQ?rs=1&pid=ImgDetMain",
+      "banner": "https://i.ytimg.com/vi/ZEpp2ASZew0/maxresdefault.jpg",
+      "overview": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
+      "popularity": 1237.039,
+      "vote_average": 7.6,
+      "vote_count": 4597,
+      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+    },
+    {
+      "id": 9,
+      "title": "Venom",
+      "date": "28/09/2018",
+      "cast": [
+        "Tom Hardy",
+        "Chiwetel Ejiofor",
+        "Woody Harrelson",
+        "Peggy Lu",
+        "Riz Ahmed",
+        "Scott Haze"
       ],
-      "href": "Dolittle_(film)",
-      "extract": "Dolittle is a 2020 American fantasy adventure film directed by Stephen Gaghan from a screenplay by Gaghan, Dan Gregor, and Doug Mand, based on a story by Thomas Shepherd. Dolittle is based on the title character created by Hugh Lofting and is primarily inspired by the author's second Doctor Dolittle book, The Voyages of Doctor Dolittle (1922). Robert Downey Jr. stars as the title character, alongside Antonio Banderas and Michael Sheen in live-action roles, with Emma Thompson, Rami Malek, John Cena, Kumail Nanjiani, Octavia Spencer, Tom Holland, Craig Robinson, Ralph Fiennes, Selena Gomez, and Marion Cotillard voicing an array of creatures.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1f/Dolittle_%282020_film_poster%29.png",
+      "genres": [878, 28],
+      "href": "Venom",
+      "extract": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
+      "thumbnail": "https://th.bing.com/th/id/R.93769210c316b1c996d9e6ecb93a961c?rik=ZVFWhkpxwLEkAw&pid=ImgRaw&r=0",
+      "banner": "https://hdqwalls.com/wallpapers/venom-digital-art-4k-2018-h0.jpg",
+      "overview": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
+      "popularity": 1571.655,
+      "vote_average": 6.836,
+      "vote_count": 15885,
+      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+    },
+    {
+      "id": 10,
+      "title": "Deadpool & Wolverine",
+      "date": "24/07/2024",
+      "cast": [
+        "Ryan Reynolds",
+        "Hugh Jackman",
+        "Emma Corrin",
+        "Matthew Macfadyen",
+        "Dafne Keen",
+        "Jon Favreau"
+      ],
+      "genres": [28, 35, 878],
+      "href": "Deadpool_&_Wolverine",
+      "extract": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.AybWD6FAYYvHawRSZeliXQHaK-?rs=1&pid=ImgDetMain",
+      "banner": "https://images.hdqwalls.com/download/deadpool-and-wolverine-join-forces-s8-1920x1200.jpg",
+      "overview": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+      "popularity": 1586.246,
+      "vote_average": 7.706,
+      "vote_count": 5038,
+      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+    },
+    {
+      "id": 11,
+      "title": "Le Comte de Monte-Cristo",
+      "date": "28/06/2024",
+      "cast": [
+        "Pierre Niney",
+        "Bastien Bouillon",
+        "Anaïs Demoustier",
+        "Anamaria Vartolomei",
+        "Laurent Lafitte",
+        "Pierfrancesco Favino"
+      ],
+      "genres": [12, 36, 28, 18, 10749, 53],
+      "href": "Le Comte de Monte-Cristo",
+      "extract": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.aGgD2eAtQ8-EW1EXz10DBgHaKC?rs=1&pid=ImgDetMain",
+      "banner": "https://bullesdeculture.com/bdc-content/uploads/2024/06/le-comte-de-monte-cristo-2024-image.jpg",
+      "overview": "Edmond Dantes becomes the target of a sinister plot and is arrested on his wedding day for a crime he did not commit. After 14 years in the island prison of Château d’If, he manages a daring escape. Now rich beyond his dreams, he assumes the identity of the Count of Monte-Cristo and exacts his revenge on the three men who betrayed him.",
+      "popularity": 1762.607,
+      "vote_average": 8.3,
+      "vote_count": 735,
+      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+    },
+    {
+      "id": 12,
+      "title": "Heavenly Touch",
+      "date": "12/05/2009",
+      "cast": [],
+      "genres": [18, 10749],
+      "href": "Heavenly_Touch",
+      "extract": "Jonard is having trouble making ends meet. His mother is suffering from depression, and he and his sister are forced to quit school to take care of her. One day, Jonard meets his friend Rodel, who introduces him to the world of massage parlors.",
+      "thumbnail": "https://canvas.tubitv.com/opts/yR8XJoXlkajQqg==/98670168-1a9a-424a-a2ab-39c008af831c/CJgDEMcEOgUxLjEuMg==",
+      "banner": "https://metadata-static.plex.tv/6/gracenote/697f303cceb9f2cfdc3ae045beffcfe8.jpg",
       "thumbnail_width": 220,
-      "thumbnail_height": 326
+      "thumbnail_height": 326,
+      "popularity": 957.361,
+      "vote_average": 10,
+      "vote_count": 21,
+      "time": 95,
+      "overview": "Jonard is having trouble making ends meet. His mother is suffering from depression, and he and his sister are forced to quit school in order to take care of her. One day, Jonard meets up his friend Rodel, and Rodel introduces him to the world of massage parlors. Rodel teaches him massage, and brings him to Heavenly Touch, a syndicate-run massage parlor that mostly caters to homosexuals.",
+      "trailer": ""
     },
     {
-      "title": "A Fall from Grace",
-      "year": 2020,
-      "cast": [
-        "Crystal R. Fox",
-        "Phylicia Rashad",
-        "Bresha Webb",
-        "Mehcad Brooks",
-        "Cicely Tyson",
-        "Tyler Perry"
-      ],
-      "genres": [
-        "Thriller"
-      ],
-      "href": "A_Fall_from_Grace",
-      "extract": "A Fall from Grace is a 2020 American thriller film produced, written, and directed by Tyler Perry and his first to be released by Netflix. The film follows a woman who finds a dangerous new love and the novice attorney who defends her in a sensational court case. This was the final film of actor Cicely Tyson before her death in January 2021.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/4e/AFallFromGrace.png",
-      "thumbnail_width": 259,
-      "thumbnail_height": 383
+      "id": 13,
+      "title": "Don't Move",
+      "date": "24/10/2024",
+      "cast": [],
+      "genres": [27, 53],
+      "href": "Dont_Move",
+      "extract": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/47/Dont_Move_2024_film_poster.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/6Rjsm5khNaYa4Gnw4iHnGX2E34T.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 756.636,
+      "vote_average": 10,
+      "vote_count": 374,
+      "time": 90,
+      "overview": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
+      "trailer": ""
     },
     {
-      "title": "The Gentlemen",
-      "year": 2020,
-      "cast": [
-        "Matthew McConaughey",
-        "Charlie Hunnam",
-        "Henry Golding",
-        "Michelle Dockery",
-        "Jeremy Strong",
-        "Eddie Marsan",
-        "Colin Farrell",
-        "Hugh Grant"
-      ],
-      "genres": [
-        "Action",
-        "Comedy"
-      ],
-      "href": "The_Gentlemen_(2019_film)",
-      "extract": "The Gentlemen is a 2019 action comedy film written, directed and produced by Guy Ritchie, who developed the story along with Ivan Atkinson and Marn Davies. The film stars Matthew McConaughey, Charlie Hunnam, Henry Golding, Michelle Dockery, Jeremy Strong, Eddie Marsan, Colin Farrell, and Hugh Grant. It follows an American cannabis wholesaler in England who is looking to sell his business, setting off a chain of blackmail and schemes to undermine him.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/0/06/The_Gentlemen_poster.jpg",
-      "thumbnail_width": 259,
-      "thumbnail_height": 383
+      "id": 14,
+      "title": "Beetlejuice Beetlejuice",
+      "date": "04/09/2024",
+      "cast": [],
+      "genres": [35, 14, 27],
+      "href": "Beetlejuice_Beetlejuice",
+      "extract": "After a family tragedy, three generations of the Deetz family return home to Winter River, only to find Lydia’s life turned upside down when her daughter accidentally opens a portal to the Afterlife.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.A1crH2jIUS1zRF_xJRQIkgAAAA?rs=1&pid=ImgDetMain",
+      "banner": "https://image.tmdb.org/t/p/original/xi1VSt3DtkevUmzCx2mNlCoDe74.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 725.478,
+      "vote_average": 10,
+      "vote_count": 1709,
+      "time": 100,
+      "overview": "After a family tragedy, three generations of the Deetz family return home to Winter River. Still haunted by Betelgeuse, Lydia's life is turned upside down when her teenage daughter, Astrid, accidentally opens the portal to the Afterlife.",
+      "trailer": ""
     },
     {
-      "title": "The Turning",
-      "year": 2020,
-      "cast": [
-        "Mackenzie Davis",
-        "Finn Wolfhard",
-        "Brooklynn Prince",
-        "Joely Richardson"
-      ],
-      "genres": [
-        "Horror",
-        "Supernatural"
-      ],
-      "href": "The_Turning_(2020_film)",
-      "extract": "The Turning is a 2020 American gothic supernatural horror film directed by Floria Sigismondi and written by Carey W. Hayes and Chad Hayes. It is a modern adaptation of the 1898 ghost story The Turn of the Screw by Henry James. It stars Mackenzie Davis, Finn Wolfhard, Brooklynn Prince, and Joely Richardson, and follows a young governess in 1994 who is hired to watch over two children after their parents are killed.",
-      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/a/a2/The_Turning_poster_2020.jpg",
-      "thumbnail_width": 251,
-      "thumbnail_height": 397
-    }
-  ],
-  "upcomingmovie": [
-    {
-      "title": "Spider-Man: Across the Spider-Verse (2023)",
-      "year": 2023,
-      "cast": [
-        " Shameik Moore",
-        "Hailee Steinfeld",
-        "Oscar Isaac",
-        "Issa Rae"
-      ],
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure"
-      ],
-      "thumbnail": "https://nguoinoitieng.tv/images/nnt/107/0/bj7u.jpg"
+      "id": 15,
+      "title": "Sing: Thriller",
+      "date": "16/10/2024",
+      "cast": [],
+      "genres": [16, 10751, 35, 27],
+      "href": "Sing_Thriller",
+      "extract": "Buster Moon dreams up a star-studded spectacle set to Michael Jackson's 'Thriller' in this animated short featuring characters from the hit 'Sing' films.",
+      "thumbnail": "https://th.bing.com/th/id/OIF.GOik00S37xnYB4MdAxln1w?rs=1&pid=ImgDetMain",
+      "banner": "https://image.tmdb.org/t/p/original/m1MifWpNjOU1g8UfIyNSI2dMFZf.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 612.052,
+      "vote_average": 10,
+      "vote_count": 72,
+      "time": 25,
+      "overview": "Buster Moon dreams up a star-studded spectacle set to Michael Jackson's \"Thriller\" in this animated short featuring characters from the hit \"Sing\" films.",
+      "trailer": ""
     },
     {
-      "title": "Transformers: Rise of the Beasts (2023)",
-      "year": 2023,
-      "cast": [
-        "Ron Perlman",
-        "Anthony Ramos",
-        "Peter Cullen",
-        "Dominique Fishback",
-        "Luna Lauren Velez"
-      ],
-      "genres": [
-        "Action",
-        "Adventure",
-        "Science Fiction"
-      ],
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZTNiNDA4NmMtNTExNi00YmViLWJkMDAtMDAxNmRjY2I2NDVjXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg"
+      "id": 16,
+      "title": "Terrifier",
+      "date": "09/08/2011",
+      "cast": [],
+      "genres": [27],
+      "href": "Terrifier",
+      "extract": "After witnessing a brutal murder on Halloween night, a young woman becomes the next target of a maniacal entity.",
+      "thumbnail": "https://picfiles.alphacoders.com/392/392411.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/1U7EVGj7Noc26owNOreCTKn59Bd.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 548.667,
+      "vote_average": 10,
+      "vote_count": 180,
+      "time": 82,
+      "overview": "After witnessing a brutal murder on Halloween night, a young woman becomes the next target of a maniacal entity.",
+      "trailer": ""
     },
     {
-      "title": "Elemental (2023)",
-      "year": 2023,
-      "cast": [
-        "Leah Lewis",
-        "Mamoudou Athie"
-      ],
-      "genres": [
-        "Fantasy",
-        "Animation"
-      ],
-      "thumbnail": "https://www.cgv.vn/media/catalog/product/cache/1/image/1800x/71252117777b696995f01934522c402d/e/l/elemental_teaser_poster_vietnam_1_.jpg"
+      "id": 17,
+      "title": "The Silent Hour",
+      "date": "03/10/2024",
+      "cast": [],
+      "genres": [80, 53, 28],
+      "href": "The_Silent_Hour",
+      "extract": "A hearing-impaired detective faces off with criminals while working as an interpreter.",
+      "thumbnail": "https://filmapikofficial.com/poster/tt22874848.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/s3ioaDU8OudHWeg7rIbLyU33iXs.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 460.997,
+      "vote_average": 10,
+      "vote_count": 49,
+      "time": 100,
+      "overview": "While working a case as an interpreter, a hearing-impaired police detective must confront a group of criminals trying to eliminate a deaf murder witness in her apartment building.",
+      "trailer": ""
     },
     {
-      "title": "Extraction 2 (2023)",
-      "year": 2023,
-      "cast": [
-        "Chris Hemsworth",
-        "Golshifteh Farahani",
-        "Adam Bessa"
-      ],
-      "genres": [
-        "Action"
-      ],
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZjg5MTM4N2QtN2RlMS00NzBlLTg3NDktM2ExZDNmMmExMGU3XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+      "id": 18,
+      "title": "El hoyo 2",
+      "date": "27/09/2024",
+      "cast": [],
+      "genres": [878, 27],
+      "href": "El hoyo 2",
+      "extract": "A new resident in a brutal vertical prison must fight for survival.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.k6OAfgJrBK4e8QAZnT5IEwHaLE?rs=1&pid=ImgDetMain",
+      "banner": "https://image.tmdb.org/t/p/original/epQfhIcfqWgrMhRvnxkVm7EeEpE.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 581.872,
+      "vote_average": 10,
+      "vote_count": 787,
+      "time": 97,
+      "overview": "After a mysterious leader imposes his law in a brutal system of vertical cells, a new arrival battles against a dubious food distribution method.",
+      "trailer": ""
     },
     {
-      "title": "Mission: Impossible - Dead Reckoning, Part One (2023)",
-      "year": 2023,
-      "cast": [
-        "Tom Cruise",
-        "Rebecca Ferguson",
-        "Simon Pegg",
-        "Ving Rhames",
-        "Vanessa Kirby"
-      ],
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "thumbnail": "https://www.cgv.vn/media/catalog/product/cache/3/image/c5f0a1eff4c394a251036189ccddaacd/7/0/700x1000_7_.jpg"
+      "id": 19,
+      "title": "Bagman",
+      "date": "20/09/2024",
+      "cast": [],
+      "genres": [27, 53],
+      "href": "Bagman",
+      "extract": "A legendary figure terrorizes children, snatching them away in his bag.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.cYVe_vuPdIAH102Prz2H-gAAAA?rs=1&pid=ImgDetMain",
+      "banner": "https://image.tmdb.org/t/p/original/mpMDztY5OmV7i4ypYpWgqsP4DHs.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 545.307,
+      "vote_average": 10,
+      "vote_count": 52,
+      "time": 98,
+      "overview": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
+      "trailer": ""
+    },
+    {
+      "id": 20,
+      "title": "My Hero Academia: You're Next",
+      "date": "02/08/2024",
+      "cast": [],
+      "genres": [16, 28, 12, 878],
+      "href": "My_Hero_Academia_Youre_Next",
+      "extract": "A mysterious fortress appears, posing a new threat for heroes and villains.",
+      "thumbnail": "https://images.justwatch.com/poster/318532615/s718/my-hero-academia-youre-next.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/hd1TvTUGjkoYoqvXYfSBpI5Ri9B.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 575.268,
+      "vote_average": 10,
+      "vote_count": 44,
+      "time": 102,
+      "overview": "In a society devastated by the effects of an all-out war between heroes and villains, a mysterious giant fortress suddenly appears, engulfing towns and people one after another. Then, a man reminiscent of All Might, the 'symbol of peace', stands in front of Izuku and his friends...",
+      "trailer": ""
+    },
+    {
+      "id": 21,
+      "title": "Corpse Bride",
+      "date": "12/09/2005",
+      "cast": [],
+      "genres": [10749, 14, 16],
+      "href": "Corpse_Bride",
+      "extract": "A young man in a European village marries a corpse while his real bride waits.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.D8gTrmsQJWbC-lovn6cXLgHaLH?rs=1&pid=ImgDetMain",
+      "banner": "https://image.tmdb.org/t/p/original/v23fWgJUEt8EMmvn19btIacxP8E.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 586.002,
+      "vote_average": 10,
+      "vote_count": 9224,
+      "time": 77,
+      "overview": "In a 19th-century European village, a young man about to be married is whisked away to the underworld and wed to a mysterious corpse bride, while his real bride waits bereft in the land of the living.",
+      "trailer": ""
+    },
+    {
+      "id": 22,
+      "title": "Brothers",
+      "date": "10/10/2024",
+      "cast": [],
+      "genres": [28, 35, 80],
+      "href": "Brothers",
+      "extract": "A reformed criminal reconnects with his twin for one last heist.",
+      "thumbnail": "https://th.bing.com/th?id=OIF.mFh%2fgXDJsZ%2bRbw2Cgk7Tgg&rs=1&pid=ImgDetMain",
+      "banner": "https://image.tmdb.org/t/p/original/vOwezqxpHjBpA5nJIWbapm9Qtgd.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 511.711,
+      "vote_average": 10,
+      "vote_count": 145,
+      "time": 110,
+      "overview": "A reformed criminal's attempt at going straight is derailed when he reunites with his sanity-testing twin brother on a road trip for the score of a lifetime. Dodging bullets, the law, and an overbearing mother along the way, they must heal their severed family bond before they end up killing each other.",
+      "trailer": ""
+    },
+    {
+      "id": 23,
+      "title": "Invasion",
+      "date": "11/04/2024",
+      "cast": ["Cast Not Provided"],
+      "genres": [28, 18, 53],
+      "href": "Invasion_(2024_film)",
+      "extract": "When neighboring country Veragua suddenly attacks Curaçao and Aruba, the Dutch government is taken by surprise. The conflict escalates as three young Navy recruits face difficult choices.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.jNQEMKnO7_BSTUL3iInAvAHaLH?w=1175&h=1763&rs=1&pid=ImgDetMain",
+      "banner": "https://image.tmdb.org/t/p/original/rivlyJuBKNnSgzOU0GkEWIuawjt.jpg",
+      "thumbnail_width": 500,
+      "thumbnail_height": 750,
+      "popularity": 433.916,
+      "vote_average": 5,
+      "vote_count": 9,
+      "time": 120,
+      "overview": "When neighboring country Veragua suddenly attacks Curaçao and Aruba, the Dutch government is taken completely by surprise. The conflict escalates rapidly. Three young Navy recruits must figure out what is the right thing to do.",
+      "trailer": ""
+    },
+    {
+      "id": 24,
+      "title": "Smile 2",
+      "date": "16/10/2024",
+      "cast": ["Cast Not Provided"],
+      "genres": [27, 9648],
+      "href": "Smile_2_(2024_film)",
+      "extract": "Global pop sensation Skye Riley faces terrifying, inexplicable events while on a world tour. To regain control, she must confront her dark past.",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/aE85MnPIsSoSs3978Noo16BRsKN.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/3rxoUVI74z7rTWYSAC2q3Uax2nC.jpg",
+      "thumbnail_width": 500,
+      "thumbnail_height": 750,
+      "popularity": 528.003,
+      "vote_average": 7,
+      "vote_count": 274,
+      "time": 120,
+      "overview": "About to embark on a new world tour, global pop sensation Skye Riley begins experiencing increasingly terrifying and inexplicable events. Overwhelmed by the escalating horrors and the pressures of fame, Skye is forced to face her dark past to regain control of her life before it spirals out of control.",
+      "trailer": ""
+    },
+    {
+      "id": 25,
+      "title": "All Hallows' Eve",
+      "date": "29/10/2013",
+      "cast": ["Cast Not Provided"],
+      "genres": [27],
+      "href": "All_Hallows'_Eve_(2013_film)",
+      "extract": "A babysitter finds an old VHS tape in the kids' trick or treat bag, featuring three terrifying tales linked by a murderous clown.",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/bSe8CBqK8HkbP6sqZWzcJfQV9Ci.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/cCBdL7v7msKHE0T5lPbaAY8GTJ5.jpg",
+      "thumbnail_width": 500,
+      "thumbnail_height": 750,
+      "popularity": 475.6,
+      "vote_average": 6,
+      "vote_count": 493,
+      "time": 83,
+      "overview": "While watching two children on Halloween night, a babysitter finds an old VHS tape in the kids' trick or treat bag. The tape features three tales of terror, all linked together by a murderous clown.",
+      "trailer": ""
+    },
+    {
+      "id": 26,
+      "title": "It Ends with Us",
+      "date": "07/08/2024",
+      "cast": ["Cast Not Provided"],
+      "genres": [10749, 18],
+      "href": "It_Ends_with_Us_(2024_film)",
+      "extract": "A woman’s first love reenters her life, disrupting her relationship with a charming but abusive neurosurgeon, leading her to make a difficult choice.",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/AjV6jFJ2YFIluYo4GQf13AA1tqu.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/zAqBIeO71BFL7bAtP5TFzVjVamy.jpg",
+      "thumbnail_width": 500,
+      "thumbnail_height": 750,
+      "popularity": 413.032,
+      "vote_average": 7,
+      "vote_count": 974,
+      "time": 120,
+      "overview": "When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended, and she realizes she must learn to rely on her own strength to make an impossible choice for her future.",
+      "trailer": ""
+    },
+    {
+      "id": 27,
+      "title": "The Crow",
+      "date": "21/08/2024",
+      "cast": ["Cast Not Provided"],
+      "genres": [28, 14, 27],
+      "href": "The_Crow_(2024_film)",
+      "extract": "Eric and Shelly, soulmates, are brutally murdered. Given a chance to save his love, Eric seeks revenge across worlds.",
+      "thumbnail": "https://image.tmdb.org/t/p/w500/58QT4cPJ2u2TqWZkterDq9q4yxQ.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/Asg2UUwipAdE87MxtJy7SQo08XI.jpg",
+      "thumbnail_width": 500,
+      "thumbnail_height": 750,
+      "popularity": 486.384,
+      "vote_average": 6,
+      "vote_count": 716,
+      "time": 120,
+      "overview": "Soulmates Eric and Shelly are brutally murdered when the demons of her dark past catch up with them. Given the chance to save his true love by sacrificing himself, Eric sets out to seek merciless revenge on their killers, traversing the worlds of the living and the dead to put the wrong things right.",
+      "trailer": ""
+    },
+    {
+      "id": 28,
+      "title": "Bad Boys: Ride or Die",
+      "date": "05/06/2024",
+      "cast": [],
+      "genres": [28, 35],
+      "href": "Bad_Boys_Ride_or_Die",
+      "extract": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BN2YzYzA2YmQtODA3NC00NTdiLWJkNWEtNTc2OWFhYzcwMzk1XkEyXkFqcGc@._V1_.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/tncbMvfV0V07UZozXdBEq4Wu9HH.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 522.665,
+      "vote_average": 7.495,
+      "vote_count": 2293,
+      "overview": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
+      "trailer": ""
+    },
+    {
+      "id": 29,
+      "title": "Transmorphers: Mech Beasts",
+      "date": "09/06/2023",
+      "cast": [],
+      "genres": [28, 878],
+      "href": "Transmorphers_Mech_Beasts",
+      "extract": "20 years after the events of Transmorphers, a newer, more advanced species of alien robot descends on a rebuilt Earth, threatening once again to destroy the planet.",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMWZjMzFhMTQtY2FjOS00N2U0LWE4ZDAtNDZkMGVjZDE2MTcxXkEyXkFqcGdeQXVyNTkzMzg3NDM@._V1_.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/tCKWksaQI8XkAQLVou0AlGab5S6.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 427.264,
+      "vote_average": 5.448,
+      "vote_count": 29,
+      "overview": "20 years after the events of Transmorphers, a newer, more advanced species of alien robot descends on a rebuilt Earth, threatening once again to destroy the planet.",
+      "trailer": ""
+    },
+    {
+      "id": 30,
+      "title": "Flow",
+      "date": "29/08/2024",
+      "cast": [],
+      "genres": [16, 14, 12],
+      "href": "Flow",
+      "extract": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+      "thumbnail": "https://th.bing.com/th/id/OIP.Hlzvpz7ilJ9hcKWnda4NQAHaLH?rs=1&pid=ImgDetMain",
+      "banner": "https://image.tmdb.org/t/p/original/b3mdmjYTEL70j7nuXATUAD9qgu4.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 430.831,
+      "vote_average": 8.7,
+      "vote_count": 167,
+      "overview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+      "trailer": ""
+    },
+    {
+      "id": 31,
+      "title": "The Last Stop in Yuma County",
+      "date": "10/05/2024",
+      "cast": [],
+      "genres": [80, 53],
+      "href": "The_Last_Stop_in_Yuma_County",
+      "extract": "While awaiting the next fuel truck at a middle-of-nowhere Arizona rest stop, a traveling young knife salesman is thrust into a high-stakes hostage situation by the arrival of two similarly stranded bank robbers with no qualms about using cruelty—or cold, hard steel—to protect their bloodstained, ill-gotten fortune.",
+      "thumbnail": "https://de.web.img3.acsta.net/r_1280_720/pictures/23/09/01/21/37/1040943.jpg",
+      "banner": "https://image.tmdb.org/t/p/original/Y91KJmQ13jNEpOlNL9j6PPRpIO.jpg",
+      "thumbnail_width": 220,
+      "thumbnail_height": 326,
+      "popularity": 316.259,
+      "vote_average": 7.1,
+      "vote_count": 117,
+      "overview": "While awaiting the next fuel truck at a middle-of-nowhere Arizona rest stop, a traveling young knife salesman is thrust into a high-stakes hostage situation by the arrival of two similarly stranded bank robbers with no qualms about using cruelty—or cold, hard steel—to protect their bloodstained, ill-gotten fortune.",
+      "trailer": ""
     }
   ]
 }

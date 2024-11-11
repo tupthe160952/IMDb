@@ -1,24 +1,27 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useUser } from './UserContext';
 import '../styles/Login.css';
 
 const LoginForm: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const { setUser } = useUser();
   const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     try {
-      const response = await fetch(`http://localhost:3001/users?email=${email}&password=${password}`);
+      const response = await fetch(`http://localhost:9999/users?email=${email}&password=${password}`);
       const users = await response.json();
 
       if (users.length > 0) {
         // Đăng nhập thành công
         localStorage.setItem('user', JSON.stringify(users[0]));
+        setUser(users[0]);
         alert('Login successful');
-        navigate('/home'); // Điều hướng về trang Home
+        navigate('/'); // Điều hướng về trang Home
       } else {
         alert('Invalid email or password');
       }
@@ -58,7 +61,7 @@ const LoginForm: React.FC = () => {
             <a href="#">Forgot password?</a>
           </div>
           <div className="create-account">
-            New to IMDb? <a href="#">Create your IMDb account</a>
+            New to IMDb? <a href="/register">Create your IMDb account</a>
           </div>
         </form>
       </div>

@@ -24,7 +24,7 @@ const Register: React.FC = () => {
 
       try {
         // Kiểm tra xem email đã tồn tại hay chưa
-        const checkResponse = await fetch(`http://localhost:3001/users?email=${email}`);
+        const checkResponse = await fetch(`http://localhost:9999/users?email=${email}`);
         const users = await checkResponse.json();
   
         if (users.length > 0) {
@@ -33,8 +33,8 @@ const Register: React.FC = () => {
         }
   
         // Nếu email chưa tồn tại, tiếp tục đăng ký
-        const user = { name, email, password };
-        const response = await fetch('http://localhost:3001/users', {
+        const user = { name, email, password,role: 'user' };
+        const response = await fetch('http://localhost:9999/users', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(user),
@@ -42,7 +42,7 @@ const Register: React.FC = () => {
   
         if (response.ok) {
           alert('User registered successfully');
-          navigate('/home'); // Điều hướng về trang Home
+          navigate('/login'); // Điều hướng về trang Login
         } else {
           alert('Failed to register user');
         }
@@ -105,7 +105,7 @@ const Register: React.FC = () => {
           />
 
           <button type="submit">Create your IMDb account</button>
-          <p className='register-p '>Already have an account? <a href="#" register-link >Sign in</a></p>
+          <p className='register-p '>Already have an account? <a href="/login" register-link >Sign in</a></p>
         </form>
       </div>
     </div>
