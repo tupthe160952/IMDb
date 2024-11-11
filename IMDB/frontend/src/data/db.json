@@ -864,5 +864,27 @@
       "overview": "While awaiting the next fuel truck at a middle-of-nowhere Arizona rest stop, a traveling young knife salesman is thrust into a high-stakes hostage situation by the arrival of two similarly stranded bank robbers with no qualms about using cruelty—or cold, hard steel—to protect their bloodstained, ill-gotten fortune.",
       "trailer": ""
     }
+  ],
+  "watchlist": [
+    {
+      "userId": 1,
+      "movieId": 1,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "movieId": 2,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "movieId": 3,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "movieId": 4,
+      "id": 4
+    }
   ]
 }

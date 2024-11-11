@@ -1,3 +1,4 @@
+// PopularMovie.tsx
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -7,14 +8,16 @@ import "../styles/PopularMovie.css";
 import "swiper/swiper-bundle.css";
 import axios from "axios";
 
-const PopularMovie: React.FC = () => {
+const TopMovie: React.FC = () => {
   const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
 
   const getPopularMovie = (): void => {
     axios
       .get(`http://localhost:9999/movie`)
       .then((res) => {
-        setCardFilm(res.data);
+        const sortedMovies = res.data.sort((a: CardProps, b: CardProps) => b.vote_average - a.vote_average);
+        const topTenMovies = sortedMovies.slice(0, 10);
+        setCardFilm(topTenMovies);
       })
       .catch((error) => {
         console.error("Error fetching popular movies:", error);
@@ -28,7 +31,7 @@ const PopularMovie: React.FC = () => {
   return (
     <div className="slidecard">
       <a className="road-to-detail" href="/">
-        <h2>Popular Movies</h2>
+        <h2>Top 10 Movies on IMDB</h2>
         <i className="fa-solid fa-forward"></i>
       </a>
 
@@ -48,10 +51,10 @@ const PopularMovie: React.FC = () => {
         {cardFilm.map((film) => (
           <SwiperSlide key={film.id}>
             <Card
-              id={film.id}
-              image={film.thumbnail}
-              rating={film.vote_average}
-              name={film.title} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""}            />
+                    id={film.id}
+                    image={film.thumbnail}
+                    rating={film.vote_average}
+                    name={film.title} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""}            />
           </SwiperSlide>
         ))}
       </Swiper>
@@ -59,4 +62,4 @@ const PopularMovie: React.FC = () => {
   );
 };
 
-export default PopularMovie;
+export default TopMovie;

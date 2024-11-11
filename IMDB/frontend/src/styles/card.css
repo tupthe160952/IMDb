@@ -57,7 +57,7 @@
   color: #ffc107;
 }
 
-.card-button:hover  {
+.card-button:hover {
   color: #ffc107;
 }
 
@@ -68,9 +68,22 @@
 .card-button {
   width: 100%;
   margin-bottom: 0.5rem;
-  background-color: #ffc107;
 }
 
 .card-button:last-child {
   margin-bottom: 0;
 }
+
+.card-button.added {
+  background-color: #FFD700;
+  /* Yellow background */
+  color: #333;
+  /* Darker text color */
+}
+
+.card-button.added i {
+  color: #FFD700;
+  /* Yellow check mark */
+}
+
+
