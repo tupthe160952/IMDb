@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
+import axios from "axios";
+import React, { useEffect, useState } from "react";
 import "../styles/card.css";
 import CardProps from "../types/Interface";
 import { useUser } from "./UserContext";
-import axios from "axios";
 
 const Card: React.FC<CardProps> = (props) => {
   const { user } = useUser();
@@ -73,7 +73,7 @@ const Card: React.FC<CardProps> = (props) => {
       <div className="card-body"> 
         <div className="rating-wrapper">
           <span className="rating" style={{ fontSize: "18px" }}>
-            {props.rating}
+            {props.rating}/10
           </span>
           <button className="star-button" aria-label="Rate this item">
             <i className="fas fa-star star-icon"></i>
