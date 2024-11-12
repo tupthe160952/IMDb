@@ -51,7 +51,7 @@ const PopularMovie: React.FC = () => {
             <Card
               id={film.id}
               image={film.thumbnail}
-              rating={film.vote_average}
+              rating={film.vote_average.toFixed(1)}
               name={film.title}
               title={""}
               extract={""}
@@ -59,6 +59,8 @@ const PopularMovie: React.FC = () => {
               banner={""}
               vote_average={0}
               trailer={""}
+              popularity={undefined}
+              vote_count={undefined}
             />
           </SwiperSlide>
         ))}

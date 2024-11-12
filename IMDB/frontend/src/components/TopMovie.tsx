@@ -51,10 +51,10 @@ const TopMovie: React.FC = () => {
         {cardFilm.map((film) => (
           <SwiperSlide key={film.id}>
             <Card
-                    id={film.id}
-                    image={film.thumbnail}
-                    rating={film.vote_average}
-                    name={film.title} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""}            />
+              id={film.id}
+              image={film.thumbnail}
+              rating={film.vote_average}
+              name={film.title} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""} popularity={undefined} vote_count={undefined}            />
           </SwiperSlide>
         ))}
       </Swiper>
