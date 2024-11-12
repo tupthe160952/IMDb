@@ -1,14 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import LoginForm from "./components/Login";
 import RateStar from "./components/RateStar";
 import Register from "./components/Register";
-import LoginForm from "./components/Login";
+import { UserProvider } from "./components/UserContext";
 import Watchlist from "./components/Watchlist";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
-import { UserProvider } from "./components/UserContext";
 import "./styles/Header.css";
 import PopularMovieDetail from "./pages/PopularMovieDetail";
 
