@@ -19,3 +19,26 @@ export default interface SliderProps {
   vote_average: number;
   trailer: string;
 }
+
+// export interface Movie {
+//   id: number;
+//   title: string;
+//   date: string;
+//   cast: string[];
+//   genres: number[];
+//   href: string;
+//   extract: string;
+//   thumbnail: string;
+//   banner: string;
+//   overview: string;
+//   popularity: number;
+//   vote_average: number;
+//   vote_count: number;
+//   trailer: string;
+// }
+
+// export interface WatchlistItem {
+//   id: number;
+//   userId: number;
+//   movieId: number;
+// }
