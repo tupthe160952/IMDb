@@ -8,25 +8,26 @@ import LoginForm from "./components/Login";
 import Watchlist from "./components/Watchlist";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
-import { UserProvider } from './components/UserContext';
+import { UserProvider } from "./components/UserContext";
 import "./styles/Header.css";
+import PopularMovieDetail from "./pages/PopularMovieDetail";
 
 function App() {
   return (
     <BrowserRouter>
-    <UserProvider>
-      <Routes>
-        <Route path="/footer" element={<Footer />} />
-        <Route path="/rateStar" element={<RateStar />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/login" element={<LoginForm />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/watchlist" element={<Watchlist />} />
+      <UserProvider>
+        <Routes>
+          <Route path="/footer" element={<Footer />} />
+          <Route path="/rateStar" element={<RateStar />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<LoginForm />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/watchlist" element={<Watchlist />} />
+          <Route path="/detailpopular" element={<PopularMovieDetail />} />
+          <Route path="/contact_us" element={<ContactUs />} />
 
-        <Route path="/contact_us" element={<ContactUs />} />
-
-        <Route path="/header" element={<Header />} />
-      </Routes>
+          <Route path="/header" element={<Header />} />
+        </Routes>
       </UserProvider>
     </BrowserRouter>
   );

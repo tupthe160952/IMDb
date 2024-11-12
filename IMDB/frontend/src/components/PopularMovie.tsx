@@ -6,6 +6,7 @@ import CardProps from "../types/Interface";
 import "../styles/PopularMovie.css";
 import "swiper/swiper-bundle.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const PopularMovie: React.FC = () => {
   const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
@@ -27,10 +28,10 @@ const PopularMovie: React.FC = () => {
 
   return (
     <div className="slidecard">
-      <a className="road-to-detail" href="/">
+      <Link className="road-to-detail" to="/detailpopular">
         <h2>Popular Movies</h2>
         <i className="fa-solid fa-forward"></i>
-      </a>
+      </Link>
 
       <Swiper
         slidesPerView={5}
@@ -51,7 +52,14 @@ const PopularMovie: React.FC = () => {
               id={film.id}
               image={film.thumbnail}
               rating={film.vote_average}
-              name={film.title} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""}            />
+              name={film.title}
+              title={""}
+              extract={""}
+              thumbnail={""}
+              banner={""}
+              vote_average={0}
+              trailer={""}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

@@ -4,7 +4,7 @@
       "name": "Im tester",
       "email": "ab@gmail.com",
       "password": "12345678",
-      "id": 1,
+      "id": "1",
       "role": "user"
     },
     {
@@ -12,100 +12,109 @@
       "email": "tu@gmail.com",
       "password": "12345678",
       "role": "user",
-      "id": 2
+      "id": "2"
     },
     {
       "name": "aaa",
       "email": "ab1@gmail.com",
       "password": "12345678",
       "role": "user",
-      "id": 3
+      "id": "3"
+    },
+    {
+      "id": "0f5e",
+      "name": "Dang Nguyen Bao",
+      "email": "baovietnam12@gmail",
+      "password": "bao01102004",
+      "role": "user"
     }
   ],
   "Vote": [
-    {}
+    {
+      "id": "542f"
+    }
   ],
   "genres": [
     {
-      "id": 28,
+      "id": "28",
       "name": "Action"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Adventure"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Animation"
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Comedy"
     },
     {
-      "id": 80,
+      "id": "80",
       "name": "Crime"
     },
     {
-      "id": 99,
+      "id": "99",
       "name": "Documentary"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Drama"
     },
     {
-      "id": 10751,
+      "id": "10751",
       "name": "Family"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Fantasy"
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "History"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Horror"
     },
     {
-      "id": 10402,
+      "id": "10402",
       "name": "Music"
     },
     {
-      "id": 9648,
+      "id": "9648",
       "name": "Mystery"
     },
     {
-      "id": 10749,
+      "id": "10749",
       "name": "Romance"
     },
     {
-      "id": 878,
+      "id": "878",
       "name": "Science Fiction"
     },
     {
-      "id": 10770,
+      "id": "10770",
       "name": "TV Movie"
     },
     {
-      "id": 53,
+      "id": "53",
       "name": "Thriller"
     },
     {
-      "id": 10752,
+      "id": "10752",
       "name": "War"
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "Western"
     }
   ],
   "movie": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Venom: The Last Dance",
       "date": "22/10/2024",
       "cast": [
@@ -132,7 +141,7 @@
       "trailer": "https://www.youtube.com/watch?v=HyIyd9joTTc"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Terrifier 3",
       "date": "09/10/2024",
       "cast": [
@@ -159,7 +168,7 @@
       "trailer": "https://www.youtube.com/watch?v=zaPcin5knJk"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "The Wild Robot",
       "date": "12/09/2024",
       "cast": [
@@ -186,7 +195,7 @@
       "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Transformers One",
       "date": "11/09/2024",
       "cast": [
@@ -215,7 +224,7 @@
       "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "The Substance",
       "date": "07/09/2024",
       "cast": [
@@ -243,7 +252,7 @@
       "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Joker: Folie à Deux",
       "date": "01/10/2024",
       "cast": [
@@ -268,7 +277,7 @@
       "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Alien: Romulus",
       "date": "13/08/2024",
       "cast": [
@@ -295,7 +304,7 @@
       "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Inside Out 2",
       "date": "11/06/2024",
       "cast": [
@@ -327,7 +336,7 @@
       "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Venom",
       "date": "28/09/2018",
       "cast": [
@@ -353,7 +362,7 @@
       "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Deadpool & Wolverine",
       "date": "24/07/2024",
       "cast": [
@@ -380,7 +389,7 @@
       "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Le Comte de Monte-Cristo",
       "date": "28/06/2024",
       "cast": [
@@ -410,7 +419,7 @@
       "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Heavenly Touch",
       "date": "12/05/2009",
       "cast": [],
@@ -432,7 +441,7 @@
       "trailer": ""
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Don't Move",
       "date": "24/10/2024",
       "cast": [],
@@ -454,7 +463,7 @@
       "trailer": ""
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Beetlejuice Beetlejuice",
       "date": "04/09/2024",
       "cast": [],
@@ -477,7 +486,7 @@
       "trailer": ""
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Sing: Thriller",
       "date": "16/10/2024",
       "cast": [],
@@ -501,7 +510,7 @@
       "trailer": ""
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Terrifier",
       "date": "09/08/2011",
       "cast": [],
@@ -522,7 +531,7 @@
       "trailer": ""
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "The Silent Hour",
       "date": "03/10/2024",
       "cast": [],
@@ -545,7 +554,7 @@
       "trailer": ""
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "El hoyo 2",
       "date": "27/09/2024",
       "cast": [],
@@ -567,7 +576,7 @@
       "trailer": ""
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Bagman",
       "date": "20/09/2024",
       "cast": [],
@@ -589,7 +598,7 @@
       "trailer": ""
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "My Hero Academia: You're Next",
       "date": "02/08/2024",
       "cast": [],
@@ -613,7 +622,7 @@
       "trailer": ""
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Corpse Bride",
       "date": "12/09/2005",
       "cast": [],
@@ -636,7 +645,7 @@
       "trailer": ""
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Brothers",
       "date": "10/10/2024",
       "cast": [],
@@ -659,7 +668,7 @@
       "trailer": ""
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Invasion",
       "date": "11/04/2024",
       "cast": [
@@ -684,7 +693,7 @@
       "trailer": ""
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Smile 2",
       "date": "16/10/2024",
       "cast": [
@@ -708,7 +717,7 @@
       "trailer": ""
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "All Hallows' Eve",
       "date": "29/10/2013",
       "cast": [
@@ -731,7 +740,7 @@
       "trailer": ""
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "It Ends with Us",
       "date": "07/08/2024",
       "cast": [
@@ -755,7 +764,7 @@
       "trailer": ""
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "The Crow",
       "date": "21/08/2024",
       "cast": [
@@ -780,7 +789,7 @@
       "trailer": ""
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "Bad Boys: Ride or Die",
       "date": "05/06/2024",
       "cast": [],
@@ -801,7 +810,7 @@
       "trailer": ""
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Transmorphers: Mech Beasts",
       "date": "09/06/2023",
       "cast": [],
@@ -822,7 +831,7 @@
       "trailer": ""
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Flow",
       "date": "29/08/2024",
       "cast": [],
@@ -844,7 +853,7 @@
       "trailer": ""
     },
     {
-      "id": 31,
+      "id": "31",
       "title": "The Last Stop in Yuma County",
       "date": "10/05/2024",
       "cast": [],
@@ -869,22 +878,27 @@
     {
       "userId": 1,
       "movieId": 1,
-      "id": 1
+      "id": "1"
     },
     {
       "userId": 1,
       "movieId": 2,
-      "id": 2
+      "id": "2"
     },
     {
       "userId": 1,
       "movieId": 3,
-      "id": 3
+      "id": "3"
     },
     {
       "userId": 1,
       "movieId": 4,
-      "id": 4
+      "id": "4"
+    },
+    {
+      "id": "5880",
+      "userId": "0f5e",
+      "movieId": "14"
     }
   ]
 }
