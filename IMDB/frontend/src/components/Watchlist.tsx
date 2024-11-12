@@ -4,15 +4,18 @@ import CardProps from "../types/Interface";
 import "../styles/watchlist.css"; // Import the new CSS file
 import axios from "axios";
 import Header from "../components/Header";
+import { useUser } from "./UserContext";
 
 const Watchlist: React.FC = () => {
+    const { user } = useUser();
     const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
     const [watchlist, setWatchlist] = useState<number[]>([]);
     const [sortCriteria, setSortCriteria] = useState<string>("alphabet");
 
     const getWatchlist = (): void => {
+        if (user) {
         axios
-            .get(`http://localhost:9999/watchlist`)
+            .get(`http://localhost:9999/watchlist`, { params: { userId: user.id } })
             .then((res) => {
                 const watchlistMovieIds = res.data.map((item: { movieId: number }) => item.movieId);
                 setWatchlist(watchlistMovieIds);
@@ -20,6 +23,7 @@ const Watchlist: React.FC = () => {
             .catch((error) => {
                 console.error("Error fetching watchlist:", error);
             });
+    }
     };
 
     const getMoviesFromWatchlist = (): void => {
@@ -60,7 +64,7 @@ const Watchlist: React.FC = () => {
 
     useEffect(() => {
         getWatchlist();
-    }, []);
+    }, );
 
     useEffect(() => {
         if (watchlist.length > 0) {
