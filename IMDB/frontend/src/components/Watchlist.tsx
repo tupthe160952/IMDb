@@ -3,6 +3,7 @@ import Card from "../components/Card";
 import CardProps from "../types/Interface";
 import "../styles/watchlist.css"; // Import the new CSS file
 import axios from "axios";
+import Header from "../components/Header";
 
 const PopularMovie: React.FC = () => {
   const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
@@ -47,6 +48,8 @@ const PopularMovie: React.FC = () => {
 
   return (
     <div className="movie-container">
+        <Header/>
+        <br></br>
       <a className="road-to-detail" href="/">
         <h2>Watchlist Movies</h2>
       </a>

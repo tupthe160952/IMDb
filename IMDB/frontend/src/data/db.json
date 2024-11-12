@@ -873,11 +873,6 @@
     },
     {
       "userId": 1,
-      "movieId": 12,
-      "id": 7
-    },
-    {
-      "userId": 1,
       "movieId": 13,
       "id": 8
     },
@@ -900,6 +895,11 @@
       "userId": 1,
       "movieId": 4,
       "id": 12
+    },
+    {
+      "userId": 1,
+      "movieId": 7,
+      "id": 13
     }
   ]
 }
