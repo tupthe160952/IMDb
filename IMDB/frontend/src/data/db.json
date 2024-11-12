@@ -868,11 +868,6 @@
   "watchlist": [
     {
       "userId": 1,
-      "movieId": 5,
-      "id": 6
-    },
-    {
-      "userId": 1,
       "movieId": 13,
       "id": 8
     },
