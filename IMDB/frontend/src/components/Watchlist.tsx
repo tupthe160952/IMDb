@@ -107,7 +107,7 @@ const Watchlist: React.FC = () => {
             <Header />
             <br></br>
             <div className="road-to-detail" >
-                <h2>Your Watchlist</h2>
+                <h2 >Your Watchlist</h2>
             </div>
             <div className="control-panel">
                 <select value={sortCriteria} onChange={handleSortChange}>
