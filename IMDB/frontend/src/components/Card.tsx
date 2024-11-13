@@ -10,10 +10,10 @@ const Card: React.FC<CardProps> = (props) => {
   const { user } = useUser();
   const [inWatchlist, setInWatchlist] = useState(false);
   const [watchlistItemId, setWatchlistItemId] = useState<number | null>(null);
-  const [userRating, setUserRating] = useState<number | null>(null); // Lưu điểm số của người dùng
-  const [userRatingId, setUserRatingId] = useState<number | null>(null); // Lưu id đánh giá để cập nhật sau
+  const [userRating, setUserRating] = useState<number | null>(null);
+  const [userRatingId, setUserRatingId] = useState<number | null>(null);
   const [showRateModal, setShowRateModal] = useState(false);
-  const [voteAverage, setVoteAverage] = useState<number>(0); // Giá trị mặc định của vote_average
+  const [voteAverage, setVoteAverage] = useState<number>(0);
   const [voteCount, setVoteCount] = useState<number>(0);
 
 
@@ -69,13 +69,12 @@ const Card: React.FC<CardProps> = (props) => {
   // Rate Star
   useEffect(() => {
     if (user) {
-      // Kiểm tra nếu người dùng đã đánh giá bộ phim
       axios.get(`http://localhost:9999/ratings?userId=${user.id}&movieId=${props.id}`)
         .then((res) => {
           const userRatingData = res.data.find((rating: { ratestar: { movieId: number, rating: number }, id: number }) => rating.ratestar.movieId === props.id);
           if (userRatingData) {
-            setUserRating(userRatingData.ratestar.rating); // Gán điểm số đã cho vào state
-            setUserRatingId(userRatingData.id); // Lưu ID đánh giá để cập nhật sau
+            setUserRating(userRatingData.ratestar.rating);
+            setUserRatingId(userRatingData.id);
           }
         })
         .catch((error) => {
@@ -90,7 +89,6 @@ const Card: React.FC<CardProps> = (props) => {
       return;
     } else {
       if (userRating !== null) {
-        // Nếu người dùng đã đánh giá bộ phim, cập nhật lại điểm
         axios.put(`http://localhost:9999/ratings/${userRatingId}`, {
           userId: user.id,
           ratestar: {
@@ -116,7 +114,6 @@ const Card: React.FC<CardProps> = (props) => {
                   vote_average: newVoteAverage,
                 };
   
-                // Gửi yêu cầu cập nhật dữ liệu phim
                 axios.put(`http://localhost:9999/movie/${props.id}`, updatedMovieData)
                   .then(() => {
                     console.log("Movie rating updated successfully.");
@@ -134,7 +131,6 @@ const Card: React.FC<CardProps> = (props) => {
             console.error("Error updating rating:", error);
           });
       } else {
-        // Nếu người dùng chưa đánh giá, tăng vote_count và tính lại vote_average
         axios.post("http://localhost:9999/ratings", {
           userId: user.id,
           ratestar: {
