@@ -1,7 +1,7 @@
 export default interface Genre {
-  user_rating: any;
-  popularity: any;
-  vote_count: any;
+  user_rating: number;
+  popularity: number;
+  vote_count: number;
   id: number;
   name: string;
 }
