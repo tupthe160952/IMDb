@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/contactUs.css';
+import Footer from '../components/Footer';
 
 interface formFields {
   label: string;
@@ -45,6 +46,7 @@ const ContactUs: React.FC = () => {
   };
 
   return (
+    <div style={{backgroundColor:"white"}}>
     <div className="container">
       <h2 className="text-center mb-4">License IMDb Metadata</h2>
       <p className="text-center text-muted">
@@ -134,11 +136,14 @@ const ContactUs: React.FC = () => {
           </div>
         </div>
 
-        <div className="text-center mt-4">
+        <div className="text-center mt-4 mb-4">
           <button type="submit" className="btn btn-primary mx-2">Submit</button>
           <button type="button" className="btn btn-secondary mx-2">Cancel</button>
         </div>
       </form>
+    </div>
+    <Footer />
+
     </div>
   );
 };

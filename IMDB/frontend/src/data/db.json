@@ -4,7 +4,7 @@
       "name": "Im tester",
       "email": "ab@gmail.com",
       "password": "12345678",
-      "id": 1,
+      "id": "1",
       "role": "user"
     },
     {
@@ -12,100 +12,102 @@
       "email": "tu@gmail.com",
       "password": "12345678",
       "role": "user",
-      "id": 2
+      "id": "2"
     },
     {
       "name": "aaa",
       "email": "ab1@gmail.com",
       "password": "12345678",
       "role": "user",
-      "id": 3
+      "id": "3"
     }
   ],
   "Vote": [
-    {}
+    {
+      "id": "4f83"
+    }
   ],
   "genres": [
     {
-      "id": 28,
+      "id": "28",
       "name": "Action"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Adventure"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Animation"
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Comedy"
     },
     {
-      "id": 80,
+      "id": "80",
       "name": "Crime"
     },
     {
-      "id": 99,
+      "id": "99",
       "name": "Documentary"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Drama"
     },
     {
-      "id": 10751,
+      "id": "10751",
       "name": "Family"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Fantasy"
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "History"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Horror"
     },
     {
-      "id": 10402,
+      "id": "10402",
       "name": "Music"
     },
     {
-      "id": 9648,
+      "id": "9648",
       "name": "Mystery"
     },
     {
-      "id": 10749,
+      "id": "10749",
       "name": "Romance"
     },
     {
-      "id": 878,
+      "id": "878",
       "name": "Science Fiction"
     },
     {
-      "id": 10770,
+      "id": "10770",
       "name": "TV Movie"
     },
     {
-      "id": 53,
+      "id": "53",
       "name": "Thriller"
     },
     {
-      "id": 10752,
+      "id": "10752",
       "name": "War"
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "Western"
     }
   ],
   "movie": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Venom: The Last Dance",
       "date": "22/10/2024",
       "cast": [
@@ -132,7 +134,7 @@
       "trailer": "https://www.youtube.com/watch?v=HyIyd9joTTc"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Terrifier 3",
       "date": "09/10/2024",
       "cast": [
@@ -159,7 +161,7 @@
       "trailer": "https://www.youtube.com/watch?v=zaPcin5knJk"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "The Wild Robot",
       "date": "12/09/2024",
       "cast": [
@@ -186,7 +188,7 @@
       "trailer": "https://www.youtube.com/watch?v=67vbA5ZJdKQ"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Transformers One",
       "date": "11/09/2024",
       "cast": [
@@ -215,7 +217,7 @@
       "trailer": "https://www.youtube.com/watch?v=0rmJXXKDrsM"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "The Substance",
       "date": "07/09/2024",
       "cast": [
@@ -243,7 +245,7 @@
       "trailer": "https://www.youtube.com/watch?v=LNlrGhBpYjc"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Joker: Folie à Deux",
       "date": "01/10/2024",
       "cast": [
@@ -268,7 +270,7 @@
       "trailer": "https://www.youtube.com/watch?v=_OKAwz2MsJs"
     },
     {
-      "id": 7,
+      "id": "7",
       "title": "Alien: Romulus",
       "date": "13/08/2024",
       "cast": [
@@ -295,7 +297,7 @@
       "trailer": "https://www.youtube.com/watch?v=OzY2r2JXsDM"
     },
     {
-      "id": 8,
+      "id": "8",
       "title": "Inside Out 2",
       "date": "11/06/2024",
       "cast": [
@@ -327,7 +329,7 @@
       "trailer": "https://www.youtube.com/watch?v=LEjhY15eCx0"
     },
     {
-      "id": 9,
+      "id": "9",
       "title": "Venom",
       "date": "28/09/2018",
       "cast": [
@@ -353,7 +355,7 @@
       "trailer": "https://www.youtube.com/watch?v=u9Mv98Gr5pY"
     },
     {
-      "id": 10,
+      "id": "10",
       "title": "Deadpool & Wolverine",
       "date": "24/07/2024",
       "cast": [
@@ -380,7 +382,7 @@
       "trailer": "https://www.youtube.com/watch?v=73_1biulkYk"
     },
     {
-      "id": 11,
+      "id": "11",
       "title": "Le Comte de Monte-Cristo",
       "date": "28/06/2024",
       "cast": [
@@ -410,7 +412,7 @@
       "trailer": "https://www.youtube.com/watch?v=8Q6y1waxlTY"
     },
     {
-      "id": 12,
+      "id": "12",
       "title": "Heavenly Touch",
       "date": "12/05/2009",
       "cast": [
@@ -437,7 +439,7 @@
       "trailer": "https://www.youtube.com/watch?v=AMK2WSKcPbM"
     },
     {
-      "id": 13,
+      "id": "13",
       "title": "Don't Move",
       "date": "24/10/2024",
       "cast": [
@@ -464,7 +466,7 @@
       "trailer": "https://www.youtube.com/watch?v=YjTZMEbpKsc"
     },
     {
-      "id": 14,
+      "id": "14",
       "title": "Beetlejuice Beetlejuice",
       "date": "04/09/2024",
       "cast": [],
@@ -487,7 +489,7 @@
       "trailer": "https://www.youtube.com/watch?v=CoZqL9N6Rx4"
     },
     {
-      "id": 15,
+      "id": "15",
       "title": "Sing: Thriller",
       "date": "16/10/2024",
       "cast": [],
@@ -511,7 +513,7 @@
       "trailer": "https://www.youtube.com/watch?v=RiRiTEhiyP4"
     },
     {
-      "id": 16,
+      "id": "16",
       "title": "Terrifier",
       "date": "09/08/2011",
       "cast": [],
@@ -532,7 +534,7 @@
       "trailer": "https://www.youtube.com/watch?v=fN5j1MtGO2Q"
     },
     {
-      "id": 17,
+      "id": "17",
       "title": "The Silent Hour",
       "date": "03/10/2024",
       "cast": [],
@@ -555,7 +557,7 @@
       "trailer": "https://www.youtube.com/watch?v=zyREPrVRkoI"
     },
     {
-      "id": 18,
+      "id": "18",
       "title": "El hoyo 2",
       "date": "27/09/2024",
       "cast": [],
@@ -577,7 +579,7 @@
       "trailer": "https://www.youtube.com/watch?v=vQJ3upX19GM"
     },
     {
-      "id": 19,
+      "id": "19",
       "title": "Bagman",
       "date": "20/09/2024",
       "cast": [],
@@ -599,7 +601,7 @@
       "trailer": "https://www.youtube.com/watch?v=slrzCgYIUPM"
     },
     {
-      "id": 20,
+      "id": "20",
       "title": "My Hero Academia: You're Next",
       "date": "02/08/2024",
       "cast": [],
@@ -623,7 +625,7 @@
       "trailer": "https://www.youtube.com/watch?v=Oe05mebRJ6k"
     },
     {
-      "id": 21,
+      "id": "21",
       "title": "Corpse Bride",
       "date": "12/09/2005",
       "cast": [],
@@ -646,7 +648,7 @@
       "trailer": "https://www.youtube.com/watch?v=AGACeWVdFqo"
     },
     {
-      "id": 22,
+      "id": "22",
       "title": "Brothers",
       "date": "10/10/2024",
       "cast": [],
@@ -669,7 +671,7 @@
       "trailer": "https://www.youtube.com/watch?v=eGsnaUyYtO8"
     },
     {
-      "id": 23,
+      "id": "23",
       "title": "Invasion",
       "date": "11/04/2024",
       "cast": [
@@ -694,7 +696,7 @@
       "trailer": "https://www.youtube.com/watch?v=-TrCrxKimoY"
     },
     {
-      "id": 24,
+      "id": "24",
       "title": "Smile 2",
       "date": "16/10/2024",
       "cast": [
@@ -718,7 +720,7 @@
       "trailer": "https://www.youtube.com/watch?v=0HY6QFlBzUY"
     },
     {
-      "id": 25,
+      "id": "25",
       "title": "All Hallows' Eve",
       "date": "29/10/2013",
       "cast": [
@@ -741,7 +743,7 @@
       "trailer": "https://www.youtube.com/watch?v=OCbgfnVXM3I"
     },
     {
-      "id": 26,
+      "id": "26",
       "title": "It Ends with Us",
       "date": "07/08/2024",
       "cast": [
@@ -765,7 +767,7 @@
       "trailer": "https://www.youtube.com/watch?v=DLET_u31M4M"
     },
     {
-      "id": 27,
+      "id": "27",
       "title": "The Crow",
       "date": "21/08/2024",
       "cast": [
@@ -790,7 +792,7 @@
       "trailer": "https://www.youtube.com/watch?v=djSKp_pwmOA"
     },
     {
-      "id": 28,
+      "id": "28",
       "title": "Bad Boys: Ride or Die",
       "date": "05/06/2024",
       "cast": [],
@@ -811,7 +813,7 @@
       "trailer": "https://www.youtube.com/watch?v=hRFY_Fesa9Q"
     },
     {
-      "id": 29,
+      "id": "29",
       "title": "Transmorphers: Mech Beasts",
       "date": "09/06/2023",
       "cast": [],
@@ -832,7 +834,7 @@
       "trailer": "https://www.youtube.com/watch?v=E2WViGjaOwo"
     },
     {
-      "id": 30,
+      "id": "30",
       "title": "Flow",
       "date": "29/08/2024",
       "cast": [],
@@ -854,7 +856,7 @@
       "trailer": "https://www.youtube.com/watch?v=82WW9dVbglI"
     },
     {
-      "id": 31,
+      "id": "31",
       "title": "The Last Stop in Yuma County",
       "date": "10/05/2024",
       "cast": [],
@@ -879,42 +881,42 @@
     {
       "userId": 1,
       "movieId": 5,
-      "id": 6
+      "id": "6"
     },
     {
       "userId": 1,
       "movieId": 12,
-      "id": 7
+      "id": "7"
     },
     {
       "userId": 1,
       "movieId": 13,
-      "id": 8
+      "id": "8"
     },
     {
       "userId": 1,
       "movieId": 2,
-      "id": 9
+      "id": "9"
     },
     {
       "userId": 1,
       "movieId": 1,
-      "id": 10
+      "id": "10"
     },
     {
       "userId": 1,
       "movieId": 3,
-      "id": 11
+      "id": "11"
     },
     {
       "userId": 1,
       "movieId": 4,
-      "id": 12
+      "id": "12"
     }
   ],
   "celebs": [
     {
-      "id": 1245,
+      "id": "1245",
       "known_for_department": "Acting",
       "name": "Scarlett Johansson",
       "original_name": "Scarlett Johansson",
@@ -926,7 +928,7 @@
       "known_for": []
     },
     {
-      "id": 1982141,
+      "id": "1982141",
       "known_for_department": "Acting",
       "name": "Jess Chanliau",
       "original_name": "Jess Chanliau",
@@ -938,7 +940,7 @@
       "known_for": []
     },
     {
-      "id": 86889,
+      "id": "86889",
       "known_for_department": "Acting",
       "name": "Son Ye-jin",
       "original_name": "Son Ye-jin",
@@ -950,7 +952,7 @@
       "known_for": []
     },
     {
-      "id": 64,
+      "id": "64",
       "known_for_department": "Acting",
       "name": "Gary Oldman",
       "original_name": "Gary Oldman",
@@ -962,7 +964,7 @@
       "known_for": []
     },
     {
-      "id": 1253360,
+      "id": "1253360",
       "known_for_department": "Acting",
       "name": "Pedro Pascal",
       "original_name": "Pedro Pascal",
@@ -974,7 +976,7 @@
       "known_for": []
     },
     {
-      "id": 115440,
+      "id": "115440",
       "known_for_department": "Acting",
       "name": "Sydney Sweeney",
       "original_name": "Sydney Sweeney",
@@ -986,19 +988,19 @@
       "known_for": []
     },
     {
-      "id": 548128,
+      "id": "548128",
       "known_for_department": "Writing",
       "name": "Oniroku Dan",
       "original_name": "団鬼六",
       "popularity": 186.869,
-      "profile_path": null,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/5ceW7e1i3RmUdIAOYKjj06sWiHZ.jpg",
       "biography": "Oniroku Dan (団 鬼六 Dan Oniroku, April 16, 1931 – May 6, 2011) was a Japanese author who had been called, \"the most celebrated writer of popular SM novels in Japan.\" Many of his stories have been filmed, most notably by Nikkatsu studio in their Roman Porno series. Dan had a close professional association with actress Naomi Tani throughout her career.",
       "birthday": "1931-04-16",
       "place_of_birth": "Hikone, Shiga Prefecture, Japan",
       "known_for": []
     },
     {
-      "id": 1907997,
+      "id": "1907997",
       "known_for_department": "Acting",
       "name": "Min Do-yoon",
       "original_name": "민도윤",
@@ -1010,7 +1012,7 @@
       "known_for": []
     },
     {
-      "id": 1392137,
+      "id": "1392137",
       "known_for_department": "Acting",
       "name": "Margaret Qualley",
       "original_name": "Margaret Qualley",
@@ -1022,7 +1024,7 @@
       "known_for": []
     },
     {
-      "id": 1108185,
+      "id": "1108185",
       "known_for_department": "Acting",
       "name": "Murathan Muslu",
       "original_name": "Murathan Muslu",
@@ -1034,7 +1036,7 @@
       "known_for": []
     },
     {
-      "id": 129700,
+      "id": "129700",
       "known_for_department": "Acting",
       "name": "Nozomi Sasaki",
       "original_name": "佐々木希",
@@ -1046,7 +1048,7 @@
       "known_for": []
     },
     {
-      "id": 119592,
+      "id": "119592",
       "known_for_department": "Acting",
       "name": "Aubrey Plaza",
       "original_name": "Aubrey Plaza",
@@ -1058,7 +1060,7 @@
       "known_for": []
     },
     {
-      "id": 974169,
+      "id": "974169",
       "known_for_department": "Acting",
       "name": "Jenna Ortega",
       "original_name": "Jenna Ortega",
@@ -1070,7 +1072,7 @@
       "known_for": []
     },
     {
-      "id": 224513,
+      "id": "224513",
       "known_for_department": "Acting",
       "name": "Ana de Armas",
       "original_name": "Ana de Armas",
@@ -1082,7 +1084,7 @@
       "known_for": []
     },
     {
-      "id": 976,
+      "id": "976",
       "known_for_department": "Acting",
       "name": "Jason Statham",
       "original_name": "Jason Statham",
@@ -1094,7 +1096,7 @@
       "known_for": []
     },
     {
-      "id": 2194626,
+      "id": "2194626",
       "known_for_department": "Acting",
       "name": "A.J. Simmons",
       "original_name": "A.J. Simmons",
@@ -1106,7 +1108,7 @@
       "known_for": []
     },
     {
-      "id": 1136406,
+      "id": "1136406",
       "known_for_department": "Acting",
       "name": "Tom Holland",
       "original_name": "Tom Holland",
@@ -1118,7 +1120,7 @@
       "known_for": []
     },
     {
-      "id": 109513,
+      "id": "109513",
       "known_for_department": "Acting",
       "name": "Alexandra Daddario",
       "original_name": "Alexandra Daddario",
@@ -1130,7 +1132,7 @@
       "known_for": []
     },
     {
-      "id": 3791747,
+      "id": "3791747",
       "known_for_department": "Acting",
       "name": "Sanjana Krishnamoorthy",
       "original_name": "Sanjana Krishnamoorthy",
@@ -1142,7 +1144,7 @@
       "known_for": []
     },
     {
-      "id": 4095744,
+      "id": "4095744",
       "known_for_department": "Acting",
       "name": "Dyessa Garcia",
       "original_name": "Dyessa Garcia",
