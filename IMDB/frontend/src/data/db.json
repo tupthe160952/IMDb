@@ -20,18 +20,11 @@
       "password": "12345678",
       "role": "user",
       "id": "3"
-    },
-    {
-      "id": "0f5e",
-      "name": "Dang Nguyen Bao",
-      "email": "baovietnam12@gmail",
-      "password": "bao01102004",
-      "role": "user"
     }
   ],
   "Vote": [
     {
-      "id": "542f"
+      "id": "4f83"
     }
   ],
   "genres": [
@@ -136,8 +129,8 @@
       "banner": "https://image.tmdb.org/t/p/original/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
       "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "popularity": 5184.196,
-      "vote_average": 6.7,
-      "vote_count": 491,
+      "vote_average": 6.707302231237323,
+      "vote_count": 493,
       "trailer": "https://www.youtube.com/watch?v=HyIyd9joTTc"
     },
     {
@@ -163,8 +156,8 @@
       "banner": "https://pipocasclub.com.br/wp-content/uploads/2023/11/terrifier3-1-e1699438190145.webp",
       "overview": "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare. The festive season quickly unravels as Art unleashes his twisted brand of terror, proving that no holiday is safe.",
       "popularity": 5444.687,
-      "vote_average": 7.3,
-      "vote_count": 616,
+      "vote_average": 7.297411003236246,
+      "vote_count": 618,
       "trailer": "https://www.youtube.com/watch?v=zaPcin5knJk"
     },
     {
@@ -190,8 +183,8 @@
       "banner": "https://img.youtube.com/vi/67vbA5ZJdKQ/maxresdefault.jpg",
       "overview": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
       "popularity": 3545.825,
-      "vote_average": 8.547,
-      "vote_count": 2398,
+      "vote_average": 8.546960833333333,
+      "vote_count": 2400,
       "trailer": "https://www.youtube.com/watch?v=67vbA5ZJdKQ"
     },
     {
@@ -219,8 +212,8 @@
       "banner": "https://m.media-amazon.com/images/S/pv-target-images/bba020cf40bb4d2bf092872da97c9fc50299485ab72dcbc4f8c45e9dee7896c6._UR1920,1080_SX720_FMjpg_.jpg",
       "overview": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
       "popularity": 1958.212,
-      "vote_average": 8.18,
-      "vote_count": 540,
+      "vote_average": 8.184870848708487,
+      "vote_count": 542,
       "trailer": "https://www.youtube.com/watch?v=0rmJXXKDrsM"
     },
     {
@@ -247,8 +240,8 @@
       "banner": "https://www.denofgeek.com/wp-content/uploads/2024/09/Demi-Moore-in-The-Substance-Review.jpg",
       "overview": "Have you ever dreamt of a better version of yourself? You, only better in every way. You should try this new product, it's called The Substance. IT CHANGED MY LIFE.",
       "popularity": 2457.1,
-      "vote_average": 7.321,
-      "vote_count": 1404,
+      "vote_average": 7.320543385490754,
+      "vote_count": 1406,
       "trailer": "https://www.youtube.com/watch?v=LNlrGhBpYjc"
     },
     {
@@ -438,8 +431,8 @@
       "banner": "https://metadata-static.plex.tv/6/gracenote/697f303cceb9f2cfdc3ae045beffcfe8.jpg",
       "thumbnail_width": 220,
       "thumbnail_height": 326,
-      "popularity": 957.361,
-      "vote_average": 10,
+      "popularity": 97.361,
+      "vote_average": 1,
       "vote_count": 21,
       "time": 95,
       "overview": "Jonard is having trouble making ends meet. His mother is suffering from depression, and he and his sister are forced to quit school in order to take care of her. One day, Jonard meets up his friend Rodel, and Rodel introduces him to the world of massage parlors. Rodel teaches him massage, and brings him to Heavenly Touch, a syndicate-run massage parlor that mostly caters to homosexuals.",
@@ -466,8 +459,8 @@
       "thumbnail_width": 220,
       "thumbnail_height": 326,
       "popularity": 756.636,
-      "vote_average": 10,
-      "vote_count": 374,
+      "vote_average": 9.976,
+      "vote_count": 375,
       "time": 90,
       "overview": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
       "trailer": "https://www.youtube.com/watch?v=YjTZMEbpKsc"
@@ -884,7 +877,43 @@
       "trailer": "https://www.youtube.com/watch?v=kd9mMDnpqGc"
     }
   ],
-  "watchlist": [],
+  "watchlist": [
+    {
+      "userId": 1,
+      "movieId": 13,
+      "id": "8"
+    },
+    {
+      "userId": 1,
+      "movieId": 3,
+      "id": "11"
+    },
+    {
+      "userId": 1,
+      "movieId": 4,
+      "id": "12"
+    },
+    {
+      "id": "7c5a",
+      "userId": "2",
+      "movieId": "2"
+    },
+    {
+      "id": "e44c",
+      "userId": "2",
+      "movieId": "1"
+    },
+    {
+      "id": "7466",
+      "userId": "1",
+      "movieId": "5"
+    },
+    {
+      "id": "9848",
+      "userId": "1",
+      "movieId": "2"
+    }
+  ],
   "celebs": [
     {
       "id": "1245",
@@ -964,7 +993,7 @@
       "name": "Oniroku Dan",
       "original_name": "団鬼六",
       "popularity": 186.869,
-      "profile_path": null,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/5ceW7e1i3RmUdIAOYKjj06sWiHZ.jpg",
       "biography": "Oniroku Dan (団 鬼六 Dan Oniroku, April 16, 1931 – May 6, 2011) was a Japanese author who had been called, \"the most celebrated writer of popular SM novels in Japan.\" Many of his stories have been filmed, most notably by Nikkatsu studio in their Roman Porno series. Dan had a close professional association with actress Naomi Tani throughout her career.",
       "birthday": "1931-04-16",
       "place_of_birth": "Hikone, Shiga Prefecture, Japan",
@@ -1127,7 +1156,97 @@
       "known_for": []
     },
     {
-      "id": "74a6"
+      "id": "acfc"
+    }
+  ],
+  "ratings": [
+    {
+      "userId": 1,
+      "ratestar": {
+        "movieId": 1,
+        "rating": 8
+      },
+      "id": "1"
+    },
+    {
+      "userId": 2,
+      "ratestar": {
+        "movieId": 5,
+        "rating": 8
+      },
+      "id": "2"
+    },
+    {
+      "userId": 2,
+      "ratestar": {
+        "movieId": 3,
+        "rating": 10
+      },
+      "id": "3"
+    },
+    {
+      "userId": 2,
+      "ratestar": {
+        "movieId": 4,
+        "rating": 9
+      },
+      "id": "4"
+    },
+    {
+      "id": "62c6",
+      "userId": "2",
+      "ratestar": {
+        "movieId": "1",
+        "rating": 9
+      }
+    },
+    {
+      "id": "592f",
+      "userId": "2",
+      "ratestar": {
+        "movieId": "2",
+        "rating": 3
+      }
+    },
+    {
+      "userId": "1",
+      "ratestar": {
+        "movieId": "13",
+        "rating": 1
+      },
+      "id": "f2d1"
+    },
+    {
+      "id": "9818",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "5",
+        "rating": 6
+      }
+    },
+    {
+      "id": "e006",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "3",
+        "rating": 7
+      }
+    },
+    {
+      "id": "05d1",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "4",
+        "rating": 10
+      }
+    },
+    {
+      "id": "bf7e",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "2",
+        "rating": 10
+      }
     }
   ]
 }
