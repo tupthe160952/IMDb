@@ -11,7 +11,10 @@ const Header: React.FC = () => {
   const [error, setError] = useState<string | null>(null);
   const [collapseMenu, setCollapseMenu] = useState<boolean>(false);
   const handleWatchlistClick = () => {
-    if (!user) { window.location.href = '/login'; }
+    if (!user) {
+      alert("Please log in to add to your watchlist.");
+      window.location.href = '/login';
+    }
     else { window.location.href = '/watchlist'; }
   };
 
