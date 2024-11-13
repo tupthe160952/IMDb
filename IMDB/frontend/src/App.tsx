@@ -9,6 +9,7 @@ import Watchlist from "./components/Watchlist";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
 import "./styles/Header.css";
+import PopularCeleb from "./pages/PopularCeleb";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
         <Route path="/watchlist" element={<Watchlist />} />
 
         <Route path="/contact_us" element={<ContactUs />} />
-
+        <Route path="/popular_person" element={<PopularCeleb />} />
+        
         <Route path="/header" element={<Header />} />
       </Routes>
       </UserProvider>

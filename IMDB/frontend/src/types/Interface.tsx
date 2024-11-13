@@ -1,7 +1,7 @@
 export default interface Genre {
-  user_rating: any;
-  popularity: any;
-  vote_count: any;
+  user_rating: number;
+  popularity: number;
+  vote_count: number;
   id: number;
   name: string;
 }
@@ -21,6 +21,18 @@ export default interface SliderProps {
   banner: string;
   vote_average: number;
   trailer: string;
+}
+
+export default interface Celebs{
+  id: number;
+  known_for_department: string;
+  name: string;
+  original_name: string;
+  popularity: number;
+  profile_path: string;
+  biography: string;
+  birthday: string | null;
+  place_of_birth: string | null;
 }
 
 // export interface Movie {
