@@ -51,7 +51,7 @@ const PopularMovie: React.FC = () => {
               id={film.id}
               image={film.thumbnail}
               rating={film.vote_average.toFixed(1)}
-              name={film.title} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""} popularity={undefined} vote_count={undefined}            />
+              name={film.title} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""} popularity={0} vote_count={0} user_rating={0} known_for_department={""} original_name={""} profile_path={""} biography={""} birthday={null} place_of_birth={null}            />
           </SwiperSlide>
         ))}
       </Swiper>
