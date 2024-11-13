@@ -8,9 +8,10 @@
     background-color: #f8f8f8;
 }
 
-.logo-container{
+.logo-container {
     margin-bottom: 30px;
 }
+
 .login-container {
     background-color: white;
     padding: 20px;
@@ -79,4 +80,21 @@
 .login-container .create-account {
     margin-top: 20px;
     font-size: 14px;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #e22421;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    font-size: 16px;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
 }

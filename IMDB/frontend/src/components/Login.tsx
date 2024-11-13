@@ -8,6 +8,7 @@ const LoginForm: React.FC = () => {
   const [password, setPassword] = useState('');
   const { setUser } = useUser();
   const navigate = useNavigate();
+  const [error, setError] = useState('');
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -23,7 +24,8 @@ const LoginForm: React.FC = () => {
         alert('Login successful');
         navigate('/'); // Điều hướng về trang Home
       } else {
-        alert('Invalid email or password');
+        setError('Invalid email or password');  
+        
       }
     } catch (error) {
       console.error('Error:', error);
@@ -39,6 +41,7 @@ const LoginForm: React.FC = () => {
       <div className="login-container">
         <h2>Sign in</h2>
         <form onSubmit={handleSubmit}>
+        {error && <div className="alert alert-danger">{error}</div>}
           <input
             type="text"
             placeholder="Email or mobile phone number"

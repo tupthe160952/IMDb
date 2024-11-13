@@ -424,8 +424,8 @@
       "banner": "https://metadata-static.plex.tv/6/gracenote/697f303cceb9f2cfdc3ae045beffcfe8.jpg",
       "thumbnail_width": 220,
       "thumbnail_height": 326,
-      "popularity": 957.361,
-      "vote_average": 10,
+      "popularity": 97.361,
+      "vote_average": 1,
       "vote_count": 21,
       "time": 95,
       "overview": "Jonard is having trouble making ends meet. His mother is suffering from depression, and he and his sister are forced to quit school in order to take care of her. One day, Jonard meets up his friend Rodel, and Rodel introduces him to the world of massage parlors. Rodel teaches him massage, and brings him to Heavenly Touch, a syndicate-run massage parlor that mostly caters to homosexuals.",
@@ -895,6 +895,11 @@
       "userId": 1,
       "movieId": 1,
       "id": 15
+    },
+    {
+      "userId": 1,
+      "movieId": 12,
+      "id": 16
     }
   ]
 }
