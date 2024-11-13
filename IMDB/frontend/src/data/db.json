@@ -183,7 +183,7 @@
       "popularity": 3545.825,
       "vote_average": 8.547,
       "vote_count": 2398,
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+      "trailer": "https://www.youtube.com/watch?v=67vbA5ZJdKQ"
     },
     {
       "id": 4,
@@ -212,7 +212,7 @@
       "popularity": 1958.212,
       "vote_average": 8.18,
       "vote_count": 540,
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+      "trailer": "https://www.youtube.com/watch?v=0rmJXXKDrsM"
     },
     {
       "id": 5,
@@ -240,7 +240,7 @@
       "popularity": 2457.1,
       "vote_average": 7.321,
       "vote_count": 1404,
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+      "trailer": "https://www.youtube.com/watch?v=LNlrGhBpYjc"
     },
     {
       "id": 6,
@@ -265,7 +265,7 @@
       "popularity": 2075.981,
       "vote_average": 5.7,
       "vote_count": 1360,
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+      "trailer": "https://www.youtube.com/watch?v=_OKAwz2MsJs"
     },
     {
       "id": 7,
@@ -292,7 +292,7 @@
       "popularity": 1488.643,
       "vote_average": 7.269,
       "vote_count": 2137,
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+      "trailer": "https://www.youtube.com/watch?v=OzY2r2JXsDM"
     },
     {
       "id": 8,
@@ -324,7 +324,7 @@
       "popularity": 1237.039,
       "vote_average": 7.6,
       "vote_count": 4597,
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+      "trailer": "https://www.youtube.com/watch?v=LEjhY15eCx0"
     },
     {
       "id": 9,
@@ -350,7 +350,7 @@
       "popularity": 1571.655,
       "vote_average": 6.836,
       "vote_count": 15885,
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+      "trailer": "https://www.youtube.com/watch?v=u9Mv98Gr5pY"
     },
     {
       "id": 10,
@@ -377,7 +377,7 @@
       "popularity": 1586.246,
       "vote_average": 7.706,
       "vote_count": 5038,
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+      "trailer": "https://www.youtube.com/watch?v=73_1biulkYk"
     },
     {
       "id": 11,
@@ -407,13 +407,18 @@
       "popularity": 1762.607,
       "vote_average": 8.3,
       "vote_count": 735,
-      "trailer": "https://www.youtube.com/embed/O2NKzO-fxwQ"
+      "trailer": "https://www.youtube.com/watch?v=8Q6y1waxlTY"
     },
     {
       "id": 12,
       "title": "Heavenly Touch",
       "date": "12/05/2009",
-      "cast": [],
+      "cast": [
+        "Paolo Serrano",
+        "Joash Balejado",
+        "Marco Morales",
+        "Gwen Garci"
+      ],
       "genres": [
         18,
         10749
@@ -429,13 +434,18 @@
       "vote_count": 21,
       "time": 95,
       "overview": "Jonard is having trouble making ends meet. His mother is suffering from depression, and he and his sister are forced to quit school in order to take care of her. One day, Jonard meets up his friend Rodel, and Rodel introduces him to the world of massage parlors. Rodel teaches him massage, and brings him to Heavenly Touch, a syndicate-run massage parlor that mostly caters to homosexuals.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=AMK2WSKcPbM"
     },
     {
       "id": 13,
       "title": "Don't Move",
       "date": "24/10/2024",
-      "cast": [],
+      "cast": [
+        "Kelsey Asbille",
+        "Finn Wittrock",
+        "Daniel Francis",
+        "Moray Treadwell"
+      ],
       "genres": [
         27,
         53
@@ -451,7 +461,7 @@
       "vote_count": 374,
       "time": 90,
       "overview": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=YjTZMEbpKsc"
     },
     {
       "id": 14,
@@ -474,7 +484,7 @@
       "vote_count": 1709,
       "time": 100,
       "overview": "After a family tragedy, three generations of the Deetz family return home to Winter River. Still haunted by Betelgeuse, Lydia's life is turned upside down when her teenage daughter, Astrid, accidentally opens the portal to the Afterlife.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=CoZqL9N6Rx4"
     },
     {
       "id": 15,
@@ -498,7 +508,7 @@
       "vote_count": 72,
       "time": 25,
       "overview": "Buster Moon dreams up a star-studded spectacle set to Michael Jackson's \"Thriller\" in this animated short featuring characters from the hit \"Sing\" films.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=RiRiTEhiyP4"
     },
     {
       "id": 16,
@@ -519,7 +529,7 @@
       "vote_count": 180,
       "time": 82,
       "overview": "After witnessing a brutal murder on Halloween night, a young woman becomes the next target of a maniacal entity.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=fN5j1MtGO2Q"
     },
     {
       "id": 17,
@@ -542,7 +552,7 @@
       "vote_count": 49,
       "time": 100,
       "overview": "While working a case as an interpreter, a hearing-impaired police detective must confront a group of criminals trying to eliminate a deaf murder witness in her apartment building.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=zyREPrVRkoI"
     },
     {
       "id": 18,
@@ -564,7 +574,7 @@
       "vote_count": 787,
       "time": 97,
       "overview": "After a mysterious leader imposes his law in a brutal system of vertical cells, a new arrival battles against a dubious food distribution method.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=vQJ3upX19GM"
     },
     {
       "id": 19,
@@ -586,7 +596,7 @@
       "vote_count": 52,
       "time": 98,
       "overview": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=slrzCgYIUPM"
     },
     {
       "id": 20,
@@ -610,7 +620,7 @@
       "vote_count": 44,
       "time": 102,
       "overview": "In a society devastated by the effects of an all-out war between heroes and villains, a mysterious giant fortress suddenly appears, engulfing towns and people one after another. Then, a man reminiscent of All Might, the 'symbol of peace', stands in front of Izuku and his friends...",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=Oe05mebRJ6k"
     },
     {
       "id": 21,
@@ -633,7 +643,7 @@
       "vote_count": 9224,
       "time": 77,
       "overview": "In a 19th-century European village, a young man about to be married is whisked away to the underworld and wed to a mysterious corpse bride, while his real bride waits bereft in the land of the living.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=AGACeWVdFqo"
     },
     {
       "id": 22,
@@ -656,7 +666,7 @@
       "vote_count": 145,
       "time": 110,
       "overview": "A reformed criminal's attempt at going straight is derailed when he reunites with his sanity-testing twin brother on a road trip for the score of a lifetime. Dodging bullets, the law, and an overbearing mother along the way, they must heal their severed family bond before they end up killing each other.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=eGsnaUyYtO8"
     },
     {
       "id": 23,
@@ -681,7 +691,7 @@
       "vote_count": 9,
       "time": 120,
       "overview": "When neighboring country Veragua suddenly attacks Curaçao and Aruba, the Dutch government is taken completely by surprise. The conflict escalates rapidly. Three young Navy recruits must figure out what is the right thing to do.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=-TrCrxKimoY"
     },
     {
       "id": 24,
@@ -705,7 +715,7 @@
       "vote_count": 274,
       "time": 120,
       "overview": "About to embark on a new world tour, global pop sensation Skye Riley begins experiencing increasingly terrifying and inexplicable events. Overwhelmed by the escalating horrors and the pressures of fame, Skye is forced to face her dark past to regain control of her life before it spirals out of control.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=0HY6QFlBzUY"
     },
     {
       "id": 25,
@@ -728,7 +738,7 @@
       "vote_count": 493,
       "time": 83,
       "overview": "While watching two children on Halloween night, a babysitter finds an old VHS tape in the kids' trick or treat bag. The tape features three tales of terror, all linked together by a murderous clown.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=OCbgfnVXM3I"
     },
     {
       "id": 26,
@@ -752,7 +762,7 @@
       "vote_count": 974,
       "time": 120,
       "overview": "When a woman's first love suddenly reenters her life, her relationship with a charming, but abusive neurosurgeon is upended, and she realizes she must learn to rely on her own strength to make an impossible choice for her future.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=DLET_u31M4M"
     },
     {
       "id": 27,
@@ -777,7 +787,7 @@
       "vote_count": 716,
       "time": 120,
       "overview": "Soulmates Eric and Shelly are brutally murdered when the demons of her dark past catch up with them. Given the chance to save his true love by sacrificing himself, Eric sets out to seek merciless revenge on their killers, traversing the worlds of the living and the dead to put the wrong things right.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=djSKp_pwmOA"
     },
     {
       "id": 28,
@@ -798,7 +808,7 @@
       "vote_average": 7.495,
       "vote_count": 2293,
       "overview": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=hRFY_Fesa9Q"
     },
     {
       "id": 29,
@@ -819,7 +829,7 @@
       "vote_average": 5.448,
       "vote_count": 29,
       "overview": "20 years after the events of Transmorphers, a newer, more advanced species of alien robot descends on a rebuilt Earth, threatening once again to destroy the planet.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=E2WViGjaOwo"
     },
     {
       "id": 30,
@@ -841,7 +851,7 @@
       "vote_average": 8.7,
       "vote_count": 167,
       "overview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=82WW9dVbglI"
     },
     {
       "id": 31,
@@ -862,7 +872,7 @@
       "vote_average": 7.1,
       "vote_count": 117,
       "overview": "While awaiting the next fuel truck at a middle-of-nowhere Arizona rest stop, a traveling young knife salesman is thrust into a high-stakes hostage situation by the arrival of two similarly stranded bank robbers with no qualms about using cruelty—or cold, hard steel—to protect their bloodstained, ill-gotten fortune.",
-      "trailer": ""
+      "trailer": "https://www.youtube.com/watch?v=kd9mMDnpqGc"
     }
   ],
   "watchlist": [
@@ -901,5 +911,253 @@
       "movieId": 12,
       "id": 16
     }
+  ],
+  "celebs": [
+    {
+      "id": 1245,
+      "known_for_department": "Acting",
+      "name": "Scarlett Johansson",
+      "original_name": "Scarlett Johansson",
+      "popularity": 281.271,
+      "profile_path": "https://www.themoviedb.org/t/p/w500/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
+      "biography": "Scarlett Ingrid Johansson (born November 22, 1984) is an American actress. The world's highest-paid actress in 2018 and 2019, she has featured multiple times on the Forbes Celebrity 100 list. Her films have grossed over $14.3 billion worldwide, making Johansson the ninth-highest-grossing box office star of all time. She has received various accolades, including a Tony Award and a British Academy Film Award, in addition to nominations for two Academy Awards and five Golden Globe Awards.\n\nJohansson aspired to be an actress from an early age and first appeared on stage in an Off-Broadway play as a child actor. She made her film debut in the fantasy comedy North (1994), and gained early recognition for her roles in Manny & Lo (1996), The Horse Whisperer (1998), and Ghost World (2001). Johansson shifted to adult roles in 2003 with her performances in Lost in Translation, which won her a BAFTA Award for Best Actress, and Girl with a Pearl Earring. She was nominated for Golden Globe Awards for these films, and for playing a troubled teenager in the drama A Love Song for Bobby Long (2004) and a seductress in psychological thriller Match Point (2005). The latter was her first collaboration with Woody Allen, who later directed her in Scoop (2006) and Vicky Cristina Barcelona (2008).\n\nJohansson's other works of this period include The Prestige (2006) and the albums Anywhere I Lay My Head (2008) and Break Up (2009), both of which charted on the Billboard 200. In 2010, Johansson debuted on Broadway in a revival of A View from the Bridge, which won her a Tony Award for Best Featured Actress, and began portraying Black Widow in the Marvel Cinematic Universe film Iron Man 2. She reprised the role in eight films, most recently in her solo feature Black Widow (2021), gaining global recognition for her performances. During this period, Johansson starred in the science fiction films Her (2013), Under the Skin (2013) and Lucy (2014).\n\nShe received two simultaneous Academy Award nominations—Best Actress and Best Supporting Actress—for the respective roles of an actress going through a divorce in the drama Marriage Story (2019) and a single mother in Nazi Germany in the satire Jojo Rabbit (2019). Labeled a sex symbol, Johansson has been referred to as one of the world's most attractive women by various media outlets. She is a prominent brand endorser and supports several charitable causes. Divorced from actor Ryan Reynolds and businessman Romain Dauriac, Johansson has been married to comedian Colin Jost since 2020. She has two children, one with Dauriac and another with Jost.",
+      "birthday": "1984-11-22",
+      "place_of_birth": "New York City, New York, USA",
+      "known_for": []
+    },
+    {
+      "id": 1982141,
+      "known_for_department": "Acting",
+      "name": "Jess Chanliau",
+      "original_name": "Jess Chanliau",
+      "popularity": 277.021,
+      "profile_path": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wx0GIkCqrqt1Vg4SIM63ipbuyZT.jpg",
+      "biography": "Jess Chanliau is an American / French actor, movement artist and singer with a BA in Acting from the Royal Conservatoire of Scotland (RCS), Glasgow, UK. Jess' first feature length movie, playing the lead  role of Stone, \"Patients of a Saint\" / \"Inmate Zero\" (UK-USA title) made its debut in Malaysia on December 5, 2019 and its worldwide release beginning January 3, 2020. In August of 2018 Jess co-starred in the play \"South Bend\" at the Edinburgh Fringe festival bringing to life over 20 different characters . They then went on tour with the play in September throughout Scotland to outstanding reviews.\n\nBorn in the United States, Jess moved to Paris and attended French collège and lycée. While in Paris they also attended classes at the Cours Florent. Jess returned to the U.S. for their final year of high school in California to attend the performing arts program at the Marin School of the Arts in Novato. Following graduation, they attended the Pacific Conservatory of the Performing Arts in Santa Maria and then went on to attend RCS. While attending the RCS, Jess spent a semester studying and performing at the Conservatoire National Supérieur d'Art Dramatique in Paris.\n\nIn addition to honing their acting skills, Jess has deepened their love of movement through the techniques of Lecoq, Viewpoints, Laban, Grotowski, Feldenkrais, Yoga and Acrobatics. In the UK Jess is represented by Burnett Crowther Ltd - Lizanne Crowther Jess is seeking representation and opportunities for work in the USA and France.",
+      "birthday": null,
+      "place_of_birth": null,
+      "known_for": []
+    },
+    {
+      "id": 86889,
+      "known_for_department": "Acting",
+      "name": "Son Ye-jin",
+      "original_name": "Son Ye-jin",
+      "popularity": 246.933,
+      "profile_path": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/njczzJJnugd9y7p5CF3XW7dcyYK.jpg",
+      "biography": "Son Ye-jin (손예진), born Son Eon-jin (손언진) on 11th January 1982, is a South Korean actress. She rose to fame in romance-themed films and television series such as The Classic (2003), Summer Scent (2003), A Moment to Remember (2004), and April Snow (2005). She has won acting recognition for her versatility in diverse genres, notably in Alone in Love (2006), My Wife Got Married (2008), The Pirates (2014), The Truth Beneath and The Last Princess (both in 2016)",
+      "birthday": "1982-01-11",
+      "place_of_birth": "Daegu, South Korea",
+      "known_for": []
+    },
+    {
+      "id": 64,
+      "known_for_department": "Acting",
+      "name": "Gary Oldman",
+      "original_name": "Gary Oldman",
+      "popularity": 215.477,
+      "profile_path": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
+      "biography": "Gary Leonard Oldman (born 21 March 1958) is an English actor and filmmaker. Regarded as one of the best actors of his generation, he is known for his versatility and intense acting style. He received various accolades, including an Academy Award, a Golden Globe Award, a Screen Actors Guild Award, and three British Academy Film Awards. His films have grossed over $11 billion worldwide, making him one of the highest-grossing actors to date.\n\nOldman began acting in theatre in 1979 and made his film debut in Remembrance (1982). He continued to follow a stage career in London's Royal Court. He was a member of the Royal Shakespeare Company, with credits including Cabaret, Romeo and Juliet, Entertaining Mr Sloane, Saved, The Country Wife and Hamlet. He rose to prominence in British film with his portrayals of Sid Vicious in Sid and Nancy (1986), Joe Orton in Prick Up Your Ears (1987) and Rosencrantz in Rosencrantz & Guildenstern Are Dead (1990), while also attracting attention as the leader of a gang of football hooligans in the television film The Firm (1989). Regarded as a member of the \"Brit Pack\", he achieved greater recognition as a New York gangster in State of Grace (1990), Lee Harvey Oswald in JFK (1991) and Count Dracula in Bram Stoker's Dracula (1992).\n\nOldman portrayed the villains in films such as True Romance (1993), The Fifth Element (1997), Air Force One (1997) and The Contender (2000); corrupt DEA agent Norman Stansfield, whom he played in Léon: The Professional (1994), was called one of cinema's best villains. He also played Ludwig van Beethoven in Immortal Beloved (1994). He later appeared in franchise roles such as Sirius Black in the Harry Potter series, James Gordon in The Dark Knight Trilogy (2005–2012) and a human leader, Dreyfus in Dawn of the Planet of the Apes (2014). He won the Academy Award for Best Actor as Winston Churchill in Darkest Hour (2017). He was nominated for his portrayals of George Smiley in Tinker Tailor Soldier Spy (2011) and Herman J. Mankiewicz in Mank (2020).\n\nOldman was executive producer of films like The Contender, Plunkett & Macleane (1999) and Nil by Mouth (1997), the latter of which he also wrote and directed. He featured in television shows such as Fallen Angels, Tracey Takes On... and Friends, voiced Ignitius and Viktor Reznov, respectively, in The Legend of Spyro and Call of Duty video games and appeared in music videos for David Bowie, Guns N' Roses and Annie Lennox.",
+      "birthday": "1958-03-21",
+      "place_of_birth": "New Cross, London, England, UK",
+      "known_for": []
+    },
+    {
+      "id": 1253360,
+      "known_for_department": "Acting",
+      "name": "Pedro Pascal",
+      "original_name": "Pedro Pascal",
+      "popularity": 190.795,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9VYK7oxcqhjd5LAH6ZFJ3XzOlID.jpg",
+      "biography": "José Pedro Balmaceda Pascal (born April 2, 1975) is a Chilean-American actor. After nearly two decades of taking small roles in film and television, Pascal rose to prominence for portraying Oberyn Martell during the fourth season of the HBO fantasy series Game of Thrones (2014) and as Javier Peña in the Netflix crime series Narcos (2015–2017). Since 2019, he has starred as the title character in the Disney+ Star Wars series The Mandalorian and reprised his role in the spin-off series The Book of Boba Fett (2021). Since 2023, he has played Joel in the HBO drama series The Last of Us.\n\nHe has appeared in the films The Adjustment Bureau (2011), The Great Wall (2016), Kingsman: The Golden Circle (2017), The Equalizer 2 (2018), Triple Frontier (2019), Wonder Woman 1984 (2020), and The Unbearable Weight of Massive Talent (2022).",
+      "birthday": "1975-04-02",
+      "place_of_birth": "Santiago, Chile",
+      "known_for": []
+    },
+    {
+      "id": 115440,
+      "known_for_department": "Acting",
+      "name": "Sydney Sweeney",
+      "original_name": "Sydney Sweeney",
+      "popularity": 188.626,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/qYiaSl0Eb7G3VaxOg8PxExCFwon.jpg",
+      "biography": "Sydney Bernice Sweeney is an American actress. She gained mainstream attention in the Netflix series Everything Sucks! (2018) for her role as Emaline and has portrayed Eden in the Hulu series The Handmaid's Tale (2018) and Alice in the HBO miniseries Sharp Objects (2018). Since 2019, she has starred as Cassie Howard in the HBO teen drama series Euphoria and as Olivia Mossbacher in The White Lotus. In film, she had a role in Quentin Tarantino's 2019 comedy-drama Once Upon a Time in Hollywood, portraying Snake, a member of the Manson Family.",
+      "birthday": "1997-09-12",
+      "place_of_birth": "Spokane, Washington, USA",
+      "known_for": []
+    },
+    {
+      "id": 548128,
+      "known_for_department": "Writing",
+      "name": "Oniroku Dan",
+      "original_name": "団鬼六",
+      "popularity": 186.869,
+      "profile_path": null,
+      "biography": "Oniroku Dan (団 鬼六 Dan Oniroku, April 16, 1931 – May 6, 2011) was a Japanese author who had been called, \"the most celebrated writer of popular SM novels in Japan.\" Many of his stories have been filmed, most notably by Nikkatsu studio in their Roman Porno series. Dan had a close professional association with actress Naomi Tani throughout her career.",
+      "birthday": "1931-04-16",
+      "place_of_birth": "Hikone, Shiga Prefecture, Japan",
+      "known_for": []
+    },
+    {
+      "id": 1907997,
+      "known_for_department": "Acting",
+      "name": "Min Do-yoon",
+      "original_name": "민도윤",
+      "popularity": 171.854,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/bHHn3krbHyxQIWb4JbHkPlV6Uu1.jpg",
+      "biography": "The play started with a child actor, and he belonged to the drama club even in high school. Started full-scale actor business at the age of 27. He has a well-trained body and many villains have a strong image, but he is also good at comical roles. He is learning Japanese and aiming for activities in Japan. Major appearances include \"Forbidden Sex\", \"Yongjugol\", and \"Studio 2.0\"",
+      "birthday": "1983-05-04",
+      "place_of_birth": "Seoul, South Korea",
+      "known_for": []
+    },
+    {
+      "id": 1392137,
+      "known_for_department": "Acting",
+      "name": "Margaret Qualley",
+      "original_name": "Margaret Qualley",
+      "popularity": 171.759,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/tmyUUvInhRZBol40ZehQbEA5WYP.jpg",
+      "biography": "Sarah Margaret Qualley (born October 23, 1994) is an American actress. The daughter of actress Andie MacDowell, she trained as a ballerina in her youth and briefly pursued a career in modeling. She made her acting debut with a minor role in the 2013 drama film Palo Alto and gained recognition for playing a troubled teenager in the HBO drama series The Leftovers (2014–2017). Qualley then appeared in the dark comedy The Nice Guys (2016) and in Netflix's supernatural thriller Death Note (2017).\n\nQualley gained acclaim and a nomination for a Primetime Emmy Award for portraying actress and dancer Ann Reinking in the FX biographical drama miniseries Fosse/Verdon (2019) and the title role in the Netflix drama miniseries Maid (2021). Her biggest commercial success came with Quentin Tarantino's comedy-drama Once Upon a Time in Hollywood (2019).",
+      "birthday": "1994-10-23",
+      "place_of_birth": "Kalispell, Montana, USA",
+      "known_for": []
+    },
+    {
+      "id": 1108185,
+      "known_for_department": "Acting",
+      "name": "Murathan Muslu",
+      "original_name": "Murathan Muslu",
+      "popularity": 156.529,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/k0oHhVt3scoV7lRycxsS8YCnu8M.jpg",
+      "biography": "Murathan Muslu was born on November 7, 1981 in Vienna, Austria. He is an actor, known for Risse im Beton (2014), Tatort (1970) and Anna Fucking Molnar (2017).",
+      "birthday": "1981-11-07",
+      "place_of_birth": " Vienna, Austria",
+      "known_for": []
+    },
+    {
+      "id": 129700,
+      "known_for_department": "Acting",
+      "name": "Nozomi Sasaki",
+      "original_name": "佐々木希",
+      "popularity": 144.438,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/k5WCvK8Zrakp6uPizXYxPoPrxIq.jpg",
+      "biography": "Nozomi Sasaki (佐々木 希, Sasaki Nozomi, February 8, 1988), previously known simply as Nozomi, is a Japanese actress and model. She has the same maiden name. Her real name is Nozomi Watabe (渡部 希). She is from Akita City, Akita Prefecture. Her husband is comedian and television presenter Ken Watabe, part of the duo Un-Jash.\n\n*** Not to be confused with voice actress of the same name, Nozomi Sasaki (ささき のぞみ).\n\nIn the past fifteen years Nozomi Sasaki has gone from an unknown quantity to something of a phenomenon thanks to her physical attributes and talent. She has leveraged the adoring looks of the fans, commentators and advertisers to a career in big screen films, TV serials, endless number of commercial work, Public relations assignments, photo books, music albums and adult (gravure) and fashion modelling. Sasaki was born in the northern prefecture of Akita and proudly carried the local dialect 'akitaben' as she began modelling at the age of fourteen and all the way through her becoming a popular name. Speaking of which, she has often chosen to stylize her name simply as Nozomi. She is often featured within or on the cover of magazines with fans praising her slim build, legs, eyes and smile. After dating several celebrities, including a member of the boy band Arashi, Nozomi Sasaki announced her engagement to comedian Watabe Ken on NTV's live variety program Gyoretsu No Dekiru Horitsu Sodanjo on April 9 of 2017. The couple had been dating for two years. They subsequently married in April 2017. She gave birth to a boy in September 2018. Subsequently multiple reports emerged of his cheating during their courtship and subsequently. She is signed to the Top Coat Group agency.",
+      "birthday": "1988-02-08",
+      "place_of_birth": "Akita, Akita Prefecture, Japan",
+      "known_for": []
+    },
+    {
+      "id": 119592,
+      "known_for_department": "Acting",
+      "name": "Aubrey Plaza",
+      "original_name": "Aubrey Plaza",
+      "popularity": 144.043,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4pPvrQmrzQCYpgLo8WM1AW8myoe.jpg",
+      "biography": "Aubrey Christina Plaza (born June 26, 1984) is an American actress and producer. She began acting in local theater productions as a teenager and performed improv and sketch comedy at the Upright Citizens Brigade Theatre. After graduating from New York University Tisch School of the Arts, Plaza made her feature film debut in Mystery Team (2009) and gained wide recognition for her role as April Ludgate on the NBC political satire sitcom Parks and Recreation (2009–2015).\n\nIn film, Plaza had a supporting role in Scott Pilgrim vs. the World (2010) and a leading role in Safety Not Guaranteed (2012). From 2017 to 2019, Plaza portrayed Shadow King and Lenny Busker in the critically praised FX superhero series Legion, and produced and starred in the 2017 black comedy films The Little Hours and Ingrid Goes West. She also starred in the romantic comedy Happiest Season and thriller Black Bear (both 2020) as well as produced and played the title character in the crime film Emily the Criminal (2022).\n\nPlaza received nominations for a Primetime Emmy Awards and a Golden Globe Award for her role as a strait-laced lawyer in HBO's anthology series The White Lotus (2022). Time magazine named her one of the 100 most influential people in the world in 2023.\n\nDescription above from the Wikipedia article Aubrey Plaza, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+      "birthday": "1984-06-26",
+      "place_of_birth": "Wilmington, Delaware, USA",
+      "known_for": []
+    },
+    {
+      "id": 974169,
+      "known_for_department": "Acting",
+      "name": "Jenna Ortega",
+      "original_name": "Jenna Ortega",
+      "popularity": 142.385,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/q1NRzyZQlYkxLY07GO9NVPkQnu8.jpg",
+      "biography": "Jenna Marie Ortega (born September 27, 2002) is an American actress. She began her career as a child actress, receiving recognition for her role as young Jane on The CW comedy-drama series Jane the Virgin (2014–2019). She had her breakthrough for starring as Harley Diaz on the Disney Channel series Stuck in the Middle (2016–2018), for which she won an Imagen Award. She played Ellie Alves in the second season of the Netflix thriller series You in 2019 and starred in the Netflix family film Yes Day (2021).\n\nOrtega received critical praise for her performance in the teen drama The Fallout (2021), and went on to star in the slasher films X (2022), Scream (2022) and its sequel Scream VI (2023), establishing herself as a scream queen. She starred as Wednesday Addams in the Netflix horror comedy series Wednesday (2022), for which she received nominations for a Primetime Emmy Award, a Golden Globe Award and a SAG Award.\n\nDescription above from the Wikipedia article Jenna Ortega, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+      "birthday": "2002-09-27",
+      "place_of_birth": "Coachella Valley, Palm Desert, California, USA",
+      "known_for": []
+    },
+    {
+      "id": 224513,
+      "known_for_department": "Acting",
+      "name": "Ana de Armas",
+      "original_name": "Ana de Armas",
+      "popularity": 141.6,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/3vxvsmYLTf4jnr163SUlBIw51ee.jpg",
+      "biography": "Ana de Armas was born in Cuba on April 30, 1988. At the age of 14, she began her studies at the National Theatre School of Havana, where she graduated after 4 years. She made her film debut with Una rosa de Francia (2006), which was directed by Manuel Gutiérrez Aragón. In 2006 she moved to Spain where she continued her film career, and started doing television. She currently lives between Madrid and Barcelona. Ana is known for her roles in Blade Runner 2049 (2017), Knives Out (2019), and No Time to Die (2021).",
+      "birthday": "1988-04-30",
+      "place_of_birth": "Santa Cruz del Norte, Cuba",
+      "known_for": []
+    },
+    {
+      "id": 976,
+      "known_for_department": "Acting",
+      "name": "Jason Statham",
+      "original_name": "Jason Statham",
+      "popularity": 139.713,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg",
+      "biography": "Jason Statham (born July 26, 1967) is an English actor. He is known for portraying characters in various action-thriller films who are typically tough, hardboiled, gritty, or violent.\n\nStatham began practicing Chinese martial arts, kickboxing, and karate recreationally in his youth while working at local market stalls. An avid footballer and diver, he was a member of Britain's national diving team and competed for England in the 1990 Commonwealth Games. Shortly after, he was asked to model for French Connection, Tommy Hilfiger, and Levi's in various advertising campaigns. His past history working at market stalls inspired his casting in the Guy Ritchie crime films Lock, Stock and Two Smoking Barrels (1998) and Snatch (2000).\n\nThe commercial success of these films led Statham to star as Frank Martin in the Transporter trilogy (2002–2008). After starring in a variety of heist and action-thriller films such as The Italian Job (2003), Crank (2006), War (2007), The Bank Job (2008), The Mechanic (2011), Spy (2015), and Mechanic: Resurrection (2016), he established himself as a Hollywood leading man. However, he has also starred in commercially and critically unsuccessful films such as Revolver (2005), Chaos (2005), In the Name of the King (2007), 13 (2010), Blitz (2011), Killer Elite (2011), Hummingbird (2013), and Wild Card (2015). He regained commercial success as a part of the ensemble action series The Expendables (2010–2014) and the Fast & Furious franchise. In the latter, he has played Deckard Shaw in Fast & Furious 6 (2013), Furious 7 (2015), The Fate of the Furious (2017), F9 (2021) and the spin-off Fast & Furious Presents: Hobbs & Shaw (2019). He was credited as a co-producer on Hobbs & Shaw, receiving his first production credit.\n\nHis acting has been criticized for lacking depth and variety, but he has also been praised for leading the resurgence of action films during the 2000s and 2010s. According to a BBC News report, his film career from 2002 to 2017 generated an estimated $1.5 billion (£1.1 billion) in ticket sales, making him one of the film industry's most bankable stars.",
+      "birthday": "1967-07-26",
+      "place_of_birth": "Shirebrook, Derbyshire, England, UK",
+      "known_for": []
+    },
+    {
+      "id": 2194626,
+      "known_for_department": "Acting",
+      "name": "A.J. Simmons",
+      "original_name": "A.J. Simmons",
+      "popularity": 137.561,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/AhUqWdIOaVLXIVIpPGczacGRTEl.jpg",
+      "biography": "A.J. Simmons is a film, television and theatre actor, tap dancer and choreographer based in Toronto, Canada.",
+      "birthday": null,
+      "place_of_birth": null,
+      "known_for": []
+    },
+    {
+      "id": 1136406,
+      "known_for_department": "Acting",
+      "name": "Tom Holland",
+      "original_name": "Tom Holland",
+      "popularity": 136.31,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/1gPx2piPiFTuy8wR1igCaxZqqd5.jpg",
+      "biography": "Thomas \"Tom\" Stanley Holland is an English actor and dancer.\n\nHe is best known for playing Peter Parker / Spider-Man in the Marvel Cinematic Universe and has appeared as the character in six films: Captain America: Civil War (2016), Spider-Man: Homecoming (2017), Avengers: Infinity War (2018), Avengers: Endgame (2019), Spider-Man: Far From Home (2019), and Spider-Man: No Way Home (2021).\n\nHe is also known for playing the title role in Billy Elliot the Musical at the Victoria Palace Theatre, London, as well as for starring in the 2012 film The Impossible.",
+      "birthday": "1996-06-01",
+      "place_of_birth": "Surrey, England, UK",
+      "known_for": []
+    },
+    {
+      "id": 109513,
+      "known_for_department": "Acting",
+      "name": "Alexandra Daddario",
+      "original_name": "Alexandra Daddario",
+      "popularity": 135.394,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/nVznarxjPgR2JtMUBNl7TRxqTqH.jpg",
+      "biography": "Alexandra Anna Daddario (born March 16, 1986) is an American actress. She had her breakthrough portraying Annabeth Chase in the Percy Jackson film series (2010–2013). She has since starred as Paige in Hall Pass (2011), Heather Miller in Texas Chainsaw 3D (2013), Blake Gaines in San Andreas (2015), Summer Quinn in Baywatch (2017), and Alexis Butler in We Summon the Darkness (2019). She has also guest starred in television series such as White Collar, It's Always Sunny in Philadelphia, True Detective, New Girl, and American Horror Story: Hotel. In 2021, she starred in the first season of the HBO series The White Lotus, for which she received widespread critical acclaim and an Emmy nomination for Outstanding Supporting Actress in a Limited or Anthology Series or Movie in 2022.",
+      "birthday": "1986-03-16",
+      "place_of_birth": "New York City, New York, USA",
+      "known_for": []
+    },
+    {
+      "id": 3791747,
+      "known_for_department": "Acting",
+      "name": "Sanjana Krishnamoorthy",
+      "original_name": "Sanjana Krishnamoorthy",
+      "popularity": 133.398,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wLDZlygd3S5uXfBieHKuKDPavw0.jpg",
+      "biography": "",
+      "birthday": "2000-11-08",
+      "place_of_birth": "Chengalpattu, Tamil Nadu, India",
+      "known_for": []
+    },
+    {
+      "id": 4095744,
+      "known_for_department": "Acting",
+      "name": "Dyessa Garcia",
+      "original_name": "Dyessa Garcia",
+      "popularity": 129.1,
+      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/xak9L0fkIOkjSwJpz3SWLl94tVP.jpg",
+      "biography": "",
+      "birthday": null,
+      "place_of_birth": null,
+      "known_for": []
+    },
+    {
+
+    }
+  ],
+  "ratings": [
+    
   ]
 }
