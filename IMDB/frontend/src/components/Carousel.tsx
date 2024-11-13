@@ -56,7 +56,7 @@ const Carousel2: React.FC = () => {
                 alt={`Thumbnail of ${movie.title}`}
                 className="carousel-thumbnail"
               />
-              <div className="plus-button">+</div>
+              <div className="plus-button"></div>
               <div className="carousel-content">
                 <h3>{movie.title}</h3>
                 <a

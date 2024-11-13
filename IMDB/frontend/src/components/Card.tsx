@@ -36,6 +36,7 @@ const Card: React.FC<CardProps> = (props) => {
   const handleWatchlistToggle = async () => {
     if (!user) {
       alert("Please log in to add to your watchlist.");
+      window.location.href = '/login';
       return;
     }
 
