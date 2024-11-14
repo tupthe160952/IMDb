@@ -129,8 +129,8 @@ const Watchlist: React.FC = () => {
                             rating={film.vote_average.toFixed(1)}
                             name={`${index + 1}. ${film.title}`}
                             title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""}
-                            popularity={undefined} vote_count={undefined} user_rating={film.user_rating} // Thêm xếp hạng của người dùng
-                        />
+                            popularity={0} vote_count={0} user_rating={film.user_rating} // Thêm xếp hạng của người dùng
+                            known_for_department={""} original_name={""} profile_path={""} biography={""} birthday={null} place_of_birth={null}                        />
                     </div>
                 ))}
             </div>
