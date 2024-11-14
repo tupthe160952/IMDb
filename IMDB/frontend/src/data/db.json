@@ -265,8 +265,8 @@
       "banner": "https://i.ytimg.com/vi/vDX6Yt-Uat0/maxresdefault.jpg",
       "overview": "While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.",
       "popularity": 2075.981,
-      "vote_average": 5.7,
-      "vote_count": 1360,
+      "vote_average": 5.703159441587069,
+      "vote_count": 1361,
       "trailer": "https://www.youtube.com/watch?v=_OKAwz2MsJs"
     },
     {
@@ -469,7 +469,9 @@
       "id": "14",
       "title": "Beetlejuice Beetlejuice",
       "date": "04/09/2024",
-      "cast": [],
+      "cast": [
+        "Michael Keaton","Winona Ryder","Catherine O'Hara","Jenna Ortega","Justin Theroux"
+      ],
       "genres": [
         35,
         14,
@@ -492,7 +494,7 @@
       "id": "15",
       "title": "Sing: Thriller",
       "date": "16/10/2024",
-      "cast": [],
+      "cast": ["Matthew McConaughey", "Tori Kelly","Tori Kelly","Nick Kroll"],
       "genres": [
         16,
         10751,
@@ -516,7 +518,7 @@
       "id": "16",
       "title": "Terrifier",
       "date": "09/08/2011",
-      "cast": [],
+      "cast": [""],
       "genres": [
         27
       ],
@@ -537,7 +539,7 @@
       "id": "17",
       "title": "The Silent Hour",
       "date": "03/10/2024",
-      "cast": [],
+      "cast": [""],
       "genres": [
         80,
         53,
@@ -560,7 +562,7 @@
       "id": "18",
       "title": "El hoyo 2",
       "date": "27/09/2024",
-      "cast": [],
+      "cast": [""],
       "genres": [
         878,
         27
@@ -582,7 +584,7 @@
       "id": "19",
       "title": "Bagman",
       "date": "20/09/2024",
-      "cast": [],
+      "cast": [""],
       "genres": [
         27,
         53
@@ -604,7 +606,7 @@
       "id": "20",
       "title": "My Hero Academia: You're Next",
       "date": "02/08/2024",
-      "cast": [],
+      "cast": [""],
       "genres": [
         16,
         28,
@@ -628,7 +630,7 @@
       "id": "21",
       "title": "Corpse Bride",
       "date": "12/09/2005",
-      "cast": [],
+      "cast": [""],
       "genres": [
         10749,
         14,
@@ -651,7 +653,7 @@
       "id": "22",
       "title": "Brothers",
       "date": "10/10/2024",
-      "cast": [],
+      "cast": [""],
       "genres": [
         28,
         35,
@@ -675,7 +677,7 @@
       "title": "Invasion",
       "date": "11/04/2024",
       "cast": [
-        "Cast Not Provided"
+        ""
       ],
       "genres": [
         28,
@@ -700,7 +702,7 @@
       "title": "Smile 2",
       "date": "16/10/2024",
       "cast": [
-        "Cast Not Provided"
+        ""
       ],
       "genres": [
         27,
@@ -724,7 +726,7 @@
       "title": "All Hallows' Eve",
       "date": "29/10/2013",
       "cast": [
-        "Cast Not Provided"
+        ""
       ],
       "genres": [
         27
@@ -747,7 +749,7 @@
       "title": "It Ends with Us",
       "date": "07/08/2024",
       "cast": [
-        "Cast Not Provided"
+        ""
       ],
       "genres": [
         10749,
@@ -771,7 +773,7 @@
       "title": "The Crow",
       "date": "21/08/2024",
       "cast": [
-        "Cast Not Provided"
+        ""
       ],
       "genres": [
         28,
@@ -795,7 +797,7 @@
       "id": "28",
       "title": "Bad Boys: Ride or Die",
       "date": "05/06/2024",
-      "cast": [],
+      "cast": [""],
       "genres": [
         28,
         35
@@ -816,7 +818,7 @@
       "id": "29",
       "title": "Transmorphers: Mech Beasts",
       "date": "09/06/2023",
-      "cast": [],
+      "cast": [""],
       "genres": [
         28,
         878
@@ -828,8 +830,8 @@
       "thumbnail_width": 220,
       "thumbnail_height": 326,
       "popularity": 427.264,
-      "vote_average": 5.448,
-      "vote_count": 29,
+      "vote_average": 5.499733333333334,
+      "vote_count": 30,
       "overview": "20 years after the events of Transmorphers, a newer, more advanced species of alien robot descends on a rebuilt Earth, threatening once again to destroy the planet.",
       "trailer": "https://www.youtube.com/watch?v=E2WViGjaOwo"
     },
@@ -837,7 +839,7 @@
       "id": "30",
       "title": "Flow",
       "date": "29/08/2024",
-      "cast": [],
+      "cast": [""],
       "genres": [
         16,
         14,
@@ -859,7 +861,7 @@
       "id": "31",
       "title": "The Last Stop in Yuma County",
       "date": "10/05/2024",
-      "cast": [],
+      "cast": [""],
       "genres": [
         80,
         53
@@ -899,14 +901,14 @@
       "movieId": "2"
     },
     {
-      "id": "e44c",
-      "userId": "2",
-      "movieId": "1"
-    },
-    {
       "id": "7466",
       "userId": "1",
       "movieId": "5"
+    },
+    {
+      "id": "2a75",
+      "userId": "2",
+      "movieId": "29"
     }
   ],
   "celebs": [
@@ -1233,6 +1235,22 @@
       "ratestar": {
         "movieId": "4",
         "rating": 10
+      }
+    },
+    {
+      "id": "b7b8",
+      "userId": "2",
+      "ratestar": {
+        "movieId": "6",
+        "rating": 10
+      }
+    },
+    {
+      "id": "08ad",
+      "userId": "2",
+      "ratestar": {
+        "movieId": "29",
+        "rating": 7
       }
     }
   ]
