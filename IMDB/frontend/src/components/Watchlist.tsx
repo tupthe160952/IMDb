@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Card from "../components/Card";
 import CardProps from "../types/Interface";
-import "../styles/watchlist.css"; // Import the new CSS file
+import "../styles/watchlist.css"; 
 import axios from "axios";
 import Header from "../components/Header";
-import { useUser } from "./UserContext"; // Import the UserContext
+import { useUser } from "./UserContext"; 
 
 const Watchlist: React.FC = () => {
     const { user } = useUser(); // Lấy thông tin người dùng từ UserContext
@@ -13,35 +13,28 @@ const Watchlist: React.FC = () => {
     const [ratings, setRatings] = useState<{ movieId: number; rating: number }[]>([]);
     const [sortCriteria, setSortCriteria] = useState<string>("alphabet");
 
-    // Hàm lấy danh sách xem từ API
-    const getWatchlist = (): void => {
+    
+    // Hàm fetch watchlist and ratings
+    useEffect(() => {
         if (user) {
-            axios
-                .get(`http://localhost:9999/watchlist`, { params: { userId: user.id } }) // Lọc watchlist theo userId
-                .then((res) => {
-                    const watchlistMovieIds = res.data.map((item: { movieId: number }) => item.movieId);
+            const fetchWatchlistAndRatings = async () => {
+                try {
+                    const [watchlistRes, ratingsRes] = await Promise.all([
+                        axios.get(`http://localhost:9999/watchlist`, { params: { userId: user.id } }),
+                        axios.get(`http://localhost:9999/ratings`, { params: { userId: user.id } })
+                    ]);
+                    const watchlistMovieIds = watchlistRes.data.map((item: { movieId: number }) => item.movieId);
+                    const userRatings = ratingsRes.data.map((item: { ratestar: { movieId: number; rating: number } }) => item.ratestar);
                     setWatchlist(watchlistMovieIds);
-                })
-                .catch((error) => {
-                    console.error("Error fetching watchlist:", error);
-                });
-        }
-    };
-
-    // Hàm lấy xếp hạng của người dùng từ API
-    const getRatings = (): void => {
-        if (user) {
-            axios
-                .get(`http://localhost:9999/ratings`, { params: { userId: user.id } })
-                .then((res) => {
-                    const userRatings = res.data.map((item: { ratestar: { movieId: number; rating: number } }) => item.ratestar);
                     setRatings(userRatings);
-                })
-                .catch((error) => {
-                    console.error("Error fetching ratings:", error);
-                });
-        }
-    };
+                } catch (error) {
+                    console.error("Error fetching watchlist and ratings:", error);
+                }
+            };
+
+            fetchWatchlistAndRatings();
+        }}
+    )
 
     // Hàm lấy thông tin phim từ danh sách xem
     const getMoviesFromWatchlist = (): void => {
@@ -91,10 +84,7 @@ const Watchlist: React.FC = () => {
     };
 
     // Hook chạy khi component được mount
-    useEffect(() => {
-        getWatchlist();
-        getRatings();
-    }, );
+ 
 
     useEffect(() => {
         if (watchlist.length > 0) {
@@ -107,7 +97,7 @@ const Watchlist: React.FC = () => {
             <Header />
             <br></br>
             <div className="road-to-detail" >
-                <h2 >Your Watchlist</h2>
+                <h2><span> <i className="fa-solid fa-bookmark"></i> </span>Your Watchlist<span> <i className="fa-solid fa-bookmark"></i></span></h2>
             </div>
             <div className="control-panel">
                 <select value={sortCriteria} onChange={handleSortChange}>
