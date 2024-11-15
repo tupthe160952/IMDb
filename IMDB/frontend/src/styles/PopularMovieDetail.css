@@ -1,0 +1,52 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.popular-page {
+  background-color: white;
+  padding: 100px;
+}
+
+.outside {
+  background-color: black;
+  padding: 0 250px;
+}
+
+.motto {
+  font-size: 35px;
+  font-weight: 500;
+  border-left: 4px solid rgb(226, 182, 22);
+  padding: 0 10px;
+}
+
+.motto-down {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tips {
+  margin: 25px 0;
+  font-size: 18px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filter select {
+  padding: 6px;
+  border: 1px dashed rgb(14, 99, 190);
+  border-radius: 8px;
+}
+
+.filter select:hover {
+  padding: 6px;
+  background-color: rgb(236, 243, 250);
+  border: 1px dashed rgb(14, 99, 190);
+  border-radius: 8px;
+}

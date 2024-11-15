@@ -23,7 +23,12 @@ export default interface SliderProps {
   trailer: string;
 }
 
-export default interface Celebs{
+export interface CelebCardProps {
+  image: string;
+  name: string;
+}
+
+export default interface Celebs {
   id: number;
   known_for_department: string;
   name: string;

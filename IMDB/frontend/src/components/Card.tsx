@@ -16,11 +16,13 @@ const Card: React.FC<CardProps> = (props) => {
   const [voteAverage, setVoteAverage] = useState<number>(0);
   const [voteCount, setVoteCount] = useState<number>(0);
 
-
   useEffect(() => {
     if (user) {
       // Check if the movie is already in the watchlist
-      axios.get(`http://localhost:9999/watchlist`, { params: { userId: user.id, movieId: props.id } })
+      axios
+        .get(`http://localhost:9999/watchlist`, {
+          params: { userId: user.id, movieId: props.id },
+        })
         .then((res) => {
           if (res.data.length > 0) {
             setInWatchlist(true);
@@ -36,13 +38,15 @@ const Card: React.FC<CardProps> = (props) => {
   const handleWatchlistToggle = async () => {
     if (!user) {
       alert("Please log in to add to your watchlist.");
-      window.location.href = '/login';
+      window.location.href = "/login";
       return;
     }
 
     if (inWatchlist && watchlistItemId !== null) {
       try {
-        const response = await axios.delete(`http://localhost:9999/watchlist/${watchlistItemId}`);
+        const response = await axios.delete(
+          `http://localhost:9999/watchlist/${watchlistItemId}`
+        );
         if (response.status === 200 || response.status === 204) {
           setInWatchlist(false);
           setWatchlistItemId(null);
@@ -70,9 +74,17 @@ const Card: React.FC<CardProps> = (props) => {
   // Rate Star
   useEffect(() => {
     if (user) {
-      axios.get(`http://localhost:9999/ratings?userId=${user.id}&movieId=${props.id}`)
+      axios
+        .get(
+          `http://localhost:9999/ratings?userId=${user.id}&movieId=${props.id}`
+        )
         .then((res) => {
-          const userRatingData = res.data.find((rating: { ratestar: { movieId: number, rating: number }, id: number }) => rating.ratestar.movieId === props.id);
+          const userRatingData = res.data.find(
+            (rating: {
+              ratestar: { movieId: number; rating: number };
+              id: number;
+            }) => rating.ratestar.movieId === props.id
+          );
           if (userRatingData) {
             setUserRating(userRatingData.ratestar.rating);
             setUserRatingId(userRatingData.id);
@@ -90,32 +102,40 @@ const Card: React.FC<CardProps> = (props) => {
       return;
     } else {
       if (userRating !== null) {
-        axios.put(`http://localhost:9999/ratings/${userRatingId}`, {
-          userId: user.id,
-          ratestar: {
-            movieId: props.id,
-            rating: rating,
-          },
-        })
+        axios
+          .put(`http://localhost:9999/ratings/${userRatingId}`, {
+            userId: user.id,
+            ratestar: {
+              movieId: props.id,
+              rating: rating,
+            },
+          })
           .then(() => {
             setUserRating(rating);
             alert("Your rating has been updated.");
-  
-            axios.get(`http://localhost:9999/movie/${props.id}`)
+
+            axios
+              .get(`http://localhost:9999/movie/${props.id}`)
               .then((response) => {
                 const movieData = response.data;
                 const { vote_average, vote_count } = movieData;
-  
+
                 // Tính lại điểm trung bình mà không thay đổi vote_count
-                const newVoteAverage = ((vote_average * vote_count) - userRating + rating) / vote_count;
-  
+                const newVoteAverage =
+                  (vote_average * vote_count - userRating + rating) /
+                  vote_count;
+
                 // Cập nhật movieData với vote_average mới
                 const updatedMovieData = {
                   ...movieData,
                   vote_average: newVoteAverage,
                 };
-  
-                axios.put(`http://localhost:9999/movie/${props.id}`, updatedMovieData)
+
+                axios
+                  .put(
+                    `http://localhost:9999/movie/${props.id}`,
+                    updatedMovieData
+                  )
                   .then(() => {
                     console.log("Movie rating updated successfully.");
                     setVoteAverage(newVoteAverage);
@@ -132,32 +152,39 @@ const Card: React.FC<CardProps> = (props) => {
             console.error("Error updating rating:", error);
           });
       } else {
-        axios.post("http://localhost:9999/ratings", {
-          userId: user.id,
-          ratestar: {
-            movieId: props.id,
-            rating: rating,
-          },
-        })
+        axios
+          .post("http://localhost:9999/ratings", {
+            userId: user.id,
+            ratestar: {
+              movieId: props.id,
+              rating: rating,
+            },
+          })
           .then(() => {
             setUserRating(rating);
             alert("Thank you for your rating!");
-  
-            axios.get(`http://localhost:9999/movie/${props.id}`)
+
+            axios
+              .get(`http://localhost:9999/movie/${props.id}`)
               .then((response) => {
                 const movieData = response.data;
                 const { vote_average, vote_count } = movieData;
-  
+
                 const newVoteCount = vote_count + 1;
-                const newVoteAverage = ((vote_average * vote_count) + rating) / newVoteCount;
-  
+                const newVoteAverage =
+                  (vote_average * vote_count + rating) / newVoteCount;
+
                 const updatedMovieData = {
                   ...movieData,
                   vote_average: newVoteAverage,
                   vote_count: newVoteCount,
                 };
-  
-                axios.put(`http://localhost:9999/movie/${props.id}`, updatedMovieData)
+
+                axios
+                  .put(
+                    `http://localhost:9999/movie/${props.id}`,
+                    updatedMovieData
+                  )
                   .then(() => {
                     console.log("Movie rating updated successfully.");
                     setVoteAverage(newVoteAverage);
@@ -177,8 +204,6 @@ const Card: React.FC<CardProps> = (props) => {
       }
     }
   };
-  
-
 
   const handleRateButtonClick = () => {
     setShowRateModal(true);
@@ -196,7 +221,10 @@ const Card: React.FC<CardProps> = (props) => {
           <button
             type="button"
             className="btn btn-dark btn-sm rounded-circle"
-            style={{ backgroundColor: inWatchlist ? "#FFD700" : "#5f5f5f", color: inWatchlist ? "black" : "" }}
+            style={{
+              backgroundColor: inWatchlist ? "#FFD700" : "#5f5f5f",
+              color: inWatchlist ? "black" : "",
+            }}
             aria-label="Description of Button"
             onClick={handleWatchlistToggle}
           >
@@ -207,9 +235,13 @@ const Card: React.FC<CardProps> = (props) => {
       <div className="card-body">
         <div className="rating-wrapper">
           <span className="rating" style={{ fontSize: "18px", color: "white" }}>
-            {props.rating} / 10
+            {Number(props.rating).toFixed(1)} / 10
           </span>
-          <button className="star-button" aria-label="Rate this item" onClick={handleRateButtonClick}>
+          <button
+            className="star-button"
+            aria-label="Rate this item"
+            onClick={handleRateButtonClick}
+          >
             {userRating !== null ? (
               <i className="fas fa-star star-icon"></i>
             ) : (
@@ -229,7 +261,8 @@ const Card: React.FC<CardProps> = (props) => {
           style={{ backgroundColor: inWatchlist ? "" : "#5f5f5f" }}
           onClick={handleWatchlistToggle}
         >
-          <i className={inWatchlist ? "fas fa-check" : "fas fa-plus"} mr-2></i> {inWatchlist ? "Added to Watchlist" : "Watchlist"}
+          <i className={inWatchlist ? "fas fa-check" : "fas fa-plus"} mr-2></i>{" "}
+          {inWatchlist ? "Added to Watchlist" : "Watchlist"}
         </button>
         <button
           className="btn btn-dark card-button"
@@ -242,10 +275,12 @@ const Card: React.FC<CardProps> = (props) => {
       {/* RateStar Modal */}
       <Modal show={showRateModal} onHide={handleCloseModal}>
         <Modal.Body className="custom-modal-content">
-          <RateStar handleRateStar={handleRateStar} currentRating={userRating} />
+          <RateStar
+            handleRateStar={handleRateStar}
+            currentRating={userRating}
+          />
         </Modal.Body>
       </Modal>
-
     </div>
   );
 };

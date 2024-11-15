@@ -6,6 +6,7 @@ import CardProps from "../types/Interface";
 import "../styles/PopularMovie.css";
 import "swiper/swiper-bundle.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const PopularMovie: React.FC = () => {
   const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
@@ -14,7 +15,10 @@ const PopularMovie: React.FC = () => {
     axios
       .get(`http://localhost:9999/movie`)
       .then((res) => {
-        setCardFilm(res.data);
+        const sortFilm = res.data
+          .sort((a: CardProps, b: CardProps) => b.popularity - a.popularity)
+          .slice(0, 15);
+        setCardFilm(sortFilm);
       })
       .catch((error) => {
         console.error("Error fetching popular movies:", error);
@@ -27,10 +31,10 @@ const PopularMovie: React.FC = () => {
 
   return (
     <div className="slidecard">
-      <a className="road-to-detail" href="/">
+      <Link className="road-to-detail" to="/detailpopular">
         <h2>Popular Movies</h2>
         <i className="fa-solid fa-forward"></i>
-      </a>
+      </Link>
 
       <Swiper
         slidesPerView={5}
@@ -51,7 +55,23 @@ const PopularMovie: React.FC = () => {
               id={film.id}
               image={film.thumbnail}
               rating={film.vote_average.toFixed(1)}
-              name={film.title} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""} popularity={0} vote_count={0} user_rating={0} known_for_department={""} original_name={""} profile_path={""} biography={""} birthday={null} place_of_birth={null}            />
+              name={film.title}
+              title={""}
+              extract={""}
+              thumbnail={""}
+              banner={""}
+              vote_average={0}
+              trailer={""}
+              popularity={0}
+              vote_count={0}
+              user_rating={0}
+              known_for_department={""}
+              original_name={""}
+              profile_path={""}
+              biography={""}
+              birthday={null}
+              place_of_birth={null}
+            />
           </SwiperSlide>
         ))}
       </Swiper>
