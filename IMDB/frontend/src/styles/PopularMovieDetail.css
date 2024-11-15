@@ -37,3 +37,16 @@
   justify-content: space-between;
   align-items: center;
 }
+
+.filter select {
+  padding: 6px;
+  border: 1px dashed rgb(14, 99, 190);
+  border-radius: 8px;
+}
+
+.filter select:hover {
+  padding: 6px;
+  background-color: rgb(236, 243, 250);
+  border: 1px dashed rgb(14, 99, 190);
+  border-radius: 8px;
+}

@@ -1,0 +1,42 @@
+.form-list {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-button-prev {
+  border: 2px solid white;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70px;
+  width: 40px;
+  align-items: center;
+}
+
+.swiper-button-prev:hover {
+  border: 2px solid white;
+  color: rgb(226, 182, 22);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.swiper-button-next {
+  border: 2px solid white;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70px;
+  width: 40px;
+  align-items: center;
+}
+
+.swiper-button-next:hover {
+  border: 2px solid white;
+  color: rgb(226, 182, 22);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
