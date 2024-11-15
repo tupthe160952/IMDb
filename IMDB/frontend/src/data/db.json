@@ -129,8 +129,8 @@
       "banner": "https://image.tmdb.org/t/p/original/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
       "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "popularity": 5184.196,
-      "vote_average": 6.707302231237323,
-      "vote_count": 493,
+      "vote_average": 6.695748987854252,
+      "vote_count": 494,
       "trailer": "https://www.youtube.com/watch?v=HyIyd9joTTc"
     },
     {
@@ -212,7 +212,7 @@
       "banner": "https://m.media-amazon.com/images/S/pv-target-images/bba020cf40bb4d2bf092872da97c9fc50299485ab72dcbc4f8c45e9dee7896c6._UR1920,1080_SX720_FMjpg_.jpg",
       "overview": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
       "popularity": 1958.212,
-      "vote_average": 8.184870848708487,
+      "vote_average": 8.168265682656827,
       "vote_count": 542,
       "trailer": "https://www.youtube.com/watch?v=0rmJXXKDrsM"
     },
@@ -407,8 +407,8 @@
       "banner": "https://bullesdeculture.com/bdc-content/uploads/2024/06/le-comte-de-monte-cristo-2024-image.jpg",
       "overview": "Edmond Dantes becomes the target of a sinister plot and is arrested on his wedding day for a crime he did not commit. After 14 years in the island prison of Château d’If, he manages a daring escape. Now rich beyond his dreams, he assumes the identity of the Count of Monte-Cristo and exacts his revenge on the three men who betrayed him.",
       "popularity": 1762.607,
-      "vote_average": 8.3,
-      "vote_count": 735,
+      "vote_average": 8.296875000000002,
+      "vote_count": 736,
       "trailer": "https://www.youtube.com/watch?v=8Q6y1waxlTY"
     },
     {
@@ -573,7 +573,7 @@
       "thumbnail_height": 326,
       "popularity": 581.872,
       "vote_average": 10,
-      "vote_count": 787,
+      "vote_count": 788,
       "time": 97,
       "overview": "After a mysterious leader imposes his law in a brutal system of vertical cells, a new arrival battles against a dubious food distribution method.",
       "trailer": "https://www.youtube.com/watch?v=vQJ3upX19GM"
@@ -889,14 +889,24 @@
       "movieId": "1"
     },
     {
-      "id": "4110",
+      "id": "18d6",
       "userId": "1",
-      "movieId": "2"
+      "movieId": "1"
     },
     {
-      "id": "3106",
+      "id": "0d9f",
       "userId": "1",
-      "movieId": "3"
+      "movieId": "11"
+    },
+    {
+      "id": "7171",
+      "userId": "1",
+      "movieId": "10"
+    },
+    {
+      "id": "ef6e",
+      "userId": "1",
+      "movieId": "15"
     }
   ],
   "celebs": [
@@ -1146,25 +1156,25 @@
   ],
   "ratings": [
     {
-      "userId": 1,
+      "userId": "1",
       "ratestar": {
-        "movieId": 1,
+        "movieId": "1",
         "rating": 8
       },
       "id": "1"
     },
     {
-      "userId": 2,
+      "userId": "2",
       "ratestar": {
-        "movieId": 5,
+        "movieId": "5",
         "rating": 8
       },
       "id": "2"
     },
     {
-      "userId": 2,
+      "userId": "2",
       "ratestar": {
-        "movieId": 3,
+        "movieId": "3",
         "rating": 10
       },
       "id": "3"
@@ -1187,9 +1197,9 @@
     },
     {
       "id": "592f",
-      "userId": "2",
+      "userId": 2,
       "ratestar": {
-        "movieId": "2",
+        "movieId": 2,
         "rating": 3
       }
     },
@@ -1218,12 +1228,12 @@
       }
     },
     {
-      "id": "05d1",
       "userId": "1",
       "ratestar": {
         "movieId": "4",
-        "rating": 10
-      }
+        "rating": 1
+      },
+      "id": "05d1"
     },
     {
       "id": "bf7e",
@@ -1239,6 +1249,30 @@
       "ratestar": {
         "movieId": "19",
         "rating": 8
+      }
+    },
+    {
+      "id": "9ed5",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "18",
+        "rating": 10
+      }
+    },
+    {
+      "id": "4eea",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "1",
+        "rating": 1
+      }
+    },
+    {
+      "id": "70df",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "11",
+        "rating": 6
       }
     }
   ]

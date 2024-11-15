@@ -15,7 +15,10 @@ const PopularMovie: React.FC = () => {
     axios
       .get(`http://localhost:9999/movie`)
       .then((res) => {
-        setCardFilm(res.data);
+        const sortFilm = res.data
+          .sort((a: CardProps, b: CardProps) => b.popularity - a.popularity)
+          .slice(0, 15);
+        setCardFilm(sortFilm);
       })
       .catch((error) => {
         console.error("Error fetching popular movies:", error);
