@@ -156,7 +156,7 @@
       "banner": "https://pipocasclub.com.br/wp-content/uploads/2023/11/terrifier3-1-e1699438190145.webp",
       "overview": "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare. The festive season quickly unravels as Art unleashes his twisted brand of terror, proving that no holiday is safe.",
       "popularity": 5444.687,
-      "vote_average": 7.297411003236246,
+      "vote_average": 7.292556634304208,
       "vote_count": 618,
       "trailer": "https://www.youtube.com/watch?v=zaPcin5knJk"
     },
@@ -265,8 +265,8 @@
       "banner": "https://i.ytimg.com/vi/vDX6Yt-Uat0/maxresdefault.jpg",
       "overview": "While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.",
       "popularity": 2075.981,
-      "vote_average": 5.7,
-      "vote_count": 1360,
+      "vote_average": 5.700220426157237,
+      "vote_count": 1361,
       "trailer": "https://www.youtube.com/watch?v=_OKAwz2MsJs"
     },
     {
@@ -433,7 +433,7 @@
       "thumbnail_height": 326,
       "popularity": 97.361,
       "vote_average": 1,
-      "vote_count": 21,
+      "vote_count": 22,
       "time": 95,
       "overview": "Jonard is having trouble making ends meet. His mother is suffering from depression, and he and his sister are forced to quit school in order to take care of her. One day, Jonard meets up his friend Rodel, and Rodel introduces him to the world of massage parlors. Rodel teaches him massage, and brings him to Heavenly Touch, a syndicate-run massage parlor that mostly caters to homosexuals.",
       "trailer": "https://www.youtube.com/watch?v=AMK2WSKcPbM"
@@ -889,24 +889,44 @@
       "movieId": "1"
     },
     {
-      "id": "18d6",
-      "userId": "1",
-      "movieId": "1"
+      "userId": 2,
+      "movieId": 2,
+      "id": "17"
     },
     {
-      "id": "0d9f",
-      "userId": "1",
-      "movieId": "11"
+      "userId": 2,
+      "movieId": 3,
+      "id": "18"
     },
     {
-      "id": "7171",
-      "userId": "1",
-      "movieId": "10"
+      "userId": 2,
+      "movieId": 4,
+      "id": "19"
     },
     {
-      "id": "ef6e",
-      "userId": "1",
-      "movieId": "15"
+      "userId": 1,
+      "movieId": 15,
+      "id": "20"
+    },
+    {
+      "userId": 1,
+      "movieId": 6,
+      "id": "21"
+    },
+    {
+      "userId": 1,
+      "movieId": "1",
+      "id": "oysTEeX"
+    },
+    {
+      "id": "7190",
+      "userId": 1,
+      "movieId": "2"
+    },
+    {
+      "id": "7487",
+      "userId": 1,
+      "movieId": "3"
     }
   ],
   "celebs": [
@@ -1176,7 +1196,7 @@
       "ratestar": {
         "movieId": "3",
         "rating": 10
-      },
+        },
       "id": "3"
     },
     {
@@ -1186,6 +1206,22 @@
         "rating": 9
       },
       "id": "4"
+    },
+    {
+      "userId": 1,
+      "ratestar": {
+        "movieId": 13,
+        "rating": 10
+      },
+      "id": "5"
+    },
+    {
+      "userId": 1,
+      "ratestar": {
+        "movieId": 12,
+        "rating": 1
+      },
+      "id": "6"
     },
     {
       "id": "62c6",
@@ -1236,44 +1272,20 @@
       "id": "05d1"
     },
     {
-      "id": "bf7e",
-      "userId": "1",
+      "userId": 1,
+      "ratestar": {
+        "movieId": "6",
+        "rating": 6
+      },
+      "id": "Lb4j971"
+    },
+    {
+      "userId": 1,
       "ratestar": {
         "movieId": "2",
-        "rating": 10
-      }
-    },
-    {
-      "id": "b8ba",
-      "userId": "1",
-      "ratestar": {
-        "movieId": "19",
-        "rating": 8
-      }
-    },
-    {
-      "id": "9ed5",
-      "userId": "1",
-      "ratestar": {
-        "movieId": "18",
-        "rating": 10
-      }
-    },
-    {
-      "id": "4eea",
-      "userId": "1",
-      "ratestar": {
-        "movieId": "1",
-        "rating": 1
-      }
-    },
-    {
-      "id": "70df",
-      "userId": "1",
-      "ratestar": {
-        "movieId": "11",
-        "rating": 6
-      }
+        "rating": 7
+      },
+      "id": "bZfTpjn"
     }
   ]
 }

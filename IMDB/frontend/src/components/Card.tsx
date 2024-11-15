@@ -35,6 +35,8 @@ const Card: React.FC<CardProps> = (props) => {
     }
   }, [user, props.id]);
 
+
+  //add movies to watchlist
   const handleWatchlistToggle = async () => {
     if (!user) {
       alert("Please log in to add to your watchlist.");
