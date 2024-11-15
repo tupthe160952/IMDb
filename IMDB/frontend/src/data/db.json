@@ -459,7 +459,7 @@
       "thumbnail_width": 220,
       "thumbnail_height": 326,
       "popularity": 756.636,
-      "vote_average": 9.986666666666666,
+      "vote_average": 9.976,
       "vote_count": 375,
       "time": 90,
       "overview": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
@@ -594,8 +594,8 @@
       "thumbnail_width": 220,
       "thumbnail_height": 326,
       "popularity": 545.307,
-      "vote_average": 10,
-      "vote_count": 52,
+      "vote_average": 9.962264150943396,
+      "vote_count": 53,
       "time": 98,
       "overview": "For centuries and across cultures, parents have warned their children of the legendary Bagman, who snatches innocent children and stuffs them into his vile, rotting bag—never to be seen again. Patrick McKee narrowly escaped such an encounter as a boy, which left him with lasting scars throughout his adulthood. Now, Patrick’s childhood tormentor has returned, threatening the safety of his wife Karina and son Jake.",
       "trailer": "https://www.youtube.com/watch?v=slrzCgYIUPM"
@@ -879,21 +879,6 @@
   ],
   "watchlist": [
     {
-      "userId": 1,
-      "movieId": 13,
-      "id": "8"
-    },
-    {
-      "userId": 1,
-      "movieId": 3,
-      "id": "11"
-    },
-    {
-      "userId": 1,
-      "movieId": 4,
-      "id": "12"
-    },
-    {
       "id": "7c5a",
       "userId": "2",
       "movieId": "2"
@@ -906,32 +891,42 @@
     {
       "userId": 2,
       "movieId": 2,
-      "id": 17
+      "id": "17"
     },
     {
       "userId": 2,
       "movieId": 3,
-      "id": 18
+      "id": "18"
     },
     {
       "userId": 2,
       "movieId": 4,
-      "id": 19
+      "id": "19"
     },
     {
       "userId": 1,
       "movieId": 15,
-      "id": 20
+      "id": "20"
     },
     {
       "userId": 1,
       "movieId": 6,
-      "id": 21
+      "id": "21"
     },
     {
       "userId": 1,
       "movieId": "1",
       "id": "oysTEeX"
+    },
+    {
+      "id": "7190",
+      "userId": 1,
+      "movieId": "2"
+    },
+    {
+      "id": "7487",
+      "userId": 1,
+      "movieId": "3"
     }
   ],
   "celebs": [
@@ -1210,7 +1205,7 @@
         "movieId": 4,
         "rating": 9
       },
-      "id": 4
+      "id": "4"
     },
     {
       "userId": 1,
@@ -1218,7 +1213,7 @@
         "movieId": 13,
         "rating": 10
       },
-      "id": 5
+      "id": "5"
     },
     {
       "userId": 1,
@@ -1226,7 +1221,7 @@
         "movieId": 12,
         "rating": 1
       },
-      "id": 6
+      "id": "6"
     },
     {
       "id": "62c6",
@@ -1245,12 +1240,12 @@
       }
     },
     {
-      "id": "f2d1",
       "userId": "1",
       "ratestar": {
         "movieId": "13",
-        "rating": 5
-      }
+        "rating": 1
+      },
+      "id": "f2d1"
     },
     {
       "id": "9818",

@@ -209,7 +209,7 @@ const Card: React.FC<CardProps> = (props) => {
       <div className="card-body">
         <div className="rating-wrapper">
           <span className="rating" style={{ fontSize: "18px", color: "white" }}>
-            {props.rating} / 10
+            {Number(props.rating).toFixed(1)} / 10
           </span>
           <button className="star-button" aria-label="Rate this item" onClick={handleRateButtonClick}>
             {userRating !== null ? (
