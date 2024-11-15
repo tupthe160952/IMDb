@@ -7,7 +7,7 @@ import Header from "../components/Header";
 import { useUser } from "./UserContext";
 
 const Watchlist: React.FC = () => {
-    const { user } = useUser(); // Lấy thông tin người dùng từ UserContext
+    const { user } = useUser(); 
     const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
     const [watchlist, setWatchlist] = useState<number[]>([]);
     const [ratings, setRatings] = useState<{ movieId: number; rating: number }[]>([]);
