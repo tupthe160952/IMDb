@@ -4,7 +4,12 @@
   background-color: #121212;
 }
 
-  
+.road-to-watchlist {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
 
 body {
   background-color: #121212;
@@ -28,27 +33,40 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+  margin-top: 15px;
 }
 
 .movie-card {
   width: 100%;
 }
 
+
 .total-movies {
-  text-align: right;
   color: aliceblue;
+  margin-left: auto;
+  line-height: 1.5;
+  display: flex; /* Sử dụng Flexbox để căn giữa nội dung */
+  align-items: center;
+  
+  margin-top: auto;
 }
-
 .control-panel {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-.control-panel select {
-background-color: #1d1c1c;
-color: aliceblue;
+.control-panel h1 {
+  color: aliceblue;
+  font-size: 1.5rem;
+  margin-left: 5px;
+  margin-right: 10px;
+  line-height: 1.5;
 }
 
 .control-panel select {
   padding: 5px;
-  font-size: 1rem;}
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #1d1c1c;
+  color: aliceblue;
+}

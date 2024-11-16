@@ -927,6 +927,11 @@
       "id": "7487",
       "userId": 1,
       "movieId": "3"
+    },
+    {
+      "id": "c9c8",
+      "userId": "1",
+      "movieId": "5"
     }
   ],
   "celebs": [
@@ -1196,7 +1201,7 @@
       "ratestar": {
         "movieId": "3",
         "rating": 10
-        },
+      },
       "id": "3"
     },
     {
