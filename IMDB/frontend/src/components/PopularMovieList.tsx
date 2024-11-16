@@ -116,8 +116,7 @@ const PopularMovieList: React.FC = () => {
               profile_path={""}
               biography={""}
               birthday={null}
-              place_of_birth={null}
-            />
+              place_of_birth={null} genres={[]}            />
           ))}
         </div>
       </div>

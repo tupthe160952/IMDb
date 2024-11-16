@@ -57,10 +57,11 @@ body {
 
 .control-panel h1 {
   color: aliceblue;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-left: 5px;
   margin-right: 10px;
   line-height: 1.5;
+  margin-bottom: auto;
 }
 
 .control-panel select {
@@ -69,4 +70,6 @@ body {
   line-height: 1.5;
   background-color: #1d1c1c;
   color: aliceblue;
+  border: 1px solid rgb(204, 211, 219);
+  border-radius: 8px;
 }
