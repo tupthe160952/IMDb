@@ -21,6 +21,7 @@ export default interface SliderProps {
   banner: string;
   vote_average: number;
   trailer: string;
+  genres: number[];
 }
 
 export interface CelebCardProps {
