@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Celebs from '../types/Interface';
 import PersonCard from '../components/PersonCard';
-import "../styles/PopularCeleb.css";
 
 const PopularCeleb: React.FC = () => {
     const [celebrities, setCelebrities] = useState<Celebs[]>([]);
@@ -22,9 +21,9 @@ const PopularCeleb: React.FC = () => {
             <div className='m-4'>
                 <h1 className="mb-4" style={{ color: "white", textAlign:"center" }}>Popular Celebrities</h1>
             </div>
-            <div className="row">
+            <div className="row" style={{display:'flex',flexWrap:"wrap",gap:"20px", justifyContent:"center"}}>
                 {celebrities.map((celeb) => (
-                    <div className="celebCard " key={celeb.id}>
+                    <div className="celebCard" key={celeb.id} style={{flex:"1", maxWidth:"300px", margin:"10px"}}>
                         <PersonCard {...celeb} />
                     </div>
                 ))}
