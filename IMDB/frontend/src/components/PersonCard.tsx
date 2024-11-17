@@ -6,7 +6,6 @@ const PersonCard: React.FC<Celebs> = ({
     name,
     profile_path,
 }) => {
-
     const navigate = useNavigate();
     const handleCardClick = () => {
         navigate(`/celebs/${id}`);

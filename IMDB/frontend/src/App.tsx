@@ -12,6 +12,7 @@ import Home from "./pages/Home";
 import MovieDetail from "./pages/MovieDetail";
 import PopularCeleb from "./pages/PopularCeleb";
 import PopularMovieDetail from "./pages/PopularMovieDetail";
+import UpComingMovieDetail from "./pages/UpComingMovieDetail";
 import "./styles/Header.css";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/watchlist" element={<Watchlist />} />
           <Route path="/detailpopular" element={<PopularMovieDetail />} />
+          <Route path="/detailupcoming" element={<UpComingMovieDetail />} />
           <Route path="/contact_us" element={<ContactUs />} />
           <Route path="/popular_person" element={<PopularCeleb />} />
           <Route path="/celebs/:id" element={<CelebDetail />} />

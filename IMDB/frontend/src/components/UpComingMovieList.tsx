@@ -5,7 +5,7 @@ import "../styles/PopularMovieDetail.css";
 import CardProps from "../types/Interface";
 import { useUser } from "./UserContext";
 
-const PopularMovieList: React.FC = () => {
+const UpComingMovieList: React.FC = () => {
   const { user } = useUser();
   const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
   const [sortCriteria, setSortCriteria] = useState<string>("popularity");
@@ -13,9 +13,9 @@ const PopularMovieList: React.FC = () => {
     []
   );
 
-  const getPopularMovie = (): void => {
+  const getUpComningMovie = (): void => {
     axios
-      .get(`http://localhost:9999/movie`)
+      .get(`http://localhost:9999/upComingMovie`)
       .then((res) => {
         setCardFilm(res.data);
       })
@@ -49,8 +49,6 @@ const PopularMovieList: React.FC = () => {
         return [...movies].sort((a, b) => b.vote_count - a.vote_count);
       case "voteAverage":
         return [...movies].sort((a, b) => b.vote_average - a.vote_average);
-      case "popularity":
-        return [...movies].sort((a, b) => b.popularity - a.popularity);
       case "userRating":
         return [...movies].sort((a, b) => {
           const ratingA = ratings.find((r) => r.movieId === a.id)?.rating || 0;
@@ -69,7 +67,7 @@ const PopularMovieList: React.FC = () => {
   };
 
   useEffect(() => {
-    getPopularMovie();
+    getUpComningMovie();
     getRatings();
   }, []);
 
@@ -78,7 +76,7 @@ const PopularMovieList: React.FC = () => {
       <div className="popular-page">
         <div className="description">
           <h2>IMDb Charts</h2>
-          <p className="motto">Most Popular Movies</p>
+          <p className="motto">Upcoming Movies</p>
           <p className="motto-down">Ad determined by IMDb users</p>
           <div className="filter">
             <p className="tips">100 Titles</p>
@@ -88,7 +86,6 @@ const PopularMovieList: React.FC = () => {
                 <option value="alphabet">Alphabetically</option>
                 <option value="voteCount">Number of ratings</option>
                 <option value="voteAverage">IMDB Rating</option>
-                <option value="popularity">Popularity</option>
                 <option value="userRating">Your rating</option>{" "}
                 {/* Thêm mục sort by your rating */}
               </select>
@@ -101,7 +98,8 @@ const PopularMovieList: React.FC = () => {
               id={film.id}
               image={film.thumbnail}
               rating={film.vote_average}
-              name={`${index + 1}. ${film.title} `}
+              // name={`${index + 1}. ${film.title} `}
+              name={film.title}
               title={""}
               extract={""}
               thumbnail={""}
@@ -116,7 +114,9 @@ const PopularMovieList: React.FC = () => {
               profile_path={""}
               biography={""}
               birthday={null}
-              place_of_birth={null} genres={[]}            />
+              place_of_birth={null}
+              genres={[]}
+            />
           ))}
         </div>
       </div>
@@ -124,4 +124,4 @@ const PopularMovieList: React.FC = () => {
   );
 };
 
-export default PopularMovieList;
+export default UpComingMovieList;
