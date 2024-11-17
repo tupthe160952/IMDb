@@ -14,9 +14,10 @@ const Home: React.FC = () => {
       <Header />
       <Carousel />
       <PopularMovie />
-      <TopMovie />
       <CelebList></CelebList>
+      <TopMovie />
       <UpComingMovie />
+
       <Footer />
     </div>
   );
