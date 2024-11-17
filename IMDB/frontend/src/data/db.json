@@ -912,24 +912,9 @@
   ],
   "watchlist": [
     {
-      "id": "7c5a",
-      "userId": "2",
-      "movieId": "2"
-    },
-    {
       "id": "e44c",
       "userId": "2",
       "movieId": "1"
-    },
-    {
-      "userId": 2,
-      "movieId": 2,
-      "id": "17"
-    },
-    {
-      "userId": 2,
-      "movieId": 3,
-      "id": "18"
     },
     {
       "userId": 2,
@@ -965,6 +950,16 @@
       "id": "c9c8",
       "userId": "1",
       "movieId": "5"
+    },
+    {
+      "id": "9ce2",
+      "userId": "2",
+      "movieId": "3"
+    },
+    {
+      "id": "6047",
+      "userId": "2",
+      "movieId": "2"
     }
   ],
   "celebs": [
@@ -1045,7 +1040,7 @@
       "known_for_department": "Writing",
       "name": "Oniroku Dan",
       "original_name": "団鬼六",
-      "popularity": 186.869,
+      "popularity": 150.869,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/5ceW7e1i3RmUdIAOYKjj06sWiHZ.jpg",
       "biography": "Oniroku Dan (団 鬼六 Dan Oniroku, April 16, 1931 – May 6, 2011) was a Japanese author who had been called, \"the most celebrated writer of popular SM novels in Japan.\" Many of his stories have been filmed, most notably by Nikkatsu studio in their Roman Porno series. Dan had a close professional association with actress Naomi Tani throughout her career.",
       "birthday": "1931-04-16",
@@ -1213,7 +1208,7 @@
       "known_for_department": "Acting",
       "name": "Leonardo DiCaprio",
       "original_name": "Leonardo DiCaprio",
-      "popularity": 104.001,
+      "popularity": 124.001,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
       "biography": "Leonardo Wilhelm DiCaprio (born November 11, 1974) is an American actor and film producer. Known for his work in biopics and period films, DiCaprio is the recipient of numerous accolades, including an Academy Award, a British Academy Film Award, and three Golden Globe Awards. As of 2019, his films have grossed over $7.2 billion worldwide, and he has been placed eight times in annual rankings of the world's highest-paid actors.\n\nBorn in Los Angeles, DiCaprio began his career in the late 1980s by appearing in television commercials. In the early 1990s, he had recurring roles in various television shows, such as the sitcom Parenthood, and had his first major film part as author Tobias Wolff in This Boy's Life (1993). At age 19, he received critical acclaim and his first Academy Award and Golden Globe Award nominations for his performance as a developmentally disabled boy in What's Eating Gilbert Grape (1993). He achieved international stardom with the star-crossed romances Romeo + Juliet (1996) and Titanic (1997).\n\nAfter the latter became the highest-grossing film at the time, he reduced his workload for a few years. In an attempt to shed his image of a romantic hero, DiCaprio sought roles in other genres, including crime drama in Catch Me If You Can (2002) and Gangs of New York (2002); the latter marked the first of his many successful collaborations with director Martin Scorsese. DiCaprio portrayed Howard Hughes in The Aviator (2004) and received acclaim for his performances in the political thriller Blood Diamond (2006), the crime drama The Departed (2006), and the romantic drama Revolutionary Road (2008).\n\nIn the following decade, DiCaprio starred in several high-profile directors' projects, including the science fiction thriller Inception (2010), the western Django Unchained (2012), the biopic The Wolf of Wall Street (2013), the survival drama The Revenant (2015), for which he won an Academy Award and a BAFTA Award for Best Actor in a Leading Role, and the comedy-drama Once Upon a Time in Hollywood (2019), all of which were critical and commercial successes.\n\nDiCaprio is the founder of Appian Way Productions, a production company that has produced some of his films and the documentary series Greensburg (2008–2010), and the Leonardo DiCaprio Foundation, a nonprofit organization devoted to promoting environmental awareness. He regularly supports charitable causes and has produced several documentaries on the environment. In 2005, he was named a Commander of the Ordre des Arts et des Lettres for his contributions to the arts, and in 2016, he appeared in Time magazine's 100 most influential people in the world.",
       "birthday": "1974-11-11",
