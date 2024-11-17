@@ -6,6 +6,7 @@ import "../styles/Home.css";
 import PopularMovie from "../components/PopularMovie";
 import TopMovie from "../components/TopMovie";
 import CelebList from "../components/CelebList";
+import UpComingMovie from "../components/UpComingMovie";
 
 const Home: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const Home: React.FC = () => {
       <PopularMovie />
       <TopMovie />
       <CelebList></CelebList>
+      <UpComingMovie />
       <Footer />
     </div>
   );
