@@ -127,7 +127,8 @@ const Watchlist: React.FC = () => {
     }, [watchlist, sortCriteria, selectedGenre]);
 
     return (
-        <div className="movie-container">
+        <div className="watchlist ">
+<div className="movie-container">
             <Header />
             <br />
             <div className="road-to-watchlist">
@@ -165,6 +166,8 @@ const Watchlist: React.FC = () => {
                 ))}
             </div>
         </div>
+        </div>
+        
     );
 };
 
