@@ -1,17 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../styles/Celeb.css";
-import CelebCardProps from "../types/Interface";
-import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+import Celebs from '../types/Interface';
 
-const Card: React.FC<CelebCardProps> = (props) => {
+const Card: React.FC<Celebs> = ({
+  id,
+  name,
+  profile_path,
+}) => {
+  const navigate = useNavigate();
+  const handleCardClick = () => {
+    navigate(`/celebs/${id}`);
+  }
   return (
-    <div className="celeb-card">
-      <Link to={"/"}>
-        <div className="image-profile">
-          <img src={props.image} alt="Celeb Image" />
-        </div>
-        <p className="celeb-name">{props.name}</p>
-      </Link>
+    <div className="celeb-card" style={{cursor: 'pointer'}} onClick={handleCardClick}>
+      <div className="image-profile">
+        <img src={profile_path} alt="Celeb Image" />
+      </div>
+      <p className="celeb-name">{name}</p>
     </div>
   );
 };

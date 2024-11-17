@@ -13,8 +13,8 @@ const Home: React.FC = () => {
       <Header />
       <Carousel />
       <PopularMovie />
-      <TopMovie />
       <CelebList></CelebList>
+      <TopMovie />
       <Footer />
     </div>
   );
