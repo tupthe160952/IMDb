@@ -1,37 +1,26 @@
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-import Card from "./Card";
-import CelebCardProps from "../types/Interface";
 import "../styles/CelebList.css";
 import "swiper/swiper-bundle.css";
-import axios from "axios";
 import { Link } from "react-router-dom";
 import CelebCard from "./CelebCard";
+import Celebs from '../types/Interface';
 
 const CelebList: React.FC = () => {
-  const [celeb, setCeleb] = useState<CelebCardProps[]>([]);
-
-  const getCelebrity = (): void => {
-    axios
-      .get(`http://localhost:9999/celebs`)
-      .then((res) => {
-        const sortCeleb = res.data
-          .sort(
-            (a: CelebCardProps, b: CelebCardProps) =>
-              b.popularity - a.popularity
-          )
-          .slice(0, 15);
-        setCeleb(sortCeleb);
-      })
-      .catch((error) => {
-        console.error("Error fetching popular movies:", error);
-      });
-  };
+  const [celeb, setCeleb] = useState<Celebs[]>([]);
 
   useEffect(() => {
-    getCelebrity();
-  }, []);
+    // Fetch the data from the local JSON file or API
+    fetch('http://localhost:9999/celebs')
+        .then((response) => response.json())
+        .then((data) => {
+            // Sort the data by popularity in descending order
+            const sortedData = data.sort((a: Celebs, b: Celebs) => b.popularity - a.popularity);
+            setCeleb(sortedData);
+        })
+        .catch((error) => console.error('Error fetching data:', error));
+}, []);
 
   return (
     <div className="slidecard">
@@ -56,27 +45,7 @@ const CelebList: React.FC = () => {
         {celeb.map((ce) => (
           <SwiperSlide key={ce.id}>
             <div className="form-list">
-              <CelebCard
-                image={ce.profile_path}
-                name={ce.name}
-                user_rating={0}
-                popularity={0}
-                vote_count={0}
-                id={0}
-                rating={""}
-                title={""}
-                extract={""}
-                thumbnail={""}
-                banner={""}
-                vote_average={0}
-                trailer={""}
-                known_for_department={""}
-                original_name={""}
-                profile_path={""}
-                biography={""}
-                birthday={null}
-                place_of_birth={null}
-              ></CelebCard>
+              <CelebCard {...ce}/>
             </div>
           </SwiperSlide>
         ))}

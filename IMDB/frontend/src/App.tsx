@@ -11,6 +11,8 @@ import Home from "./pages/Home";
 import "./styles/Header.css";
 import PopularMovieDetail from "./pages/PopularMovieDetail";
 import PopularCeleb from "./pages/PopularCeleb";
+import CelebDetail from "./pages/CelebDetail";
+import UpComingMovieDetail from "./pages/UpComingMovieDetail";
 
 function App() {
   return (
@@ -34,9 +36,10 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/watchlist" element={<Watchlist />} />
           <Route path="/detailpopular" element={<PopularMovieDetail />} />
+          <Route path="/detailupcoming" element={<UpComingMovieDetail />} />
           <Route path="/contact_us" element={<ContactUs />} />
           <Route path="/popular_person" element={<PopularCeleb />} />
-
+          <Route path="/celebs/:id" element={<CelebDetail />} />
           <Route path="/header" element={<Header />} />
         </Routes>
       </UserProvider>
