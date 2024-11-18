@@ -12,6 +12,7 @@ import "./styles/Header.css";
 import PopularMovieDetail from "./pages/PopularMovieDetail";
 import PopularCeleb from "./pages/PopularCeleb";
 import CelebDetail from "./pages/CelebDetail";
+import GenreDetail from "./pages/GenreDetail";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             }
           />
           <Route path="/register" element={<Register />} />
+          <Route path="/genredetail" element={<GenreDetail />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/" element={<Home />} />
           <Route path="/watchlist" element={<Watchlist />} />
