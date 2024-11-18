@@ -6,12 +6,14 @@ import RateStar from "./components/RateStar";
 import Register from "./components/Register";
 import { UserProvider } from "./components/UserContext";
 import Watchlist from "./components/Watchlist";
+import CelebDetail from "./pages/CelebDetail";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
-import "./styles/Header.css";
-import PopularMovieDetail from "./pages/PopularMovieDetail";
+import MovieDetail from "./pages/MovieDetail";
 import PopularCeleb from "./pages/PopularCeleb";
-import CelebDetail from "./pages/CelebDetail";
+import PopularMovieDetail from "./pages/PopularMovieDetail";
+import UpComingMovieDetail from "./pages/UpComingMovieDetail";
+import "./styles/Header.css";
 
 function App() {
   return (
@@ -35,10 +37,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/watchlist" element={<Watchlist />} />
           <Route path="/detailpopular" element={<PopularMovieDetail />} />
+          <Route path="/detailupcoming" element={<UpComingMovieDetail />} />
           <Route path="/contact_us" element={<ContactUs />} />
           <Route path="/popular_person" element={<PopularCeleb />} />
           <Route path="/celebs/:id" element={<CelebDetail />} />
           <Route path="/header" element={<Header />} />
+          <Route path="/movie/:id" element={<MovieDetail />} />
         </Routes>
       </UserProvider>
     </BrowserRouter>

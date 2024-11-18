@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Modal } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import "../styles/card.css";
 import CardProps from "../types/Interface";
 import RateStar from "./RateStar";
@@ -15,6 +16,7 @@ const Card: React.FC<CardProps> = (props) => {
   const [showRateModal, setShowRateModal] = useState(false);
   const [voteAverage, setVoteAverage] = useState<number>(0);
   const [voteCount, setVoteCount] = useState<number>(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (user) {
@@ -215,6 +217,11 @@ const Card: React.FC<CardProps> = (props) => {
     setShowRateModal(false);
   };
 
+  // Chuyển hướng đến trang trailer khi bấm vào nút "Trailer"
+  const handleTrailerClick = () => {
+    navigate(`/movie/${props.id}`);
+  };
+
   return (
     <div className="card text-white" style={{ backgroundColor: "#1a1a1a" }}>
       <div className="card-img-wrapper">
@@ -269,6 +276,7 @@ const Card: React.FC<CardProps> = (props) => {
         <button
           className="btn btn-dark card-button"
           style={{ backgroundColor: "#5f5f5f" }}
+          onClick={handleTrailerClick}
         >
           <i className="fas fa-play mr-2"></i> Trailer
         </button>
