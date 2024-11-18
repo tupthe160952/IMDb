@@ -128,46 +128,46 @@ const Watchlist: React.FC = () => {
 
     return (
         <div className="watchlist ">
-<div className="movie-container">
-            <Header />
-            <br />
-            <div className="road-to-watchlist">
-                <h2><span><i className="fa-solid fa-bookmark"></i></span> Your Watchlist <span><i className="fa-solid fa-bookmark"></i></span></h2>
-            </div>
-            <div className="control-panel">
-                <h1>Sort by</h1>
-                <select value={sortCriteria} onChange={handleSortChange}>
-                    <option value="alphabet">Alphabetical</option>
-                    <option value="voteCount">Number of ratings</option>
-                    <option value="voteAverage">IMDB rating</option>
-                    <option value="popularity">Popularity</option>
-                    <option value="userRating">Your rating</option>
-                </select>
-                <select value={selectedGenre || ''} onChange={handleGenreChange}>
-                    <option value="">All Genres</option>
-                    {genres.map(genre => (
-                        <option key={genre.id} value={genre.id}>{genre.name}</option>
+            <div className="movie-container">
+                <Header />
+                <br />
+                <div className="road-to-watchlist">
+                    <h2><span><i className="fa-solid fa-bookmark"></i></span> Your Watchlist <span><i className="fa-solid fa-bookmark"></i></span></h2>
+                </div>
+                <div className="control-panel">
+                    <h1>Sort by</h1>
+                    <select value={sortCriteria} onChange={handleSortChange}>
+                        <option value="alphabet">Alphabetical</option>
+                        <option value="voteCount">Number of ratings</option>
+                        <option value="voteAverage">IMDB rating</option>
+                        <option value="popularity">Popularity</option>
+                        <option value="userRating">Your rating</option>
+                    </select>
+                    <select value={selectedGenre || ''} onChange={handleGenreChange}>
+                        <option value="">All Genres</option>
+                        {genres.map(genre => (
+                            <option key={genre.id} value={genre.id}>{genre.name}</option>
+                        ))}
+                    </select>
+                    <h5 className="total-movies">Total Movies: {cardFilm.length}</h5>
+                </div>
+                <div className="movies-grid">
+                    {cardFilm.map((film, index) => (
+                        <div className="movie-card" key={film.id}>
+                            <Card
+                                id={film.id}
+                                image={film.thumbnail}
+                                rating={film.vote_average.toFixed(1)}
+                                name={`${index + 1}. ${film.title}`}
+                                title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""}
+                                popularity={0} vote_count={0} user_rating={film.user_rating}
+                                known_for_department={""} original_name={""} profile_path={""} biography={""} birthday={null} place_of_birth={null} genres={[]} />
+                        </div>
                     ))}
-                </select>
-                <h5 className="total-movies">Total Movies: {cardFilm.length}</h5>
-            </div>
-            <div className="movies-grid">
-                {cardFilm.map((film, index) => (
-                    <div className="movie-card" key={film.id}>
-                        <Card
-                            id={film.id}
-                            image={film.thumbnail}
-                            rating={film.vote_average.toFixed(1)}
-                            name={`${index + 1}. ${film.title}`}
-                            title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""}
-                            popularity={0} vote_count={0} user_rating={film.user_rating}
-                            known_for_department={""} original_name={""} profile_path={""} biography={""} birthday={null} place_of_birth={null} genres={[]} />
-                    </div>
-                ))}
+                </div>
             </div>
         </div>
-        </div>
-        
+
     );
 };
 

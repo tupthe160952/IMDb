@@ -9,6 +9,7 @@
 .watchlist{
   width: 100%;
   background-color: #121212;
+  height: 100%;
 }
 
 .road-to-watchlist{
@@ -24,7 +25,6 @@
 }
 
 .movie-container {
-  width: 100%;
   max-width: 1300px;
   margin: 0 auto;
 }
