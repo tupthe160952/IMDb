@@ -190,7 +190,7 @@ const HeaderTrailer: React.FC<any> = (props) => {
                         <Col>
                             <h5>POPULARITY</h5>
                             <h3>
-                                <i className="bi bi-person" style={{ color: '#bebebd' }}></i> {movieData.popularity}
+                                <i className="bi bi-person" style={{ color: '#bebebd' }}></i> {movieData.popularity.toFixed(1)}
                             </h3>
                         </Col>
                     </Row>
