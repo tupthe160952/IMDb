@@ -7,35 +7,36 @@ import CardProps from "../types/Interface";
 import "../styles/PopularMovie.css";
 import "swiper/swiper-bundle.css";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
-const TopMovie: React.FC = () => {
+const UpComingMovie: React.FC = () => {
   const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
 
-  const getPopularMovie = (): void => {
+  const getUpComingMovie = (): void => {
     axios
-      .get(`http://localhost:9999/movie`)
+      .get(`http://localhost:9999/upComingMovie`)
       .then((res) => {
-        const sortedMovies = res.data.sort(
-          (a: CardProps, b: CardProps) => b.vote_average - a.vote_average
-        );
-        const topTenMovies = sortedMovies.slice(0, 10);
-        setCardFilm(topTenMovies);
+        // const sortedMovies = res.data.sort(
+        //   (a: CardProps, b: CardProps) => b.vote_average - a.vote_average
+        // );
+        // const topTenMovies = sortedMovies.slice(0, 10);
+        setCardFilm(res.data);
       })
       .catch((error) => {
-        console.error("Error fetching popular movies:", error);
+        console.error("Error fetching upcoming movies:", error);
       });
   };
 
   useEffect(() => {
-    getPopularMovie();
+    getUpComingMovie();
   }, []);
 
   return (
     <div className="slidecard">
-      <a className="road-to-detail" href="/">
-        <h2>Top 10 Movies on IMDB</h2>
+      <Link className="road-to-detail" to="/detailupcoming">
+        <h2>Coming soon</h2>
         <i className="fa-solid fa-forward"></i>
-      </a>
+      </Link>
 
       <Swiper
         slidesPerView={5}
@@ -73,4 +74,4 @@ const TopMovie: React.FC = () => {
   );
 };
 
-export default TopMovie;
+export default UpComingMovie;

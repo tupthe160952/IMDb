@@ -31,11 +31,6 @@ export default interface SliderProps {
   genres: number[];
 }
 
-export interface CelebCardProps {
-  image: string;
-  name: string;
-}
-
 export default interface Celebs {
   id: number;
   known_for_department: string;
