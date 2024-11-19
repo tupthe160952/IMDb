@@ -75,7 +75,8 @@ const Card: React.FC<CardProps> = (props) => {
       }
     }
   };
-  // Rate Star
+
+  // Rate Star ========================================================
   useEffect(() => {
     if (user) {
       axios
@@ -217,7 +218,8 @@ const Card: React.FC<CardProps> = (props) => {
     setShowRateModal(false);
   };
 
-  // Chuyển hướng đến trang trailer khi bấm vào nút "Trailer"
+  // Rate Star ========================================================
+
   const handleTrailerClick = () => {
     navigate(`/movie/${props.id}`);
   };

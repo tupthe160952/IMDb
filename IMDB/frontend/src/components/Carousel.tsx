@@ -1,13 +1,13 @@
 // Carousel.js
 
-import React, { useState, useEffect } from "react";
 import axios from "axios";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 // import "swiper/swiper-bundle.min.css";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
-import SliderProps from "../types/Interface";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "../styles/Carousel.css";
+import SliderProps from "../types/Interface";
 const Carousel2: React.FC = () => {
   const [movies, setMovies] = useState<SliderProps[]>([]);
 
