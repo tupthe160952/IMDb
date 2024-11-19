@@ -9,27 +9,54 @@ import RateStar from "./RateStar";
 import { useUser } from "./UserContext";
 
 const HeaderTrailer: React.FC<any> = (props) => {
-    const { id } = useParams<{ id: string }>();
+    const { id } = useParams<{ id: string }>();  // movieId
     const [movieData, setMovieData] = useState<any>(null);
-    const { user } = useUser();
-    const [userRating, setUserRating] = useState<number | null>(null);
-    const [userRatingId, setUserRatingId] = useState<number | null>(null);
+    const { user } = useUser();  // Lấy thông tin người dùng
+    const [userRating, setUserRating] = useState<number | null>(null);  // Lưu rating của user cho phim này
+    const [userRatingId, setUserRatingId] = useState<string | null>(null);  // Lưu id của rating đã lưu trong database
     const [showRateModal, setShowRateModal] = useState(false);
     const [voteAverage, setVoteAverage] = useState<number>(0);
     const [voteCount, setVoteCount] = useState<number>(0);
 
     useEffect(() => {
-        if (id) {
+        if (id && user) {
+            console.log(`Fetching data for movie with id: ${id}`);
+
             axios
                 .get(`http://localhost:9999/movie/${id}`)
                 .then((response) => {
-                    setMovieData(response.data);
+                    console.log("Movie data:", response.data);
+                    setMovieData(response.data); // Update movie data
+                    setVoteAverage(response.data.vote_average); // Set initial vote_average
+                    setVoteCount(response.data.vote_count); // Set initial vote_count
                 })
                 .catch((error) => {
                     console.error("Error fetching movie data:", error);
                 });
+
+            // Fetch user rating for the current movie and user
+            axios
+                .get(`http://localhost:9999/ratings?movieId=${id}&userId=${user.id}`)
+                .then((response) => {
+                    // Tìm vị trí của rating có movieId khớp với id
+                    const index = response.data.findIndex((rating: any) => rating.ratestar.movieId === id);
+
+                    if (index !== -1) {
+                        // Nếu tìm thấy rating, lấy ra rating tại vị trí tìm được
+                        const existingRating = response.data[index];
+                        setUserRating(existingRating.ratestar.rating);
+                        setUserRatingId(existingRating.id);
+                    } else {
+                        // Nếu không tìm thấy rating, thiết lập lại giá trị
+                        setUserRating(null);
+                        setUserRatingId(null);
+                    }
+                })
+                .catch((error) => {
+                    console.error("Error fetching ratings:", error);
+                });
         }
-    }, [id]);
+    }, [id, user]);  // Chạy lại effect khi id hoặc user thay đổi
 
     if (!movieData) return <div>Loading...</div>;
 
@@ -39,108 +66,109 @@ const HeaderTrailer: React.FC<any> = (props) => {
         if (!user) {
             alert("Please log in to rate this movie.");
             return;
+        }
+
+        if (userRating !== null) {
+            // Update existing rating
+            axios
+                .put(`http://localhost:9999/ratings/${userRatingId}`, {
+                    userId: user.id,
+                    ratestar: {
+                        movieId: movieData.id,
+                        rating: rating,
+                    },
+                })
+                .then(() => {
+                    setUserRating(rating);
+                    alert("Your rating has been updated.");
+
+                    // Fetch updated movie data and update average rating
+                    axios
+                        .get(`http://localhost:9999/movie/${movieData.id}`)
+                        .then((response) => {
+                            const movieData = response.data;
+                            const { vote_average, vote_count } = movieData;
+
+                            const newVoteAverage =
+                                (vote_average * vote_count - userRating + rating) / vote_count;
+
+                            const updatedMovieData = {
+                                ...movieData,
+                                vote_average: newVoteAverage,
+                            };
+
+                            // Update movie rating in the database
+                            axios
+                                .put(
+                                    `http://localhost:9999/movie/${movieData.id}`,
+                                    updatedMovieData
+                                )
+                                .then(() => {
+                                    setVoteAverage(newVoteAverage);
+                                })
+                                .catch((error) => {
+                                    console.error("Error updating movie data:", error);
+                                });
+                        })
+                        .catch((error) => {
+                            console.error("Error fetching movie data:", error);
+                        });
+                })
+                .catch((error) => {
+                    console.error("Error updating rating:", error);
+                });
         } else {
-            if (userRating !== null) {
-                axios
-                    .put(`http://localhost:9999/ratings/${userRatingId}`, {
-                        userId: user.id,
-                        ratestar: {
-                            movieId: props.id,
-                            rating: rating,
-                        },
-                    })
-                    .then(() => {
-                        setUserRating(rating);
-                        alert("Your rating has been updated.");
+            // Create a new rating
+            axios
+                .post("http://localhost:9999/ratings", {
+                    userId: user.id,
+                    ratestar: {
+                        movieId: movieData.id,
+                        rating: rating,
+                    },
+                })
+                .then(() => {
+                    setUserRating(rating);  // Lưu rating của user mới
+                    alert("Thank you for your rating!");
 
-                        axios
-                            .get(`http://localhost:9999/movie/${props.id}`)
-                            .then((response) => {
-                                const movieData = response.data;
-                                const { vote_average, vote_count } = movieData;
+                    // Fetch updated movie data and update average rating
+                    axios
+                        .get(`http://localhost:9999/movie/${movieData.id}`)
+                        .then((response) => {
+                            const movieData = response.data;
+                            const { vote_average, vote_count } = movieData;
 
-                                // Tính lại điểm trung bình mà không thay đổi vote_count
-                                const newVoteAverage =
-                                    (vote_average * vote_count - userRating + rating) /
-                                    vote_count;
+                            const newVoteCount = vote_count + 1;
+                            const newVoteAverage =
+                                (vote_average * vote_count + rating) / newVoteCount;
 
-                                // Cập nhật movieData với vote_average mới
-                                const updatedMovieData = {
-                                    ...movieData,
-                                    vote_average: newVoteAverage,
-                                };
+                            const updatedMovieData = {
+                                ...movieData,
+                                vote_average: newVoteAverage,
+                                vote_count: newVoteCount,
+                            };
 
-                                axios
-                                    .put(
-                                        `http://localhost:9999/movie/${props.id}`,
-                                        updatedMovieData
-                                    )
-                                    .then(() => {
-                                        console.log("Movie rating updated successfully.");
-                                        setVoteAverage(newVoteAverage);
-                                    })
-                                    .catch((error) => {
-                                        console.error("Error updating movie data:", error);
-                                    });
-                            })
-                            .catch((error) => {
-                                console.error("Error fetching movie data:", error);
-                            });
-                    })
-                    .catch((error) => {
-                        console.error("Error updating rating:", error);
-                    });
-            } else {
-                axios
-                    .post("http://localhost:9999/ratings", {
-                        userId: user.id,
-                        ratestar: {
-                            movieId: props.id,
-                            rating: rating,
-                        },
-                    })
-                    .then(() => {
-                        setUserRating(rating);
-                        alert("Thank you for your rating!");
-
-                        axios
-                            .get(`http://localhost:9999/movie/${props.id}`)
-                            .then((response) => {
-                                const movieData = response.data;
-                                const { vote_average, vote_count } = movieData;
-
-                                const newVoteCount = vote_count + 1;
-                                const newVoteAverage =
-                                    (vote_average * vote_count + rating) / newVoteCount;
-
-                                const updatedMovieData = {
-                                    ...movieData,
-                                    vote_average: newVoteAverage,
-                                    vote_count: newVoteCount,
-                                };
-
-                                axios
-                                    .put(
-                                        `http://localhost:9999/movie/${props.id}`,
-                                        updatedMovieData
-                                    )
-                                    .then(() => {
-                                        console.log("Movie rating updated successfully.");
-                                        setVoteAverage(newVoteAverage);
-                                        setVoteCount(newVoteCount);
-                                    })
-                                    .catch((error) => {
-                                        console.error("Error updating movie data:", error);
-                                    });
-                            })
-                            .catch((error) => {
-                                console.error("Error fetching movie data:", error);
-                            });
-                    })
-                    .catch((error) => {
-                        console.error("Error submitting rating:", error);
-                    });
-            }
+                            // Update movie rating in the database
+                            axios
+                                .put(
+                                    `http://localhost:9999/movie/${movieData.id}`,
+                                    updatedMovieData
+                                )
+                                .then(() => {
+                                    setVoteAverage(newVoteAverage);
+                                    setVoteCount(newVoteCount);
+                                })
+                                .catch((error) => {
+                                    console.error("Error updating movie data:", error);
+                                });
+                        })
+                        .catch((error) => {
+                            console.error("Error fetching movie data:", error);
+                        });
+                })
+                .catch((error) => {
+                    console.error("Error submitting rating:", error);
+                });
         }
     };
 
@@ -190,7 +218,7 @@ const HeaderTrailer: React.FC<any> = (props) => {
                         <Col>
                             <h5>POPULARITY</h5>
                             <h3>
-                                <i className="bi bi-person" style={{ color: '#bebebd' }}></i> {movieData.popularity}
+                                <i className="bi bi-person" style={{ color: '#bebebd' }}></i> {movieData.popularity.toFixed(1)}
                             </h3>
                         </Col>
                     </Row>
