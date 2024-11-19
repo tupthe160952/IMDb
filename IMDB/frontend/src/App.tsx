@@ -15,6 +15,8 @@ import PopularMovieDetail from "./pages/PopularMovieDetail";
 import UpComingMovieDetail from "./pages/UpComingMovieDetail";
 import GenreDetail from "./pages/GenreDetail";
 import "./styles/Header.css";
+import ProtectedRoute from  "./components/ProtectedRoute";
+import AdminPage from "./components/AdminPage";
 
 function App() {
   return (
@@ -45,6 +47,14 @@ function App() {
           <Route path="/celebs/:id" element={<CelebDetail />} />
           <Route path="/header" element={<Header />} />
           <Route path="/movie/:id" element={<MovieDetail />} />
+          <Route 
+            path="/admin" 
+            element={
+              <ProtectedRoute>
+                <AdminPage /> {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } 
+          />
         </Routes>
       </UserProvider>
     </BrowserRouter>

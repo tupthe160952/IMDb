@@ -161,7 +161,7 @@ const Watchlist: React.FC = () => {
                                 name={`${index + 1}. ${film.title}`}
                                 title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""}
                                 popularity={0} vote_count={0} user_rating={film.user_rating}
-                                known_for_department={""} original_name={""} profile_path={""} biography={""} birthday={null} place_of_birth={null} genres={[]} />
+                                known_for_department={""} original_name={""} profile_path={""} biography={""} birthday={null} place_of_birth={null} genres={[]} description={""} />
                         </div>
                     ))}
                 </div>
