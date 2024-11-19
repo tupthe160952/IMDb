@@ -15,8 +15,8 @@
       "id": "2"
     },
     {
-      "name": "aaa",
-      "email": "ab2@gmail.com",
+      "name": "admin",
+      "email": "admin@gmail.com",
       "password": "12345678",
       "role": "admin",
       "id": "3"
