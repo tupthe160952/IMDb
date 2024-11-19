@@ -6,6 +6,7 @@ import "../styles/watchlist.css";
 import axios from "axios";
 import Header from "../components/Header";
 import { useUser } from "./UserContext";
+import Footer from "../components/Footer";
 
 const Watchlist: React.FC = () => {
   const { user } = useUser();
@@ -210,6 +211,7 @@ const Watchlist: React.FC = () => {
           ))}
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

@@ -5,6 +5,7 @@ import Genre from "../types/Interface";
 import "../styles/PopularMovieDetail.css";
 import CardProps from "../types/Interface";
 import { useUser } from "./UserContext";
+import Footer from "../components/Footer";
 
 const PopularMovieList: React.FC = () => {
   const { user } = useUser();
@@ -135,13 +136,13 @@ const PopularMovieList: React.FC = () => {
   return (
     <div className="outside">
       <div className="popular-page">
-        <div className="description">
+        <div className="description-popular">
           <h2>IMDb Charts</h2>
           <p className="motto">Most Popular Movies</p>
           <p className="motto-down">As determined by IMDb users</p>
           <div className="filter">
             <p className="tips">{filteredMovies.length} Titles</p>
-            <span>
+            <span className="filter-box">
               Sort by:{" "}
               <select value={sortCriteria} onChange={handleSortChange}>
                 <option value="alphabet">Alphabetically</option>
@@ -176,6 +177,7 @@ const PopularMovieList: React.FC = () => {
             />
           ))}
         </div>
+        <Footer></Footer>
       </div>
     </div>
   );

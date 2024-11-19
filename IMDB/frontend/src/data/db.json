@@ -167,8 +167,8 @@
       "banner": "https://image.tmdb.org/t/p/original/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
       "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "popularity": 5184.196,
-      "vote_average": 6.709072580645162,
-      "vote_count": 496,
+      "vote_average": 6.705633802816902,
+      "vote_count": 497,
       "trailer": "https://www.youtube.com/watch?v=HyIyd9joTTc"
     },
     {
@@ -221,8 +221,8 @@
       "banner": "https://img.youtube.com/vi/67vbA5ZJdKQ/maxresdefault.jpg",
       "overview": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
       "popularity": 3545.825,
-      "vote_average": 8.546960833333333,
-      "vote_count": 2400,
+      "vote_average": 8.547566014160765,
+      "vote_count": 2401,
       "trailer": "https://www.youtube.com/watch?v=67vbA5ZJdKQ"
     },
     {
@@ -993,8 +993,8 @@
       "thumbnail_width": 220,
       "thumbnail_height": 326,
       "popularity": 2885.274,
-      "vote_average": 7.82,
-      "vote_count": 294,
+      "vote_average": 7.8002711864406775,
+      "vote_count": 295,
       "overview": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
       "trailer": "https://www.youtube.com/watch?v=4rgYUipGJNo"
     },
@@ -1091,6 +1091,31 @@
       "id": "1b80",
       "userId": "1",
       "movieId": "3"
+    },
+    {
+      "id": "aca0",
+      "userId": "1",
+      "movieId": "2"
+    },
+    {
+      "id": "a01a",
+      "userId": "1",
+      "movieId": "21"
+    },
+    {
+      "id": "3164",
+      "userId": "1",
+      "movieId": "33"
+    },
+    {
+      "id": "f4d1",
+      "userId": "1",
+      "movieId": "1"
+    },
+    {
+      "id": "a419",
+      "userId": "1",
+      "movieId": "6"
     }
   ],
   "celebs": [
@@ -1420,5 +1445,30 @@
       "known_for": []
     }
   ],
-  "ratings": []
+  "ratings": [
+    {
+      "id": "3125",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "3",
+        "rating": 10
+      }
+    },
+    {
+      "id": "8240",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "1",
+        "rating": 5
+      }
+    },
+    {
+      "id": "a91c",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "33",
+        "rating": 2
+      }
+    }
+  ]
 }
