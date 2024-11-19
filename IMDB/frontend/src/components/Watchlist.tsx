@@ -211,7 +211,6 @@ const Watchlist: React.FC = () => {
           ))}
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 };
