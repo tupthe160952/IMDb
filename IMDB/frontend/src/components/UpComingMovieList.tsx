@@ -13,11 +13,26 @@ const UpComingMovieList: React.FC = () => {
     []
   );
 
+  // const getUpComningMovie = (): void => {
+  //   axios
+  //     .get(`http://localhost:9999/upComingMovie`)
+  //     .then((res) => {
+  //       setCardFilm(res.data);
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error fetching popular movies:", error);
+  //     });
+  // };
   const getUpComningMovie = (): void => {
     axios
-      .get(`http://localhost:9999/upComingMovie`)
+      .get(`http://localhost:9999/movie`)
       .then((res) => {
-        setCardFilm(res.data);
+        const moviesIn2025 = res.data.filter((movie: CardProps) => {
+          // Lấy phần năm từ chuỗi "dd/MM/yyyy"
+          const movieYear = parseInt(movie.date.split("/")[2], 10);
+          return movieYear === 2025; // Kiểm tra xem năm có phải 2025
+        });
+        setCardFilm(moviesIn2025);
       })
       .catch((error) => {
         console.error("Error fetching popular movies:", error);

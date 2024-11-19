@@ -1,18 +1,25 @@
 .list {
   display: flex;
+  position: relative;
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
 }
 
 .popular-page {
-  background-color: white;
+  background-color: #121212;
   padding: 100px;
 }
 
 .outside {
-  background-color: black;
-  padding: 0 250px;
+  background-color: #121212;
+  padding: 0 auto;
+  color: white;
+  padding: 0 100px;
+}
+
+.filter-box {
+  align-items: flex-end;
 }
 
 .motto {

@@ -71,7 +71,9 @@ const PopularMovie: React.FC = () => {
               biography={""}
               birthday={null}
               place_of_birth={null}
-              genres={[]} description={""}            />
+              genres={[]}
+              description={""}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

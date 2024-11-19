@@ -12,15 +12,26 @@ import { Link } from "react-router-dom";
 const UpComingMovie: React.FC = () => {
   const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
 
+  // const getUpComingMovie = (): void => {
+  //   axios
+  //     .get(`http://localhost:9999/upComingMovie`)
+  //     .then((res) => {
+  //       setCardFilm(res.data);
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error fetching upcoming movies:", error);
+  //     });
+  // };
   const getUpComingMovie = (): void => {
     axios
-      .get(`http://localhost:9999/upComingMovie`)
+      .get(`http://localhost:9999/movie`)
       .then((res) => {
-        // const sortedMovies = res.data.sort(
-        //   (a: CardProps, b: CardProps) => b.vote_average - a.vote_average
-        // );
-        // const topTenMovies = sortedMovies.slice(0, 10);
-        setCardFilm(res.data);
+        const moviesIn2025 = res.data.filter((movie: CardProps) => {
+          // Lấy phần năm từ chuỗi "dd/MM/yyyy"
+          const movieYear = parseInt(movie.date.split("/")[2], 10);
+          return movieYear === 2025; // Kiểm tra xem năm có phải 2025
+        });
+        setCardFilm(moviesIn2025);
       })
       .catch((error) => {
         console.error("Error fetching upcoming movies:", error);
