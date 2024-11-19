@@ -4,15 +4,15 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 
 const Trailer: React.FC = () => {
-    const { id } = useParams<{ id: string }>();  // Lấy movieId từ URL
-    const [movie, setMovie] = useState<any>(null); // Lưu thông tin phim
-    const [loading, setLoading] = useState<boolean>(true); // Trạng thái tải dữ liệu
+    const { id } = useParams<{ id: string }>();
+    const [movie, setMovie] = useState<any>(null);
+    const [loading, setLoading] = useState<boolean>(true);
 
     useEffect(() => {
         axios
-            .get(`http://localhost:9999/movie?id=${id}`) // Giả sử API sẽ trả về movie theo id
+            .get(`http://localhost:9999/movie?id=${id}`)
             .then((response) => {
-                setMovie(response.data[0]); // Giả sử dữ liệu trả về là mảng và lấy phần tử đầu tiên
+                setMovie(response.data[0]);
                 setLoading(false);
             })
             .catch((error) => {
@@ -29,7 +29,6 @@ const Trailer: React.FC = () => {
         return <div>Movie not found.</div>;
     }
 
-    // Chuyển đổi URL trailer từ watch?v= thành embed/
     const videoSrc = movie.trailer.replace('watch?v=', 'embed/');
 
     return (
@@ -47,7 +46,7 @@ const Trailer: React.FC = () => {
                         <iframe
                             width="100%"
                             height="600px"
-                            src={videoSrc} // Sử dụng URL video đã chuyển đổi
+                            src={videoSrc}
                             title="YouTube video player"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen

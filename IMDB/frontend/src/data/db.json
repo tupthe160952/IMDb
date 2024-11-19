@@ -129,8 +129,8 @@
       "banner": "https://image.tmdb.org/t/p/original/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
       "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "popularity": 5184.196,
-      "vote_average": 6.709072580645162,
-      "vote_count": 496,
+      "vote_average": 6.70642555534379,
+      "vote_count": 515,
       "trailer": "https://www.youtube.com/watch?v=HyIyd9joTTc"
     },
     {
@@ -156,8 +156,8 @@
       "banner": "https://pipocasclub.com.br/wp-content/uploads/2023/11/terrifier3-1-e1699438190145.webp",
       "overview": "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare. The festive season quickly unravels as Art unleashes his twisted brand of terror, proving that no holiday is safe.",
       "popularity": 5444.687,
-      "vote_average": 7.292556634304208,
-      "vote_count": 618,
+      "vote_average": 7.230940988835726,
+      "vote_count": 627,
       "trailer": "https://www.youtube.com/watch?v=zaPcin5knJk"
     },
     {
@@ -1047,58 +1047,7 @@
       "trailer": "https://www.youtube.com/watch?v=Scf8nIJCvs4"
     }
   ],
-  "watchlist": [
-    {
-      "id": "e44c",
-      "userId": "2",
-      "movieId": "1"
-    },
-    {
-      "userId": 2,
-      "movieId": 4,
-      "id": "19"
-    },
-    {
-      "userId": 1,
-      "movieId": 15,
-      "id": "20"
-    },
-    {
-      "userId": 1,
-      "movieId": 6,
-      "id": "21"
-    },
-    {
-      "userId": 1,
-      "movieId": "1",
-      "id": "oysTEeX"
-    },
-    {
-      "id": "7190",
-      "userId": 1,
-      "movieId": "2"
-    },
-    {
-      "id": "7487",
-      "userId": 1,
-      "movieId": "3"
-    },
-    {
-      "id": "c9c8",
-      "userId": "1",
-      "movieId": "5"
-    },
-    {
-      "id": "9ce2",
-      "userId": "2",
-      "movieId": "3"
-    },
-    {
-      "id": "6047",
-      "userId": "2",
-      "movieId": "2"
-    }
-  ],
+  "watchlist": [],
   "celebs": [
     {
       "id": "1245",
@@ -1702,12 +1651,12 @@
   ],
   "ratings": [
     {
-      "userId": "1",
+      "userId": "2",
       "ratestar": {
         "movieId": "1",
-        "rating": 8
+        "rating": 1
       },
-      "id": "1"
+      "id": "c252"
     },
     {
       "userId": "2",
@@ -1726,92 +1675,12 @@
       "id": "3"
     },
     {
-      "userId": 2,
-      "ratestar": {
-        "movieId": 4,
-        "rating": 9
-      },
-      "id": "4"
-    },
-    {
-      "userId": 1,
-      "ratestar": {
-        "movieId": 13,
-        "rating": 10
-      },
-      "id": "5"
-    },
-    {
-      "userId": 1,
-      "ratestar": {
-        "movieId": 12,
-        "rating": 1
-      },
-      "id": "6"
-    },
-    {
-      "id": "62c6",
+      "id": "fbda",
       "userId": "2",
       "ratestar": {
-        "movieId": "1",
-        "rating": 9
-      }
-    },
-    {
-      "id": "592f",
-      "userId": 2,
-      "ratestar": {
-        "movieId": 2,
+        "movieId": "33",
         "rating": 3
       }
-    },
-    {
-      "userId": "1",
-      "ratestar": {
-        "movieId": "13",
-        "rating": 1
-      },
-      "id": "f2d1"
-    },
-    {
-      "id": "9818",
-      "userId": "1",
-      "ratestar": {
-        "movieId": "5",
-        "rating": 6
-      }
-    },
-    {
-      "id": "e006",
-      "userId": "1",
-      "ratestar": {
-        "movieId": "3",
-        "rating": 7
-      }
-    },
-    {
-      "userId": "1",
-      "ratestar": {
-        "movieId": "4",
-        "rating": 1
-      },
-      "id": "05d1"
-    },
-    {
-      "userId": 1,
-      "ratestar": {
-        "movieId": "6",
-        "rating": 6
-      },
-      "id": "Lb4j971"
-    },
-    {
-      "userId": 1,
-      "ratestar": {
-        "movieId": "2",
-        "rating": 7
-      },
-      "id": "bZfTpjn"
     }
   ],
   "upComingMovie": [
