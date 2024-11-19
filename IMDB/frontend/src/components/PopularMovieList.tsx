@@ -81,7 +81,7 @@ const PopularMovieList: React.FC = () => {
           <p className="motto">Most Popular Movies</p>
           <p className="motto-down">Ad determined by IMDb users</p>
           <div className="filter">
-            <p className="tips">100 Titles</p>
+            <p className="tips">Total Movies: {cardFilm.length}</p>
             <span>
               Sort by:{" "}
               <select value={sortCriteria} onChange={handleSortChange}>
