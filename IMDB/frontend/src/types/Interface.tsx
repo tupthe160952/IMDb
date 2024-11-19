@@ -24,16 +24,23 @@ export default interface SliderProps {
   genres: number[];
 }
 
+export default interface Genders {
+  id: number;
+  name: string;
+}
+
 export default interface Celebs {
   id: number;
   known_for_department: string;
   name: string;
   original_name: string;
+  genders: number;
   popularity: number;
   profile_path: string;
   biography: string;
   birthday: string | null;
   place_of_birth: string | null;
+  known_for: string;
 }
 
 // export interface Movie {
