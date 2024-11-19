@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import HeaderTrailer from '../components/HeaderTrailer';
 import PopularMovie from '../components/PopularMovie';
 import TopMovie from '../components/TopMovie';
+import UpComingMovie from "../components/UpComingMovie";
 import Trailer from '../components/Trailer';
 import TrailerDetail from '../components/TrailerDetail';
 
@@ -16,8 +17,7 @@ const MovieDetail: React.FC = () => {
                 <Trailer />
                 <TrailerDetail />
             </div>
-            <PopularMovie />
-            <TopMovie />
+            <UpComingMovie/>
             <Footer />
         </div>
 
