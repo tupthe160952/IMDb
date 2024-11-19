@@ -29,79 +29,79 @@
   ],
   "genres": [
     {
-      "id": "28",
+      "id": 28,
       "name": "Action"
     },
     {
-      "id": "12",
+      "id": 12,
       "name": "Adventure"
     },
     {
-      "id": "16",
+      "id": 16,
       "name": "Animation"
     },
     {
-      "id": "35",
+      "id": 35,
       "name": "Comedy"
     },
     {
-      "id": "80",
+      "id": 80,
       "name": "Crime"
     },
     {
-      "id": "99",
+      "id": 99,
       "name": "Documentary"
     },
     {
-      "id": "18",
+      "id": 18,
       "name": "Drama"
     },
     {
-      "id": "10751",
+      "id": 10751,
       "name": "Family"
     },
     {
-      "id": "14",
+      "id": 14,
       "name": "Fantasy"
     },
     {
-      "id": "36",
+      "id": 36,
       "name": "History"
     },
     {
-      "id": "27",
+      "id": 27,
       "name": "Horror"
     },
     {
-      "id": "10402",
+      "id": 10402,
       "name": "Music"
     },
     {
-      "id": "9648",
+      "id": 9648,
       "name": "Mystery"
     },
     {
-      "id": "10749",
+      "id": 10749,
       "name": "Romance"
     },
     {
-      "id": "878",
+      "id": 878,
       "name": "Science Fiction"
     },
     {
-      "id": "10770",
+      "id": 10770,
       "name": "TV Movie"
     },
     {
-      "id": "53",
+      "id": 53,
       "name": "Thriller"
     },
     {
-      "id": "10752",
+      "id": 10752,
       "name": "War"
     },
     {
-      "id": "37",
+      "id": 37,
       "name": "Western"
     }
   ],
@@ -515,7 +515,7 @@
       "thumbnail_height": 326,
       "popularity": 612.052,
       "vote_average": 10,
-      "vote_count": 73,
+      "vote_count": 72,
       "time": 25,
       "overview": "Buster Moon dreams up a star-studded spectacle set to Michael Jackson's \"Thriller\" in this animated short featuring characters from the hit \"Sing\" films.",
       "trailer": "https://www.youtube.com/watch?v=RiRiTEhiyP4"
@@ -662,7 +662,7 @@
       "thumbnail_height": 326,
       "popularity": 586.002,
       "vote_average": 10,
-      "vote_count": 9225,
+      "vote_count": 9224,
       "time": 77,
       "overview": "In a 19th-century European village, a young man about to be married is whisked away to the underworld and wed to a mysterious corpse bride, while his real bride waits bereft in the land of the living.",
       "trailer": "https://www.youtube.com/watch?v=AGACeWVdFqo"
@@ -1812,29 +1812,6 @@
         "rating": 7
       },
       "id": "bZfTpjn"
-    },
-    {
-      "id": "c18f",
-      "userId": "1",
-      "ratestar": {
-        "movieId": "21",
-        "rating": 10
-      }
-    },
-    {
-      "id": "0d42",
-      "userId": "1",
-      "ratestar": {
-        "movieId": "15",
-        "rating": 10
-      }
-    },
-    {
-      "id": "f3b6",
-      "userId": "1",
-      "ratestar": {
-        "rating": 10
-      }
     }
   ],
   "upComingMovie": [
