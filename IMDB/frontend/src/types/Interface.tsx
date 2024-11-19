@@ -6,6 +6,13 @@ export default interface Genre {
   name: string;
 }
 
+export default interface GenreDetail {
+  id: number;
+  name: string;
+  image: string;
+  description: string;
+}
+
 export default interface CardProps {
   id: number;
   image: string;
