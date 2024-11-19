@@ -18,7 +18,7 @@ export default interface CardProps {
   image: string;
   rating: string | number;
   name: string;
-
+  date: string;
 }
 
 export default interface SliderProps {
