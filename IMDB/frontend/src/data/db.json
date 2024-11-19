@@ -30,79 +30,117 @@
   "genres": [
     {
       "id": 28,
-      "name": "Action"
+      "name": "Action",
+      "image": "https://example.com/images/action.jpg",
+      "description": "Movies that feature high-intensity physical feats and dynamic combat scenes."
     },
     {
       "id": 12,
-      "name": "Adventure"
+      "name": "Adventure",
+      "image": "https://example.com/images/adventure.jpg",
+      "description": "Films that take you on exciting journeys and explore unknown territories."
     },
     {
       "id": 16,
-      "name": "Animation"
+      "name": "Animation",
+      "image": "https://example.com/images/animation.jpg",
+      "description": "Stories brought to life through the art of animation."
     },
     {
       "id": 35,
-      "name": "Comedy"
+      "name": "Comedy",
+      "image": "https://example.com/images/comedy.jpg",
+      "description": "Movies designed to make you laugh with humor and wit."
     },
     {
       "id": 80,
-      "name": "Crime"
+      "name": "Crime",
+      "image": "https://example.com/images/crime.jpg",
+      "description": "Films that delve into the world of criminals and law enforcement."
     },
     {
       "id": 99,
-      "name": "Documentary"
+      "name": "Documentary",
+      "image": "https://example.com/images/documentary.jpg",
+      "description": "Non-fiction films that depict real-life events and stories."
     },
     {
       "id": 18,
-      "name": "Drama"
+      "name": "Drama",
+      "image": "https://example.com/images/drama.jpg",
+      "description": "Character-driven stories focusing on intense emotional experiences."
     },
     {
       "id": 10751,
-      "name": "Family"
+      "name": "Family",
+      "image": "https://example.com/images/family.jpg",
+      "description": "Heartwarming films suitable for viewers of all ages."
     },
     {
       "id": 14,
-      "name": "Fantasy"
+      "name": "Fantasy",
+      "image": "https://example.com/images/fantasy.jpg",
+      "description": "Stories set in magical worlds filled with wonder and imagination."
     },
     {
       "id": 36,
-      "name": "History"
+      "name": "History",
+      "image": "https://example.com/images/history.jpg",
+      "description": "Movies that depict historical events and figures."
     },
     {
       "id": 27,
-      "name": "Horror"
+      "name": "Horror",
+      "image": "https://example.com/images/horror.jpg",
+      "description": "Films designed to scare and thrill the audience."
     },
     {
       "id": 10402,
-      "name": "Music"
+      "name": "Music",
+      "image": "https://example.com/images/music.jpg",
+      "description": "Movies centered around musical performances and themes."
     },
     {
       "id": 9648,
-      "name": "Mystery"
+      "name": "Mystery",
+      "image": "https://example.com/images/mystery.jpg",
+      "description": "Stories that keep you guessing with suspense and intrigue."
     },
     {
       "id": 10749,
-      "name": "Romance"
+      "name": "Romance",
+      "image": "https://example.com/images/romance.jpg",
+      "description": "Heartfelt stories about love and relationships."
     },
     {
       "id": 878,
-      "name": "Science Fiction"
+      "name": "Science Fiction",
+      "image": "https://example.com/images/scifi.jpg",
+      "description": "Films that explore futuristic concepts and advanced technology."
     },
     {
       "id": 10770,
-      "name": "TV Movie"
+      "name": "TV Movie",
+      "image": "https://example.com/images/tv_movie.jpg",
+      "description": "Films made specifically for television broadcast."
     },
     {
       "id": 53,
-      "name": "Thriller"
+      "name": "Thriller",
+      "image": "https://example.com/images/thriller.jpg",
+      "description": "Movies that create intense suspense and excitement."
     },
     {
       "id": 10752,
-      "name": "War"
+      "name": "War",
+      "image": "https://example.com/images/war.jpg",
+      "description": "Stories set during times of war and conflict."
     },
     {
       "id": 37,
-      "name": "Western"
+      "name": "Western",
+      "image": "https://example.com/images/western.jpg",
+      "description": "Movies set in the American Old West, featuring cowboys and outlaws."
     }
   ],
   "movie": [
@@ -118,19 +156,15 @@
         "Rhys Ifans",
         "Clark Backo"
       ],
-      "genres": [
-        878,
-        28,
-        12
-      ],
+      "genres": [878, 28, 12],
       "href": "Venom:_The_Last_Dance",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://i.pinimg.com/originals/67/44/3f/67443f455bf514bf972eb413301e03c3.jpg",
       "banner": "https://image.tmdb.org/t/p/original/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
       "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "popularity": 5184.196,
-      "vote_average": 6.70642555534379,
-      "vote_count": 515,
+      "vote_average": 6.705633802816902,
+      "vote_count": 497,
       "trailer": "https://www.youtube.com/watch?v=HyIyd9joTTc"
     },
     {
@@ -145,11 +179,7 @@
         "Samantha Scaffidi",
         "Margaret Anne Florence"
       ],
-      "genres": [
-        27,
-        53,
-        9648
-      ],
+      "genres": [27, 53, 9648],
       "href": "Terrifier_3",
       "extract": "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare.",
       "thumbnail": "https://th.bing.com/th/id/OIP.SRBO7MiyPcTHYgTC-jnmNgHaLV?rs=1&pid=ImgDetMain",
@@ -172,19 +202,15 @@
         "Stephanie Hsu",
         "Matt Berry"
       ],
-      "genres": [
-        16,
-        878,
-        10751
-      ],
+      "genres": [16, 878, 10751],
       "href": "The_Wild_Robot",
       "extract": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
       "thumbnail": "https://th.bing.com/th/id/OIP.tkk2Rk1OREKhKpT1b9F1TwHaLu?w=115&h=182&c=7&r=0&o=5&dpr=1.6&pid=1.7",
       "banner": "https://img.youtube.com/vi/67vbA5ZJdKQ/maxresdefault.jpg",
       "overview": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
       "popularity": 3545.825,
-      "vote_average": 8.546960833333333,
-      "vote_count": 2400,
+      "vote_average": 8.547566014160765,
+      "vote_count": 2401,
       "trailer": "https://www.youtube.com/watch?v=67vbA5ZJdKQ"
     },
     {
@@ -198,20 +224,16 @@
         "Ron Perlman",
         "Peter Dinklage"
       ],
-      "genres": [
-        28,
-        878,
-        12
-      ],
-      "href": "Transformers: Rise of the Beasts",
-      "extract": "When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth.",
-      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/gPbM0MK8CP8A174rmUwGsADNYKD.jpg",
-      "banner": "https://i.ytimg.com/vi/itnqEauWQZM/maxresdefault.jpg",
-      "overview": "When a new threat capable of destroying the entire planet emerges, Optimus Prime and the Autobots must team up with a powerful faction known as the Maximals. With the fate of humanity hanging in the balance, humans Noah and Elena will do whatever it takes to help the Transformers as they engage in the ultimate battle to save Earth.",
-      "popularity": 196.334,
-      "vote_average": 7.3,
-      "vote_count": 4591,
-      "trailer": "https://www.youtube.com/watch?v=itnqEauWQZM"
+      "genres": [16, 878, 12, 10751],
+      "href": "Transformers_One",
+      "extract": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
+      "thumbnail": "https://image.tmdb.org/t/p/original/oz7WsSLalkh60q1e0uzqqpbaB2g.jpg",
+      "banner": "https://m.media-amazon.com/images/S/pv-target-images/bba020cf40bb4d2bf092872da97c9fc50299485ab72dcbc4f8c45e9dee7896c6._UR1920,1080_SX720_FMjpg_.jpg",
+      "overview": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
+      "popularity": 1958.212,
+      "vote_average": 8.168265682656827,
+      "vote_count": 542,
+      "trailer": "https://www.youtube.com/watch?v=0rmJXXKDrsM"
     },
     {
       "id": "5",
@@ -226,11 +248,7 @@
         "Oscar Lesage",
         "Tom Morton"
       ],
-      "genres": [
-        18,
-        27,
-        878
-      ],
+      "genres": [18, 27, 878],
       "href": "The_Substance",
       "extract": "Have you ever dreamt of a better version of yourself? You, only better in every way. You should try this new product, it's called The Substance. IT CHANGED MY LIFE.",
       "thumbnail": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/07/the-substance-movie-poster.jpg",
@@ -251,11 +269,7 @@
         "Brendan Gleeson",
         "Catherine Keener"
       ],
-      "genres": [
-        18,
-        80,
-        53
-      ],
+      "genres": [18, 80, 53],
       "href": "Joker:_Folie_à_Deux",
       "extract": "While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.",
       "thumbnail": "https://cdn.kinocheck.com/i/y43dk5voar.jpg",
@@ -279,10 +293,7 @@
         "Aileen Wu",
         "Rosie Ede"
       ],
-      "genres": [
-        878,
-        27
-      ],
+      "genres": [878, 27],
       "href": "Alien:_Romulus",
       "extract": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
       "thumbnail": "https://th.bing.com/th/id/OIP.NSPRr13UctpfEOp5IpQFXAHaJP?rs=1&pid=ImgDetMain",
@@ -308,13 +319,7 @@
         "Ayo Edebiri",
         "Lilimar"
       ],
-      "genres": [
-        16,
-        10751,
-        12,
-        35,
-        18
-      ],
+      "genres": [16, 10751, 12, 35, 18],
       "href": "Inside_Out_2",
       "extract": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
       "thumbnail": "https://th.bing.com/th/id/OIP.yIaexla70j3o71oPZ0BV3QHaJQ?rs=1&pid=ImgDetMain",
@@ -337,10 +342,7 @@
         "Riz Ahmed",
         "Scott Haze"
       ],
-      "genres": [
-        878,
-        28
-      ],
+      "genres": [878, 28],
       "href": "Venom",
       "extract": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
       "thumbnail": "https://th.bing.com/th/id/R.93769210c316b1c996d9e6ecb93a961c?rik=ZVFWhkpxwLEkAw&pid=ImgRaw&r=0",
@@ -363,11 +365,7 @@
         "Dafne Keen",
         "Jon Favreau"
       ],
-      "genres": [
-        28,
-        35,
-        878
-      ],
+      "genres": [28, 35, 878],
       "href": "Deadpool_&_Wolverine",
       "extract": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
       "thumbnail": "https://th.bing.com/th/id/OIP.AybWD6FAYYvHawRSZeliXQHaK-?rs=1&pid=ImgDetMain",
@@ -390,14 +388,7 @@
         "Laurent Lafitte",
         "Pierfrancesco Favino"
       ],
-      "genres": [
-        12,
-        36,
-        28,
-        18,
-        10749,
-        53
-      ],
+      "genres": [12, 36, 28, 18, 10749, 53],
       "href": "Le Comte de Monte-Cristo",
       "extract": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
       "thumbnail": "https://th.bing.com/th/id/OIP.aGgD2eAtQ8-EW1EXz10DBgHaKC?rs=1&pid=ImgDetMain",
@@ -418,10 +409,7 @@
         "Marco Morales",
         "Gwen Garci"
       ],
-      "genres": [
-        18,
-        10749
-      ],
+      "genres": [18, 10749],
       "href": "Heavenly_Touch",
       "extract": "Jonard is having trouble making ends meet. His mother is suffering from depression, and he and his sister are forced to quit school to take care of her. One day, Jonard meets his friend Rodel, who introduces him to the world of massage parlors.",
       "thumbnail": "https://canvas.tubitv.com/opts/yR8XJoXlkajQqg==/98670168-1a9a-424a-a2ab-39c008af831c/CJgDEMcEOgUxLjEuMg==",
@@ -445,10 +433,7 @@
         "Daniel Francis",
         "Moray Treadwell"
       ],
-      "genres": [
-        27,
-        53
-      ],
+      "genres": [27, 53],
       "href": "Dont_Move",
       "extract": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/47/Dont_Move_2024_film_poster.jpg",
@@ -473,11 +458,7 @@
         "Jenna Ortega",
         "Justin Theroux"
       ],
-      "genres": [
-        35,
-        14,
-        27
-      ],
+      "genres": [35, 14, 27],
       "href": "Beetlejuice_Beetlejuice",
       "extract": "After a family tragedy, three generations of the Deetz family return home to Winter River, only to find Lydia’s life turned upside down when her daughter accidentally opens a portal to the Afterlife.",
       "thumbnail": "https://th.bing.com/th/id/OIP.A1crH2jIUS1zRF_xJRQIkgAAAA?rs=1&pid=ImgDetMain",
@@ -495,18 +476,8 @@
       "id": "15",
       "title": "Sing: Thriller",
       "date": "16/10/2024",
-      "cast": [
-        "Matthew McConaughey",
-        "Tori Kelly",
-        "Tori Kelly",
-        "Nick Kroll"
-      ],
-      "genres": [
-        16,
-        10751,
-        35,
-        27
-      ],
+      "cast": ["Matthew McConaughey", "Tori Kelly", "Tori Kelly", "Nick Kroll"],
+      "genres": [16, 10751, 35, 27],
       "href": "Sing_Thriller",
       "extract": "Buster Moon dreams up a star-studded spectacle set to Michael Jackson's 'Thriller' in this animated short featuring characters from the hit 'Sing' films.",
       "thumbnail": "https://mbox24.org/images/tt33999453/poster.jpg",
@@ -524,12 +495,8 @@
       "id": "16",
       "title": "Terrifier",
       "date": "09/08/2011",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        27
-      ],
+      "cast": [""],
+      "genres": [27],
       "href": "Terrifier",
       "extract": "After witnessing a brutal murder on Halloween night, a young woman becomes the next target of a maniacal entity.",
       "thumbnail": "https://picfiles.alphacoders.com/392/392411.jpg",
@@ -547,14 +514,8 @@
       "id": "17",
       "title": "The Silent Hour",
       "date": "03/10/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        80,
-        53,
-        28
-      ],
+      "cast": [""],
+      "genres": [80, 53, 28],
       "href": "The_Silent_Hour",
       "extract": "A hearing-impaired detective faces off with criminals while working as an interpreter.",
       "thumbnail": "https://filmapikofficial.com/poster/tt22874848.jpg",
@@ -572,13 +533,8 @@
       "id": "18",
       "title": "El hoyo 2",
       "date": "27/09/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        878,
-        27
-      ],
+      "cast": [""],
+      "genres": [878, 27],
       "href": "El hoyo 2",
       "extract": "A new resident in a brutal vertical prison must fight for survival.",
       "thumbnail": "https://th.bing.com/th/id/OIP.k6OAfgJrBK4e8QAZnT5IEwHaLE?rs=1&pid=ImgDetMain",
@@ -596,13 +552,8 @@
       "id": "19",
       "title": "Bagman",
       "date": "20/09/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        27,
-        53
-      ],
+      "cast": [""],
+      "genres": [27, 53],
       "href": "Bagman",
       "extract": "A legendary figure terrorizes children, snatching them away in his bag.",
       "thumbnail": "https://th.bing.com/th/id/OIP.cYVe_vuPdIAH102Prz2H-gAAAA?rs=1&pid=ImgDetMain",
@@ -620,15 +571,8 @@
       "id": "20",
       "title": "My Hero Academia: You're Next",
       "date": "02/08/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        16,
-        28,
-        12,
-        878
-      ],
+      "cast": [""],
+      "genres": [16, 28, 12, 878],
       "href": "My_Hero_Academia_Youre_Next",
       "extract": "A mysterious fortress appears, posing a new threat for heroes and villains.",
       "thumbnail": "https://images.justwatch.com/poster/318532615/s718/my-hero-academia-youre-next.jpg",
@@ -646,14 +590,8 @@
       "id": "21",
       "title": "Corpse Bride",
       "date": "12/09/2005",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        10749,
-        14,
-        16
-      ],
+      "cast": [""],
+      "genres": [10749, 14, 16],
       "href": "Corpse_Bride",
       "extract": "A young man in a European village marries a corpse while his real bride waits.",
       "thumbnail": "https://th.bing.com/th/id/OIP.D8gTrmsQJWbC-lovn6cXLgHaLH?rs=1&pid=ImgDetMain",
@@ -671,14 +609,8 @@
       "id": "22",
       "title": "Brothers",
       "date": "10/10/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        28,
-        35,
-        80
-      ],
+      "cast": [""],
+      "genres": [28, 35, 80],
       "href": "Brothers",
       "extract": "A reformed criminal reconnects with his twin for one last heist.",
       "thumbnail": "https://th.bing.com/th?id=OIF.mFh%2fgXDJsZ%2bRbw2Cgk7Tgg&rs=1&pid=ImgDetMain",
@@ -696,14 +628,8 @@
       "id": "23",
       "title": "Invasion",
       "date": "11/04/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        28,
-        18,
-        53
-      ],
+      "cast": [""],
+      "genres": [28, 18, 53],
       "href": "Invasion_(2024_film)",
       "extract": "When neighboring country Veragua suddenly attacks Curaçao and Aruba, the Dutch government is taken by surprise. The conflict escalates as three young Navy recruits face difficult choices.",
       "thumbnail": "https://th.bing.com/th/id/OIP.jNQEMKnO7_BSTUL3iInAvAHaLH?w=1175&h=1763&rs=1&pid=ImgDetMain",
@@ -721,13 +647,8 @@
       "id": "24",
       "title": "Smile 2",
       "date": "16/10/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        27,
-        9648
-      ],
+      "cast": [""],
+      "genres": [27, 9648],
       "href": "Smile_2_(2024_film)",
       "extract": "Global pop sensation Skye Riley faces terrifying, inexplicable events while on a world tour. To regain control, she must confront her dark past.",
       "thumbnail": "https://image.tmdb.org/t/p/w500/aE85MnPIsSoSs3978Noo16BRsKN.jpg",
@@ -745,12 +666,8 @@
       "id": "25",
       "title": "All Hallows' Eve",
       "date": "29/10/2013",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        27
-      ],
+      "cast": [""],
+      "genres": [27],
       "href": "All_Hallows'_Eve_(2013_film)",
       "extract": "A babysitter finds an old VHS tape in the kids' trick or treat bag, featuring three terrifying tales linked by a murderous clown.",
       "thumbnail": "https://image.tmdb.org/t/p/w500/bSe8CBqK8HkbP6sqZWzcJfQV9Ci.jpg",
@@ -768,13 +685,8 @@
       "id": "26",
       "title": "It Ends with Us",
       "date": "07/08/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        10749,
-        18
-      ],
+      "cast": [""],
+      "genres": [10749, 18],
       "href": "It_Ends_with_Us_(2024_film)",
       "extract": "A woman’s first love reenters her life, disrupting her relationship with a charming but abusive neurosurgeon, leading her to make a difficult choice.",
       "thumbnail": "https://image.tmdb.org/t/p/w500/AjV6jFJ2YFIluYo4GQf13AA1tqu.jpg",
@@ -792,14 +704,8 @@
       "id": "27",
       "title": "The Crow",
       "date": "21/08/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        28,
-        14,
-        27
-      ],
+      "cast": [""],
+      "genres": [28, 14, 27],
       "href": "The_Crow_(2024_film)",
       "extract": "Eric and Shelly, soulmates, are brutally murdered. Given a chance to save his love, Eric seeks revenge across worlds.",
       "thumbnail": "https://image.tmdb.org/t/p/w500/58QT4cPJ2u2TqWZkterDq9q4yxQ.jpg",
@@ -817,13 +723,8 @@
       "id": "28",
       "title": "Bad Boys: Ride or Die",
       "date": "05/06/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        28,
-        35
-      ],
+      "cast": [""],
+      "genres": [28, 35],
       "href": "Bad_Boys_Ride_or_Die",
       "extract": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BN2YzYzA2YmQtODA3NC00NTdiLWJkNWEtNTc2OWFhYzcwMzk1XkEyXkFqcGc@._V1_.jpg",
@@ -840,13 +741,8 @@
       "id": "29",
       "title": "Transmorphers: Mech Beasts",
       "date": "09/06/2023",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        28,
-        878
-      ],
+      "cast": [""],
+      "genres": [28, 878],
       "href": "Transmorphers_Mech_Beasts",
       "extract": "20 years after the events of Transmorphers, a newer, more advanced species of alien robot descends on a rebuilt Earth, threatening once again to destroy the planet.",
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMWZjMzFhMTQtY2FjOS00N2U0LWE4ZDAtNDZkMGVjZDE2MTcxXkEyXkFqcGdeQXVyNTkzMzg3NDM@._V1_.jpg",
@@ -863,14 +759,8 @@
       "id": "30",
       "title": "Flow",
       "date": "29/08/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        16,
-        14,
-        12
-      ],
+      "cast": [""],
+      "genres": [16, 14, 12],
       "href": "Flow",
       "extract": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
       "thumbnail": "https://th.bing.com/th/id/OIP.Hlzvpz7ilJ9hcKWnda4NQAHaLH?rs=1&pid=ImgDetMain",
@@ -887,13 +777,8 @@
       "id": "31",
       "title": "The Last Stop in Yuma County",
       "date": "10/05/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        80,
-        53
-      ],
+      "cast": [""],
+      "genres": [80, 53],
       "href": "The_Last_Stop_in_Yuma_County",
       "extract": "While awaiting the next fuel truck at a middle-of-nowhere Arizona rest stop, a traveling young knife salesman is thrust into a high-stakes hostage situation by the arrival of two similarly stranded bank robbers with no qualms about using cruelty—or cold, hard steel—to protect their bloodstained, ill-gotten fortune.",
       "thumbnail": "https://de.web.img3.acsta.net/r_1280_720/pictures/23/09/01/21/37/1040943.jpg",
@@ -910,16 +795,8 @@
       "id": "32",
       "title": "Apocalipsis Z: el principio del fin",
       "date": "10/04/2024",
-      "cast": [
-        "Francisco Ortiz",
-        "José María Yázpik",
-        "Berta Vázquez"
-      ],
-      "genres": [
-        18,
-        28,
-        27
-      ],
+      "cast": ["Francisco Ortiz", "José María Yázpik", "Berta Vázquez"],
+      "genres": [18, 28, 27],
       "href": "Apocalipsis Z: el principio del fin",
       "extract": "When a kind of rabies that transforms people into aggressive creatures spreads across the planet, Manel isolates himself at home with his cat, relying on his wits to survive; but soon they must go out in search of food, by land and by sea, dodging many dangers.",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/wIGJnIFQlESkC2rLpfA8EDHqk4g.jpg",
@@ -942,11 +819,7 @@
         "Pedro Pascal",
         "Connie Nielsen"
       ],
-      "genres": [
-        18,
-        28,
-        12
-      ],
+      "genres": [18, 28, 12],
       "href": "Gladiator II",
       "extract": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
@@ -954,8 +827,8 @@
       "thumbnail_width": 220,
       "thumbnail_height": 326,
       "popularity": 2885.274,
-      "vote_average": 7.82,
-      "vote_count": 294,
+      "vote_average": 7.8002711864406775,
+      "vote_count": 295,
       "overview": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
       "trailer": "https://www.youtube.com/watch?v=4rgYUipGJNo"
     },
@@ -970,11 +843,7 @@
         "Lucy Liu",
         "Kiernan Shipka"
       ],
-      "genres": [
-        28,
-        35,
-        14
-      ],
+      "genres": [28, 35, 14],
       "href": "Red One",
       "extract": "After Santa Claus (codename: Red One) is kidnapped, the North Pole's Head of Security must team up with the world's most infamous bounty hunter in a globe-trotting, action-packed mission to save Christmas.",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg",
@@ -999,12 +868,7 @@
         "Jon Hamm",
         "Laurence Fishburne"
       ],
-      "genres": [
-        16,
-        878,
-        12,
-        10751
-      ],
+      "genres": [16, 878, 12, 10751],
       "href": "Transformers One",
       "extract": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/iHPIBzrjJHbXeY9y7VVbEVNt7LW.jpg",
@@ -1029,11 +893,7 @@
         "Emile Hirsch",
         "Sydney Sweeney"
       ],
-      "genres": [
-        18,
-        35,
-        53
-      ],
+      "genres": [18, 35, 53],
       "href": "Once Upon a Time... in Hollywood",
       "extract": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
@@ -1094,9 +954,29 @@
       "movieId": "3"
     },
     {
-      "id": "6047",
-      "userId": "2",
+      "id": "aca0",
+      "userId": "1",
       "movieId": "2"
+    },
+    {
+      "id": "a01a",
+      "userId": "1",
+      "movieId": "21"
+    },
+    {
+      "id": "3164",
+      "userId": "1",
+      "movieId": "33"
+    },
+    {
+      "id": "f4d1",
+      "userId": "1",
+      "movieId": "1"
+    },
+    {
+      "id": "a419",
+      "userId": "1",
+      "movieId": "6"
     }
   ],
   "celebs": [
@@ -1424,560 +1304,32 @@
       "birthday": "1954-12-28",
       "place_of_birth": "Mount Vernon, New York, USA",
       "known_for": []
-    },
-    {
-      "id": "505710",
-      "known_for_department": "Acting",
-      "name": "Zendaya",
-      "original_name": "Zendaya",
-      "genders": 1,
-      "popularity": 100.1,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/3WdOloHpjtjL96uVOhFRRCcYSwq.jpg",
-      "biography": "Zendaya Maree Stoermer Coleman (born September 1, 1996) is an American actress and singer. She began her career as a child model and backup dancer. She rose to mainstream prominence for her role as Rocky Blue on the Disney Channel sitcom Shake It Up (2010–2013).\n\nIn 2013, Zendaya was a contestant on the 16th season of the dance competition series Dancing with the Stars. She produced and starred as the titular spy, K.C. Cooper, in the sitcom K.C. Undercover (2015–2018). Her film roles include the musical drama The Greatest Showman (2017), the superhero film Spider-Man: Homecoming (2017) and its sequels, the computer-animated musical comedy Smallfoot (2018), the romantic drama Malcolm & Marie (2021), the live-action/animation hybrid sports comedy Space Jam: A New Legacy (2021), and the science fiction epic Dune (2021).",
-      "birthday": "1996-09-01",
-      "place_of_birth": "Oakland, California, USA",
-      "known_for": []
-    },
-    {
-      "id": "500",
-      "known_for_department": "Acting",
-      "name": "Tom Cruise",
-      "original_name": "Tom Cruise",
-      "genders": 2,
-      "popularity": 92.866,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
-      "biography": "Tom Cruise (born Thomas Cruise Mapother IV; July 3, 1962) is an American actor and producer. One of the world's highest-paid actors, he has received various accolades, including an Honorary Palme d'Or and three Golden Globe Awards, in addition to nominations for three Academy Awards. His films have grossed over $4 billion in North America and over $11.1 billion worldwide, making him one of the highest-grossing box office stars of all time.\n\nHe began acting in the early 1980s and made his breakthrough with leading roles in the comedy film Risky Business (1983) and action film Top Gun (1986). Critical acclaim came with his roles in the dramas The Color of Money (1986), Rain Man (1988), and Born on the Fourth of July (1989). For his portrayal of Ron Kovic in the latter, he won a Golden Globe Award and received a nomination for the Academy Award for Best Actor.\n\nAs a leading Hollywood star in the 1990s, he starred in several commercially successful films, including the drama A Few Good Men (1992), the thriller The Firm (1993), the horror film Interview with the Vampire (1994), and the romance Jerry Maguire (1996). For the latter, he won a Golden Globe Award for Best Actor and received his second Academy Award nomination. His performance as a motivational speaker in the drama Magnolia (1999) earned him another Golden Globe Award and a nomination for the Academy Award for Best Supporting Actor.\n\nSince then, he has largely starred in science fiction and action films, establishing himself as an action star, often performing his own risky stunts. He has played Ethan Hunt in all six of the Mission: Impossible films from 1996 to 2018. His other notable roles in the genre include Vanilla Sky (2001), Minority Report (2002), The Last Samurai (2003), Collateral (2004), War of the Worlds (2005), Knight and Day (2010), Jack Reacher (2012), Oblivion (2013), Edge of Tomorrow (2014), and Top Gun: Maverick (2022), with Maverick being his highest-grossing film to date.",
-      "birthday": "1962-07-03",
-      "place_of_birth": "Syracuse, New York, USA",
-      "known_for": []
-    },
-    {
-      "id": "12835",
-      "known_for_department": "Acting",
-      "name": "Vin Diesel",
-      "original_name": "Vin Diesel",
-      "genders": 2,
-      "popularity": 94.918,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/nZdVry7lnUkE24PnXakok9okvL4.jpg",
-      "biography": "Mark Sinclair (born July 18, 1967), known professionally as Vin Diesel, is an American actor and producer. One of the world's highest-grossing actors, he is best known for playing Dominic Toretto in the Fast & Furious franchise.\n\nDiesel began his career in 1990, but faced difficulty achieving recognition until he wrote, directed and starred in the short film Multi-Facial (1995) and his debut feature Strays (1997); the films prompted Steven Spielberg to cast Diesel in the war epic Saving Private Ryan (1998). Diesel subsequently voiced the titular character in The Iron Giant (1999) and then gained a reputation as an action star after headlining the Fast & Furious, XXX, and The Chronicles of Riddick franchises. He is slated to appear in the upcoming Avatar films.\n\nDiesel voices Groot and Groot II in the Marvel Cinematic Universe (MCU); he portrayed the characters in six superhero films, beginning with Guardians of the Galaxy (2014). Diesel has reprised his role as Groot for the Disney+ animated shorts series I Am Groot (2022–present), the television special The Guardians of the Galaxy Holiday Special (2022), and the animated film Ralph Breaks the Internet (2018). Diesel achieved commercial success in the comedy The Pacifier (2005) and his portrayal of Jackie DiNorscio in Find Me Guilty (2006) was praised.\n\nHe founded the production company One Race Films, where he has also served as a producer or executive producer for his star vehicles. Diesel also founded the record label Racetrack Records and video game developer Tigon Studios, providing his voice and motion capture for all of Tigon's releases.\n\nDescription above from the Wikipedia article Vin Diesel, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-      "birthday": "1967-07-18",
-      "place_of_birth": "Alameda County, California, USA",
-      "known_for": []
-    },
-    {
-      "id": "192",
-      "known_for_department": "Acting",
-      "name": "Morgan Freeman",
-      "original_name": "Morgan Freeman",
-      "genders": 2,
-      "popularity": 97.333,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/jPsLqiYGSofU4s6BjrxnefMfabb.jpg",
-      "biography": "Morgan Freeman (born June 1, 1937) is an American actor, director, and narrator. Noted for his distinctive deep voice, Freeman is known for his various roles in a wide variety of film genres. Throughout his career spanning over five decades, he has received multiple accolades, including an Academy Award, a Screen Actors Guild Award, and a Golden Globe Award.\n\nBorn in Memphis, Tennessee, Freeman was raised in Mississippi where he began acting in school plays. He studied theatre arts in Los Angeles and appeared in stage productions in his early career. He rose to fame in the 1970s for his role in the children's television series The Electric Company. Freeman then appeared in the Shakespearean plays Coriolanus and Julius Caesar, the former of which earned him an Obie Award. His breakout role was in Street Smart (1987), playing a hustler, which earned him an Academy Award nomination for Best Supporting Actor. He achieved further stardom in Glory, the biographical drama Lean on Me, and comedy-drama Driving Miss Daisy (all 1989), the latter of which garnered him his first Academy Award nomination for Best Actor.\n\nIn 1992, Freeman starred alongside Clint Eastwood in the western revenge film Unforgiven; this would be the first of several collaborations with Eastwood. In 1994, he starred in the prison drama The Shawshank Redemption for which he received another Academy Award nomination. Freeman also starred in David Fincher's crime thriller Se7en (1995), and Steven Spielberg's historical drama Amistad (1997). Freeman won the Academy Award for Best Supporting Actor for his performance in Clint Eastwood's 2004 sports drama Million Dollar Baby. In 2009, he received his fifth Oscar nomination for playing former South African President Nelson Mandela in Eastwood's Invictus. Freeman is also known for his performance as Lucius Fox in Christopher Nolan's The Dark Knight Trilogy (2005–2012).\n\nIn addition to acting, Freeman has directed the drama Bopha! (1993). He also founded film production company Revelations Entertainment with business partner Lori McCreary. He is the recipient of the Kennedy Center Honor, the AFI Life Achievement Award, the Cecil B. DeMille Award, and the Screen Actors Guild Life Achievement Award. For his performances in theatrical productions, he has won three Obie Awards, one of the most prestigious honors for recognizing excellence in theatre.\n\nDescription above from the Wikipedia article Morgan Freeman, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-      "birthday": "1937-06-01",
-      "place_of_birth": "Memphis, Tennessee, USA",
-      "known_for": []
-    },
-    {
-      "id": "933238",
-      "known_for_department": "Acting",
-      "name": "Rebecca Ferguson",
-      "original_name": "Rebecca Ferguson",
-      "genders": 1,
-      "popularity": 98.833,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/lJloTOheuQSirSLXNA3JHsrMNfH.jpg",
-      "biography": "Rebecca Louisa Ferguson Sundström (born October 19, 1983) is a Swedish actress. She began her acting career with the Swedish soap opera Nya tider (1999–2000) and went on to star in the slasher film Drowning Ghost (2004). She came to international prominence with her portrayal of Elizabeth Woodville in the British television miniseries The White Queen (2013), for which she was nominated for a Golden Globe for Best Actress in a Miniseries or Television Film. In 2023, she starred in the Apple TV+ science fiction drama series Silo.\n\nFerguson starred as MI6 agent Ilsa Faust in the action spy film Mission: Impossible – Rogue Nation (2015) and its sequels Mission: Impossible – Fallout (2018) and Mission: Impossible – Dead Reckoning Part One (2023). She also played Jenny Lind in the musical film The Greatest Showman (2017) and acted in science fiction horror film Life (2017), starred in the horror film Doctor Sleep (2019), and had supporting parts in the comedy-drama Florence Foster Jenkins (2016), the mystery thriller The Girl on the Train (2016), and the science fiction film Men in Black: International (2019). She portrayed Lady Jessica in the sci-fi epic Dune (2021) and reprised her role in its sequel Dune: Part Two (2024).",
-      "birthday": "1983-10-19",
-      "place_of_birth": "Stockholm, Sweden",
-      "known_for": []
-    },
-    {
-      "id": "6384",
-      "known_for_department": "Acting",
-      "name": "Keanu Reeves",
-      "original_name": "Keanu Reeves",
-      "genders": 2,
-      "popularity": 107.875,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
-      "biography": "Keanu Charles Reeves is a Canadian actor. Reeves is known for his roles in Bill & Ted's Excellent Adventure, Speed, Point Break, and The Matrix franchise as Neo.\n\nHe has collaborated with major directors such as Stephen Frears (in the 1988 period drama Dangerous Liaisons); Gus Van Sant (in the 1991 independent film My Own Private Idaho); and Bernardo Bertolucci (in the 1993 film Little Buddha). Referring to his 1991 film releases, The New York Times' critic, Janet Maslin, praised Reeves' versatility, saying that he \"displays considerable discipline and range. He moves easily between the buttoned-down demeanor that suits a police procedural story and the loose-jointed manner of his comic roles.\" A repeated theme in roles he has portrayed is that of saving the world, including the characters of Ted Logan, Buddha, Neo, Johnny Mnemonic, John Constantine and Klaatu.",
-      "birthday": "1964-09-02",
-      "place_of_birth": "Beirut, Lebanon",
-      "known_for": []
-    },
-    {
-      "id": "4587",
-      "known_for_department": "Acting",
-      "name": "Halle Berry",
-      "original_name": "Halle Berry",
-      "genders": 1,
-      "popularity": 91.767,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wtFetpWV8kjBsvzYKN9uEEmPdpy.jpg",
-      "biography": "Halle Maria Berry (/ˈhæli/ HAL-ee; born Maria Halle Berry; August 14, 1966) is an American actress. She began her career as a model and entered several beauty contests, finishing as the first runner-up in the Miss USA pageant and coming in sixth in the Miss World 1986. Her breakthrough film role was in the romantic comedy Boomerang (1992), alongside Eddie Murphy, which led to roles in The Flintstones (1994) and Bulworth (1998), as well as the television film Introducing Dorothy Dandridge (1999), for which she won a Primetime Emmy Award and a Golden Globe Award.\n\nBerry established herself as one of the highest-paid actresses in Hollywood during the 2000s. For her performance of a struggling widow in the romantic drama Monster's Ball (2001), Berry became the only African-American woman to win the Academy Award for Best Actress and the first woman of color. Berry took on high-profile roles such as Storm in four installments of the X-Men film series (2000–2014), the henchwoman of a robber in the thriller Swordfish (2001), Bond girl Jinx in Die Another Day (2002), and the title role in the much-derided Catwoman (2004).\n\nA varying critical and commercial reception followed in subsequent years, with Perfect Stranger (2007), Cloud Atlas (2012), and The Call (2013) being among her notable film releases in that period. Berry launched a production company, 606 Films, in 2014 and has been involved in the production of a number of projects in which she performed, such as the CBS science fiction series Extant (2014–2015). She appeared in the action films Kingsman: The Golden Circle (2017) and John Wick: Chapter 3—Parabellum (2019) and made her directorial debut with the Netflix drama Bruised (2020).\n\nBerry has been a Revlon spokesmodel since 1996. She was formerly married to baseball player David Justice, singer-songwriter Eric Benét, and actor Olivier Martinez. She has two children, one with Martinez and another with model Gabriel Aubry.\n\nDescription above from the Wikipedia article Halle Berry, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-      "birthday": "1966-08-14",
-      "place_of_birth": "Cleveland, Ohio, USA",
-      "known_for": []
-    },
-    {
-      "id": "10859",
-      "known_for_department": "Acting",
-      "name": "Ryan Reynolds",
-      "original_name": "Ryan Reynolds",
-      "genders": 2,
-      "popularity": 92.608,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/6m3hkkHmKkD4MUJhng7ojE7MLKC.jpg",
-      "biography": "Ryan Rodney Reynolds (born October 23, 1976) is a Canadian actor and film producer. He began his career starring in the Canadian teen soap opera Hillside (1991–1993), and had minor roles before landing the lead role on the sitcom Two Guys and a Girl between 1998 and 2001. Reynolds then starred in a range of films, including comedies such as National Lampoon's Van Wilder (2002), Waiting... (2005), and The Proposal (2009). He also performed in dramatic roles in Buried (2010), Woman in Gold (2015), and Life (2017), starred in action films such as Blade: Trinity (2004), Green Lantern (2011), 6 Underground (2019) and Free Guy (2021), and provided voice acting in the animated features The Croods (2013), Turbo (2013), Pokémon: Detective Pikachu (2019) and The Croods: A New Age (2020).\n\nReynolds' biggest commercial success came with the superhero films Deadpool (2016) and Deadpool 2 (2018), in which he played the title character. The former set numerous records at the time of its release for an R-rated comedy and his performance earned him nominations at the Critics' Choice Movie Awards and the Golden Globe Awards.",
-      "birthday": "1976-10-23",
-      "place_of_birth": "Vancouver, British Columbia, Canada",
-      "known_for": []
-    },
-    {
-      "id": "1813",
-      "known_for_department": "Acting",
-      "name": "Anne Hathaway",
-      "original_name": "Anne Hathaway",
-      "genders": 1,
-      "popularity": 86.828,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/kRYxBuUtN3vNz5pLfqCf32ZYlw2.jpg",
-      "biography": "Anne Jacqueline Hathaway (born November 12, 1982) is an American actress. She is the recipient of various accolades, including an Academy Award, a Golden Globe Award, and a Primetime Emmy Award, and was among the world's highest-paid actresses in 2015. Her films have grossed over $6.8 billion worldwide, and she appeared on the Forbes Celebrity 100 list in 2009.\n\nAs a teenager, she was cast in the television series Get Real (1999–2000) and made her breakthrough as the protagonist in her debut film, the Disney comedy The Princess Diaries (2001). Hathaway made a transition to adult roles with the 2005 dramas Havoc and Brokeback Mountain. The comedy-drama The Devil Wears Prada (2006), in which she played an assistant to a fashion magazine editor, was her biggest commercial success to that point.\n\nShe played a recovering addict with a mental illness in the drama Rachel Getting Married (2008), which earned her a nomination for the Academy Award for Best Actress. She went on to star in several commercially successful films, including the comedy Get Smart (2008), the romances Bride Wars (2009), Valentine's Day (2010), and Love & Other Drugs (2010), and the fantasy film Alice in Wonderland (2010). In 2012, she starred as Selina Kyle / Catwoman in her highest-grossing film, The Dark Knight Rises. Also that year, she played Fantine, a prostitute dying of tuberculosis, in the musical Les Misérables, for which she won the Academy Award for Best Supporting Actress.\n\nShe has since played a scientist in the science fiction film Interstellar (2014), the owner of an online fashion site in the comedy The Intern (2015), a haughty actress in the heist film Ocean's 8 (2018), a con artist in the comedy The Hustle (2019), and Rebekah Neumann in the miniseries WeCrashed (2022).\n\nIn addition to film roles, she won a Primetime Emmy Award for her voice role in the sitcom The Simpsons, sung for soundtracks, appeared on stage, and hosted events.",
-      "birthday": "1982-11-12",
-      "place_of_birth": "Brooklyn, New York City, New York, USA",
-      "known_for": []
-    },
-    {
-      "id": "11701",
-      "known_for_department": "Acting",
-      "name": "Angelina Jolie",
-      "original_name": "Angelina Jolie",
-      "genders": 1,
-      "popularity": 86.459,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/bXNxIKcJ5cNNW8QFrBPWcfTSu9x.jpg",
-      "biography": "Angelina Jolie is an American actress. She has received an Academy Award, two Screen Actors Guild Awards, and three Golden Globe Awards. Jolie has promoted humanitarian causes throughout the world, and is noted for her work with refugees as a Goodwill Ambassador for the United Nations High Commissioner for Refugees (UNHCR). She has been cited as one of the world's most beautiful women and her off-screen life is widely reported.\n\nThough she made her screen debut as a child alongside her father Jon Voight in the 1982 film Lookin' to Get Out, Jolie's acting career began in earnest a decade later with the low-budget production Cyborg 2 (1993). Her first leading role in a major film was in Hackers (1995). She starred in the critically acclaimed biographical films George Wallace (1997) and Gia (1998), and won an Academy Award for Best Supporting Actress for her performance in the drama Girl, Interrupted (1999). Jolie achieved wider fame after her portrayal of video game heroine Lara Croft in Lara Croft: Tomb Raider (2001), and since then has established herself as one of the best-known and highest-paid actresses in Hollywood. She has had her biggest commercial successes with the action-comedy Mr. & Mrs. Smith (2005) and the animated film Kung Fu Panda (2008).\n\nDivorced from actors Jonny Lee Miller and Billy Bob Thornton, Jolie currently lives with actor Brad Pitt, in a relationship that has attracted worldwide media attention. Jolie and Pitt have three adopted children, Maddox, Pax, and Zahara, as well as three biological children, Shiloh, Knox, and Vivienne.",
-      "birthday": "1975-06-04",
-      "place_of_birth": "Los Angeles, California, USA ",
-      "known_for": []
-    },
-    {
-      "id": "80757",
-      "known_for_department": "Acting",
-      "name": "Mike Tyson",
-      "original_name": "Mike Tyson",
-      "genders": 2,
-      "popularity": 85.242,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/w0Bp2fWbL9C7KtciF56Qey8iY00.jpg",
-      "biography": "Michael Gerard Tyson (born June 30, 1966) is an American former professional boxer, competing from 1985 to 2005. He reigned as the undisputed world heavyweight champion, and holds the record as the youngest boxer to win a heavyweight title, at 20 years, four months, and 22 days old.",
-      "birthday": "1966-06-30",
-      "place_of_birth": "Brownsville, Brooklyn, New York City, New York, USA",
-      "known_for": []
-    },
-    {
-      "id": "54693",
-      "known_for_department": "Acting",
-      "name": "Emma Stone",
-      "original_name": "Emma Stone",
-      "genders": 1,
-      "popularity": 83.59,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/3UaYw9KF4fEXRMRWhf25aGJpAW2.jpg",
-      "biography": "Emily Jean \"Emma\" Stone (born November 6, 1988) is an American actress. The recipient of numerous accolades, including two Academy Awards and two Golden Globe Award, she was the world's highest-paid actress in 2017.\n\nBorn and raised in Scottsdale, Arizona, Stone began acting as a child, in a theater production of The Wind in the Willows in 2000. As a teenager, she relocated to Los Angeles with her mother and made her television debut in In Search of the New Partridge Family (2004), a reality show that produced only an unsold pilot. After small television roles, she made her film debut in Superbad (2007), and received positive media attention for her role in Zombieland (2009). The 2010 teen comedy Easy A was Stone's first starring role, earning her nominations for the BAFTA Rising Star Award and a Golden Globe Award for Best Actress.\n\nStone gained wider recognition as Gwen Stacy in the 2012 superhero film The Amazing Spider-Man, and its 2014 sequel. She was nominated for the Academy Award for Best Supporting Actress for playing a recovering drug addict in the black comedy Birdman (2014), and her Broadway debut came in a revival of the musical Cabaret (2014–2015). She won the Academy Award for Best Actress for playing an aspiring actress in the romantic musical La La Land (2016). Stone received a third Academy Award nomination for her portrayal of Abigail Masham in the historical comedy-drama The Favourite (2018).",
-      "birthday": "1988-11-06",
-      "place_of_birth": "Scottsdale, Arizona, USA",
-      "known_for": []
-    },
-    {
-      "id": "56734",
-      "known_for_department": "Acting",
-      "name": "Chloë Grace Moretz",
-      "original_name": "Chloë Grace Moretz",
-      "genders": 1,
-      "popularity": 82.999,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/2Tlg632tAkfZNlnoF8CV8F9Pf63.jpg",
-      "biography": "Chloë Grace Moretz is an American actress. She began acting as a child, with early roles in the supernatural horror film The Amityville Horror (2005), the drama series Desperate Housewives (2006–07), the supernatural horror film The Eye (2008), the drama film The Poker House (2008), the drama series Dirty Sexy Money (2007–08), the romantic comedy film 500 Days of Summer (2009) and the children's comedy film Diary of a Wimpy Kid (2010).\n\nHer breakthrough came in 2010 with her critically acclaimed performances as Hit-Girl in the superhero film Kick-Ass and as a child vampire in the horror film Let Me In.\n\nMoretz starred in Martin Scorsese's historical adventure film Hugo (2011), Tim Burton's horror comedy film Dark Shadows (2012), the satirical sitcom 30 Rock (2011-2013), reprised her role as Hit-Girl in Kick-Ass 2 (2013) and portrayed Carrie White in the supernatural horror film Carrie (2013). In 2014, Moretz starred in the award-winning drama film Clouds of Sils Maria (2014), the teen romantic drama If I Stay (2014) and the vigilante action film The Equalizer (2014). She also starred in the mystery thriller film Dark Places (2015), the science fiction action film The 5th Wave (2016) and the comedy film Neighbors 2: Sorority Rising (2016).\n\nIn 2016, Moretz announced she was \"re-assessing\" her choice of roles and was dropping out of several projects, including Universal Studios' live-action adaptation of The Little Mermaid. Moretz's following roles include the drama film The Miseducation of Cameron Post (2018), Neil Jordan's drama thriller film Greta (2018), the action horror film Shadow in the Cloud (2020) and the science fiction film Mother/Android (2021).\n\nShe voiced Wednesday Addams in The Addams Family (2019) and The Addams Family 2 (2021).\n\nMoretz's stage work includes her starring role in the original off-Broadway production of The Library (2014) at The Public Theater in New York City.",
-      "birthday": "1997-02-10",
-      "place_of_birth": "Atlanta, Georgia, USA",
-      "known_for": []
-    },
-    {
-      "id": "19537",
-      "known_for_department": "Acting",
-      "name": "Megan Fox",
-      "original_name": "Megan Fox",
-      "genders": 1,
-      "popularity": 80.759,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9khvk5svs81TLqIGlI3ZJqYtqaY.jpg",
-      "biography": "Megan Denise Fox (born May 16, 1986) is an American actress. She made her acting debut in the family film Holiday in the Sun (2001), which was followed by numerous supporting roles in film and television, such as the teen musical comedy Confessions of a Teenage Drama Queen (2004), as well as a starring role in the ABC sitcom Hope & Faith (2004–2006). Her breakout role was as Mikaela Banes in the blockbuster action film Transformers (2007), which she reprised in its sequel Transformers: Revenge of the Fallen (2009). She also portrayed the titular character in the horror comedy Jennifer's Body (2009), starred as April O'Neil in the superhero action film Teenage Mutant Ninja Turtles (2014) and its sequel Teenage Mutant Ninja Turtles: Out of the Shadows (2016), and starred as Reagan Lucas in the fifth and sixth seasons of the Fox sitcom New Girl (2016–2017).\n\nFox has also made appearances in numerous magazines such as Maxim, Rolling Stone, and FHM. She is the recipient of several accolades, including two Scream Awards and four Teen Choice Awards.",
-      "birthday": "1986-05-16",
-      "place_of_birth": "Oak Ridge, Tennessee, USA",
-      "known_for": []
-    },
-    {
-      "id": "18918",
-      "known_for_department": "Acting",
-      "name": "Dwayne Johnson",
-      "original_name": "Dwayne Johnson",
-      "genders": 2,
-      "popularity": 78.861,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/5QApZVV8FUFlVxQpIK3Ew6cqotq.jpg",
-      "biography": "An American and Canadian actor, producer and semi-retired professional wrestler, signed with WWE.  Johnson is half-Black and half-Samoan. His father, Rocky Johnson, is a Black Canadian, from Nova Scotia, and part of the first Black tag team champions in WWE history back when it was known as the WWF along with Tony Atlas. His mother is Samoan and the daughter of Peter Maivia, who was also a pro wrestler. Maivia's wife, Lia Maivia, was one of wrestling's few female promoters, taking over Polynesian Pacific Pro Wrestling after her husband's death in 1982, until 1988. Through his mother, he is considered a non-blood relative of the Anoa'i wrestling family. On March 29, 2008, The Rock inducted his father and his grandfather into the WWE Hall of Fame.\n\nAs of 2014, Johnson has a home in Southwest Ranches, Florida as well as Los Angeles, California. He also owns a farm in Virginia. In 2009, Johnson gained citizenship in Canada in honor of his father's background. Though Johnson was previously registered as a Republican, he voted for Barack Obama in the 2008 and 2012 United States presidential elections and is now an independent voter. He stated he did not vote in the 2016 U.S. election.\n\nIn recognition of his service to the Samoan people, and because he is a descendant of Samoan chiefs, Johnson had the noble title of Seiuli bestowed upon him by Malietoa Tanumafili II during his visit there in July 2004. He received a partial Samoan pe'a tattoo on his left side in 2003,and, in 2017, had the small \"Brahma bull\" tattoo on his right arm covered with a larger half-sleeve tattoo of a bull's skull.\n\nJohnson married Dany Garcia on May 3, 1997. Their only child together, a daughter named Simone, was born in August 2001. On June 1, 2007, they announced they were splitting up amicably. Johnson then began dating Lauren Hashian, daughter of Boston drummer Sib Hashian. They first met in 2006 while Johnson was filming The Game Plan. Their first child together, a daughter, was born in December 2015. Their second child, another daughter, was born in April 2018.\n\nJohnson attended the 2000 Democratic National Convention as part of WWE's non-partisan \"Smackdown Your Vote\" campaign, which aimed to influence young people to vote. He also had a speaking role at the 2000 Republican National Convention that same year.\n\nIn 2006, Johnson founded the Dwayne Johnson Rock Foundation, a charity working with at-risk and terminally ill children. On October 2, 2007, he and his ex-wife donated $1 million to the University of Miami to support the renovation of its football facilities; it was noted as the largest donation ever given to the university's athletics department by former students. The University of Miami renamed the Hurricanes' locker room in Johnson's honor. In 2015, Johnson donated $1,500 to a GoFundMe to pay for an abandoned dog's surgery. In 2017, he donated $25,000 to Hurricane Harvey relief efforts. In 2018, Johnson donated a gym to a military base in Oahu, Hawaii. After the 2018 Hawaii floods, he worked with Malama Kauai, a nonprofit organization, to help repair damages caused by the floods.",
-      "birthday": "1972-05-02",
-      "place_of_birth": "Hayward, California, USA",
-      "known_for": []
-    },
-    {
-      "id": "8691",
-      "known_for_department": "Acting",
-      "name": "Zoë Saldaña",
-      "original_name": "Zoë Saldaña",
-      "genders": 1,
-      "popularity": 78.509,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/snQ1rfO9Bb2LRG9MAOQnn3JXVHy.jpg",
-      "biography": "Zoë Yadira Saldaña-Perego (born June 19, 1978) is an American actress. Known primarily for her work in science fiction film franchises, she has appeared in the three highest-grossing films of all time (Avatar, Avatar: The Way of Water and Avengers: Endgame), a feat not achieved by any other performer. Films she has appeared in have grossed more than $14 billion worldwide and, as of 2023, she is the second-highest-grossing film actress, and the fourth actor overall. Time magazine named her one of the 100 most influential people in the world in 2023.\n\nA trained dancer, Saldaña began her acting career in two 1999 episodes of Law & Order. Her first film role was in Center Stage (2000) in which she played a ballet dancer. She received early recognition for her work opposite Britney Spears in the road film Crossroads (2002). Beginning in 2009, Saldaña achieved a career breakthrough with her roles as Nyota Uhura in the Star Trek film series and Neytiri in James Cameron's Avatar film series. She portrayed Gamora in the Marvel Cinematic Universe, from Guardians of the Galaxy (2014) to Guardians of the Galaxy Vol. 3 (2023). In addition to franchise work, Saldaña has starred in the science fiction film The Adam Project and the romantic drama miniseries From Scratch, both for Netflix in 2022.",
-      "birthday": "1978-06-19",
-      "place_of_birth": "Passaic, New Jersey, USA",
-      "known_for": []
-    },
-    {
-      "id": "71070",
-      "known_for_department": "Acting",
-      "name": "Amanda Seyfried",
-      "original_name": "Amanda Seyfried",
-      "genders": 1,
-      "popularity": 87.198,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/gtBUIpZ3dvLpOMIVORxE6sHSyZj.jpg",
-      "biography": "Amanda Michelle Seyfried (born December 3, 1985) is an American actress, singer and model. She is the recipient of various accolades, including two Satellite Awards, a ShoWest Award, and nominations for an Academy Award, a Screen Actors Guild Award, a Critics' Choice Movie Award and a Saturn Award.\n\nBorn and raised in Allentown, Pennsylvania, she began modeling at age eleven and ventured into acting at age 15 with recurring roles as Lucy Montgomery on the CBS soap opera As the World Turns (1999–2001) and Joni Stafford on the ABC soap opera All My Children (2003). Seyfried came to prominence following her feature film debut in the teen comedy Mean Girls (2004) and her recurring role as Lilly Kane on the UPN television series Veronica Mars (2004–2006) and Sarah Henrickson on the HBO drama series Big Love (2006–2011).\n\nSeyfried has appeared in a number of successful films, including Mamma Mia! (2008) and its sequel Mamma Mia! Here We Go Again (2018), Jennifer's Body (2009), Chloe (2009), Dear John (2010), Letters to Juliet (2010), Red Riding Hood (2011), In Time (2011), Gone (2012), Lovelace (2013), A Million Ways to Die in the West (2014), Ted 2 (2015), and First Reformed (2017). She has also occasionally done voice-over work in animation films, such as Epic (2013) and Scoob! (2020). In 2022, she portrayed Elizabeth Holmes in the Hulu limited series The Dropout.\n\nFor her portrayal of Cosette in Tom Hooper's musical film Les Misérables (2012), Seyfried was nominated for the Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture. She received critical acclaim for playing Marion Davies in David Fincher's Mank (2020), which earned her nominations for the Academy Award, Golden Globe Award, and Critics' Choice Movie Award for Best Supporting Actress.\n\nDescription above from the Wikipedia article Amanda Seyfried, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-      "birthday": "1985-12-03",
-      "place_of_birth": "Allentown, Pennsylvania, USA ",
-      "known_for": []
-    },
-    {
-      "id": "140",
-      "known_for_department": "Acting",
-      "name": "Lucy Liu",
-      "original_name": "Lucy Liu",
-      "genders": 1,
-      "popularity": 78.19,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg",
-      "biography": "Lucy Alexis Liu (born December 2, 1968) is an American actress. Her accolades include winning a Critics' Choice Television Award, two Screen Actors Guild Awards and a Seoul International Drama Award, in addition to nominations for a Primetime Emmy Award.\n\nLiu has starred as Ling Woo in the television series Ally McBeal (1998–2002), Alex Munday in two Charlie's Angels films (2000 and 2003) and Joan Watson in the crime-drama series Elementary (2012–2019). Her film work includes starring in Payback (1999), Shanghai Noon (2000), Chicago (2002), Kill Bill: Volume 1 (2003), Lucky Number Slevin (2006), Watching the Detectives (2007), The Man with the Iron Fists (2012), and Set It Up (2018).\n\nLiu provided voice acting for Master Viper in the Kung Fu Panda franchise (2008–2016) and Silvermist in the Tinker Bell series (2008–2014). Her other voice credits include Maya & Miguel (2004–2007), Mulan II (2004), as well as the English and Mandarin-dubbed versions of Magic Wonderland (2014) and The Tale of the Princess Kaguya (2013). She also voiced Callisto Mal in the Disney-animated film Strange World (2022). Most recently she starred as Kalypso in Shazam! Fury of the Gods.",
-      "birthday": "1968-12-02",
-      "place_of_birth": "New York City, New York, USA",
-      "known_for": []
-    },
-    {
-      "id": "1373737",
-      "known_for_department": "Acting",
-      "name": "Florence Pugh",
-      "original_name": "Florence Pugh",
-      "genders": 1,
-      "popularity": 76.795,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
-      "biography": "Florence Pugh (born January 3, 1996) is an English actress. She made her acting debut in 2014 in the drama film The Falling. Pugh gained recognition in 2016 for her leading role as a young bride in the independent drama Lady Macbeth, winning a British Independent Film Award, and drew praise for starring in the miniseries The Little Drummer Girl (2018).\n\nPugh's international breakthrough came in 2019 with her portrayals of professional wrestler Paige in the biographical sports film Fighting with My Family, a despondent American woman in the horror film Midsommar, and Amy March in the period drama Little Women. For the last of these, she received nominations for an Academy Award and a BAFTA Award. Pugh was awarded the Trophée Chopard at the 2019 Cannes Film Festival.\n\nShe has played Yelena Belova in the Marvel Cinematic Universe, beginning with Black Widow (2021) and Hawkeye (2021). She will reprise her role again in Thunderbolts (2024). In the following year, she starred in the thriller Don't Worry Darling and drama The Wonder, and voiced Goldilocks in the animated film Puss in Boots: The Last Wish. Pugh also portrayed Jean Tatlock in Christopher Nolan's biographical film Oppenheimer (2023) and Princess Irulan in Denis Villeneuve’s sci-fi epic Dune: Part Two (2024).",
-      "birthday": "1996-01-03",
-      "place_of_birth": "Oxford, England, UK",
-      "known_for": []
-    },
-    {
-      "id": "13240",
-      "known_for_department": "Acting",
-      "name": "Mark Wahlberg",
-      "original_name": "Mark Wahlberg",
-      "genders": 2,
-      "popularity": 76.717,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/bTEFpaWd7A6AZVWOqKKBWzKEUe8.jpg",
-      "biography": "Mark Wahlberg (born June 5, 1971), former stage name Marky Mark, is an American actor, businessman, and former rapper. His work as a leading man spans the comedy, drama, and action genres. He has received multiple accolades, including a BAFTA Award, and nominations for two Academy Awards, three Golden Globe Awards, nine Primetime Emmy Awards, and three Screen Actors Guild Awards.\n\nWahlberg was born in Boston, Massachusetts in 1971. During his early life, he perpetrated several crimes. In the 1990s, Wahlberg was a member of the music group Marky Mark and the Funky Bunch, with whom he released the albums Music for the People (1991) and You Gotta Believe (1992). Wahlberg made his screen debut in Renaissance Man (1994) and had his first starring role in Fear (1996). He received critical praise for his performance as porn actor Dirk Diggler in Boogie Nights (1997).\n\nIn the early 2000s, he ventured into big-budget action movies, such as The Perfect Storm (2000), Planet of the Apes (2001), and The Italian Job (2003). He was nominated for the Academy Award for Best Supporting Actor for playing a police officer in the crime drama The Departed (2006). He was nominated for the Golden Globe Award for Best Actor for the sports drama biopic The Fighter (2010), in which he starred as Micky Ward. In the 2010s, he landed successful comedy roles with The Other Guys (2010), Ted (2012), Ted 2 (2015), Daddy's Home (2015), and Daddy's Home 2 (2017). He also became the protagonist in two films in the Transformers live-action film franchise, Transformers: Age of Extinction and Transformers: The Last Knight. He was the world's highest-paid actor in 2017.\n\nWahlberg served as executive producer of five HBO series: the comedy-drama Entourage (2004–2011), the period crime drama Boardwalk Empire (2010–2014), the comedy-dramas How to Make It in America (2010–2011) and Ballers (2015–2019), and the documentary McMillions (2020). He is co-owner of the Wahlburgers chain and co-starred in the reality TV series about it. He received a star on the Hollywood Walk of Fame in 2010.",
-      "birthday": "1971-06-05",
-      "place_of_birth": "Boston, Massachusetts, USA",
-      "known_for": []
-    }
-  ],
-  "genders": [
-    {
-      "id": "0",
-      "name": "Non-binary"
-    },
-    {
-      "id": "1",
-      "name": "Female"
-    },
-    {
-      "id": "2",
-      "name": "Male"
     }
   ],
   "ratings": [
     {
-      "userId": "2",
-      "ratestar": {
-        "movieId": "1",
-        "rating": 1
-      },
-      "id": "c252"
-    },
-    {
-      "userId": "2",
-      "ratestar": {
-        "movieId": "5",
-        "rating": 8
-      },
-      "id": "2"
-    },
-    {
-      "userId": "2",
+      "id": "3125",
+      "userId": "1",
       "ratestar": {
         "movieId": "3",
         "rating": 10
-      },
-      "id": "3"
+      }
     },
     {
-      "id": "fbda",
-      "userId": "2",
+      "id": "8240",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "1",
+        "rating": 5
+      }
+    },
+    {
+      "id": "a91c",
+      "userId": "1",
       "ratestar": {
         "movieId": "33",
-        "rating": 3
+        "rating": 2
       }
-    },
-    {
-      "userId": "1",
-      "ratestar": {
-        "movieId": "13",
-        "rating": 1
-      },
-      "id": "f2d1"
-    },
-    {
-      "id": "9818",
-      "userId": "1",
-      "ratestar": {
-        "movieId": "5",
-        "rating": 6
-      }
-    },
-    {
-      "id": "e006",
-      "userId": "1",
-      "ratestar": {
-        "movieId": "3",
-        "rating": 7
-      }
-    },
-    {
-      "userId": "1",
-      "ratestar": {
-        "movieId": "4",
-        "rating": 1
-      },
-      "id": "05d1"
-    },
-    {
-      "userId": 1,
-      "ratestar": {
-        "movieId": "6",
-        "rating": 6
-      },
-      "id": "Lb4j971"
-    },
-    {
-      "userId": 1,
-      "ratestar": {
-        "movieId": "2",
-        "rating": 7
-      },
-      "id": "bZfTpjn"
-    }
-  ],
-  "upComingMovie": [
-    {
-      "id": "402431",
-      "title": "Wicked ",
-      "date": "20/11/2024",
-      "cast": [
-        "Cynthia Erivo",
-        "Ariana Grande",
-        "Jonathan Bailey",
-        "Michelle Yeoh",
-        "Jeff Goldblum",
-        "Ethan Slater"
-      ],
-      "genres": [
-        10749,
-        18,
-        14
-      ],
-      "href": "Wicked",
-      "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
-      "thumbnail": "https://preview.redd.it/megathread-wicked-2024-trailer-v0-zr10s2ppm1ic1.jpeg?auto=webp&s=71df15b3c68e1ec3ad0924dbb6b8476814c842a1",
-      "banner": "https://cdn-az.allevents.in/events4/banners/fc2264d54c0d57d1011bf541bad136917e927feea2fa1514700c8a455a937022-rimg-w1200-h504-dc463418-gmir?v=1731586611",
-      "overview": "Elphaba, an ostracized but defiant girl born with green skin, and Glinda, a privileged aristocrat born popular, become extremely unlikely friends in the magical Land of Oz. As the two girls struggle with their opposing personalities, their friendship is tested as both begin to fulfill their destinies as Glinda the Good and The Wicked Witch of the West.",
-      "popularity": 422.989,
-      "vote_average": 7.8,
-      "vote_count": 15,
-      "trailer": "https://youtu.be/6COmYeLsz4c?si=JLqewhX2jCG197qV"
-    },
-    {
-      "id": "1241982",
-      "title": "Moana 2",
-      "date": "27/11/2024",
-      "cast": [
-        "Auli'i Cravalho",
-        "Dwayne Johnson",
-        "Alan Tudyk",
-        "Rachel House",
-        "Temuera Morrison",
-        "Nicole Scherzinger",
-        "David Fane",
-        "Rose Matafeo",
-        "Hualālai Chung"
-      ],
-      "genres": [
-        16,
-        12,
-        10751,
-        35
-      ],
-      "href": "Moana_2",
-      "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
-      "thumbnail": "https://th.bing.com/th/id/OIP.OnvWliQUhUXu2zF3VXBMjwHaJQ?rs=1&pid=ImgDetMain",
-      "banner": "https://th.bing.com/th/id/R.ddb6f07424c330924aa89617cb5bdbe6?rik=ErSJ5DbJQlf1Yg&pid=ImgRaw&r=0",
-      "overview": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced.",
-      "popularity": 408.064,
-      "vote_average": 0,
-      "vote_count": 0,
-      "trailer": "https://youtu.be/hDZ7y8RP5HE?si=wSM2C6AP1N54RXPF"
-    },
-    {
-      "id": "1244986",
-      "title": "Woodwalkers",
-      "date": "22/11/2024",
-      "cast": [
-        "Emile Chérif",
-        "Lilli Falk",
-        "Johan von Ehrlich",
-        "Sophie Lelenta",
-        "Oliver Masucci",
-        "Martina Gedeck",
-        "Hannah Herzsprung",
-        "Olivia Sinclair",
-        "Emil Bloch"
-      ],
-      "genres": [
-        14,
-        10751
-      ],
-      "href": "Woodwalkers",
-      "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
-      "thumbnail": "https://th.bing.com/th/id/OIP.P4kgl944gJ9Nl40iIxtB5QHaLB?rs=1&pid=ImgDetMain",
-      "banner": "https://www.kino-zeit.de/sites/default/files/styles/2560_x_1440_header_/public/2024-02/woodwalkers_2024_3.jpg?itok=68XJ2FKk",
-      "overview": "Humans who can shapeshift into animals struggle to integrate with others without giving away their special abilities. As a group, they strive to inform and institute change in the world perspective of deforestation and the importance of natural habitats. However, when that can’t happen, they are forced to take matters into their own hands.",
-      "popularity": 411,
-      "vote_average": 0,
-      "vote_count": 0,
-      "trailer": "https://youtu.be/Cp3IusvmtNI?si=I_wSgrbTNjlMZ_df"
-    },
-    {
-      "id": "1249982",
-      "title": "The Colors Within ",
-      "date": "22/11/2024",
-      "cast": [
-        "Sayu Suzukawa",
-        "Akari Takaishi",
-        "Taisei Kido",
-        "Yasuko",
-        "Aoi Yuki",
-        "Minako Kotobuki",
-        "Keiko Toda",
-        "Yui Aragaki"
-      ],
-      "genres": [
-        16,
-        18,
-        10402,
-        35
-      ],
-      "href": "The_Colors_Within",
-      "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
-      "thumbnail": "https://th.bing.com/th/id/OIP.NYb50lxwZIdPH8crHsVPCQHaKX?rs=1&pid=ImgDetMain",
-      "banner": "https://image.tmdb.org/t/p/original/ahFH8WEJybC0nJlamz0wAqIM161.jpg",
-      "overview": "Totsuko is a high school student with the ability to see the 'colors' of others. Colors of bliss, excitement, and serenity, plus a color she treasures as her favorite. Kimi, a classmate at her school, gives off the most beautiful color of all. Although she doesn't play an instrument, Totsuko forms a band with Kimi and Rui, a quiet music enthusiast they meet at a used bookstore in a far corner of town. As they practice at an old church on a remote island, music brings them together, forming friendships and stirring affections.",
-      "popularity": 331,
-      "vote_average": 0,
-      "vote_count": 0,
-      "trailer": "https://youtu.be/Idu8C4qKM3s?si=gFJPP3zQrZlRdM67"
-    },
-    {
-      "id": "1341232",
-      "title": "Linh Mieu",
-      "date": "22/11/2024",
-      "cast": [
-        "Hong Dao",
-        "Samuel An",
-        "Nguyen Thuc Thuy Tien"
-      ],
-      "genres": [
-        27
-      ],
-      "href": "Linh_Mieu",
-      "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
-      "thumbnail": "https://cinema.momocdn.net/img/50706563295805291-Untitled-1.jpg",
-      "banner": "https://st.download.com.vn/data/image/2024/11/12/linh-mieu-700.jpg",
-      "overview": "Linh Mieu draws inspiration from the Vietnamese folklore of quỷ nhập tràng (corpse possession) to build its storyline. The film weaves in the unique cultural elements of Hue, such as the art of porcelain mosaic, a distinctive feature of the Nguyen dynasty, while addressing issues of social class and gender discrimination. Notably, the imagery of zombie processions and paper effigies not only symbolizes impending doom or misfortune but also serves as manifestations of karmic retribution.",
-      "popularity": 518.252,
-      "vote_average": 0,
-      "vote_count": 0,
-      "trailer": "https://youtu.be/8l4crgVt36Y?si=HHwDLW2vaMQAyZaB"
-    },
-    {
-      "id": "558449",
-      "title": "Gladiator II",
-      "date": "22/11/2024",
-      "cast": [
-        "Connie Nielsen",
-        "Paul Mescal",
-        "Pedro Pascal",
-        "Denzel Washington",
-        "Joseph Quinn",
-        "Derek Jacobi"
-      ],
-      "genres": [
-        28,
-        12,
-        18
-      ],
-      "href": "Gladiator_II",
-      "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
-      "thumbnail": "https://cdn.gracza.pl/galeria/mdb/f/-1951891500.jpg",
-      "banner": "https://sm.ign.com/t/ign_za/review/g/gladiator-/gladiator-ii-review_73zu.1200.jpg",
-      "overview": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
-      "popularity": 2185.274,
-      "vote_average": 6.845,
-      "vote_count": 251,
-      "trailer": "https://youtu.be/4rgYUipGJNo?si=qChvU7X6GG73MgDK"
-    },
-    {
-      "id": "157336",
-      "title": "Sonic the Hedgehog 3",
-      "date": "22/11/2024",
-      "cast": [
-        "Ben Schwartz",
-        "Colleen O'Shaughnessey",
-        "Idris Elba",
-        "Keanu Reeves",
-        "Tika Sumpter",
-        "Tom Butler"
-      ],
-      "genres": [
-        28,
-        12,
-        35,
-        10751,
-        14,
-        878
-      ],
-      "href": "Sonic_the_Hedgehog_3",
-      "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
-      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZGViYjkxN2YtOTA1ZS00ZDQzLWEzMjgtN2E3NWUwZTg1Mjg2XkEyXkFqcGdeQXVyMTcyNjczNjU4._V1_FMjpg_UX1000_.jpg",
-      "banner": "https://www.hdwallpapers.in/download/sonic_the_hedgehog_3_4k_hd_movies-HD.jpg",
-      "overview": "Sonic, Knuckles, and Tails reunite against a powerful new adversary, Shadow, a mysterious villain with powers unlike anything they have faced before. With their abilities outmatched, Team Sonic must seek out an unlikely alliance.",
-      "popularity": 1515.081,
-      "vote_average": 6.6,
-      "vote_count": 110,
-      "trailer": "https://youtu.be/qSu6i2iFMO0?si=IEokDwQOGqWLKad2"
     }
   ]
 }

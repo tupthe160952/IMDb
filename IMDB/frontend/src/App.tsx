@@ -14,6 +14,7 @@ import PopularCeleb from "./pages/PopularCeleb";
 import PopularMovieDetail from "./pages/PopularMovieDetail";
 import UpComingMovieDetail from "./pages/UpComingMovieDetail";
 import GenreDetail from "./pages/GenreDetail";
+import SearchResult from "./pages/SearchResult";
 import "./styles/Header.css";
 import ProtectedRoute from  "./components/ProtectedRoute";
 import AdminPage from "./components/AdminPage";
@@ -37,6 +38,7 @@ function App() {
           />
           <Route path="/register" element={<Register />} />
           <Route path="/genredetail" element={<GenreDetail />} />
+          <Route path="/search" element={<SearchResult />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/" element={<Home />} />
           <Route path="/watchlist" element={<Watchlist />} />

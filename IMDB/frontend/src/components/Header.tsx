@@ -2,14 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import "../styles/Header.css";
-import Genre from "../types/Interface";
+import GenreDetail from "../types/Interface";
 import { useUser } from "./UserContext";
 
 const Header: React.FC = () => {
-  const [movieList, setMovieList] = useState<Genre[]>([]);
-  const [tvList, setTvList] = useState<Genre[]>([]);
-  const [error, setError] = useState<string | null>(null);
+  const [movieList, setMovieList] = useState<GenreDetail[]>([]);
   const [collapseMenu, setCollapseMenu] = useState<boolean>(false);
+  const [searchQuery, setSearchQuery] = useState<string>("");
   const handleWatchlistClick = () => {
     if (!user) {
       alert("Please log in to add to your watchlist.");
@@ -27,19 +26,14 @@ const Header: React.FC = () => {
   };
 
   const getList = async () => {
-    try {
-      const movieResponse = await axios.get(``);
-
-      if (movieResponse.data.genres) {
-        setMovieList(movieResponse.data.genres);
-      } else {
-        throw new Error("Invalid movie data format");
-      }
-      setError(null);
-    } catch (err) {
-      setError(`Failed to fetch data: ${(err as Error).message}`);
-      console.error(error);
-    }
+    axios
+      .get(`http://localhost:9999/genres`)
+      .then((res) => {
+        setMovieList(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
 
   useEffect(() => {
@@ -48,6 +42,25 @@ const Header: React.FC = () => {
 
   const toggleMenu = () => {
     setCollapseMenu((prevState) => !prevState);
+  };
+
+  const capitalizeFirstLetter = (str: string) => {
+    return str
+      .split(" ")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(" ");
+  };
+
+  const handleSearchSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    if (searchQuery.trim() === "") {
+      alert("Please enter a search term.");
+      return;
+    }
+    const normalizedSearchQuery = capitalizeFirstLetter(searchQuery.trim());
+    window.location.href = `/search?title=${encodeURIComponent(
+      normalizedSearchQuery
+    )}`;
   };
 
   return (
@@ -68,13 +81,18 @@ const Header: React.FC = () => {
           <p>Menu</p>
         </div>
 
-        <div className="search-bar">
+        <form className="search-bar" onSubmit={handleSearchSubmit}>
           <input
             type="text"
             className="form-search"
             placeholder="Search IMDb"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
           />
-        </div>
+          <button type="submit" className="search-button">
+            <i className="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
 
         <div className="watch-list">
           <i className="fa-solid fa-bookmark"></i>
@@ -104,23 +122,17 @@ const Header: React.FC = () => {
       {/* Dropdown menu with collapse effect */}
       <div className={`dropdown ${collapseMenu ? "open" : ""}`}>
         <div className="movie-genre">
-          <h3 className="header-title">Movies</h3>
+          <h3 className="header-title">Movies Types</h3>
           <ul className="nav-list">
-            {movieList.map((genre) => (
-              <li key={genre.id}>
-                <Link to="/">{genre.name}</Link>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="genre">
-          <h3 className="header-title">TV Series</h3>
-          <ul className="nav-list">
-            {tvList.map((genre) => (
-              <li key={genre.id}>
-                <Link to="/">{genre.name}</Link>
-              </li>
-            ))}
+            {Array.isArray(movieList) && movieList.length > 0 ? (
+              movieList.map((genre) => (
+                <li key={genre.id}>
+                  <Link to="/">{genre.name}</Link>
+                </li>
+              ))
+            ) : (
+              <li>No genres available</li>
+            )}
           </ul>
         </div>
         <div className="close-dropdown" onClick={toggleMenu}>
