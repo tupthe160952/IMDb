@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import "../styles/Header.css";
 import Genre from "../types/Interface";
-import { useUser } from './UserContext';
+import { useUser } from "./UserContext";
 
 const Header: React.FC = () => {
   const [movieList, setMovieList] = useState<Genre[]>([]);
@@ -13,35 +13,28 @@ const Header: React.FC = () => {
   const handleWatchlistClick = () => {
     if (!user) {
       alert("Please log in to add to your watchlist.");
-      window.location.href = '/login';
+      window.location.href = "/login";
+    } else {
+      window.location.href = "/watchlist";
     }
-    else { window.location.href = '/watchlist'; }
   };
 
-  const { user, setUser } = useUser(); const handleLogout = () => { localStorage.removeItem('user'); setUser(null); window.location.href = '/'; };
+  const { user, setUser } = useUser();
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+    setUser(null);
+    window.location.href = "/";
+  };
 
   const getList = async () => {
     try {
-      const movieResponse = await axios.get(
-        `https://api.themoviedb.org/3/genre/movie/list`
-      );
+      const movieResponse = await axios.get(``);
 
       if (movieResponse.data.genres) {
         setMovieList(movieResponse.data.genres);
       } else {
         throw new Error("Invalid movie data format");
       }
-
-      const tvResponse = await axios.get(
-        `https://api.themoviedb.org/3/genre/tv/list`
-      );
-
-      if (tvResponse.data.genres) {
-        setTvList(tvResponse.data.genres);
-      } else {
-        throw new Error("Invalid TV data format");
-      }
-
       setError(null);
     } catch (err) {
       setError(`Failed to fetch data: ${(err as Error).message}`);
@@ -94,9 +87,18 @@ const Header: React.FC = () => {
           {/* <a href="/login" className="btn-menu">
             <p>Sign In</p>
           </a> */}
-          {user ? (<select title="User options" value="Profile" onChange={(e) => e.target.value === 'logout' && handleLogout()}>
-            <option value={user.name}>{user.name}</option>
-            <option value="logout">Logout</option> </select>) : (<a href="/login">Login</a>)}
+          {user ? (
+            <select
+              title="User options"
+              value="Profile"
+              onChange={(e) => e.target.value === "logout" && handleLogout()}
+            >
+              <option value={user.name}>{user.name}</option>
+              <option value="logout">Logout</option>{" "}
+            </select>
+          ) : (
+            <a href="/login">Login</a>
+          )}
         </div>
       </div>
       {/* Dropdown menu with collapse effect */}

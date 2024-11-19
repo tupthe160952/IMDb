@@ -1,17 +1,21 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useUser } from './UserContext';
+import { useUser  } from './UserContext';
 import '../styles/Login.css';
 
 const LoginForm: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const { setUser } = useUser();
+  const { setUser  } = useUser ();
   const navigate = useNavigate();
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false); // Trạng thái loading
+  const [keepSignedIn, setKeepSignedIn] = useState(false); // Trạng thái giữ đăng nhập
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setLoading(true);
+    setError('');
 
     try {
       const response = await fetch(`http://localhost:9999/users?email=${email}&password=${password}`);
@@ -19,17 +23,29 @@ const LoginForm: React.FC = () => {
 
       if (users.length > 0) {
         // Đăng nhập thành công
-        localStorage.setItem('user', JSON.stringify(users[0]));
-        setUser(users[0]);
+        const loggedInUser  = users[0];
+        if (keepSignedIn) {
+          localStorage.setItem('user', JSON.stringify(loggedInUser ));
+        } else {
+          sessionStorage.setItem('user', JSON.stringify(loggedInUser )); // Sử dụng sessionStorage nếu không muốn giữ đăng nhập
+        }
+        setUser (loggedInUser );
         alert('Login successful');
-        navigate('/'); // Điều hướng về trang Home
+
+        // Kiểm tra vai trò của người dùng
+        if (loggedInUser .role === 'admin') {
+          navigate('/admin'); // Điều hướng đến trang admin
+        } else {
+          navigate('/'); // Điều hướng về trang Home
+        }
       } else {
-        setError('Invalid email or password');  
-        
+        setError('Invalid email or password');
       }
     } catch (error) {
       console.error('Error:', error);
-      alert('An error occurred during login');
+      setError('An error occurred during login');
+    } finally {
+      setLoading(false); // Đặt trạng thái loading về false
     }
   };
 
@@ -41,7 +57,7 @@ const LoginForm: React.FC = () => {
       <div className="login-container">
         <h2>Sign in</h2>
         <form onSubmit={handleSubmit}>
-        {error && <div className="alert alert-danger">{error}</div>}
+          {error && <div className="alert alert-danger">{error}</div>}
           <input
             type="text"
             placeholder="Email or mobile phone number"
@@ -53,13 +69,19 @@ const LoginForm: React.FC = () => {
             type="password"
             placeholder="Password"
             required
-            value={password}
+            value={password }
             onChange={(e) => setPassword(e.target.value)}
           />
-          <button type="submit">Sign in</button>
+          <button type="submit" disabled={loading}>
+            {loading ? 'Signing in...' : 'Sign in'}
+          </button>
           <div className="checkbox-container">
             <label>
-              <input type="checkbox" /> Keep me signed in.
+              <input 
+                type="checkbox" 
+                checked={keepSignedIn} 
+                onChange={(e) => setKeepSignedIn(e.target.checked)} 
+              /> Keep me signed in.
             </label>
             <a href="#">Forgot password?</a>
           </div>
