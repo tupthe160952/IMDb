@@ -62,6 +62,22 @@ export default interface Celebs {
 //   trailer: string;
 // }
 
+export interface Movie {
+  id: string;
+  title: string;
+  date: string;
+  cast: string[];
+  genres: number[]; 
+  href: string;
+  thumbnail: string;
+  banner: string;
+  overview: string;
+  popularity: number;
+  vote_average: number; 
+  vote_count: number; 
+  trailer: string;
+}
+
 // export interface WatchlistItem {
 //   id: number;
 //   userId: number;

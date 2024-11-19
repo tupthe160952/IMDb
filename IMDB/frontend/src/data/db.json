@@ -15,7 +15,7 @@
       "id": "2"
     },
     {
-      "name": "admin",
+      "name": "Admin",
       "email": "admin@gmail.com",
       "password": "12345678",
       "role": "admin",
@@ -1045,6 +1045,73 @@
       "vote_count": 13379,
       "overview": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
       "trailer": "https://www.youtube.com/watch?v=Scf8nIJCvs4"
+    },
+    {
+      "id": "37",
+      "title": "Cast Out",
+      "date": "26-04-2024",
+      "cast": [
+        "John Travolta",
+        "Lukas Haas",
+        "Quavo"
+      ],
+      "genres": [
+        28
+      ],
+      "href": "Cast_Out",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/xBJnIvRdL0nDHgvivr6EgBQizes.jpg",
+      "banner": "https://i.ytimg.com/vi/YTUDR0x4VjY/maxresdefault.jpg",
+      "overview": "Criminal mastermind Mason is about to execute the score of a lifetime when his lover and key member of his crew, Decker, takes the team down and reveals she’s an undercover Interpol agent. Heartbroken, Mason escapes and retires from the life of crime until his younger brother Shawn is out of his league taking on a big bank heist all on his own. Mason has no choice left but to come to the rescue, while Interpol brings Decker in hoping to unnerve him. Before the SWAT teams storm the bank, Mason must use every tool in his arsenal to not only escape with the prize, but also the love of his life.",
+      "popularity": 0,
+      "vote_average": 10,
+      "vote_count": 0,
+      "trailer": "https://www.youtube.com/watch?v=YTUDR0x4VjY"
+    },
+    {
+      "id": "38",
+      "title": "Whisper of the Witch",
+      "date": "2024-06-13",
+      "cast": [
+        "Arthur Beschastny",
+        "Maryana Spivak",
+        "Igor Grabuzov",
+        "Sergey Safronov"
+      ],
+      "genres": [
+        27,
+        53
+      ],
+      "href": "Whisper_of_the_Witch",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/raDMchyq3dJMqso2TVh75A123Xb.jpg",
+      "banner": "https://images.plex.tv/photo?size=large-1280&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fc%2Fgracenote%2Fc401fa26ee9e94ac93cf8d8bc1180748.jpg",
+      "overview": "Mara, an ancient pagan spirit, hunts a group of teenagers taking their body parts to be reborn. A disillusioned and desperate investigator has to face his deepest fears to save the teenagers.",
+      "popularity": 0,
+      "vote_average": 0,
+      "vote_count": 0,
+      "trailer": "https://www.youtube.com/watch?v=NrNpPMEiTbc"
+    },
+    {
+      "id": "39",
+      "title": "Levels",
+      "date": "11-01-2024",
+      "cast": [
+        "Cara Gee",
+        "Peter Mooney",
+        "Aaron Abrams"
+      ],
+      "genres": [
+        28,
+        878,
+        53
+      ],
+      "href": "Levels",
+      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/y1xm0jMIlx9Oo2a3jWNyLGm43sJ.jpg",
+      "banner": "https://media.themoviedb.org/t/p/w533_and_h300_bestv2/kwXycPsLA6SV3KUOagn343TtMOf.jpg",
+      "overview": "After witnessing his girlfriend's murder, a man risks everything - including reality itself - to discover the truth.",
+      "popularity": 0,
+      "vote_average": 0,
+      "vote_count": 0,
+      "trailer": "https://www.youtube.com/watch?v=cCggBmznfTA"
     }
   ],
   "watchlist": [

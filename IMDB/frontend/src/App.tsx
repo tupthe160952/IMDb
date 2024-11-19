@@ -16,7 +16,8 @@ import UpComingMovieDetail from "./pages/UpComingMovieDetail";
 import GenreDetail from "./pages/GenreDetail";
 import "./styles/Header.css";
 import ProtectedRoute from  "./components/ProtectedRoute";
-import AdminPage from "./components/AdminPage";
+import AdminPage from "./pages/AdminPage";
+import AddMovie from "./pages/admin/AddMovie";
 
 function App() {
   return (
@@ -53,8 +54,14 @@ function App() {
               <ProtectedRoute>
                 <AdminPage /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
-            } 
-          />
+            } />
+            <Route 
+            path="/addMovie" 
+            element={
+              <ProtectedRoute>
+                <AddMovie /> {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } />
         </Routes>
       </UserProvider>
     </BrowserRouter>
