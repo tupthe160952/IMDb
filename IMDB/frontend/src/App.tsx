@@ -19,7 +19,7 @@ import "./styles/Header.css";
 import ProtectedRoute from "./components/ProtectedRoute";
 import AdminPage from "./pages/AdminPage";
 import AddMovie from "./pages/admin/AddMovie";
-
+import AllMovieDetail from "./pages/AllMovieDetail";
 function App() {
   return (
     <BrowserRouter>
@@ -50,6 +50,7 @@ function App() {
           <Route path="/celebs/:id" element={<CelebDetail />} />
           <Route path="/header" element={<Header />} />
           <Route path="/movie/:id" element={<MovieDetail />} />
+          <Route path="/allmovie" element={<AllMovieDetail />} />
           <Route
             path="/admin"
             element={
