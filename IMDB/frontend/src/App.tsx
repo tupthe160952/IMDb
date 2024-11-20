@@ -16,10 +16,10 @@ import UpComingMovieDetail from "./pages/UpComingMovieDetail";
 import GenreDetail from "./pages/GenreDetail";
 import SearchResult from "./pages/SearchResult";
 import "./styles/Header.css";
-import ProtectedRoute from  "./components/ProtectedRoute";
+import ProtectedRoute from "./components/ProtectedRoute";
 import AdminPage from "./pages/AdminPage";
 import AddMovie from "./pages/admin/AddMovie";
-
+import AllMovieDetail from "./pages/AllMovieDetail";
 function App() {
   return (
     <BrowserRouter>
@@ -50,20 +50,23 @@ function App() {
           <Route path="/celebs/:id" element={<CelebDetail />} />
           <Route path="/header" element={<Header />} />
           <Route path="/movie/:id" element={<MovieDetail />} />
-          <Route 
-            path="/admin" 
+          <Route path="/allmovie" element={<AllMovieDetail />} />
+          <Route
+            path="/admin"
             element={
               <ProtectedRoute>
                 <AdminPage /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
-            } />
-            <Route 
-            path="/addMovie" 
+            }
+          />
+          <Route
+            path="/addMovie"
             element={
               <ProtectedRoute>
                 <AddMovie /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
-            } />
+            }
+          />
         </Routes>
       </UserProvider>
     </BrowserRouter>
