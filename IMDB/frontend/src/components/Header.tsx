@@ -94,6 +94,13 @@ const Header: React.FC = () => {
           </button>
         </form>
 
+        <div className="menu">
+          <a href="/allmovie" className="btn-menu">
+            <i className="fa-solid bi-film"></i>
+            <p>Movies</p>
+          </a>
+        </div>
+
         <div className="watch-list">
           <i className="fa-solid fa-bookmark"></i>
           <a onClick={handleWatchlistClick} className="btn-menu">

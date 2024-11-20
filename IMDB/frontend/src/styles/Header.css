@@ -99,8 +99,11 @@
 }
 
 .btn-menu {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: white;
+  gap: 7px;
 }
 
 /*INPUT SEARCH*/
