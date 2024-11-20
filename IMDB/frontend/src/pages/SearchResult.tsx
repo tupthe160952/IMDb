@@ -91,7 +91,6 @@ const SearchResult: React.FC = () => {
           )}
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

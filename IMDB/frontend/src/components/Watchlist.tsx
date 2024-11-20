@@ -206,12 +206,14 @@ const Watchlist: React.FC = () => {
                 place_of_birth={null}
                 genres={[]}
                 description={""}
+                date={""}
+                known_for={""}
+                genders={""}
               />
             </div>
           ))}
         </div>
       </div>
-      <Footer></Footer>
     </div>
   );
 };

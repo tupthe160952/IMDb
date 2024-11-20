@@ -3,19 +3,24 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import Card from "../components/Card";
 import CardProps from "../types/Interface";
-import "../styles/GenreList.css";
+import "../styles/PopularMovie.css";
 import "swiper/swiper-bundle.css";
 import axios from "axios";
-import { Link } from "react-router-dom";
 
-const PopularMovie: React.FC = () => {
+const PopularMovie: React.FC<{
+  movieId: string | undefined;
+  titlegenre: string;
+}> = (props) => {
   const [cardFilm, setCardFilm] = useState<CardProps[]>([]);
 
   const getPopularMovie = (): void => {
     axios
       .get(`http://localhost:9999/movie`)
       .then((res) => {
+        const genreId = Number(props.movieId);
+        console.log(genreId);
         const sortFilm = res.data
+          .filter((mov: any) => mov.genres.includes(genreId))
           .sort((a: CardProps, b: CardProps) => b.popularity - a.popularity)
           .slice(0, 15);
         setCardFilm(sortFilm);
@@ -31,10 +36,9 @@ const PopularMovie: React.FC = () => {
 
   return (
     <div className="slidecard">
-      <Link className="road-to-detail" to="/detailpopular">
-        <h2>Popular Movies</h2>
-        <i className="fa-solid fa-forward"></i>
-      </Link>
+      <div className="road-to-detail">
+        <h2>{props.titlegenre}</h2>
+      </div>
 
       <Swiper
         slidesPerView={5}

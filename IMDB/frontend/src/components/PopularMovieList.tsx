@@ -177,7 +177,6 @@ const PopularMovieList: React.FC = () => {
             />
           ))}
         </div>
-        <Footer></Footer>
       </div>
     </div>
   );
