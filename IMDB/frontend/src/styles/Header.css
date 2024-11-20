@@ -113,14 +113,19 @@
 }
 
 .search-bar input {
+  border: none;
   height: 15px;
   width: 650px;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
+  border-right: none;
   padding: 15px;
 }
 
 .search-bar button {
+  border: 1px solid white;
+  border: none;
+  background-color: white;
   height: 15px;
   width: auto;
   border-top-right-radius: 7px;
@@ -179,14 +184,15 @@
   margin: 0;
 }
 
-.nav-list li a {
+.text-nav {
   text-decoration: none;
   color: white;
 }
 
-.nav-list li a:hover {
+.text-nav:hover {
   text-decoration: underline;
   color: white;
+  cursor: pointer;
 }
 
 /*CLOSE BUTTON*/

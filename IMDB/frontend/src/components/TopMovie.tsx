@@ -32,10 +32,9 @@ const TopMovie: React.FC = () => {
 
   return (
     <div className="slidecard">
-      <a className="road-to-detail" href="/">
+      <div className="road-to-detail">
         <h2>Top 10 Movies on IMDB</h2>
-        <i className="fa-solid fa-forward"></i>
-      </a>
+      </div>
 
       <Swiper
         slidesPerView={5}

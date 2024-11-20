@@ -1,3 +1,57 @@
+.genre-detail-all {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+}
+
 .genre-detail-form {
-  margin-top: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.font-genre-type {
+  height: 400px;
+  margin: 100px auto;
+}
+
+.font-genre-type img {
+  width: 40%;
+  border-radius: 17px;
+}
+
+.description-genre {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.genre-description {
+  padding: 20px;
+}
+
+.link-genre {
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+
+.back-btn {
+  color: white;
+  font-size: 21px;
+}
+
+.back-btn i {
+  margin-right: 5px;
+}
+
+.back-btn:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.name-genre {
+  color: rgb(226, 182, 22);
+  font-size: 40px;
+  margin-top: 30px;
 }

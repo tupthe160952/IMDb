@@ -4,8 +4,10 @@ import axios from "axios";
 import "../styles/Header.css";
 import GenreDetail from "../types/Interface";
 import { useUser } from "./UserContext";
+import { useNavigate } from "react-router-dom";
 
 const Header: React.FC = () => {
+  const navigate = useNavigate();
   const [movieList, setMovieList] = useState<GenreDetail[]>([]);
   const [collapseMenu, setCollapseMenu] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>("");
@@ -127,7 +129,15 @@ const Header: React.FC = () => {
             {Array.isArray(movieList) && movieList.length > 0 ? (
               movieList.map((genre) => (
                 <li key={genre.id}>
-                  <Link to="/">{genre.name}</Link>
+                  <p
+                    className="text-nav"
+                    onClick={() => {
+                      navigate(`/genredetail/${genre.id}`);
+                      window.location.reload();
+                    }}
+                  >
+                    {genre.name}
+                  </p>
                 </li>
               ))
             ) : (
@@ -136,7 +146,12 @@ const Header: React.FC = () => {
           </ul>
         </div>
         <div className="close-dropdown" onClick={toggleMenu}>
-          <span className="material-symbols-outlined">close</span>
+          <span
+            className="material-symbols-outlined"
+            style={{ color: "black" }}
+          >
+            close
+          </span>
         </div>
       </div>
     </>
