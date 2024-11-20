@@ -19,6 +19,7 @@ import "./styles/Header.css";
 import ProtectedRoute from  "./components/ProtectedRoute";
 import AdminPage from "./pages/AdminPage";
 import AddMovie from "./pages/admin/AddMovie";
+import MovieList from "./pages/admin/ListMovie";
 
 function App() {
   return (
@@ -62,6 +63,13 @@ function App() {
             element={
               <ProtectedRoute>
                 <AddMovie /> {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } />
+            <Route 
+            path="/listMovie" 
+            element={
+              <ProtectedRoute>
+                <MovieList /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
             } />
         </Routes>

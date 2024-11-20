@@ -45,7 +45,7 @@ const CelebDetail: React.FC = () => {
             <div className="mt-3">
               <h5>Personal Info</h5>
               <p><strong>Known For:</strong> {celebs.known_for_department}</p>
-              {/* <p><strong>Gender:</strong> {celebs.genders}</p> */}
+              <p><strong>Gender:</strong> {celebs.genders}</p>
               <p><strong>Birthday:</strong> {celebs.birthday || 'Unknown'}</p>
               <p><strong>Place of Birth:</strong> {celebs.place_of_birth || 'Unknown'}</p>
               <p><strong>Popularity:</strong> {celebs.popularity}</p>
