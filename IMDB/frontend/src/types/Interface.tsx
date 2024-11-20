@@ -37,7 +37,7 @@ export default interface Celebs {
   known_for_department: string;
   name: string;
   original_name: string;
-  genders: number;
+  genders: string;
   popularity: number;
   profile_path: string;
   biography: string;
