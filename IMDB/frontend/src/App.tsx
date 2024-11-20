@@ -62,7 +62,8 @@ function App() {
             path="/addMovie"
             element={
               <ProtectedRoute>
-                <AddMovie /> {/* Chỉ cho phép admin truy cập */}
+                <AddMovie existingMovies={[]} />{" "}
+                {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
             }
           />
