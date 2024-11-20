@@ -4,6 +4,7 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import "../styles/GenreDetail.css";
 import axios from "axios";
 import type GenreDetail from "../types/Interface";
+import GenreList from "../components/GenreList";
 
 const GenreDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -35,23 +36,27 @@ const GenreDetailPage = () => {
     return <div>Loading...</div>; // Hiển thị khi dữ liệu đang được tải
   } else {
     return (
-      <div className="genre-detail-all">
-        <Header />
-        <div className="genre-detail-form">
-          <div className="font-genre-type">
-            <div className="description-genre">
-              <img src={genre.image} alt={genre.name} />
-              <div className="genre-description">
-                <Link to={"/"} className="link-genre">
-                  <span className="back-btn">
-                    <i className="fa-solid fa-backward"></i>
-                    Home
-                  </span>
-                </Link>
-                <h2 className="name-genre">{genre.name}</h2>
-                <p className="text-genre">{genre.description}</p>
-              </div>
+      <div style={{ backgroundColor: "black" }}>
+        <Header></Header>
+        <div className="font-genre-type">
+          <div className="description-genre">
+            <img className="genre-image" src={genre.image} alt={genre.name} />
+            <div className="genre-description">
+              <Link to={"/"} className="link-genre">
+                <span className="back-btn">
+                  <i className="fa-solid fa-backward"></i>
+                  Home
+                </span>
+              </Link>
+              <h2 className="name-genre">{genre.name}</h2>
+              <p className="text-genre">{genre.description}</p>
             </div>
+          </div>
+          <div className="genre-products">
+            <div className="popular-movies-genre">
+              <GenreList movieId={id} titlegenre={"Popular Movies"}></GenreList>
+            </div>
+            <div className="toprated-movies-genre"></div>
           </div>
         </div>
       </div>

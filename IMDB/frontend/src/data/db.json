@@ -29,117 +29,117 @@
   ],
   "genres": [
     {
-      "id": "28",
+      "id": 28,
       "name": "Action",
       "image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/07/the-avengers-jpg-1.jpg",
       "description": "Movies that feature high-intensity physical feats and dynamic combat scenes."
     },
     {
-      "id": "12",
+      "id": 12,
       "name": "Adventure",
-      "image": "https://example.com/images/adventure.jpg",
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/6/26/02-1687767557517413037370.jpg",
       "description": "Films that take you on exciting journeys and explore unknown territories."
     },
     {
-      "id": "16",
+      "id": 16,
       "name": "Animation",
-      "image": "https://example.com/images/animation.jpg",
+      "image": "https://vnpay.vn/s1/statics.vnpay.vn/2023/9/0jsuy1vlbnip1694338481368.jpg",
       "description": "Stories brought to life through the art of animation."
     },
     {
-      "id": "35",
+      "id": 35,
       "name": "Comedy",
-      "image": "https://example.com/images/comedy.jpg",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,ar_1:1,f_auto,q_auto,g_auto/shape/cover/sport/62455-shout-factory1-869b74b647b88045caac956956bd1ff8.jpg",
       "description": "Movies designed to make you laugh with humor and wit."
     },
     {
-      "id": "80",
+      "id": 80,
       "name": "Crime",
-      "image": "https://example.com/images/crime.jpg",
+      "image": "https://as1.ftcdn.net/v2/jpg/03/95/41/84/1000_F_395418459_ZYKtZzYaD6vZTGf1pChp64X4kYaYUoNt.jpg",
       "description": "Films that delve into the world of criminals and law enforcement."
     },
     {
-      "id": "99",
+      "id": 99,
       "name": "Documentary",
-      "image": "https://example.com/images/documentary.jpg",
+      "image": "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQXMj8WvO9yuOxPw2vx1kfInqDfitDTjLqnhZjk4HW-lJ0BXZyOqJboGaohgYLmgCe0UlXJUt1GAvEnigQvVSgl3682KYQLecZRJVyswEbDWnW7_wSVOn6rYWFnLPVKfgZu5mPf5UHReTXh4oVbEi_H17.jpg?r=850",
       "description": "Non-fiction films that depict real-life events and stories."
     },
     {
-      "id": "18",
+      "id": 18,
       "name": "Drama",
-      "image": "https://example.com/images/drama.jpg",
+      "image": "https://images.summitmedia-digital.com/cosmo/images/2019/04/16/k-drama-theme-songs-1555376539.jpg",
       "description": "Character-driven stories focusing on intense emotional experiences."
     },
     {
-      "id": "10751",
+      "id": 10751,
       "name": "Family",
-      "image": "https://example.com/images/family.jpg",
+      "image": "https://i.ytimg.com/vi/VileKLJz6tQ/maxresdefault.jpg",
       "description": "Heartwarming films suitable for viewers of all ages."
     },
     {
-      "id": "14",
+      "id": 14,
       "name": "Fantasy",
-      "image": "https://example.com/images/fantasy.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAPIkatcprCI6yaPCYmwU26vrzHQaGPGjnVA&s",
       "description": "Stories set in magical worlds filled with wonder and imagination."
     },
     {
-      "id": "36",
+      "id": 36,
       "name": "History",
-      "image": "https://example.com/images/history.jpg",
+      "image": "https://i.ytimg.com/vi/-yOZEiHLuVU/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AHUBoAC1gOKAgwIABABGHIgWig4MA8=&rs=AOn4CLDuAdmbRCy_IfzwfNwBdZwrpbd69A",
       "description": "Movies that depict historical events and figures."
     },
     {
-      "id": "27",
+      "id": 27,
       "name": "Horror",
-      "image": "https://example.com/images/horror.jpg",
+      "image": "https://media.gq.com/photos/59efa5f866e2d56abcd7a055/16:9/w_2560%2Cc_limit/state-of-horror-gq.jpg",
       "description": "Films designed to scare and thrill the audience."
     },
     {
-      "id": "10402",
+      "id": 10402,
       "name": "Music",
-      "image": "https://example.com/images/music.jpg",
+      "image": "https://preview.redd.it/anyone-else-notice-the-eminem-cameo-in-the-movie-8-mile-v0-7gzbijimbsyb1.png?width=1080&crop=smart&auto=webp&s=c8daffd4bb871f486211ef2bb4e553ee8e09e57b",
       "description": "Movies centered around musical performances and themes."
     },
     {
-      "id": "9648",
+      "id": 9648,
       "name": "Mystery",
-      "image": "https://example.com/images/mystery.jpg",
+      "image": "https://i.ytimg.com/vi/vbCg5ZFxgDM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCeSRwWXy8pZEvJjK24UheouxOzfw",
       "description": "Stories that keep you guessing with suspense and intrigue."
     },
     {
-      "id": "10749",
+      "id": 10749,
       "name": "Romance",
-      "image": "https://example.com/images/romance.jpg",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2017/12/18/9f79b8f4-e39e-11e7-8ff5-d91dc767c75e_1280x720_123332.jpg?itok=A3BRtQUu",
       "description": "Heartfelt stories about love and relationships."
     },
     {
-      "id": "878",
+      "id": 878,
       "name": "Science Fiction",
-      "image": "https://example.com/images/scifi.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Pulp_Fiction_%28Soundtrack%29.png",
       "description": "Films that explore futuristic concepts and advanced technology."
     },
     {
-      "id": "10770",
+      "id": 10770,
       "name": "TV Movie",
-      "image": "https://example.com/images/tv_movie.jpg",
+      "image": "https://www.rollingstone.com/wp-content/uploads/2022/11/TV-Themes.jpg?w=1581&h=1054&crop=1",
       "description": "Films made specifically for television broadcast."
     },
     {
-      "id": "53",
+      "id": 53,
       "name": "Thriller",
-      "image": "https://example.com/images/thriller.jpg",
+      "image": "",
       "description": "Movies that create intense suspense and excitement."
     },
     {
-      "id": "10752",
+      "id": 10752,
       "name": "War",
-      "image": "https://example.com/images/war.jpg",
+      "image": "https://media.newyorker.com/photos/59097b84c14b3c606c10947a/master/pass/Brody-Hacksaw-Ridge.jpg",
       "description": "Stories set during times of war and conflict."
     },
     {
-      "id": "37",
+      "id": 37,
       "name": "Western",
-      "image": "https://example.com/images/western.jpg",
+      "image": "https://i.ytimg.com/vi/Tkqkr7-RZ5I/sddefault.jpg",
       "description": "Movies set in the American Old West, featuring cowboys and outlaws."
     }
   ],
@@ -156,11 +156,7 @@
         "Rhys Ifans",
         "Clark Backo"
       ],
-      "genres": [
-        878,
-        28,
-        12
-      ],
+      "genres": [878, 28, 12],
       "href": "Venom:_The_Last_Dance",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://i.pinimg.com/originals/67/44/3f/67443f455bf514bf972eb413301e03c3.jpg",
@@ -183,11 +179,7 @@
         "Samantha Scaffidi",
         "Margaret Anne Florence"
       ],
-      "genres": [
-        27,
-        53,
-        9648
-      ],
+      "genres": [27, 53, 9648],
       "href": "Terrifier_3",
       "extract": "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare.",
       "thumbnail": "https://th.bing.com/th/id/OIP.SRBO7MiyPcTHYgTC-jnmNgHaLV?rs=1&pid=ImgDetMain",
@@ -210,11 +202,7 @@
         "Stephanie Hsu",
         "Matt Berry"
       ],
-      "genres": [
-        16,
-        878,
-        10751
-      ],
+      "genres": [16, 878, 10751],
       "href": "The_Wild_Robot",
       "extract": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
       "thumbnail": "https://th.bing.com/th/id/OIP.tkk2Rk1OREKhKpT1b9F1TwHaLu?w=115&h=182&c=7&r=0&o=5&dpr=1.6&pid=1.7",
@@ -236,12 +224,7 @@
         "Ron Perlman",
         "Peter Dinklage"
       ],
-      "genres": [
-        16,
-        878,
-        12,
-        10751
-      ],
+      "genres": [16, 878, 12, 10751],
       "href": "Transformers_One",
       "extract": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
       "thumbnail": "https://image.tmdb.org/t/p/original/oz7WsSLalkh60q1e0uzqqpbaB2g.jpg",
@@ -265,11 +248,7 @@
         "Oscar Lesage",
         "Tom Morton"
       ],
-      "genres": [
-        18,
-        27,
-        878
-      ],
+      "genres": [18, 27, 878],
       "href": "The_Substance",
       "extract": "Have you ever dreamt of a better version of yourself? You, only better in every way. You should try this new product, it's called The Substance. IT CHANGED MY LIFE.",
       "thumbnail": "https://static1.moviewebimages.com/wordpress/wp-content/uploads/2024/07/the-substance-movie-poster.jpg",
@@ -290,11 +269,7 @@
         "Brendan Gleeson",
         "Catherine Keener"
       ],
-      "genres": [
-        18,
-        80,
-        53
-      ],
+      "genres": [18, 80, 53],
       "href": "Joker:_Folie_à_Deux",
       "extract": "While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.",
       "thumbnail": "https://cdn.kinocheck.com/i/y43dk5voar.jpg",
@@ -318,10 +293,7 @@
         "Aileen Wu",
         "Rosie Ede"
       ],
-      "genres": [
-        878,
-        27
-      ],
+      "genres": [878, 27],
       "href": "Alien:_Romulus",
       "extract": "While scavenging the deep ends of a derelict space station, a group of young space colonizers come face to face with the most terrifying life form in the universe.",
       "thumbnail": "https://th.bing.com/th/id/OIP.NSPRr13UctpfEOp5IpQFXAHaJP?rs=1&pid=ImgDetMain",
@@ -347,13 +319,7 @@
         "Ayo Edebiri",
         "Lilimar"
       ],
-      "genres": [
-        16,
-        10751,
-        12,
-        35,
-        18
-      ],
+      "genres": [16, 10751, 12, 35, 18],
       "href": "Inside_Out_2",
       "extract": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
       "thumbnail": "https://th.bing.com/th/id/OIP.yIaexla70j3o71oPZ0BV3QHaJQ?rs=1&pid=ImgDetMain",
@@ -376,10 +342,7 @@
         "Riz Ahmed",
         "Scott Haze"
       ],
-      "genres": [
-        878,
-        28
-      ],
+      "genres": [878, 28],
       "href": "Venom",
       "extract": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
       "thumbnail": "https://th.bing.com/th/id/R.93769210c316b1c996d9e6ecb93a961c?rik=ZVFWhkpxwLEkAw&pid=ImgRaw&r=0",
@@ -402,11 +365,7 @@
         "Dafne Keen",
         "Jon Favreau"
       ],
-      "genres": [
-        28,
-        35,
-        878
-      ],
+      "genres": [28, 35, 878],
       "href": "Deadpool_&_Wolverine",
       "extract": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
       "thumbnail": "https://th.bing.com/th/id/OIP.AybWD6FAYYvHawRSZeliXQHaK-?rs=1&pid=ImgDetMain",
@@ -429,14 +388,7 @@
         "Laurent Lafitte",
         "Pierfrancesco Favino"
       ],
-      "genres": [
-        12,
-        36,
-        28,
-        18,
-        10749,
-        53
-      ],
+      "genres": [12, 36, 28, 18, 10749, 53],
       "href": "Le Comte de Monte-Cristo",
       "extract": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
       "thumbnail": "https://th.bing.com/th/id/OIP.aGgD2eAtQ8-EW1EXz10DBgHaKC?rs=1&pid=ImgDetMain",
@@ -457,10 +409,7 @@
         "Marco Morales",
         "Gwen Garci"
       ],
-      "genres": [
-        18,
-        10749
-      ],
+      "genres": [18, 10749],
       "href": "Heavenly_Touch",
       "extract": "Jonard is having trouble making ends meet. His mother is suffering from depression, and he and his sister are forced to quit school to take care of her. One day, Jonard meets his friend Rodel, who introduces him to the world of massage parlors.",
       "thumbnail": "https://canvas.tubitv.com/opts/yR8XJoXlkajQqg==/98670168-1a9a-424a-a2ab-39c008af831c/CJgDEMcEOgUxLjEuMg==",
@@ -484,10 +433,7 @@
         "Daniel Francis",
         "Moray Treadwell"
       ],
-      "genres": [
-        27,
-        53
-      ],
+      "genres": [27, 53],
       "href": "Dont_Move",
       "extract": "A grieving woman in a secluded forest encounters a killer who injects her with a paralytic drug. As her body shuts down, her fight for survival begins.",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/en/4/47/Dont_Move_2024_film_poster.jpg",
@@ -512,11 +458,7 @@
         "Jenna Ortega",
         "Justin Theroux"
       ],
-      "genres": [
-        35,
-        14,
-        27
-      ],
+      "genres": [35, 14, 27],
       "href": "Beetlejuice_Beetlejuice",
       "extract": "After a family tragedy, three generations of the Deetz family return home to Winter River, only to find Lydia’s life turned upside down when her daughter accidentally opens a portal to the Afterlife.",
       "thumbnail": "https://th.bing.com/th/id/OIP.A1crH2jIUS1zRF_xJRQIkgAAAA?rs=1&pid=ImgDetMain",
@@ -534,18 +476,8 @@
       "id": "15",
       "title": "Sing: Thriller",
       "date": "16/10/2024",
-      "cast": [
-        "Matthew McConaughey",
-        "Tori Kelly",
-        "Tori Kelly",
-        "Nick Kroll"
-      ],
-      "genres": [
-        16,
-        10751,
-        35,
-        27
-      ],
+      "cast": ["Matthew McConaughey", "Tori Kelly", "Tori Kelly", "Nick Kroll"],
+      "genres": [16, 10751, 35, 27],
       "href": "Sing_Thriller",
       "extract": "Buster Moon dreams up a star-studded spectacle set to Michael Jackson's 'Thriller' in this animated short featuring characters from the hit 'Sing' films.",
       "thumbnail": "https://mbox24.org/images/tt33999453/poster.jpg",
@@ -563,12 +495,8 @@
       "id": "16",
       "title": "Terrifier",
       "date": "09/08/2011",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        27
-      ],
+      "cast": [""],
+      "genres": [27],
       "href": "Terrifier",
       "extract": "After witnessing a brutal murder on Halloween night, a young woman becomes the next target of a maniacal entity.",
       "thumbnail": "https://picfiles.alphacoders.com/392/392411.jpg",
@@ -586,14 +514,8 @@
       "id": "17",
       "title": "The Silent Hour",
       "date": "03/10/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        80,
-        53,
-        28
-      ],
+      "cast": [""],
+      "genres": [80, 53, 28],
       "href": "The_Silent_Hour",
       "extract": "A hearing-impaired detective faces off with criminals while working as an interpreter.",
       "thumbnail": "https://filmapikofficial.com/poster/tt22874848.jpg",
@@ -611,13 +533,8 @@
       "id": "18",
       "title": "El hoyo 2",
       "date": "27/09/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        878,
-        27
-      ],
+      "cast": [""],
+      "genres": [878, 27],
       "href": "El hoyo 2",
       "extract": "A new resident in a brutal vertical prison must fight for survival.",
       "thumbnail": "https://th.bing.com/th/id/OIP.k6OAfgJrBK4e8QAZnT5IEwHaLE?rs=1&pid=ImgDetMain",
@@ -635,13 +552,8 @@
       "id": "19",
       "title": "Bagman",
       "date": "20/09/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        27,
-        53
-      ],
+      "cast": [""],
+      "genres": [27, 53],
       "href": "Bagman",
       "extract": "A legendary figure terrorizes children, snatching them away in his bag.",
       "thumbnail": "https://th.bing.com/th/id/OIP.cYVe_vuPdIAH102Prz2H-gAAAA?rs=1&pid=ImgDetMain",
@@ -659,15 +571,8 @@
       "id": "20",
       "title": "My Hero Academia: You're Next",
       "date": "02/08/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        16,
-        28,
-        12,
-        878
-      ],
+      "cast": [""],
+      "genres": [16, 28, 12, 878],
       "href": "My_Hero_Academia_Youre_Next",
       "extract": "A mysterious fortress appears, posing a new threat for heroes and villains.",
       "thumbnail": "https://images.justwatch.com/poster/318532615/s718/my-hero-academia-youre-next.jpg",
@@ -685,14 +590,8 @@
       "id": "21",
       "title": "Corpse Bride",
       "date": "12/09/2005",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        10749,
-        14,
-        16
-      ],
+      "cast": [""],
+      "genres": [10749, 14, 16],
       "href": "Corpse_Bride",
       "extract": "A young man in a European village marries a corpse while his real bride waits.",
       "thumbnail": "https://th.bing.com/th/id/OIP.D8gTrmsQJWbC-lovn6cXLgHaLH?rs=1&pid=ImgDetMain",
@@ -710,14 +609,8 @@
       "id": "22",
       "title": "Brothers",
       "date": "10/10/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        28,
-        35,
-        80
-      ],
+      "cast": [""],
+      "genres": [28, 35, 80],
       "href": "Brothers",
       "extract": "A reformed criminal reconnects with his twin for one last heist.",
       "thumbnail": "https://th.bing.com/th?id=OIF.mFh%2fgXDJsZ%2bRbw2Cgk7Tgg&rs=1&pid=ImgDetMain",
@@ -735,14 +628,8 @@
       "id": "23",
       "title": "Invasion",
       "date": "11/04/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        28,
-        18,
-        53
-      ],
+      "cast": [""],
+      "genres": [28, 18, 53],
       "href": "Invasion_(2024_film)",
       "extract": "When neighboring country Veragua suddenly attacks Curaçao and Aruba, the Dutch government is taken by surprise. The conflict escalates as three young Navy recruits face difficult choices.",
       "thumbnail": "https://th.bing.com/th/id/OIP.jNQEMKnO7_BSTUL3iInAvAHaLH?w=1175&h=1763&rs=1&pid=ImgDetMain",
@@ -760,13 +647,8 @@
       "id": "24",
       "title": "Smile 2",
       "date": "16/10/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        27,
-        9648
-      ],
+      "cast": [""],
+      "genres": [27, 9648],
       "href": "Smile_2_(2024_film)",
       "extract": "Global pop sensation Skye Riley faces terrifying, inexplicable events while on a world tour. To regain control, she must confront her dark past.",
       "thumbnail": "https://image.tmdb.org/t/p/w500/aE85MnPIsSoSs3978Noo16BRsKN.jpg",
@@ -784,12 +666,8 @@
       "id": "25",
       "title": "All Hallows' Eve",
       "date": "29/10/2013",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        27
-      ],
+      "cast": [""],
+      "genres": [27],
       "href": "All_Hallows'_Eve_(2013_film)",
       "extract": "A babysitter finds an old VHS tape in the kids' trick or treat bag, featuring three terrifying tales linked by a murderous clown.",
       "thumbnail": "https://image.tmdb.org/t/p/w500/bSe8CBqK8HkbP6sqZWzcJfQV9Ci.jpg",
@@ -807,13 +685,8 @@
       "id": "26",
       "title": "It Ends with Us",
       "date": "07/08/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        10749,
-        18
-      ],
+      "cast": [""],
+      "genres": [10749, 18],
       "href": "It_Ends_with_Us_(2024_film)",
       "extract": "A woman’s first love reenters her life, disrupting her relationship with a charming but abusive neurosurgeon, leading her to make a difficult choice.",
       "thumbnail": "https://image.tmdb.org/t/p/w500/AjV6jFJ2YFIluYo4GQf13AA1tqu.jpg",
@@ -831,14 +704,8 @@
       "id": "27",
       "title": "The Crow",
       "date": "21/08/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        28,
-        14,
-        27
-      ],
+      "cast": [""],
+      "genres": [28, 14, 27],
       "href": "The_Crow_(2024_film)",
       "extract": "Eric and Shelly, soulmates, are brutally murdered. Given a chance to save his love, Eric seeks revenge across worlds.",
       "thumbnail": "https://image.tmdb.org/t/p/w500/58QT4cPJ2u2TqWZkterDq9q4yxQ.jpg",
@@ -856,13 +723,8 @@
       "id": "28",
       "title": "Bad Boys: Ride or Die",
       "date": "05/06/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        28,
-        35
-      ],
+      "cast": [""],
+      "genres": [28, 35],
       "href": "Bad_Boys_Ride_or_Die",
       "extract": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BN2YzYzA2YmQtODA3NC00NTdiLWJkNWEtNTc2OWFhYzcwMzk1XkEyXkFqcGc@._V1_.jpg",
@@ -879,13 +741,8 @@
       "id": "29",
       "title": "Transmorphers: Mech Beasts",
       "date": "09/06/2023",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        28,
-        878
-      ],
+      "cast": [""],
+      "genres": [28, 878],
       "href": "Transmorphers_Mech_Beasts",
       "extract": "20 years after the events of Transmorphers, a newer, more advanced species of alien robot descends on a rebuilt Earth, threatening once again to destroy the planet.",
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BMWZjMzFhMTQtY2FjOS00N2U0LWE4ZDAtNDZkMGVjZDE2MTcxXkEyXkFqcGdeQXVyNTkzMzg3NDM@._V1_.jpg",
@@ -902,14 +759,8 @@
       "id": "30",
       "title": "Flow",
       "date": "29/08/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        16,
-        14,
-        12
-      ],
+      "cast": [""],
+      "genres": [16, 14, 12],
       "href": "Flow",
       "extract": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
       "thumbnail": "https://th.bing.com/th/id/OIP.Hlzvpz7ilJ9hcKWnda4NQAHaLH?rs=1&pid=ImgDetMain",
@@ -926,13 +777,8 @@
       "id": "31",
       "title": "The Last Stop in Yuma County",
       "date": "10/05/2024",
-      "cast": [
-        ""
-      ],
-      "genres": [
-        80,
-        53
-      ],
+      "cast": [""],
+      "genres": [80, 53],
       "href": "The_Last_Stop_in_Yuma_County",
       "extract": "While awaiting the next fuel truck at a middle-of-nowhere Arizona rest stop, a traveling young knife salesman is thrust into a high-stakes hostage situation by the arrival of two similarly stranded bank robbers with no qualms about using cruelty—or cold, hard steel—to protect their bloodstained, ill-gotten fortune.",
       "thumbnail": "https://de.web.img3.acsta.net/r_1280_720/pictures/23/09/01/21/37/1040943.jpg",
@@ -949,16 +795,8 @@
       "id": "32",
       "title": "Apocalipsis Z: el principio del fin",
       "date": "10/04/2024",
-      "cast": [
-        "Francisco Ortiz",
-        "José María Yázpik",
-        "Berta Vázquez"
-      ],
-      "genres": [
-        18,
-        28,
-        27
-      ],
+      "cast": ["Francisco Ortiz", "José María Yázpik", "Berta Vázquez"],
+      "genres": [18, 28, 27],
       "href": "Apocalipsis Z: el principio del fin",
       "extract": "When a kind of rabies that transforms people into aggressive creatures spreads across the planet, Manel isolates himself at home with his cat, relying on his wits to survive; but soon they must go out in search of food, by land and by sea, dodging many dangers.",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/wIGJnIFQlESkC2rLpfA8EDHqk4g.jpg",
@@ -981,11 +819,7 @@
         "Pedro Pascal",
         "Connie Nielsen"
       ],
-      "genres": [
-        18,
-        28,
-        12
-      ],
+      "genres": [18, 28, 12],
       "href": "Gladiator II",
       "extract": "Years after witnessing the death of the revered hero Maximus at the hands of his uncle, Lucius is forced to enter the Colosseum after his home is conquered by the tyrannical Emperors who now lead Rome with an iron fist. With rage in his heart and the future of the Empire at stake, Lucius must look to his past to find strength and honor to return the glory of Rome to its people.",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/2cxhvwyEwRlysAmRH4iodkvo0z5.jpg",
@@ -1009,11 +843,7 @@
         "Lucy Liu",
         "Kiernan Shipka"
       ],
-      "genres": [
-        28,
-        35,
-        14
-      ],
+      "genres": [28, 35, 14],
       "href": "Red One",
       "extract": "After Santa Claus (codename: Red One) is kidnapped, the North Pole's Head of Security must team up with the world's most infamous bounty hunter in a globe-trotting, action-packed mission to save Christmas.",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cdqLnri3NEGcmfnqwk2TSIYtddg.jpg",
@@ -1038,12 +868,7 @@
         "Jon Hamm",
         "Laurence Fishburne"
       ],
-      "genres": [
-        16,
-        878,
-        12,
-        10751
-      ],
+      "genres": [16, 878, 12, 10751],
       "href": "Transformers One",
       "extract": "The untold origin story of Optimus Prime and Megatron, better known as sworn enemies, but once were friends bonded like brothers who changed the fate of Cybertron forever.",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/iHPIBzrjJHbXeY9y7VVbEVNt7LW.jpg",
@@ -1068,11 +893,7 @@
         "Emile Hirsch",
         "Sydney Sweeney"
       ],
-      "genres": [
-        18,
-        35,
-        53
-      ],
+      "genres": [18, 35, 53],
       "href": "Once Upon a Time... in Hollywood",
       "extract": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
       "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
@@ -1097,11 +918,7 @@
         "Jeff Goldblum",
         "Ethan Slater"
       ],
-      "genres": [
-        10749,
-        18,
-        14
-      ],
+      "genres": [10749, 18, 14],
       "href": "Wicked",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://preview.redd.it/megathread-wicked-2024-trailer-v0-zr10s2ppm1ic1.jpeg?auto=webp&s=71df15b3c68e1ec3ad0924dbb6b8476814c842a1",
@@ -1127,12 +944,7 @@
         "Rose Matafeo",
         "Hualālai Chung"
       ],
-      "genres": [
-        16,
-        12,
-        10751,
-        35
-      ],
+      "genres": [16, 12, 10751, 35],
       "href": "Moana_2",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://th.bing.com/th/id/OIP.OnvWliQUhUXu2zF3VXBMjwHaJQ?rs=1&pid=ImgDetMain",
@@ -1158,10 +970,7 @@
         "Olivia Sinclair",
         "Emil Bloch"
       ],
-      "genres": [
-        14,
-        10751
-      ],
+      "genres": [14, 10751],
       "href": "Woodwalkers",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://th.bing.com/th/id/OIP.P4kgl944gJ9Nl40iIxtB5QHaLB?rs=1&pid=ImgDetMain",
@@ -1186,12 +995,7 @@
         "Keiko Toda",
         "Yui Aragaki"
       ],
-      "genres": [
-        16,
-        18,
-        10402,
-        35
-      ],
+      "genres": [16, 18, 10402, 35],
       "href": "The_Colors_Within",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://th.bing.com/th/id/OIP.NYb50lxwZIdPH8crHsVPCQHaKX?rs=1&pid=ImgDetMain",
@@ -1206,14 +1010,8 @@
       "id": "41",
       "title": "Linh Mieu",
       "date": "22/11/2025",
-      "cast": [
-        "Hong Dao",
-        "Samuel An",
-        "Nguyen Thuc Thuy Tien"
-      ],
-      "genres": [
-        27
-      ],
+      "cast": ["Hong Dao", "Samuel An", "Nguyen Thuc Thuy Tien"],
+      "genres": [27],
       "href": "Linh_Mieu",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://cinema.momocdn.net/img/50706563295805291-Untitled-1.jpg",
@@ -1236,11 +1034,7 @@
         "Joseph Quinn",
         "Derek Jacobi"
       ],
-      "genres": [
-        28,
-        12,
-        18
-      ],
+      "genres": [28, 12, 18],
       "href": "Gladiator_II",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://cdn.gracza.pl/galeria/mdb/f/-1951891500.jpg",
@@ -1263,14 +1057,7 @@
         "Tika Sumpter",
         "Tom Butler"
       ],
-      "genres": [
-        28,
-        12,
-        35,
-        10751,
-        14,
-        878
-      ],
+      "genres": [28, 12, 35, 10751, 14, 878],
       "href": "Sonic_the_Hedgehog_3",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BZGViYjkxN2YtOTA1ZS00ZDQzLWEzMjgtN2E3NWUwZTg1Mjg2XkEyXkFqcGdeQXVyMTcyNjczNjU4._V1_FMjpg_UX1000_.jpg",
@@ -1663,12 +1450,12 @@
   ],
   "ratings": [
     {
-      "id": "3125",
       "userId": "1",
       "ratestar": {
         "movieId": "3",
         "rating": 10
-      }
+      },
+      "id": "3125"
     },
     {
       "id": "8240",
