@@ -4,17 +4,21 @@ import Celebs from '../types/Interface';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import axios from 'axios';
 
 const CelebDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const [celebs, setCelebs] = useState<Celebs | null>(null);
+  // const [gender, setGender] = useState<Genders>;
   const [showMore, setShowMore] = useState(false);
   useEffect(() => {
-    fetch(`http://localhost:9999/celebs/${id}`)
-      .then((response) => response.json())
-      .then((data) => setCelebs(data))
+    axios
+      .get(`http://localhost:9999/celebs/${id}`)
+      .then((response) => setCelebs(response.data))
       .catch((error) => console.error('Error fetching data:', error));
   }, [id]);
+
+
 
   if (!celebs) {
     return <div>Loading...</div>;
@@ -41,7 +45,7 @@ const CelebDetail: React.FC = () => {
             <div className="mt-3">
               <h5>Personal Info</h5>
               <p><strong>Known For:</strong> {celebs.known_for_department}</p>
-              {/* <p><strong>Gender:</strong> {celebs.gender}</p> */}
+              {/* <p><strong>Gender:</strong> {celebs.genders}</p> */}
               <p><strong>Birthday:</strong> {celebs.birthday || 'Unknown'}</p>
               <p><strong>Place of Birth:</strong> {celebs.place_of_birth || 'Unknown'}</p>
               <p><strong>Popularity:</strong> {celebs.popularity}</p>

@@ -18,6 +18,7 @@ export default interface CardProps {
   image: string;
   rating: string | number;
   name: string;
+  date: string;
 }
 
 export default interface SliderProps {
@@ -36,11 +37,13 @@ export default interface Celebs {
   known_for_department: string;
   name: string;
   original_name: string;
+  genders: number;
   popularity: number;
   profile_path: string;
   biography: string;
   birthday: string | null;
   place_of_birth: string | null;
+  known_for: string;
 }
 
 // export interface Movie {
@@ -59,6 +62,22 @@ export default interface Celebs {
 //   vote_count: number;
 //   trailer: string;
 // }
+
+export interface Movie {
+  id: string;
+  title: string;
+  date: string;
+  cast: string[];
+  genres: number[]; 
+  href: string;
+  thumbnail: string;
+  banner: string;
+  overview: string;
+  popularity: number;
+  vote_average: number; 
+  vote_count: number; 
+  trailer: string;
+}
 
 // export interface WatchlistItem {
 //   id: number;
