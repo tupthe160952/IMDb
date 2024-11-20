@@ -207,8 +207,8 @@ const Watchlist: React.FC = () => {
                 genres={[]}
                 description={""}
                 date={""}
-                genders={0}
                 known_for={""}
+                genders={""}
               />
             </div>
           ))}
