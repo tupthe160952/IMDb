@@ -98,7 +98,7 @@ const UserProfile: React.FC = () => {
             <h2 className="user-profile-info-title">Account Information</h2>
             <p style={{marginBottom:'22px',marginTop:'18px'}}><strong>Name:</strong> {userInfo.name}</p>
             <p><strong>Email:</strong> {userInfo.email}</p>
-            <p  style={{marginBottom:'22px',marginTop:'18px'}}><strong>Date of creation:</strong> {userInfo.createdAt}</p>
+            <p ><strong>Date of creation:</strong> {userInfo.createdAt}</p>
             <button className="user-profile-edit-button" onClick={() => setIsEditing(prev => !prev)}>
               {isEditing ? "Cancel" : "Edit Profile"}
             </button>
@@ -136,7 +136,6 @@ const UserProfile: React.FC = () => {
         </div>
       </div>
       <div className="footer-user-profile">
-        <Footer></Footer>
       </div>
     </div>
   );

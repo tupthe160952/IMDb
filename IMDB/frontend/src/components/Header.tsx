@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
 import "../styles/Header.css";
 import GenreDetail from "../types/Interface";
 import { useUser } from "./UserContext";
@@ -12,7 +11,6 @@ const Header: React.FC = () => {
   const [movieList, setMovieList] = useState<GenreDetail[]>([]);
   const [collapseMenu, setCollapseMenu] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>("");
-  const navigate = useNavigate();
 
   const handleWatchlistClick = () => {
     if (!user) {
@@ -116,30 +114,35 @@ const Header: React.FC = () => {
         </div>
 
         <div className="sign-in">
-  {user ? (
-    <div className="user-profile">
-      <select
-        title="User  options"
-        defaultValue="" // Đặt giá trị mặc định là rỗng
-        onChange={(e) => {
-          if (e.target.value === "profile") {
-            navigate('/profile'); // Chuyển đến trang profile
-          } else if (e.target.value === "logout") {
-            handleLogout();
-          }
-        }}
-      >
-        <option value="" disabled>
-          {user.name} {/* Hiển thị tên người dùng */}
-        </option>
-        <option value="profile">Profile</option>
-        <option value="logout">Logout</option>
-      </select>
+      {user ? (
+        <div className="user-profile">
+          <select
+            title="User  options"
+            defaultValue="" // Đặt giá trị mặc định là rỗng
+            onChange={(e) => {
+              if (e.target.value === "profile") {
+                navigate('/profile'); // Chuyển đến trang profile
+              } else if (e.target.value === "dashboard") {
+                navigate('/admin'); // Chuyển đến trang admin
+              } else if (e.target.value === "logout") {
+                handleLogout();
+              }
+            }}
+          >
+            <option value="" disabled>
+              {user.name} {/* Hiển thị tên người dùng */}
+            </option>
+            {user.role === "admin" && ( // Kiểm tra nếu user là admin
+              <option value="dashboard">AdminPage</option>
+            )}
+            <option value="profile">Profile</option>
+            <option value="logout">Logout</option>
+          </select>
+        </div>
+      ) : (
+        <a href="/login">Login</a>
+      )}
     </div>
-  ) : (
-    <a href="/login">Login</a>
-  )}
-</div>
       </div>
       {/* Dropdown menu with collapse effect */}
       <div className={`dropdown ${collapseMenu ? "open" : ""}`}>

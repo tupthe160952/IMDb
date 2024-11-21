@@ -16,6 +16,7 @@
 .user-profile-title {
     text-align: center;
     color: #FFD700; /* Tiêu đề màu vàng */
+    margin-bottom: 10px;
 }
 
 .user-profile-content {
@@ -23,6 +24,11 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 55px;
+    height: 850px
+}
+
+.user-profile-info{
+    max-width: 350px;
 }
 
 .user-profile-info, .user-profile-watchlist {

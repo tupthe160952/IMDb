@@ -170,7 +170,7 @@ const PopularMovieList: React.FC = () => {
               image={film.thumbnail}
               rating={film.vote_average}
               name={`${index + 1}. ${film.title}`}
-              genres={[]} user_rating={0} popularity={0} vote_count={0} description={""} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""} known_for_department={""} original_name={""} profile_path={""} biography={""} birthday={null} place_of_birth={null} date={""} />
+              genres={[]} user_rating={0} popularity={0} vote_count={0} description={""} title={""} extract={""} thumbnail={""} banner={""} vote_average={0} trailer={""} known_for_department={""} original_name={""} profile_path={""} biography={""} birthday={null} place_of_birth={null} date={""} genders={""} known_for={""} />
           ))}
         </div>
       </div>
