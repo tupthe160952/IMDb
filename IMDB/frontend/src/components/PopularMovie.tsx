@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import Card from "../components/Card";
 import CardProps from "../types/Interface";
-import "../styles/PopularMovie.css";
+import "../styles/GenreList.css";
 import "swiper/swiper-bundle.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
@@ -72,7 +72,7 @@ const PopularMovie: React.FC = () => {
               birthday={null}
               place_of_birth={null}
               genres={[]}
-              description={""} date={""}            />
+              description={""} date={""} genders={""} known_for={""}            />
           </SwiperSlide>
         ))}
       </Swiper>

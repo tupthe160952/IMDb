@@ -13,13 +13,15 @@ import MovieDetail from "./pages/MovieDetail";
 import PopularCeleb from "./pages/PopularCeleb";
 import PopularMovieDetail from "./pages/PopularMovieDetail";
 import UpComingMovieDetail from "./pages/UpComingMovieDetail";
-import GenreDetail from "./pages/GenreDetail";
+import GenreDetailPage from "./pages/GenreDetail";
 import SearchResult from "./pages/SearchResult";
 import "./styles/Header.css";
 import ProtectedRoute from "./components/ProtectedRoute";
-import AdminPage from "./components/AdminPage";
 import UserProfile from "./pages/UserProfile";
-
+import AdminPage from "./pages/AdminPage";
+import AddMovie from "./pages/admin/AddMovie";
+import MovieList from "./pages/admin/ListMovie";
+import AllMovieDetail from "./pages/AllMovieDetail";
 function App() {
   return (
     <BrowserRouter>
@@ -38,7 +40,7 @@ function App() {
             }
           />
           <Route path="/register" element={<Register />} />
-          <Route path="/genredetail" element={<GenreDetail />} />
+          <Route path="/genredetail/:id" element={<GenreDetailPage />} />
           <Route path="/search" element={<SearchResult />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/" element={<Home />} />
@@ -51,6 +53,7 @@ function App() {
           <Route path="/header" element={<Header />} />
           <Route path="/movie/:id" element={<MovieDetail />} />
           <Route path="/profile" element={<UserProfile />} />
+          <Route path="/allmovie" element={<AllMovieDetail />} />
           <Route
             path="/admin"
             element={
@@ -59,6 +62,21 @@ function App() {
               </ProtectedRoute>
             }
           />
+          <Route
+            path="/addMovie"
+            element={
+              <ProtectedRoute>
+                <AddMovie existingMovies={[]} />{" "}
+                {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } />
+            <Route 
+            path="/listMovie" 
+            element={
+              <ProtectedRoute>
+                <MovieList /> {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } />
         </Routes>
       </UserProvider>
     </BrowserRouter>

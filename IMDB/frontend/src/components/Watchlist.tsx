@@ -57,38 +57,38 @@ const Watchlist: React.FC = () => {
         navigation
         modules={[Navigation]}
         breakpoints={{
-          640: { slidesPerView: 1 },
-          768: { slidesPerView: 2 },
-          1024: { slidesPerView: 4 },
+            640: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 }, // Thay đổi số lượng slide hiển thị cho màn hình lớn
+            1300: { slidesPerView: 4 }, // Thay đổi số lượng slide hiển thị cho màn hình lớn
         }}
         style={{ width: "100%", maxWidth: "1300px", margin: "0 auto" }}
       >
         {cardFilm.map((film) => (
           <SwiperSlide key={film.id}>
             <Card
-              id={film.id}
-              image={film.thumbnail}
-              rating={film.vote_average.toFixed(1)}
-              name={film.title}
-              title={""}
-              extract={""}
-              thumbnail={""}
-              banner={""}
-              vote_average={0}
-              trailer={""}
-              popularity={0}
-              vote_count={0}
-              user_rating={0}
-              known_for_department={""}
-              original_name={""}
-              profile_path={""}
-              biography={""}
-              birthday={null}
-              place_of_birth={null}
-              genres={[]}
-              description={""} 
-              date={""}
-            />
+                    id={film.id}
+                    image={film.thumbnail}
+                    rating={film.vote_average.toFixed(1)}
+                    name={film.title}
+                    title={""}
+                    extract={""}
+                    thumbnail={""}
+                    banner={""}
+                    vote_average={0}
+                    trailer={""}
+                    popularity={0}
+                    vote_count={0}
+                    user_rating={0}
+                    known_for_department={""}
+                    original_name={""}
+                    profile_path={""}
+                    biography={""}
+                    birthday={null}
+                    place_of_birth={null}
+                    genres={[]}
+                    description={""}
+                    date={""} genders={""} known_for={""}            />
           </SwiperSlide>
         ))}
       </Swiper>

@@ -2,7 +2,7 @@
 
 .carousel-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
   position: relative;
   display: flex;
@@ -16,15 +16,15 @@
 }
 
 .carousel-image {
-  width: 1200px;
-  height: 720px;
+  width: 1300px;
+  height: 780px;
   border-radius: 13px;
 }
 .carousel-thumbnail {
   position: absolute;
   bottom: 4.2%;
   left: 5%;
-  width: 170px;
+  width: 220px;
   height: 45%;
   border-radius: 13px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
