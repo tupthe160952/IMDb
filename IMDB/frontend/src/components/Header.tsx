@@ -11,6 +11,7 @@ const Header: React.FC = () => {
   const [movieList, setMovieList] = useState<GenreDetail[]>([]);
   const [collapseMenu, setCollapseMenu] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>("");
+
   const handleWatchlistClick = () => {
     if (!user) {
       alert("Please log in to add to your watchlist.");
@@ -26,7 +27,9 @@ const Header: React.FC = () => {
     setUser(null);
     window.location.href = "/";
   };
-
+  const handleProfile = () => {
+    window.location.href = "/profile";
+  };
   const getList = async () => {
     axios
       .get(`http://localhost:9999/genres`)
@@ -111,22 +114,35 @@ const Header: React.FC = () => {
         </div>
 
         <div className="sign-in">
-          {/* <a href="/login" className="btn-menu">
-            <p>Sign In</p>
-          </a> */}
-          {user ? (
-            <select
-              title="User options"
-              value="Profile"
-              onChange={(e) => e.target.value === "logout" && handleLogout()}
-            >
-              <option value={user.name}>{user.name}</option>
-              <option value="logout">Logout</option>{" "}
-            </select>
-          ) : (
-            <a href="/login">Login</a>
-          )}
+      {user ? (
+        <div className="user-profile">
+          <select
+            title="User  options"
+            defaultValue="" // Đặt giá trị mặc định là rỗng
+            onChange={(e) => {
+              if (e.target.value === "profile") {
+                navigate('/profile'); // Chuyển đến trang profile
+              } else if (e.target.value === "dashboard") {
+                navigate('/admin'); // Chuyển đến trang admin
+              } else if (e.target.value === "logout") {
+                handleLogout();
+              }
+            }}
+          >
+            <option value="" disabled>
+              {user.name} {/* Hiển thị tên người dùng */}
+            </option>
+            {user.role === "admin" && ( // Kiểm tra nếu user là admin
+              <option value="dashboard">AdminPage</option>
+            )}
+            <option value="profile">Profile</option>
+            <option value="logout">Logout</option>
+          </select>
         </div>
+      ) : (
+        <a href="/login">Login</a>
+      )}
+    </div>
       </div>
       {/* Dropdown menu with collapse effect */}
       <div className={`dropdown ${collapseMenu ? "open" : ""}`}>

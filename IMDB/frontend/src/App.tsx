@@ -5,7 +5,7 @@ import LoginForm from "./components/Login";
 import RateStar from "./components/RateStar";
 import Register from "./components/Register";
 import { UserProvider } from "./components/UserContext";
-import Watchlist from "./components/Watchlist";
+import Watchlist from "./pages/WatchlistDetail";
 import CelebDetail from "./pages/CelebDetail";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
@@ -17,6 +17,7 @@ import GenreDetailPage from "./pages/GenreDetail";
 import SearchResult from "./pages/SearchResult";
 import "./styles/Header.css";
 import ProtectedRoute from "./components/ProtectedRoute";
+import UserProfile from "./pages/UserProfile";
 import AdminPage from "./pages/AdminPage";
 import AddMovie from "./pages/admin/AddMovie";
 import MovieList from "./pages/admin/ListMovie";
@@ -51,6 +52,7 @@ function App() {
           <Route path="/celebs/:id" element={<CelebDetail />} />
           <Route path="/header" element={<Header />} />
           <Route path="/movie/:id" element={<MovieDetail />} />
+          <Route path="/profile" element={<UserProfile />} />
           <Route path="/allmovie" element={<AllMovieDetail />} />
           <Route
             path="/admin"

@@ -4,7 +4,8 @@ import axios from "axios";
 import Card from "../components/Card";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { CardProps } from "react-bootstrap";
+import CardProps from "../types/Interface";
+
 import "../styles/SearchResult.css";
 
 const SearchResult: React.FC = () => {
@@ -82,8 +83,7 @@ const SearchResult: React.FC = () => {
                   birthday={null}
                   place_of_birth={null}
                   genres={[]}
-                  description={""}
-                />
+                  description={""} date={""} genders={""} known_for={""}                />
               </div>
             ))
           ) : (

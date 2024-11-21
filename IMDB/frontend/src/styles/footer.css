@@ -3,6 +3,11 @@
     width: 100%;
 }
 
+html, body {
+    height: 100%; /* Đảm bảo body chiếm toàn bộ chiều cao */
+    margin: 0; /* Xóa margin mặc định */
+}
+
 .items-center {
     display: flex;
     justify-content: space-between; 
