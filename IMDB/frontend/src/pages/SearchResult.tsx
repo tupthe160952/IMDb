@@ -83,8 +83,7 @@ const SearchResult: React.FC = () => {
                   birthday={null}
                   place_of_birth={null}
                   genres={[]}
-                  description={""}
-                />
+                  description={""} date={""}                />
               </div>
             ))
           ) : (

@@ -5,14 +5,16 @@
       "email": "ab@gmail.com",
       "password": "12345678",
       "id": "1",
-      "role": "user"
+      "role": "user",
+      "createdAt": "2024-11-21"
     },
     {
       "name": "aaa",
       "email": "tu@gmail.com",
       "password": "12345678",
       "role": "user",
-      "id": "2"
+      "id": "2",
+      "createdAt": "2024-11-21"
     },
     {
       "name": "admin",
@@ -20,124 +22,127 @@
       "password": "12345678",
       "role": "admin",
       "id": "3"
-    }
-  ],
-  "Vote": [
+    },
     {
-      "id": "4f83"
+      "id": "42ec",
+      "name": "phamthtu",
+      "email": "abc@gmail.com",
+      "password": "123456789",
+      "role": "user",
+      "createdAt": "2024-11-21"
     }
   ],
   "genres": [
     {
-      "id": 28,
+      "id": "28",
       "name": "Action",
       "image": "https://example.com/images/action.jpg",
       "description": "Movies that feature high-intensity physical feats and dynamic combat scenes."
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Adventure",
       "image": "https://example.com/images/adventure.jpg",
       "description": "Films that take you on exciting journeys and explore unknown territories."
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Animation",
       "image": "https://example.com/images/animation.jpg",
       "description": "Stories brought to life through the art of animation."
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Comedy",
       "image": "https://example.com/images/comedy.jpg",
       "description": "Movies designed to make you laugh with humor and wit."
     },
     {
-      "id": 80,
+      "id": "80",
       "name": "Crime",
       "image": "https://example.com/images/crime.jpg",
       "description": "Films that delve into the world of criminals and law enforcement."
     },
     {
-      "id": 99,
+      "id": "99",
       "name": "Documentary",
       "image": "https://example.com/images/documentary.jpg",
       "description": "Non-fiction films that depict real-life events and stories."
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Drama",
       "image": "https://example.com/images/drama.jpg",
       "description": "Character-driven stories focusing on intense emotional experiences."
     },
     {
-      "id": 10751,
+      "id": "10751",
       "name": "Family",
       "image": "https://example.com/images/family.jpg",
       "description": "Heartwarming films suitable for viewers of all ages."
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Fantasy",
       "image": "https://example.com/images/fantasy.jpg",
       "description": "Stories set in magical worlds filled with wonder and imagination."
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "History",
       "image": "https://example.com/images/history.jpg",
       "description": "Movies that depict historical events and figures."
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Horror",
       "image": "https://example.com/images/horror.jpg",
       "description": "Films designed to scare and thrill the audience."
     },
     {
-      "id": 10402,
+      "id": "10402",
       "name": "Music",
       "image": "https://example.com/images/music.jpg",
       "description": "Movies centered around musical performances and themes."
     },
     {
-      "id": 9648,
+      "id": "9648",
       "name": "Mystery",
       "image": "https://example.com/images/mystery.jpg",
       "description": "Stories that keep you guessing with suspense and intrigue."
     },
     {
-      "id": 10749,
+      "id": "10749",
       "name": "Romance",
       "image": "https://example.com/images/romance.jpg",
       "description": "Heartfelt stories about love and relationships."
     },
     {
-      "id": 878,
+      "id": "878",
       "name": "Science Fiction",
       "image": "https://example.com/images/scifi.jpg",
       "description": "Films that explore futuristic concepts and advanced technology."
     },
     {
-      "id": 10770,
+      "id": "10770",
       "name": "TV Movie",
       "image": "https://example.com/images/tv_movie.jpg",
       "description": "Films made specifically for television broadcast."
     },
     {
-      "id": 53,
+      "id": "53",
       "name": "Thriller",
       "image": "https://example.com/images/thriller.jpg",
       "description": "Movies that create intense suspense and excitement."
     },
     {
-      "id": 10752,
+      "id": "10752",
       "name": "War",
       "image": "https://example.com/images/war.jpg",
       "description": "Stories set during times of war and conflict."
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "Western",
       "image": "https://example.com/images/western.jpg",
       "description": "Movies set in the American Old West, featuring cowboys and outlaws."
@@ -1097,7 +1102,11 @@
         "Jeff Goldblum",
         "Ethan Slater"
       ],
-      "genres": [10749, 18, 14],
+      "genres": [
+        10749,
+        18,
+        14
+      ],
       "href": "Wicked",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://preview.redd.it/megathread-wicked-2024-trailer-v0-zr10s2ppm1ic1.jpeg?auto=webp&s=71df15b3c68e1ec3ad0924dbb6b8476814c842a1",
@@ -1123,7 +1132,12 @@
         "Rose Matafeo",
         "Hualālai Chung"
       ],
-      "genres": [16, 12, 10751, 35],
+      "genres": [
+        16,
+        12,
+        10751,
+        35
+      ],
       "href": "Moana_2",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://th.bing.com/th/id/OIP.OnvWliQUhUXu2zF3VXBMjwHaJQ?rs=1&pid=ImgDetMain",
@@ -1149,7 +1163,10 @@
         "Olivia Sinclair",
         "Emil Bloch"
       ],
-      "genres": [14, 10751],
+      "genres": [
+        14,
+        10751
+      ],
       "href": "Woodwalkers",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://th.bing.com/th/id/OIP.P4kgl944gJ9Nl40iIxtB5QHaLB?rs=1&pid=ImgDetMain",
@@ -1174,7 +1191,12 @@
         "Keiko Toda",
         "Yui Aragaki"
       ],
-      "genres": [16, 18, 10402, 35],
+      "genres": [
+        16,
+        18,
+        10402,
+        35
+      ],
       "href": "The_Colors_Within",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://th.bing.com/th/id/OIP.NYb50lxwZIdPH8crHsVPCQHaKX?rs=1&pid=ImgDetMain",
@@ -1189,8 +1211,14 @@
       "id": "1341232",
       "title": "Linh Mieu",
       "date": "22/11/2025",
-      "cast": ["Hong Dao", "Samuel An", "Nguyen Thuc Thuy Tien"],
-      "genres": [27],
+      "cast": [
+        "Hong Dao",
+        "Samuel An",
+        "Nguyen Thuc Thuy Tien"
+      ],
+      "genres": [
+        27
+      ],
       "href": "Linh_Mieu",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://cinema.momocdn.net/img/50706563295805291-Untitled-1.jpg",
@@ -1213,7 +1241,11 @@
         "Joseph Quinn",
         "Derek Jacobi"
       ],
-      "genres": [28, 12, 18],
+      "genres": [
+        28,
+        12,
+        18
+      ],
       "href": "Gladiator_II",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://cdn.gracza.pl/galeria/mdb/f/-1951891500.jpg",
@@ -1236,7 +1268,14 @@
         "Tika Sumpter",
         "Tom Butler"
       ],
-      "genres": [28, 12, 35, 10751, 14, 878],
+      "genres": [
+        28,
+        12,
+        35,
+        10751,
+        14,
+        878
+      ],
       "href": "Sonic_the_Hedgehog_3",
       "extract": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "thumbnail": "https://m.media-amazon.com/images/M/MV5BZGViYjkxN2YtOTA1ZS00ZDQzLWEzMjgtN2E3NWUwZTg1Mjg2XkEyXkFqcGdeQXVyMTcyNjczNjU4._V1_FMjpg_UX1000_.jpg",
@@ -1249,7 +1288,71 @@
     }
   ],
   "watchlist": [
-   
+    {
+      "id": "2e82",
+      "userId": "1",
+      "movieId": "2"
+    },
+    {
+      "id": "6fac",
+      "userId": "1",
+      "movieId": "1"
+    },
+    {
+      "id": "6875",
+      "userId": "1",
+      "movieId": "3"
+    },
+    {
+      "id": "2e04",
+      "userId": "1",
+      "movieId": "33"
+    },
+    {
+      "id": "fa4b",
+      "userId": "1",
+      "movieId": "5"
+    },
+    {
+      "id": "3c5c",
+      "userId": "1",
+      "movieId": "14"
+    },
+    {
+      "id": "e39a",
+      "userId": "4f65",
+      "movieId": "2"
+    },
+    {
+      "id": "cd4d",
+      "userId": "42ec",
+      "movieId": "2"
+    },
+    {
+      "id": "a83b",
+      "userId": "42ec",
+      "movieId": "1"
+    },
+    {
+      "id": "776f",
+      "userId": "42ec",
+      "movieId": "3"
+    },
+    {
+      "id": "acc1",
+      "userId": "42ec",
+      "movieId": "33"
+    },
+    {
+      "id": "f1fb",
+      "userId": "42ec",
+      "movieId": "5"
+    },
+    {
+      "id": "f7cb",
+      "userId": "42ec",
+      "movieId": "14"
+    }
   ],
   "celebs": [
     {

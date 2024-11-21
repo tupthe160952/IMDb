@@ -5,7 +5,7 @@ import LoginForm from "./components/Login";
 import RateStar from "./components/RateStar";
 import Register from "./components/Register";
 import { UserProvider } from "./components/UserContext";
-import Watchlist from "./components/Watchlist";
+import Watchlist from "./pages/WatchlistDetail";
 import CelebDetail from "./pages/CelebDetail";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
@@ -16,8 +16,9 @@ import UpComingMovieDetail from "./pages/UpComingMovieDetail";
 import GenreDetail from "./pages/GenreDetail";
 import SearchResult from "./pages/SearchResult";
 import "./styles/Header.css";
-import ProtectedRoute from  "./components/ProtectedRoute";
+import ProtectedRoute from "./components/ProtectedRoute";
 import AdminPage from "./components/AdminPage";
+import UserProfile from "./pages/UserProfile";
 
 function App() {
   return (
@@ -49,13 +50,14 @@ function App() {
           <Route path="/celebs/:id" element={<CelebDetail />} />
           <Route path="/header" element={<Header />} />
           <Route path="/movie/:id" element={<MovieDetail />} />
-          <Route 
-            path="/admin" 
+          <Route path="/profile" element={<UserProfile />} />
+          <Route
+            path="/admin"
             element={
               <ProtectedRoute>
                 <AdminPage /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
-            } 
+            }
           />
         </Routes>
       </UserProvider>

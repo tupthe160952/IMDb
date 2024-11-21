@@ -33,7 +33,7 @@ const Register: React.FC = () => {
         }
   
         // Nếu email chưa tồn tại, tiếp tục đăng ký
-        const user = { name, email, password,role: 'user' };
+        const user = { name, email, password,role: 'user' , createdAt: new Date().toLocaleDateString('en-CA') };
         const response = await fetch('http://localhost:9999/users', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
