@@ -21,6 +21,7 @@ import AdminPage from "./pages/AdminPage";
 import AddMovie from "./pages/admin/AddMovie";
 import MovieList from "./pages/admin/ListMovie";
 import AllMovieDetail from "./pages/AllMovieDetail";
+import ListCeleb from "./pages/admin/ListCeleb";
 function App() {
   return (
     <BrowserRouter>
@@ -64,7 +65,7 @@ function App() {
             path="/addMovie"
             element={
               <ProtectedRoute>
-                <AddMovie /> {/* Chỉ cho phép admin truy cập */}
+                <AddMovie existingMovies={[]} /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
             } />
             <Route 
@@ -72,6 +73,13 @@ function App() {
             element={
               <ProtectedRoute>
                 <MovieList /> {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } />
+            <Route 
+            path="/listCeleb" 
+            element={
+              <ProtectedRoute>
+                <ListCeleb /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
             } />
         </Routes>
