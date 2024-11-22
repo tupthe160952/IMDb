@@ -113,17 +113,23 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  width: 100%;
 }
 
 .search-bar input {
+  border: none;
   height: 15px;
-  width: 650px;
+  width: 80%;
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
+  border-right: none;
   padding: 15px;
 }
 
 .search-bar button {
+  border: 1px solid white;
+  border: none;
+  background-color: white;
   height: 15px;
   width: auto;
   border-top-right-radius: 7px;
@@ -182,14 +188,37 @@
   margin: 0;
 }
 
-.nav-list li a {
+.text-nav {
   text-decoration: none;
   color: white;
 }
 
-.nav-list li a:hover {
+.text-nav:hover {
   text-decoration: underline;
   color: white;
+  cursor: pointer;
+}
+
+.suggestions {
+  position: absolute; /* Đặt vị trí tuyệt đối để nó nằm dưới thanh tìm kiếm */
+  top: 100%; /* Đặt vị trí ngay dưới thanh tìm kiếm */
+  left: 0; /* Căn trái */
+  right: 0; /* Căn phải */
+  background-color: white; /* Màu nền của gợi ý */
+  border: 1px solid #ccc; /* Đường viền */
+  border-radius: 4px; /* Bo góc */
+  z-index: 1000; /* Đảm bảo nó nằm trên các phần tử khác */
+  max-height: 200px; /* Chiều cao tối đa */
+  overflow-y: auto; /* Thêm cuộn nếu có nhiều gợi ý */
+}
+
+.suggestion-item {
+  padding: 10px; /* Khoảng cách bên trong cho từng gợi ý */
+  cursor: pointer; /* Con trỏ khi di chuột qua */
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0; /* Màu nền khi di chuột qua */
 }
 
 /*CLOSE BUTTON*/

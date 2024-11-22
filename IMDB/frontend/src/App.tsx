@@ -5,7 +5,7 @@ import LoginForm from "./components/Login";
 import RateStar from "./components/RateStar";
 import Register from "./components/Register";
 import { UserProvider } from "./components/UserContext";
-import Watchlist from "./components/Watchlist";
+import Watchlist from "./pages/WatchlistDetail";
 import CelebDetail from "./pages/CelebDetail";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home";
@@ -13,10 +13,11 @@ import MovieDetail from "./pages/MovieDetail";
 import PopularCeleb from "./pages/PopularCeleb";
 import PopularMovieDetail from "./pages/PopularMovieDetail";
 import UpComingMovieDetail from "./pages/UpComingMovieDetail";
-import GenreDetail from "./pages/GenreDetail";
+import GenreDetailPage from "./pages/GenreDetail";
 import SearchResult from "./pages/SearchResult";
 import "./styles/Header.css";
 import ProtectedRoute from "./components/ProtectedRoute";
+import UserProfile from "./pages/UserProfile";
 import AdminPage from "./pages/AdminPage";
 import AddMovie from "./pages/admin/AddMovie";
 import MovieList from "./pages/admin/ListMovie";
@@ -40,7 +41,7 @@ function App() {
             }
           />
           <Route path="/register" element={<Register />} />
-          <Route path="/genredetail" element={<GenreDetail />} />
+          <Route path="/genredetail/:id" element={<GenreDetailPage />} />
           <Route path="/search" element={<SearchResult />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/" element={<Home />} />
@@ -52,6 +53,7 @@ function App() {
           <Route path="/celebs/:id" element={<CelebDetail />} />
           <Route path="/header" element={<Header />} />
           <Route path="/movie/:id" element={<MovieDetail />} />
+          <Route path="/profile" element={<UserProfile />} />
           <Route path="/allmovie" element={<AllMovieDetail />} />
           <Route
             path="/admin"
@@ -65,7 +67,8 @@ function App() {
             path="/addMovie"
             element={
               <ProtectedRoute>
-                <AddMovie existingMovies={[]} /> {/* Chỉ cho phép admin truy cập */}
+                <AddMovie existingMovies={[]} />{" "}
+                {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
             } />
             <Route 

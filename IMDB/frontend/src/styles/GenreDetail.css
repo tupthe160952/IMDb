@@ -1,3 +1,58 @@
-.genre-detail-form {
-  margin-top: 100px;
+.font-genre-type {
+  height: 100vh;
+  margin: 0 auto;
+  padding: 100px 0;
+  background-color: rgb(18, 18, 18);
+  width: 100%;
+}
+
+.genre-image {
+  width: auto;
+  height: 40vh;
+  border-radius: 17px;
+}
+
+.description-genre {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 110px;
+  border-radius: 20px;
+}
+
+.genre-description {
+  padding: 20px 0;
+  box-shadow: -30px 0px 20px 26px rgb(18, 18, 18);
+}
+
+.link-genre {
+  text-decoration: none;
+  margin-bottom: 0px;
+}
+
+.back-btn {
+  color: white;
+  font-size: 21px;
+}
+
+.back-btn i {
+  margin-right: 5px;
+}
+
+.back-btn:hover {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.name-genre {
+  color: rgb(226, 182, 22);
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.text-genre {
+  color: white;
+  font-size: 17px;
 }

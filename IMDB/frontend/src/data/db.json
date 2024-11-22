@@ -5,14 +5,16 @@
       "email": "ab@gmail.com",
       "password": "12345678",
       "id": "1",
-      "role": "user"
+      "role": "user",
+      "createdAt": "2024-11-21"
     },
     {
       "name": "aaa",
       "email": "tu@gmail.com",
       "password": "12345678",
       "role": "user",
-      "id": "2"
+      "id": "2",
+      "createdAt": "2024-11-21"
     },
     {
       "name": "Admin",
@@ -20,126 +22,129 @@
       "password": "12345678",
       "role": "admin",
       "id": "3"
-    }
-  ],
-  "Vote": [
+    },
     {
-      "id": "4f83"
+      "id": "42ec",
+      "name": "phamthtu",
+      "email": "abc@gmail.com",
+      "password": "123456789",
+      "role": "user",
+      "createdAt": "2024-11-21"
     }
   ],
   "genres": [
     {
       "id": 28,
       "name": "Action",
-      "image": "https://example.com/images/action.jpg",
+      "image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/07/the-avengers-jpg-1.jpg",
       "description": "Movies that feature high-intensity physical feats and dynamic combat scenes."
     },
     {
       "id": 12,
       "name": "Adventure",
-      "image": "https://example.com/images/adventure.jpg",
+      "image": "https://images2.thanhnien.vn/528068263637045248/2023/6/26/02-1687767557517413037370.jpg",
       "description": "Films that take you on exciting journeys and explore unknown territories."
     },
     {
       "id": 16,
       "name": "Animation",
-      "image": "https://example.com/images/animation.jpg",
+      "image": "https://vnpay.vn/s1/statics.vnpay.vn/2023/9/0jsuy1vlbnip1694338481368.jpg",
       "description": "Stories brought to life through the art of animation."
     },
     {
       "id": 35,
       "name": "Comedy",
-      "image": "https://example.com/images/comedy.jpg",
+      "image": "https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,ar_1:1,f_auto,q_auto,g_auto/shape/cover/sport/62455-shout-factory1-869b74b647b88045caac956956bd1ff8.jpg",
       "description": "Movies designed to make you laugh with humor and wit."
     },
     {
       "id": 80,
       "name": "Crime",
-      "image": "https://example.com/images/crime.jpg",
+      "image": "https://as1.ftcdn.net/v2/jpg/03/95/41/84/1000_F_395418459_ZYKtZzYaD6vZTGf1pChp64X4kYaYUoNt.jpg",
       "description": "Films that delve into the world of criminals and law enforcement."
     },
     {
       "id": 99,
       "name": "Documentary",
-      "image": "https://example.com/images/documentary.jpg",
+      "image": "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQXMj8WvO9yuOxPw2vx1kfInqDfitDTjLqnhZjk4HW-lJ0BXZyOqJboGaohgYLmgCe0UlXJUt1GAvEnigQvVSgl3682KYQLecZRJVyswEbDWnW7_wSVOn6rYWFnLPVKfgZu5mPf5UHReTXh4oVbEi_H17.jpg?r=850",
       "description": "Non-fiction films that depict real-life events and stories."
     },
     {
       "id": 18,
       "name": "Drama",
-      "image": "https://example.com/images/drama.jpg",
+      "image": "https://images.summitmedia-digital.com/cosmo/images/2019/04/16/k-drama-theme-songs-1555376539.jpg",
       "description": "Character-driven stories focusing on intense emotional experiences."
     },
     {
       "id": 10751,
       "name": "Family",
-      "image": "https://example.com/images/family.jpg",
+      "image": "https://i.ytimg.com/vi/VileKLJz6tQ/maxresdefault.jpg",
       "description": "Heartwarming films suitable for viewers of all ages."
     },
     {
       "id": 14,
       "name": "Fantasy",
-      "image": "https://example.com/images/fantasy.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAPIkatcprCI6yaPCYmwU26vrzHQaGPGjnVA&s",
       "description": "Stories set in magical worlds filled with wonder and imagination."
     },
     {
       "id": 36,
       "name": "History",
-      "image": "https://example.com/images/history.jpg",
+      "image": "https://special.vietnamplus.vn/wp-content/uploads/2021/03/ttxvn0705ho-1588900082-88.jpg",
       "description": "Movies that depict historical events and figures."
     },
     {
       "id": 27,
       "name": "Horror",
-      "image": "https://example.com/images/horror.jpg",
+      "image": "https://media.gq.com/photos/59efa5f866e2d56abcd7a055/16:9/w_2560%2Cc_limit/state-of-horror-gq.jpg",
       "description": "Films designed to scare and thrill the audience."
     },
     {
       "id": 10402,
       "name": "Music",
-      "image": "https://example.com/images/music.jpg",
+      "image": "https://preview.redd.it/anyone-else-notice-the-eminem-cameo-in-the-movie-8-mile-v0-7gzbijimbsyb1.png?width=1080&crop=smart&auto=webp&s=c8daffd4bb871f486211ef2bb4e553ee8e09e57b",
       "description": "Movies centered around musical performances and themes."
     },
     {
       "id": 9648,
       "name": "Mystery",
-      "image": "https://example.com/images/mystery.jpg",
+      "image": "https://i.ytimg.com/vi/vbCg5ZFxgDM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCeSRwWXy8pZEvJjK24UheouxOzfw",
       "description": "Stories that keep you guessing with suspense and intrigue."
     },
     {
       "id": 10749,
       "name": "Romance",
-      "image": "https://example.com/images/romance.jpg",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2017/12/18/9f79b8f4-e39e-11e7-8ff5-d91dc767c75e_1280x720_123332.jpg?itok=A3BRtQUu",
       "description": "Heartfelt stories about love and relationships."
     },
     {
       "id": 878,
       "name": "Science Fiction",
-      "image": "https://example.com/images/scifi.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Pulp_Fiction_%28Soundtrack%29.png",
       "description": "Films that explore futuristic concepts and advanced technology."
     },
     {
       "id": 10770,
       "name": "TV Movie",
-      "image": "https://example.com/images/tv_movie.jpg",
+      "image": "https://www.rollingstone.com/wp-content/uploads/2022/11/TV-Themes.jpg?w=1581&h=1054&crop=1",
       "description": "Films made specifically for television broadcast."
     },
     {
       "id": 53,
       "name": "Thriller",
-      "image": "https://example.com/images/thriller.jpg",
+      "image": "",
       "description": "Movies that create intense suspense and excitement."
     },
     {
       "id": 10752,
       "name": "War",
-      "image": "https://example.com/images/war.jpg",
+      "image": "https://media.newyorker.com/photos/59097b84c14b3c606c10947a/master/pass/Brody-Hacksaw-Ridge.jpg",
       "description": "Stories set during times of war and conflict."
     },
     {
       "id": 37,
       "name": "Western",
-      "image": "https://example.com/images/western.jpg",
+      "image": "https://i.ytimg.com/vi/Tkqkr7-RZ5I/sddefault.jpg",
       "description": "Movies set in the American Old West, featuring cowboys and outlaws."
     }
   ],
@@ -194,8 +199,8 @@
       "banner": "https://pipocasclub.com.br/wp-content/uploads/2023/11/terrifier3-1-e1699438190145.webp",
       "overview": "Five years after surviving Art the Clown's Halloween massacre, Sienna and Jonathan are still struggling to rebuild their shattered lives. As the holiday season approaches, they try to embrace the Christmas spirit and leave the horrors of the past behind. But just when they think they're safe, Art returns, determined to turn their holiday cheer into a new nightmare. The festive season quickly unravels as Art unleashes his twisted brand of terror, proving that no holiday is safe.",
       "popularity": 5444.687,
-      "vote_average": 7.230940988835726,
-      "vote_count": 627,
+      "vote_average": 7.2305732484076435,
+      "vote_count": 628,
       "trailer": "https://www.youtube.com/watch?v=zaPcin5knJk"
     },
     {
@@ -524,8 +529,8 @@
       "thumbnail_width": 220,
       "thumbnail_height": 326,
       "popularity": 725.478,
-      "vote_average": 10,
-      "vote_count": 1709,
+      "vote_average": 9.994736842105263,
+      "vote_count": 1710,
       "time": 100,
       "overview": "After a family tragedy, three generations of the Deetz family return home to Winter River. Still haunted by Betelgeuse, Lydia's life is turned upside down when her teenage daughter, Astrid, accidentally opens the portal to the Afterlife.",
       "trailer": "https://www.youtube.com/watch?v=CoZqL9N6Rx4"
@@ -1280,35 +1285,17 @@
       "vote_average": 6.6,
       "vote_count": 110,
       "trailer": "https://www.youtube.com/watch?v=qSu6i2iFMO0"
-    },
-    {
-      "id": "44",
-      "title": "Whisper of the Witch",
-      "date": "13/11/2024",
-      "cast": [
-        "Arthur Beschastny",
-        "Maryana Spivak",
-        "Igor Grabuzov",
-        "Sergey Safronov"
-      ],
-      "genres": [
-        27,
-        53
-      ],
-      "href": "Whisper_of_the_Witch",
-      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/raDMchyq3dJMqso2TVh75A123Xb.jpg",
-      "banner": "https://images.plex.tv/photo?size=large-1280&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fc%2Fgracenote%2Fc401fa26ee9e94ac93cf8d8bc1180748.jpg",
-      "overview": "Mara, an ancient pagan spirit, hunts a group of teenagers taking their body parts to be reborn. A disillusioned and desperate investigator has to face his deepest fears to save the teenagers.",
-      "popularity": 0,
-      "vote_average": 0,
-      "vote_count": 0,
-      "trailer": "https://www.youtube.com/watch?v=NrNpPMEiTbc"
     }
   ],
   "watchlist": [
     {
-      "id": "e44c",
-      "userId": "2",
+      "id": "2e82",
+      "userId": "1",
+      "movieId": "2"
+    },
+    {
+      "id": "6fac",
+      "userId": "1",
       "movieId": "1"
     },
     {
@@ -1320,26 +1307,6 @@
       "userId": 1,
       "movieId": 15,
       "id": "20"
-    },
-    {
-      "userId": 1,
-      "movieId": 6,
-      "id": "21"
-    },
-    {
-      "userId": 1,
-      "movieId": "1",
-      "id": "oysTEeX"
-    },
-    {
-      "id": "7190",
-      "userId": 1,
-      "movieId": "2"
-    },
-    {
-      "id": "7487",
-      "userId": 1,
-      "movieId": "3"
     },
     {
       "id": "c9c8",
@@ -1362,19 +1329,54 @@
       "movieId": "21"
     },
     {
-      "id": "3164",
-      "userId": "1",
-      "movieId": "33"
-    },
-    {
-      "id": "f4d1",
-      "userId": "1",
-      "movieId": "1"
-    },
-    {
       "id": "a419",
       "userId": "1",
       "movieId": "6"
+    },
+    {
+      "id": "4f06",
+      "userId": "1",
+      "movieId": "5"
+    },
+    {
+      "id": "3c5c",
+      "userId": "1",
+      "movieId": "14"
+    },
+    {
+      "id": "e39a",
+      "userId": "4f65",
+      "movieId": "2"
+    },
+    {
+      "id": "cd4d",
+      "userId": "42ec",
+      "movieId": "2"
+    },
+    {
+      "id": "a83b",
+      "userId": "42ec",
+      "movieId": "1"
+    },
+    {
+      "id": "5f15",
+      "userId": "1",
+      "movieId": "41"
+    },
+    {
+      "id": "6be7",
+      "userId": "42ec",
+      "movieId": "3"
+    },
+    {
+      "id": "5070",
+      "userId": "42ec",
+      "movieId": "33"
+    },
+    {
+      "id": "4359",
+      "userId": "42ec",
+      "movieId": "5"
     }
   ],
   "celebs": [
@@ -1383,7 +1385,7 @@
       "known_for_department": "Acting",
       "name": "Scarlett Johansson",
       "original_name": "Scarlett Johansson",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 281.271,
       "profile_path": "https://www.themoviedb.org/t/p/w500/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg",
       "biography": "Scarlett Ingrid Johansson (born November 22, 1984) is an American actress. The world's highest-paid actress in 2018 and 2019, she has featured multiple times on the Forbes Celebrity 100 list. Her films have grossed over $14.3 billion worldwide, making Johansson the ninth-highest-grossing box office star of all time. She has received various accolades, including a Tony Award and a British Academy Film Award, in addition to nominations for two Academy Awards and five Golden Globe Awards.\n\nJohansson aspired to be an actress from an early age and first appeared on stage in an Off-Broadway play as a child actor. She made her film debut in the fantasy comedy North (1994), and gained early recognition for her roles in Manny & Lo (1996), The Horse Whisperer (1998), and Ghost World (2001). Johansson shifted to adult roles in 2003 with her performances in Lost in Translation, which won her a BAFTA Award for Best Actress, and Girl with a Pearl Earring. She was nominated for Golden Globe Awards for these films, and for playing a troubled teenager in the drama A Love Song for Bobby Long (2004) and a seductress in psychological thriller Match Point (2005). The latter was her first collaboration with Woody Allen, who later directed her in Scoop (2006) and Vicky Cristina Barcelona (2008).\n\nJohansson's other works of this period include The Prestige (2006) and the albums Anywhere I Lay My Head (2008) and Break Up (2009), both of which charted on the Billboard 200. In 2010, Johansson debuted on Broadway in a revival of A View from the Bridge, which won her a Tony Award for Best Featured Actress, and began portraying Black Widow in the Marvel Cinematic Universe film Iron Man 2. She reprised the role in eight films, most recently in her solo feature Black Widow (2021), gaining global recognition for her performances. During this period, Johansson starred in the science fiction films Her (2013), Under the Skin (2013) and Lucy (2014).\n\nShe received two simultaneous Academy Award nominations—Best Actress and Best Supporting Actress—for the respective roles of an actress going through a divorce in the drama Marriage Story (2019) and a single mother in Nazi Germany in the satire Jojo Rabbit (2019). Labeled a sex symbol, Johansson has been referred to as one of the world's most attractive women by various media outlets. She is a prominent brand endorser and supports several charitable causes. Divorced from actor Ryan Reynolds and businessman Romain Dauriac, Johansson has been married to comedian Colin Jost since 2020. She has two children, one with Dauriac and another with Jost.",
@@ -1396,7 +1398,7 @@
       "known_for_department": "Acting",
       "name": "Jess Chanliau",
       "original_name": "Jess Chanliau",
-      "genders": "Female",
+      "genders": 3,
       "popularity": 277.021,
       "profile_path": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wx0GIkCqrqt1Vg4SIM63ipbuyZT.jpg",
       "biography": "Jess Chanliau is an American / French actor, movement artist and singer with a BA in Acting from the Royal Conservatoire of Scotland (RCS), Glasgow, UK. Jess' first feature length movie, playing the lead  role of Stone, \"Patients of a Saint\" / \"Inmate Zero\" (UK-USA title) made its debut in Malaysia on December 5, 2019 and its worldwide release beginning January 3, 2020. In August of 2018 Jess co-starred in the play \"South Bend\" at the Edinburgh Fringe festival bringing to life over 20 different characters . They then went on tour with the play in September throughout Scotland to outstanding reviews.\n\nBorn in the United States, Jess moved to Paris and attended French collège and lycée. While in Paris they also attended classes at the Cours Florent. Jess returned to the U.S. for their final year of high school in California to attend the performing arts program at the Marin School of the Arts in Novato. Following graduation, they attended the Pacific Conservatory of the Performing Arts in Santa Maria and then went on to attend RCS. While attending the RCS, Jess spent a semester studying and performing at the Conservatoire National Supérieur d'Art Dramatique in Paris.\n\nIn addition to honing their acting skills, Jess has deepened their love of movement through the techniques of Lecoq, Viewpoints, Laban, Grotowski, Feldenkrais, Yoga and Acrobatics. In the UK Jess is represented by Burnett Crowther Ltd - Lizanne Crowther Jess is seeking representation and opportunities for work in the USA and France.",
@@ -1409,7 +1411,7 @@
       "known_for_department": "Acting",
       "name": "Son Ye-jin",
       "original_name": "Son Ye-jin",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 201.933,
       "profile_path": "https://image.tmdb.org/t/p/w300_and_h450_bestv2/njczzJJnugd9y7p5CF3XW7dcyYK.jpg",
       "biography": "Son Ye-jin (손예진), born Son Eon-jin (손언진) on 11th January 1982, is a South Korean actress. She rose to fame in romance-themed films and television series such as The Classic (2003), Summer Scent (2003), A Moment to Remember (2004), and April Snow (2005). She has won acting recognition for her versatility in diverse genres, notably in Alone in Love (2006), My Wife Got Married (2008), The Pirates (2014), The Truth Beneath and The Last Princess (both in 2016)",
@@ -1422,7 +1424,7 @@
       "known_for_department": "Acting",
       "name": "Gary Oldman",
       "original_name": "Gary Oldman",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 215.477,
       "profile_path": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg",
       "biography": "Gary Leonard Oldman (born 21 March 1958) is an English actor and filmmaker. Regarded as one of the best actors of his generation, he is known for his versatility and intense acting style. He received various accolades, including an Academy Award, a Golden Globe Award, a Screen Actors Guild Award, and three British Academy Film Awards. His films have grossed over $11 billion worldwide, making him one of the highest-grossing actors to date.\n\nOldman began acting in theatre in 1979 and made his film debut in Remembrance (1982). He continued to follow a stage career in London's Royal Court. He was a member of the Royal Shakespeare Company, with credits including Cabaret, Romeo and Juliet, Entertaining Mr Sloane, Saved, The Country Wife and Hamlet. He rose to prominence in British film with his portrayals of Sid Vicious in Sid and Nancy (1986), Joe Orton in Prick Up Your Ears (1987) and Rosencrantz in Rosencrantz & Guildenstern Are Dead (1990), while also attracting attention as the leader of a gang of football hooligans in the television film The Firm (1989). Regarded as a member of the \"Brit Pack\", he achieved greater recognition as a New York gangster in State of Grace (1990), Lee Harvey Oswald in JFK (1991) and Count Dracula in Bram Stoker's Dracula (1992).\n\nOldman portrayed the villains in films such as True Romance (1993), The Fifth Element (1997), Air Force One (1997) and The Contender (2000); corrupt DEA agent Norman Stansfield, whom he played in Léon: The Professional (1994), was called one of cinema's best villains. He also played Ludwig van Beethoven in Immortal Beloved (1994). He later appeared in franchise roles such as Sirius Black in the Harry Potter series, James Gordon in The Dark Knight Trilogy (2005–2012) and a human leader, Dreyfus in Dawn of the Planet of the Apes (2014). He won the Academy Award for Best Actor as Winston Churchill in Darkest Hour (2017). He was nominated for his portrayals of George Smiley in Tinker Tailor Soldier Spy (2011) and Herman J. Mankiewicz in Mank (2020).\n\nOldman was executive producer of films like The Contender, Plunkett & Macleane (1999) and Nil by Mouth (1997), the latter of which he also wrote and directed. He featured in television shows such as Fallen Angels, Tracey Takes On... and Friends, voiced Ignitius and Viktor Reznov, respectively, in The Legend of Spyro and Call of Duty video games and appeared in music videos for David Bowie, Guns N' Roses and Annie Lennox.",
@@ -1435,7 +1437,7 @@
       "known_for_department": "Acting",
       "name": "Pedro Pascal",
       "original_name": "Pedro Pascal",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 190.795,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9VYK7oxcqhjd5LAH6ZFJ3XzOlID.jpg",
       "biography": "José Pedro Balmaceda Pascal (born April 2, 1975) is a Chilean-American actor. After nearly two decades of taking small roles in film and television, Pascal rose to prominence for portraying Oberyn Martell during the fourth season of the HBO fantasy series Game of Thrones (2014) and as Javier Peña in the Netflix crime series Narcos (2015–2017). Since 2019, he has starred as the title character in the Disney+ Star Wars series The Mandalorian and reprised his role in the spin-off series The Book of Boba Fett (2021). Since 2023, he has played Joel in the HBO drama series The Last of Us.\n\nHe has appeared in the films The Adjustment Bureau (2011), The Great Wall (2016), Kingsman: The Golden Circle (2017), The Equalizer 2 (2018), Triple Frontier (2019), Wonder Woman 1984 (2020), and The Unbearable Weight of Massive Talent (2022).",
@@ -1448,7 +1450,7 @@
       "known_for_department": "Acting",
       "name": "Sydney Sweeney",
       "original_name": "Sydney Sweeney",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 188.626,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/qYiaSl0Eb7G3VaxOg8PxExCFwon.jpg",
       "biography": "Sydney Bernice Sweeney is an American actress. She gained mainstream attention in the Netflix series Everything Sucks! (2018) for her role as Emaline and has portrayed Eden in the Hulu series The Handmaid's Tale (2018) and Alice in the HBO miniseries Sharp Objects (2018). Since 2019, she has starred as Cassie Howard in the HBO teen drama series Euphoria and as Olivia Mossbacher in The White Lotus. In film, she had a role in Quentin Tarantino's 2019 comedy-drama Once Upon a Time in Hollywood, portraying Snake, a member of the Manson Family.",
@@ -1461,7 +1463,7 @@
       "known_for_department": "Writing",
       "name": "Oniroku Dan",
       "original_name": "団鬼六",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 74.869,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/5ceW7e1i3RmUdIAOYKjj06sWiHZ.jpg",
       "biography": "Oniroku Dan (団 鬼六 Dan Oniroku, April 16, 1931 – May 6, 2011) was a Japanese author who had been called, \"the most celebrated writer of popular SM novels in Japan.\" Many of his stories have been filmed, most notably by Nikkatsu studio in their Roman Porno series. Dan had a close professional association with actress Naomi Tani throughout her career.",
@@ -1474,7 +1476,7 @@
       "known_for_department": "Acting",
       "name": "Min Do-yoon",
       "original_name": "민도윤",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 101.854,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/bHHn3krbHyxQIWb4JbHkPlV6Uu1.jpg",
       "biography": "The play started with a child actor, and he belonged to the drama club even in high school. Started full-scale actor business at the age of 27. He has a well-trained body and many villains have a strong image, but he is also good at comical roles. He is learning Japanese and aiming for activities in Japan. Major appearances include \"Forbidden Sex\", \"Yongjugol\", and \"Studio 2.0\"",
@@ -1487,7 +1489,7 @@
       "known_for_department": "Acting",
       "name": "Margaret Qualley",
       "original_name": "Margaret Qualley",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 171.759,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/tmyUUvInhRZBol40ZehQbEA5WYP.jpg",
       "biography": "Sarah Margaret Qualley (born October 23, 1994) is an American actress. The daughter of actress Andie MacDowell, she trained as a ballerina in her youth and briefly pursued a career in modeling. She made her acting debut with a minor role in the 2013 drama film Palo Alto and gained recognition for playing a troubled teenager in the HBO drama series The Leftovers (2014–2017). Qualley then appeared in the dark comedy The Nice Guys (2016) and in Netflix's supernatural thriller Death Note (2017).\n\nQualley gained acclaim and a nomination for a Primetime Emmy Award for portraying actress and dancer Ann Reinking in the FX biographical drama miniseries Fosse/Verdon (2019) and the title role in the Netflix drama miniseries Maid (2021). Her biggest commercial success came with Quentin Tarantino's comedy-drama Once Upon a Time in Hollywood (2019).",
@@ -1501,7 +1503,7 @@
       "name": "Murathan Muslu",
       "original_name": "Murathan Muslu",
       "popularity": 156.529,
-      "genders": "Male",
+      "genders": 2,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/k0oHhVt3scoV7lRycxsS8YCnu8M.jpg",
       "biography": "Murathan Muslu was born on November 7, 1981 in Vienna, Austria. He is an actor, known for Risse im Beton (2014), Tatort (1970) and Anna Fucking Molnar (2017).",
       "birthday": "1981-11-07",
@@ -1513,7 +1515,7 @@
       "known_for_department": "Acting",
       "name": "Nozomi Sasaki",
       "original_name": "佐々木希",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 144.438,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/k5WCvK8Zrakp6uPizXYxPoPrxIq.jpg",
       "biography": "Nozomi Sasaki (佐々木 希, Sasaki Nozomi, February 8, 1988), previously known simply as Nozomi, is a Japanese actress and model. She has the same maiden name. Her real name is Nozomi Watabe (渡部 希). She is from Akita City, Akita Prefecture. Her husband is comedian and television presenter Ken Watabe, part of the duo Un-Jash.\n\n*** Not to be confused with voice actress of the same name, Nozomi Sasaki (ささき のぞみ).\n\nIn the past fifteen years Nozomi Sasaki has gone from an unknown quantity to something of a phenomenon thanks to her physical attributes and talent. She has leveraged the adoring looks of the fans, commentators and advertisers to a career in big screen films, TV serials, endless number of commercial work, Public relations assignments, photo books, music albums and adult (gravure) and fashion modelling. Sasaki was born in the northern prefecture of Akita and proudly carried the local dialect 'akitaben' as she began modelling at the age of fourteen and all the way through her becoming a popular name. Speaking of which, she has often chosen to stylize her name simply as Nozomi. She is often featured within or on the cover of magazines with fans praising her slim build, legs, eyes and smile. After dating several celebrities, including a member of the boy band Arashi, Nozomi Sasaki announced her engagement to comedian Watabe Ken on NTV's live variety program Gyoretsu No Dekiru Horitsu Sodanjo on April 9 of 2017. The couple had been dating for two years. They subsequently married in April 2017. She gave birth to a boy in September 2018. Subsequently multiple reports emerged of his cheating during their courtship and subsequently. She is signed to the Top Coat Group agency.",
@@ -1526,7 +1528,7 @@
       "known_for_department": "Acting",
       "name": "Aubrey Plaza",
       "original_name": "Aubrey Plaza",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 144.043,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4pPvrQmrzQCYpgLo8WM1AW8myoe.jpg",
       "biography": "Aubrey Christina Plaza (born June 26, 1984) is an American actress and producer. She began acting in local theater productions as a teenager and performed improv and sketch comedy at the Upright Citizens Brigade Theatre. After graduating from New York University Tisch School of the Arts, Plaza made her feature film debut in Mystery Team (2009) and gained wide recognition for her role as April Ludgate on the NBC political satire sitcom Parks and Recreation (2009–2015).\n\nIn film, Plaza had a supporting role in Scott Pilgrim vs. the World (2010) and a leading role in Safety Not Guaranteed (2012). From 2017 to 2019, Plaza portrayed Shadow King and Lenny Busker in the critically praised FX superhero series Legion, and produced and starred in the 2017 black comedy films The Little Hours and Ingrid Goes West. She also starred in the romantic comedy Happiest Season and thriller Black Bear (both 2020) as well as produced and played the title character in the crime film Emily the Criminal (2022).\n\nPlaza received nominations for a Primetime Emmy Awards and a Golden Globe Award for her role as a strait-laced lawyer in HBO's anthology series The White Lotus (2022). Time magazine named her one of the 100 most influential people in the world in 2023.\n\nDescription above from the Wikipedia article Aubrey Plaza, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
@@ -1539,7 +1541,7 @@
       "known_for_department": "Acting",
       "name": "Jenna Ortega",
       "original_name": "Jenna Ortega",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 142.385,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/q1NRzyZQlYkxLY07GO9NVPkQnu8.jpg",
       "biography": "Jenna Marie Ortega (born September 27, 2002) is an American actress. She began her career as a child actress, receiving recognition for her role as young Jane on The CW comedy-drama series Jane the Virgin (2014–2019). She had her breakthrough for starring as Harley Diaz on the Disney Channel series Stuck in the Middle (2016–2018), for which she won an Imagen Award. She played Ellie Alves in the second season of the Netflix thriller series You in 2019 and starred in the Netflix family film Yes Day (2021).\n\nOrtega received critical praise for her performance in the teen drama The Fallout (2021), and went on to star in the slasher films X (2022), Scream (2022) and its sequel Scream VI (2023), establishing herself as a scream queen. She starred as Wednesday Addams in the Netflix horror comedy series Wednesday (2022), for which she received nominations for a Primetime Emmy Award, a Golden Globe Award and a SAG Award.\n\nDescription above from the Wikipedia article Jenna Ortega, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
@@ -1552,7 +1554,7 @@
       "known_for_department": "Acting",
       "name": "Ana de Armas",
       "original_name": "Ana de Armas",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 141.6,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/3vxvsmYLTf4jnr163SUlBIw51ee.jpg",
       "biography": "Ana de Armas was born in Cuba on April 30, 1988. At the age of 14, she began her studies at the National Theatre School of Havana, where she graduated after 4 years. She made her film debut with Una rosa de Francia (2006), which was directed by Manuel Gutiérrez Aragón. In 2006 she moved to Spain where she continued her film career, and started doing television. She currently lives between Madrid and Barcelona. Ana is known for her roles in Blade Runner 2049 (2017), Knives Out (2019), and No Time to Die (2021).",
@@ -1565,7 +1567,7 @@
       "known_for_department": "Acting",
       "name": "Jason Statham",
       "original_name": "Jason Statham",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 139.713,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/whNwkEQYWLFJA8ij0WyOOAD5xhQ.jpg",
       "biography": "Jason Statham (born July 26, 1967) is an English actor. He is known for portraying characters in various action-thriller films who are typically tough, hardboiled, gritty, or violent.\n\nStatham began practicing Chinese martial arts, kickboxing, and karate recreationally in his youth while working at local market stalls. An avid footballer and diver, he was a member of Britain's national diving team and competed for England in the 1990 Commonwealth Games. Shortly after, he was asked to model for French Connection, Tommy Hilfiger, and Levi's in various advertising campaigns. His past history working at market stalls inspired his casting in the Guy Ritchie crime films Lock, Stock and Two Smoking Barrels (1998) and Snatch (2000).\n\nThe commercial success of these films led Statham to star as Frank Martin in the Transporter trilogy (2002–2008). After starring in a variety of heist and action-thriller films such as The Italian Job (2003), Crank (2006), War (2007), The Bank Job (2008), The Mechanic (2011), Spy (2015), and Mechanic: Resurrection (2016), he established himself as a Hollywood leading man. However, he has also starred in commercially and critically unsuccessful films such as Revolver (2005), Chaos (2005), In the Name of the King (2007), 13 (2010), Blitz (2011), Killer Elite (2011), Hummingbird (2013), and Wild Card (2015). He regained commercial success as a part of the ensemble action series The Expendables (2010–2014) and the Fast & Furious franchise. In the latter, he has played Deckard Shaw in Fast & Furious 6 (2013), Furious 7 (2015), The Fate of the Furious (2017), F9 (2021) and the spin-off Fast & Furious Presents: Hobbs & Shaw (2019). He was credited as a co-producer on Hobbs & Shaw, receiving his first production credit.\n\nHis acting has been criticized for lacking depth and variety, but he has also been praised for leading the resurgence of action films during the 2000s and 2010s. According to a BBC News report, his film career from 2002 to 2017 generated an estimated $1.5 billion (£1.1 billion) in ticket sales, making him one of the film industry's most bankable stars.",
@@ -1578,7 +1580,7 @@
       "known_for_department": "Acting",
       "name": "A.J. Simmons",
       "original_name": "A.J. Simmons",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 137.561,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/AhUqWdIOaVLXIVIpPGczacGRTEl.jpg",
       "biography": "A.J. Simmons is a film, television and theatre actor, tap dancer and choreographer based in Toronto, Canada.",
@@ -1591,7 +1593,7 @@
       "known_for_department": "Acting",
       "name": "Tom Holland",
       "original_name": "Tom Holland",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 136.31,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/1gPx2piPiFTuy8wR1igCaxZqqd5.jpg",
       "biography": "Thomas \"Tom\" Stanley Holland is an English actor and dancer.\n\nHe is best known for playing Peter Parker / Spider-Man in the Marvel Cinematic Universe and has appeared as the character in six films: Captain America: Civil War (2016), Spider-Man: Homecoming (2017), Avengers: Infinity War (2018), Avengers: Endgame (2019), Spider-Man: Far From Home (2019), and Spider-Man: No Way Home (2021).\n\nHe is also known for playing the title role in Billy Elliot the Musical at the Victoria Palace Theatre, London, as well as for starring in the 2012 film The Impossible.",
@@ -1604,7 +1606,7 @@
       "known_for_department": "Acting",
       "name": "Alexandra Daddario",
       "original_name": "Alexandra Daddario",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 135.394,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/nVznarxjPgR2JtMUBNl7TRxqTqH.jpg",
       "biography": "Alexandra Anna Daddario (born March 16, 1986) is an American actress. She had her breakthrough portraying Annabeth Chase in the Percy Jackson film series (2010–2013). She has since starred as Paige in Hall Pass (2011), Heather Miller in Texas Chainsaw 3D (2013), Blake Gaines in San Andreas (2015), Summer Quinn in Baywatch (2017), and Alexis Butler in We Summon the Darkness (2019). She has also guest starred in television series such as White Collar, It's Always Sunny in Philadelphia, True Detective, New Girl, and American Horror Story: Hotel. In 2021, she starred in the first season of the HBO series The White Lotus, for which she received widespread critical acclaim and an Emmy nomination for Outstanding Supporting Actress in a Limited or Anthology Series or Movie in 2022.",
@@ -1617,7 +1619,7 @@
       "known_for_department": "Acting",
       "name": "Sanjana Krishnamoorthy",
       "original_name": "Sanjana Krishnamoorthy",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 133.398,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wLDZlygd3S5uXfBieHKuKDPavw0.jpg",
       "biography": "",
@@ -1630,7 +1632,7 @@
       "known_for_department": "Acting",
       "name": "Dyessa Garcia",
       "original_name": "Dyessa Garcia",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 129.1,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/xak9L0fkIOkjSwJpz3SWLl94tVP.jpg",
       "biography": "nah",
@@ -1643,7 +1645,7 @@
       "known_for_department": "Acting",
       "name": "Leonardo DiCaprio",
       "original_name": "Leonardo DiCaprio",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 124.001,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
       "biography": "Leonardo Wilhelm DiCaprio (born November 11, 1974) is an American actor and film producer. Known for his work in biopics and period films, DiCaprio is the recipient of numerous accolades, including an Academy Award, a British Academy Film Award, and three Golden Globe Awards. As of 2019, his films have grossed over $7.2 billion worldwide, and he has been placed eight times in annual rankings of the world's highest-paid actors.\n\nBorn in Los Angeles, DiCaprio began his career in the late 1980s by appearing in television commercials. In the early 1990s, he had recurring roles in various television shows, such as the sitcom Parenthood, and had his first major film part as author Tobias Wolff in This Boy's Life (1993). At age 19, he received critical acclaim and his first Academy Award and Golden Globe Award nominations for his performance as a developmentally disabled boy in What's Eating Gilbert Grape (1993). He achieved international stardom with the star-crossed romances Romeo + Juliet (1996) and Titanic (1997).\n\nAfter the latter became the highest-grossing film at the time, he reduced his workload for a few years. In an attempt to shed his image of a romantic hero, DiCaprio sought roles in other genres, including crime drama in Catch Me If You Can (2002) and Gangs of New York (2002); the latter marked the first of his many successful collaborations with director Martin Scorsese. DiCaprio portrayed Howard Hughes in The Aviator (2004) and received acclaim for his performances in the political thriller Blood Diamond (2006), the crime drama The Departed (2006), and the romantic drama Revolutionary Road (2008).\n\nIn the following decade, DiCaprio starred in several high-profile directors' projects, including the science fiction thriller Inception (2010), the western Django Unchained (2012), the biopic The Wolf of Wall Street (2013), the survival drama The Revenant (2015), for which he won an Academy Award and a BAFTA Award for Best Actor in a Leading Role, and the comedy-drama Once Upon a Time in Hollywood (2019), all of which were critical and commercial successes.\n\nDiCaprio is the founder of Appian Way Productions, a production company that has produced some of his films and the documentary series Greensburg (2008–2010), and the Leonardo DiCaprio Foundation, a nonprofit organization devoted to promoting environmental awareness. He regularly supports charitable causes and has produced several documentaries on the environment. In 2005, he was named a Commander of the Ordre des Arts et des Lettres for his contributions to the arts, and in 2016, he appeared in Time magazine's 100 most influential people in the world.",
@@ -1656,7 +1658,7 @@
       "known_for_department": "Acting",
       "name": "Tom Hardy",
       "original_name": "Tom Hardy",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 112.617,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg",
       "biography": "Edward Thomas Hardy CBE (born 15 September 1977) is an English actor, producer, writer and former model. After studying acting at the Drama Centre London, he made his film debut in Ridley Scott's Black Hawk Down (2001). He has since been nominated for the Academy Award for Best Supporting Actor, two Critics' Choice Movie Awards and two British Academy Film Awards, receiving the 2011 BAFTA Rising Star Award.\n\nHardy has also appeared in films such as Star Trek: Nemesis (2002), RocknRolla (2008), Bronson (2008), Warrior (2011), Tinker Tailor Soldier Spy (2011), Lawless (2012), This Means War (2012), Locke (2013), The Drop (2014), and The Revenant (2015), for which he received a nomination for an Academy Award. In 2015, he portrayed \"Mad\" Max Rockatansky in Mad Max: Fury Road and both Kray twins in Legend. He has appeared in three Christopher Nolan films: Inception (2010) as Eames, The Dark Knight Rises (2012) as Bane, and Dunkirk (2017) as an RAF fighter-pilot. He starred as both Eddie Brock and Venom in the 2018 anti-hero film Venom and its sequel Venom: Let There Be Carnage (2021).\n\nHardy's television roles include the HBO war drama mini-series Band of Brothers (2001), the BBC historical drama mini-series The Virgin Queen (2005), Bill Sikes in the BBC's mini-series Oliver Twist (2007), Heathcliff in ITV's Wuthering Heights (2009), the Sky 1 drama series The Take (2009), and as Alfie Solomons in the BBC historical crime drama series Peaky Blinders (2014–present). He created, co-produced, and took the lead in the eight-part historical fiction series Taboo (2017) on BBC One and FX. In 2020, he also contributed narration work to the Amazon docuseries All or Nothing: Tottenham Hotspur.\n\nHardy has performed on both British and American stages. He was nominated for the Laurence Olivier Award for Most Promising Newcomer for his role as Skank in the production of In Arabia We'd All Be Kings (2003), and was awarded the 2003 Evening Standard Theatre Award for Outstanding Newcomer for his performances in both In Arabia We'd All Be Kings and Blood, in which he played Luca. He starred in the production of The Man of Mode (2007) and received positive reviews for his role in the play The Long Red Road (2010). Hardy is active in charity work and is an ambassador for the Prince's Trust. He was appointed a CBE in the 2018 Birthday Honours for services to drama.\n\nDescription above from the Wikipedia article Tom Hardy, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
@@ -1669,7 +1671,7 @@
       "known_for_department": "Acting",
       "name": "Sylvester Stallone",
       "original_name": "Sylvester Stallone",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 115.864,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/gn3pDWthJqR0VDYGViGD3048og7.jpg",
       "biography": "Sylvester Stallone (born Michael Sylvester Gardenzio Stallone, July 6, 1946) is an American actor and filmmaker. After his beginnings as a struggling actor for a number of years upon arriving to New York City in 1969 and later Hollywood in 1974, he won his first critical acclaim as an actor for his co-starring role as Stanley Rosiello in The Lords of Flatbush.\n\nHe subsequently found gradual work as an extra or side character in films with a sizable budget until he achieved his greatest critical and commercial success as an actor and screenwriter, starting in 1976 with his role as boxer Rocky Balboa, in the first film of the successful Rocky series (1976–present), for which he also wrote the screenplays. In the films, Rocky is portrayed as an underdog boxer who fights numerous brutal opponents, and wins the world heavyweight championship twice.\n\nIn 1977, he was the third actor in cinema to be nominated for two Academy Awards for Best Original Screenplay and Best Actor. His film Rocky was inducted into the National Film Registry, and had its props placed in the Smithsonian Museum. His use of the front entrance to the Philadelphia Museum of Art in the Rocky series led the area to be nicknamed the Rocky Steps. Philadelphia has a statue of his Rocky placed permanently near the museum, and he was voted into the International Boxing Hall of Fame.\n\nUp until 1982, his films were not big box office successes unless they were Rocky sequels, and none received the critical acclaim achieved with the first Rocky. This changed with the successful action film First Blood in which he portrayed the PTSD-plagued soldier John Rambo. Originally an adaptation of the eponymous novel by David Morell, First Blood’s script was significantly altered by Stallone during the film’s production. He would play the role in a total of five Rambo films (1982–2019). From the mid-1980s through to the late 1990s, he would go on to become one of Hollywood's highest-paid actors of that era by appearing in a slew of commercially successful action films which were however generally panned by critics. These include Cobra, Tango and Cash, Cliffhanger, the better received Demolition Man, and The Specialist.\n\nHe declined in popularity in the early 2000s but rebounded back to prominence in 2006 with a sixth installment in the Rocky series and 2008 with a fourth in the Rambo series. In the 2010s, he launched The Expendables films series (2010–2014), in which he played the lead as the mercenary Barney Ross. In 2013, he starred in the successful Escape Plan, and acted in its sequels. In 2015, he returned to the Rocky series with Creed, that serve as spin-off films focusing on Adonis \"Donnie\" Creed played by Michael B. Jordan, the son of the ill-fated boxer Apollo Creed, to whom the long-retired Rocky is a mentor. Reprising the role brought him praise, and his first Golden Globe award for the first Creed, as well as a third Oscar nomination, having been first nominated for the same role 40 years prior.",
@@ -1682,7 +1684,7 @@
       "known_for_department": "Acting",
       "name": "Emma Watson",
       "original_name": "Emma Watson",
-      "genders": "Female",
+      "genders": 1,
       "popularity": 121.751,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/A14lLCZYDhfYdBa0fFRpwMDiwRN.jpg",
       "biography": "Emma Charlotte Duerre Watson (born 15 April 1990) is an English actress and activist. She has gained recognition for her roles in both blockbusters and independent films, as well as her women's rights work. Watson has been ranked among the world's highest-paid actresses by Forbes and Vanity Fair, and was named one of the 100 most influential people in the world by Time magazine in 2015.\n\nWatson attended the Dragon School and trained in acting at the Oxford branch of Stagecoach Theatre Arts. As a child, she rose to stardom after landing her first professional acting role as Hermione Granger in the Harry Potter film series, having acted only in school plays previously. Watson also starred in the 2007 television adaptation of the novel Ballet Shoes and lent her voice to The Tale of Despereaux (2008). After the final Harry Potter film, she took on a supporting role in My Week with Marilyn (2011), before starring as Sam, a flirtatious, free-spirited student in The Perks of Being a Wallflower (2012) to critical success.\n\nFurther acclaim came from portraying Alexis Neiers in Sofia Coppola's The Bling Ring (2013) and the titular character's adoptive daughter in the biblical epic Noah. That same year, Watson was honoured by the British Academy of Film and Television Arts, winning British Artist of the Year. She also starred as Belle in the musical romantic fantasy Beauty and the Beast (2017), which ranks among the highest-grossing films of all time, and Meg March in the coming-of-age drama Little Women (2019).\n\nFrom 2011 to 2014, Watson split her time between working on films and continuing her education, graduating from Brown University with a bachelor's degree in English literature in May 2014. That year, she was appointed a UN Women Goodwill Ambassador and helped launch the UN Women campaign HeForShe, which advocates for gender equality. In 2018, she helped launch Time's Up UK as a founding member. Watson was appointed to a G7 advisory body for women's rights in 2019, consulting with leaders on foreign policy. Her modelling work has included campaigns for Burberry and Lancôme. She also lent her name to a clothing line for the sustainable brand People Tree. In 2020, she joined the board of directors of Kering, a luxury brand group, in her capacity as an advocate for sustainable fashion.",
@@ -1695,283 +1697,23 @@
       "known_for_department": "Acting",
       "name": "Denzel Washington",
       "original_name": "Denzel Washington",
-      "genders": "Male",
+      "genders": 2,
       "popularity": 122.84,
       "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9Iyt3wbsla5bM6IzbICDVnBhkER.jpg",
       "biography": "Denzel Hayes Washington Jr. (born December 28, 1954) is an American actor, producer, and director. Known for his dramatic roles on stage and screen, he is widely regarded as one of the best actors of his generation, with The New York Times declaring him the greatest actor of the 21st century in 2020. Over his career, he has received several accolades, including two Academy Awards, three Golden Globe Awards, a Screen Actors Guild Award, and a Tony Award, as well as nominations for two Emmy Awards and a Grammy Award. Washington has been honoured with the Cecil B. DeMille Award in 2016, the AFI Life Achievement Award in 2019, and the Presidential Medal of Freedom in 2022.\n\nAfter training at the American Conservatory Theatre, Washington began his career in theatre, acting in performances off-Broadway. He first came to prominence in the NBC medical drama series St. Elsewhere (1982–1988) and in the war film A Soldier's Story (1984). He won two Academy Awards, his first for Best Supporting Actor for playing an American Civil War soldier in the war drama Glory (1989) and his second for Best Actor for playing a corrupt police officer in the crime thriller Training Day (2001). He was Oscar-nominated for his performances in Cry Freedom (1987), Malcolm X (1992), The Hurricane (1999), Flight (2012), Fences (2016), Roman J. Israel, Esq. (2017), and The Tragedy of Macbeth (2021).\n\nA prominent leading man, Washington also acted in Mo' Better Blues (1990), Mississippi Masala (1991), Philadelphia (1993), Courage Under Fire (1996), Remember the Titans (2000), Man on Fire (2004), Inside Man (2006), American Gangster (2007), and The Equalizer trilogy (2014–2023). Washington directed and starred in the films Antwone Fisher (2002), The Great Debaters (2007), and Fences (2016).\n\nOn stage, he has acted in productions of both Coriolanus (1979) and The Tragedy of Richard III (1990) at the Public Theater. He made his Broadway debut in the Ron Milner play Checkmates (1988). He won the Tony Award for Best Actor in a Play for his role as a disillusioned working-class father in the Broadway revival of August Wilson's play Fences (2010). He has also acted in the Broadway revivals of William Shakespeare's Julius Caesar (2005), Lorraine Hansberry's A Raisin in the Sun (2014), and Eugene O'Neill's play The Iceman Cometh (2018).\n\nDescription above from the Wikipedia article Denzel Washington, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
       "birthday": "1954-12-28",
       "place_of_birth": "Mount Vernon, New York, USA",
       "known_for": []
-    },
-    {
-      "id": "505710",
-      "known_for_department": "Acting",
-      "name": "Zendaya",
-      "original_name": "Zendaya",
-      "genders": "Female",
-      "popularity": 100.1,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/3WdOloHpjtjL96uVOhFRRCcYSwq.jpg",
-      "biography": "Zendaya Maree Stoermer Coleman (born September 1, 1996) is an American actress and singer. She began her career as a child model and backup dancer. She rose to mainstream prominence for her role as Rocky Blue on the Disney Channel sitcom Shake It Up (2010–2013).\n\nIn 2013, Zendaya was a contestant on the 16th season of the dance competition series Dancing with the Stars. She produced and starred as the titular spy, K.C. Cooper, in the sitcom K.C. Undercover (2015–2018). Her film roles include the musical drama The Greatest Showman (2017), the superhero film Spider-Man: Homecoming (2017) and its sequels, the computer-animated musical comedy Smallfoot (2018), the romantic drama Malcolm & Marie (2021), the live-action/animation hybrid sports comedy Space Jam: A New Legacy (2021), and the science fiction epic Dune (2021).",
-      "birthday": "1996-09-01",
-      "place_of_birth": "Oakland, California, USA",
-      "known_for": []
-    },
-    {
-      "id": "500",
-      "known_for_department": "Acting",
-      "name": "Tom Cruise",
-      "original_name": "Tom Cruise",
-      "genders": "Male",
-      "popularity": 92.866,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/eOh4ubpOm2Igdg0QH2ghj0mFtC.jpg",
-      "biography": "Tom Cruise (born Thomas Cruise Mapother IV; July 3, 1962) is an American actor and producer. One of the world's highest-paid actors, he has received various accolades, including an Honorary Palme d'Or and three Golden Globe Awards, in addition to nominations for three Academy Awards. His films have grossed over $4 billion in North America and over $11.1 billion worldwide, making him one of the highest-grossing box office stars of all time.\n\nHe began acting in the early 1980s and made his breakthrough with leading roles in the comedy film Risky Business (1983) and action film Top Gun (1986). Critical acclaim came with his roles in the dramas The Color of Money (1986), Rain Man (1988), and Born on the Fourth of July (1989). For his portrayal of Ron Kovic in the latter, he won a Golden Globe Award and received a nomination for the Academy Award for Best Actor.\n\nAs a leading Hollywood star in the 1990s, he starred in several commercially successful films, including the drama A Few Good Men (1992), the thriller The Firm (1993), the horror film Interview with the Vampire (1994), and the romance Jerry Maguire (1996). For the latter, he won a Golden Globe Award for Best Actor and received his second Academy Award nomination. His performance as a motivational speaker in the drama Magnolia (1999) earned him another Golden Globe Award and a nomination for the Academy Award for Best Supporting Actor.\n\nSince then, he has largely starred in science fiction and action films, establishing himself as an action star, often performing his own risky stunts. He has played Ethan Hunt in all six of the Mission: Impossible films from 1996 to 2018. His other notable roles in the genre include Vanilla Sky (2001), Minority Report (2002), The Last Samurai (2003), Collateral (2004), War of the Worlds (2005), Knight and Day (2010), Jack Reacher (2012), Oblivion (2013), Edge of Tomorrow (2014), and Top Gun: Maverick (2022), with Maverick being his highest-grossing film to date.",
-      "birthday": "1962-07-03",
-      "place_of_birth": "Syracuse, New York, USA",
-      "known_for": []
-    },
-    {
-      "id": "12835",
-      "known_for_department": "Acting",
-      "name": "Vin Diesel",
-      "original_name": "Vin Diesel",
-      "genders": "Male",
-      "popularity": 94.918,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/nZdVry7lnUkE24PnXakok9okvL4.jpg",
-      "biography": "Mark Sinclair (born July 18, 1967), known professionally as Vin Diesel, is an American actor and producer. One of the world's highest-grossing actors, he is best known for playing Dominic Toretto in the Fast & Furious franchise.\n\nDiesel began his career in 1990, but faced difficulty achieving recognition until he wrote, directed and starred in the short film Multi-Facial (1995) and his debut feature Strays (1997); the films prompted Steven Spielberg to cast Diesel in the war epic Saving Private Ryan (1998). Diesel subsequently voiced the titular character in The Iron Giant (1999) and then gained a reputation as an action star after headlining the Fast & Furious, XXX, and The Chronicles of Riddick franchises. He is slated to appear in the upcoming Avatar films.\n\nDiesel voices Groot and Groot II in the Marvel Cinematic Universe (MCU); he portrayed the characters in six superhero films, beginning with Guardians of the Galaxy (2014). Diesel has reprised his role as Groot for the Disney+ animated shorts series I Am Groot (2022–present), the television special The Guardians of the Galaxy Holiday Special (2022), and the animated film Ralph Breaks the Internet (2018). Diesel achieved commercial success in the comedy The Pacifier (2005) and his portrayal of Jackie DiNorscio in Find Me Guilty (2006) was praised.\n\nHe founded the production company One Race Films, where he has also served as a producer or executive producer for his star vehicles. Diesel also founded the record label Racetrack Records and video game developer Tigon Studios, providing his voice and motion capture for all of Tigon's releases.\n\nDescription above from the Wikipedia article Vin Diesel, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-      "birthday": "1967-07-18",
-      "place_of_birth": "Alameda County, California, USA",
-      "known_for": []
-    },
-    {
-      "id": "192",
-      "known_for_department": "Acting",
-      "name": "Morgan Freeman",
-      "original_name": "Morgan Freeman",
-      "genders": "Male",
-      "popularity": 97.333,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/jPsLqiYGSofU4s6BjrxnefMfabb.jpg",
-      "biography": "Morgan Freeman (born June 1, 1937) is an American actor, director, and narrator. Noted for his distinctive deep voice, Freeman is known for his various roles in a wide variety of film genres. Throughout his career spanning over five decades, he has received multiple accolades, including an Academy Award, a Screen Actors Guild Award, and a Golden Globe Award.\n\nBorn in Memphis, Tennessee, Freeman was raised in Mississippi where he began acting in school plays. He studied theatre arts in Los Angeles and appeared in stage productions in his early career. He rose to fame in the 1970s for his role in the children's television series The Electric Company. Freeman then appeared in the Shakespearean plays Coriolanus and Julius Caesar, the former of which earned him an Obie Award. His breakout role was in Street Smart (1987), playing a hustler, which earned him an Academy Award nomination for Best Supporting Actor. He achieved further stardom in Glory, the biographical drama Lean on Me, and comedy-drama Driving Miss Daisy (all 1989), the latter of which garnered him his first Academy Award nomination for Best Actor.\n\nIn 1992, Freeman starred alongside Clint Eastwood in the western revenge film Unforgiven; this would be the first of several collaborations with Eastwood. In 1994, he starred in the prison drama The Shawshank Redemption for which he received another Academy Award nomination. Freeman also starred in David Fincher's crime thriller Se7en (1995), and Steven Spielberg's historical drama Amistad (1997). Freeman won the Academy Award for Best Supporting Actor for his performance in Clint Eastwood's 2004 sports drama Million Dollar Baby. In 2009, he received his fifth Oscar nomination for playing former South African President Nelson Mandela in Eastwood's Invictus. Freeman is also known for his performance as Lucius Fox in Christopher Nolan's The Dark Knight Trilogy (2005–2012).\n\nIn addition to acting, Freeman has directed the drama Bopha! (1993). He also founded film production company Revelations Entertainment with business partner Lori McCreary. He is the recipient of the Kennedy Center Honor, the AFI Life Achievement Award, the Cecil B. DeMille Award, and the Screen Actors Guild Life Achievement Award. For his performances in theatrical productions, he has won three Obie Awards, one of the most prestigious honors for recognizing excellence in theatre.\n\nDescription above from the Wikipedia article Morgan Freeman, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-      "birthday": "1937-06-01",
-      "place_of_birth": "Memphis, Tennessee, USA",
-      "known_for": []
-    },
-    {
-      "id": "933238",
-      "known_for_department": "Acting",
-      "name": "Rebecca Ferguson",
-      "original_name": "Rebecca Ferguson",
-      "genders": "Female",
-      "popularity": 98.833,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/lJloTOheuQSirSLXNA3JHsrMNfH.jpg",
-      "biography": "Rebecca Louisa Ferguson Sundström (born October 19, 1983) is a Swedish actress. She began her acting career with the Swedish soap opera Nya tider (1999–2000) and went on to star in the slasher film Drowning Ghost (2004). She came to international prominence with her portrayal of Elizabeth Woodville in the British television miniseries The White Queen (2013), for which she was nominated for a Golden Globe for Best Actress in a Miniseries or Television Film. In 2023, she starred in the Apple TV+ science fiction drama series Silo.\n\nFerguson starred as MI6 agent Ilsa Faust in the action spy film Mission: Impossible – Rogue Nation (2015) and its sequels Mission: Impossible – Fallout (2018) and Mission: Impossible – Dead Reckoning Part One (2023). She also played Jenny Lind in the musical film The Greatest Showman (2017) and acted in science fiction horror film Life (2017), starred in the horror film Doctor Sleep (2019), and had supporting parts in the comedy-drama Florence Foster Jenkins (2016), the mystery thriller The Girl on the Train (2016), and the science fiction film Men in Black: International (2019). She portrayed Lady Jessica in the sci-fi epic Dune (2021) and reprised her role in its sequel Dune: Part Two (2024).",
-      "birthday": "1983-10-19",
-      "place_of_birth": "Stockholm, Sweden",
-      "known_for": []
-    },
-    {
-      "id": "6384",
-      "known_for_department": "Acting",
-      "name": "Keanu Reeves",
-      "original_name": "Keanu Reeves",
-      "genders": "Male",
-      "popularity": 107.875,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/4D0PpNI0kmP58hgrwGC3wCjxhnm.jpg",
-      "biography": "Keanu Charles Reeves is a Canadian actor. Reeves is known for his roles in Bill & Ted's Excellent Adventure, Speed, Point Break, and The Matrix franchise as Neo.\n\nHe has collaborated with major directors such as Stephen Frears (in the 1988 period drama Dangerous Liaisons); Gus Van Sant (in the 1991 independent film My Own Private Idaho); and Bernardo Bertolucci (in the 1993 film Little Buddha). Referring to his 1991 film releases, The New York Times' critic, Janet Maslin, praised Reeves' versatility, saying that he \"displays considerable discipline and range. He moves easily between the buttoned-down demeanor that suits a police procedural story and the loose-jointed manner of his comic roles.\" A repeated theme in roles he has portrayed is that of saving the world, including the characters of Ted Logan, Buddha, Neo, Johnny Mnemonic, John Constantine and Klaatu.",
-      "birthday": "1964-09-02",
-      "place_of_birth": "Beirut, Lebanon",
-      "known_for": []
-    },
-    {
-      "id": "4587",
-      "known_for_department": "Acting",
-      "name": "Halle Berry",
-      "original_name": "Halle Berry",
-      "genders": "Female",
-      "popularity": 91.767,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wtFetpWV8kjBsvzYKN9uEEmPdpy.jpg",
-      "biography": "Halle Maria Berry (/ˈhæli/ HAL-ee; born Maria Halle Berry; August 14, 1966) is an American actress. She began her career as a model and entered several beauty contests, finishing as the first runner-up in the Miss USA pageant and coming in sixth in the Miss World 1986. Her breakthrough film role was in the romantic comedy Boomerang (1992), alongside Eddie Murphy, which led to roles in The Flintstones (1994) and Bulworth (1998), as well as the television film Introducing Dorothy Dandridge (1999), for which she won a Primetime Emmy Award and a Golden Globe Award.\n\nBerry established herself as one of the highest-paid actresses in Hollywood during the 2000s. For her performance of a struggling widow in the romantic drama Monster's Ball (2001), Berry became the only African-American woman to win the Academy Award for Best Actress and the first woman of color. Berry took on high-profile roles such as Storm in four installments of the X-Men film series (2000–2014), the henchwoman of a robber in the thriller Swordfish (2001), Bond girl Jinx in Die Another Day (2002), and the title role in the much-derided Catwoman (2004).\n\nA varying critical and commercial reception followed in subsequent years, with Perfect Stranger (2007), Cloud Atlas (2012), and The Call (2013) being among her notable film releases in that period. Berry launched a production company, 606 Films, in 2014 and has been involved in the production of a number of projects in which she performed, such as the CBS science fiction series Extant (2014–2015). She appeared in the action films Kingsman: The Golden Circle (2017) and John Wick: Chapter 3—Parabellum (2019) and made her directorial debut with the Netflix drama Bruised (2020).\n\nBerry has been a Revlon spokesmodel since 1996. She was formerly married to baseball player David Justice, singer-songwriter Eric Benét, and actor Olivier Martinez. She has two children, one with Martinez and another with model Gabriel Aubry.\n\nDescription above from the Wikipedia article Halle Berry, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-      "birthday": "1966-08-14",
-      "place_of_birth": "Cleveland, Ohio, USA",
-      "known_for": []
-    },
-    {
-      "id": "10859",
-      "known_for_department": "Acting",
-      "name": "Ryan Reynolds",
-      "original_name": "Ryan Reynolds",
-      "genders": "Male",
-      "popularity": 92.608,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/6m3hkkHmKkD4MUJhng7ojE7MLKC.jpg",
-      "biography": "Ryan Rodney Reynolds (born October 23, 1976) is a Canadian actor and film producer. He began his career starring in the Canadian teen soap opera Hillside (1991–1993), and had minor roles before landing the lead role on the sitcom Two Guys and a Girl between 1998 and 2001. Reynolds then starred in a range of films, including comedies such as National Lampoon's Van Wilder (2002), Waiting... (2005), and The Proposal (2009). He also performed in dramatic roles in Buried (2010), Woman in Gold (2015), and Life (2017), starred in action films such as Blade: Trinity (2004), Green Lantern (2011), 6 Underground (2019) and Free Guy (2021), and provided voice acting in the animated features The Croods (2013), Turbo (2013), Pokémon: Detective Pikachu (2019) and The Croods: A New Age (2020).\n\nReynolds' biggest commercial success came with the superhero films Deadpool (2016) and Deadpool 2 (2018), in which he played the title character. The former set numerous records at the time of its release for an R-rated comedy and his performance earned him nominations at the Critics' Choice Movie Awards and the Golden Globe Awards.",
-      "birthday": "1976-10-23",
-      "place_of_birth": "Vancouver, British Columbia, Canada",
-      "known_for": []
-    },
-    {
-      "id": "1813",
-      "known_for_department": "Acting",
-      "name": "Anne Hathaway",
-      "original_name": "Anne Hathaway",
-      "genders": "Female",
-      "popularity": 86.828,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/kRYxBuUtN3vNz5pLfqCf32ZYlw2.jpg",
-      "biography": "Anne Jacqueline Hathaway (born November 12, 1982) is an American actress. She is the recipient of various accolades, including an Academy Award, a Golden Globe Award, and a Primetime Emmy Award, and was among the world's highest-paid actresses in 2015. Her films have grossed over $6.8 billion worldwide, and she appeared on the Forbes Celebrity 100 list in 2009.\n\nAs a teenager, she was cast in the television series Get Real (1999–2000) and made her breakthrough as the protagonist in her debut film, the Disney comedy The Princess Diaries (2001). Hathaway made a transition to adult roles with the 2005 dramas Havoc and Brokeback Mountain. The comedy-drama The Devil Wears Prada (2006), in which she played an assistant to a fashion magazine editor, was her biggest commercial success to that point.\n\nShe played a recovering addict with a mental illness in the drama Rachel Getting Married (2008), which earned her a nomination for the Academy Award for Best Actress. She went on to star in several commercially successful films, including the comedy Get Smart (2008), the romances Bride Wars (2009), Valentine's Day (2010), and Love & Other Drugs (2010), and the fantasy film Alice in Wonderland (2010). In 2012, she starred as Selina Kyle / Catwoman in her highest-grossing film, The Dark Knight Rises. Also that year, she played Fantine, a prostitute dying of tuberculosis, in the musical Les Misérables, for which she won the Academy Award for Best Supporting Actress.\n\nShe has since played a scientist in the science fiction film Interstellar (2014), the owner of an online fashion site in the comedy The Intern (2015), a haughty actress in the heist film Ocean's 8 (2018), a con artist in the comedy The Hustle (2019), and Rebekah Neumann in the miniseries WeCrashed (2022).\n\nIn addition to film roles, she won a Primetime Emmy Award for her voice role in the sitcom The Simpsons, sung for soundtracks, appeared on stage, and hosted events.",
-      "birthday": "1982-11-12",
-      "place_of_birth": "Brooklyn, New York City, New York, USA",
-      "known_for": []
-    },
-    {
-      "id": "11701",
-      "known_for_department": "Acting",
-      "name": "Angelina Jolie",
-      "original_name": "Angelina Jolie",
-      "genders": "Female",
-      "popularity": 86.459,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/bXNxIKcJ5cNNW8QFrBPWcfTSu9x.jpg",
-      "biography": "Angelina Jolie is an American actress. She has received an Academy Award, two Screen Actors Guild Awards, and three Golden Globe Awards. Jolie has promoted humanitarian causes throughout the world, and is noted for her work with refugees as a Goodwill Ambassador for the United Nations High Commissioner for Refugees (UNHCR). She has been cited as one of the world's most beautiful women and her off-screen life is widely reported.\n\nThough she made her screen debut as a child alongside her father Jon Voight in the 1982 film Lookin' to Get Out, Jolie's acting career began in earnest a decade later with the low-budget production Cyborg 2 (1993). Her first leading role in a major film was in Hackers (1995). She starred in the critically acclaimed biographical films George Wallace (1997) and Gia (1998), and won an Academy Award for Best Supporting Actress for her performance in the drama Girl, Interrupted (1999). Jolie achieved wider fame after her portrayal of video game heroine Lara Croft in Lara Croft: Tomb Raider (2001), and since then has established herself as one of the best-known and highest-paid actresses in Hollywood. She has had her biggest commercial successes with the action-comedy Mr. & Mrs. Smith (2005) and the animated film Kung Fu Panda (2008).\n\nDivorced from actors Jonny Lee Miller and Billy Bob Thornton, Jolie currently lives with actor Brad Pitt, in a relationship that has attracted worldwide media attention. Jolie and Pitt have three adopted children, Maddox, Pax, and Zahara, as well as three biological children, Shiloh, Knox, and Vivienne.",
-      "birthday": "1975-06-04",
-      "place_of_birth": "Los Angeles, California, USA ",
-      "known_for": []
-    },
-    {
-      "id": "80757",
-      "known_for_department": "Acting",
-      "name": "Mike Tyson",
-      "original_name": "Mike Tyson",
-      "genders": "Male",
-      "popularity": 85.242,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/w0Bp2fWbL9C7KtciF56Qey8iY00.jpg",
-      "biography": "Michael Gerard Tyson (born June 30, 1966) is an American former professional boxer, competing from 1985 to 2005. He reigned as the undisputed world heavyweight champion, and holds the record as the youngest boxer to win a heavyweight title, at 20 years, four months, and 22 days old.",
-      "birthday": "1966-06-30",
-      "place_of_birth": "Brownsville, Brooklyn, New York City, New York, USA",
-      "known_for": []
-    },
-    {
-      "id": "54693",
-      "known_for_department": "Acting",
-      "name": "Emma Stone",
-      "original_name": "Emma Stone",
-      "genders": "Female",
-      "popularity": 83.59,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/3UaYw9KF4fEXRMRWhf25aGJpAW2.jpg",
-      "biography": "Emily Jean \"Emma\" Stone (born November 6, 1988) is an American actress. The recipient of numerous accolades, including two Academy Awards and two Golden Globe Award, she was the world's highest-paid actress in 2017.\n\nBorn and raised in Scottsdale, Arizona, Stone began acting as a child, in a theater production of The Wind in the Willows in 2000. As a teenager, she relocated to Los Angeles with her mother and made her television debut in In Search of the New Partridge Family (2004), a reality show that produced only an unsold pilot. After small television roles, she made her film debut in Superbad (2007), and received positive media attention for her role in Zombieland (2009). The 2010 teen comedy Easy A was Stone's first starring role, earning her nominations for the BAFTA Rising Star Award and a Golden Globe Award for Best Actress.\n\nStone gained wider recognition as Gwen Stacy in the 2012 superhero film The Amazing Spider-Man, and its 2014 sequel. She was nominated for the Academy Award for Best Supporting Actress for playing a recovering drug addict in the black comedy Birdman (2014), and her Broadway debut came in a revival of the musical Cabaret (2014–2015). She won the Academy Award for Best Actress for playing an aspiring actress in the romantic musical La La Land (2016). Stone received a third Academy Award nomination for her portrayal of Abigail Masham in the historical comedy-drama The Favourite (2018).",
-      "birthday": "1988-11-06",
-      "place_of_birth": "Scottsdale, Arizona, USA",
-      "known_for": []
-    },
-    {
-      "id": "56734",
-      "known_for_department": "Acting",
-      "name": "Chloë Grace Moretz",
-      "original_name": "Chloë Grace Moretz",
-      "genders": "Female",
-      "popularity": 82.999,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/2Tlg632tAkfZNlnoF8CV8F9Pf63.jpg",
-      "biography": "Chloë Grace Moretz is an American actress. She began acting as a child, with early roles in the supernatural horror film The Amityville Horror (2005), the drama series Desperate Housewives (2006–07), the supernatural horror film The Eye (2008), the drama film The Poker House (2008), the drama series Dirty Sexy Money (2007–08), the romantic comedy film 500 Days of Summer (2009) and the children's comedy film Diary of a Wimpy Kid (2010).\n\nHer breakthrough came in 2010 with her critically acclaimed performances as Hit-Girl in the superhero film Kick-Ass and as a child vampire in the horror film Let Me In.\n\nMoretz starred in Martin Scorsese's historical adventure film Hugo (2011), Tim Burton's horror comedy film Dark Shadows (2012), the satirical sitcom 30 Rock (2011-2013), reprised her role as Hit-Girl in Kick-Ass 2 (2013) and portrayed Carrie White in the supernatural horror film Carrie (2013). In 2014, Moretz starred in the award-winning drama film Clouds of Sils Maria (2014), the teen romantic drama If I Stay (2014) and the vigilante action film The Equalizer (2014). She also starred in the mystery thriller film Dark Places (2015), the science fiction action film The 5th Wave (2016) and the comedy film Neighbors 2: Sorority Rising (2016).\n\nIn 2016, Moretz announced she was \"re-assessing\" her choice of roles and was dropping out of several projects, including Universal Studios' live-action adaptation of The Little Mermaid. Moretz's following roles include the drama film The Miseducation of Cameron Post (2018), Neil Jordan's drama thriller film Greta (2018), the action horror film Shadow in the Cloud (2020) and the science fiction film Mother/Android (2021).\n\nShe voiced Wednesday Addams in The Addams Family (2019) and The Addams Family 2 (2021).\n\nMoretz's stage work includes her starring role in the original off-Broadway production of The Library (2014) at The Public Theater in New York City.",
-      "birthday": "1997-02-10",
-      "place_of_birth": "Atlanta, Georgia, USA",
-      "known_for": []
-    },
-    {
-      "id": "19537",
-      "known_for_department": "Acting",
-      "name": "Megan Fox",
-      "original_name": "Megan Fox",
-      "genders": "Female",
-      "popularity": 80.759,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9khvk5svs81TLqIGlI3ZJqYtqaY.jpg",
-      "biography": "Megan Denise Fox (born May 16, 1986) is an American actress. She made her acting debut in the family film Holiday in the Sun (2001), which was followed by numerous supporting roles in film and television, such as the teen musical comedy Confessions of a Teenage Drama Queen (2004), as well as a starring role in the ABC sitcom Hope & Faith (2004–2006). Her breakout role was as Mikaela Banes in the blockbuster action film Transformers (2007), which she reprised in its sequel Transformers: Revenge of the Fallen (2009). She also portrayed the titular character in the horror comedy Jennifer's Body (2009), starred as April O'Neil in the superhero action film Teenage Mutant Ninja Turtles (2014) and its sequel Teenage Mutant Ninja Turtles: Out of the Shadows (2016), and starred as Reagan Lucas in the fifth and sixth seasons of the Fox sitcom New Girl (2016–2017).\n\nFox has also made appearances in numerous magazines such as Maxim, Rolling Stone, and FHM. She is the recipient of several accolades, including two Scream Awards and four Teen Choice Awards.",
-      "birthday": "1986-05-16",
-      "place_of_birth": "Oak Ridge, Tennessee, USA",
-      "known_for": []
-    },
-    {
-      "id": "18918",
-      "known_for_department": "Acting",
-      "name": "Dwayne Johnson",
-      "original_name": "Dwayne Johnson",
-      "genders": "Male",
-      "popularity": 78.861,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/5QApZVV8FUFlVxQpIK3Ew6cqotq.jpg",
-      "biography": "An American and Canadian actor, producer and semi-retired professional wrestler, signed with WWE.  Johnson is half-Black and half-Samoan. His father, Rocky Johnson, is a Black Canadian, from Nova Scotia, and part of the first Black tag team champions in WWE history back when it was known as the WWF along with Tony Atlas. His mother is Samoan and the daughter of Peter Maivia, who was also a pro wrestler. Maivia's wife, Lia Maivia, was one of wrestling's few female promoters, taking over Polynesian Pacific Pro Wrestling after her husband's death in 1982, until 1988. Through his mother, he is considered a non-blood relative of the Anoa'i wrestling family. On March 29, 2008, The Rock inducted his father and his grandfather into the WWE Hall of Fame.\n\nAs of 2014, Johnson has a home in Southwest Ranches, Florida as well as Los Angeles, California. He also owns a farm in Virginia. In 2009, Johnson gained citizenship in Canada in honor of his father's background. Though Johnson was previously registered as a Republican, he voted for Barack Obama in the 2008 and 2012 United States presidential elections and is now an independent voter. He stated he did not vote in the 2016 U.S. election.\n\nIn recognition of his service to the Samoan people, and because he is a descendant of Samoan chiefs, Johnson had the noble title of Seiuli bestowed upon him by Malietoa Tanumafili II during his visit there in July 2004. He received a partial Samoan pe'a tattoo on his left side in 2003,and, in 2017, had the small \"Brahma bull\" tattoo on his right arm covered with a larger half-sleeve tattoo of a bull's skull.\n\nJohnson married Dany Garcia on May 3, 1997. Their only child together, a daughter named Simone, was born in August 2001. On June 1, 2007, they announced they were splitting up amicably. Johnson then began dating Lauren Hashian, daughter of Boston drummer Sib Hashian. They first met in 2006 while Johnson was filming The Game Plan. Their first child together, a daughter, was born in December 2015. Their second child, another daughter, was born in April 2018.\n\nJohnson attended the 2000 Democratic National Convention as part of WWE's non-partisan \"Smackdown Your Vote\" campaign, which aimed to influence young people to vote. He also had a speaking role at the 2000 Republican National Convention that same year.\n\nIn 2006, Johnson founded the Dwayne Johnson Rock Foundation, a charity working with at-risk and terminally ill children. On October 2, 2007, he and his ex-wife donated $1 million to the University of Miami to support the renovation of its football facilities; it was noted as the largest donation ever given to the university's athletics department by former students. The University of Miami renamed the Hurricanes' locker room in Johnson's honor. In 2015, Johnson donated $1,500 to a GoFundMe to pay for an abandoned dog's surgery. In 2017, he donated $25,000 to Hurricane Harvey relief efforts. In 2018, Johnson donated a gym to a military base in Oahu, Hawaii. After the 2018 Hawaii floods, he worked with Malama Kauai, a nonprofit organization, to help repair damages caused by the floods.",
-      "birthday": "1972-05-02",
-      "place_of_birth": "Hayward, California, USA",
-      "known_for": []
-    },
-    {
-      "id": "8691",
-      "known_for_department": "Acting",
-      "name": "Zoë Saldaña",
-      "original_name": "Zoë Saldaña",
-      "genders": "Female",
-      "popularity": 78.509,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/snQ1rfO9Bb2LRG9MAOQnn3JXVHy.jpg",
-      "biography": "Zoë Yadira Saldaña-Perego (born June 19, 1978) is an American actress. Known primarily for her work in science fiction film franchises, she has appeared in the three highest-grossing films of all time (Avatar, Avatar: The Way of Water and Avengers: Endgame), a feat not achieved by any other performer. Films she has appeared in have grossed more than $14 billion worldwide and, as of 2023, she is the second-highest-grossing film actress, and the fourth actor overall. Time magazine named her one of the 100 most influential people in the world in 2023.\n\nA trained dancer, Saldaña began her acting career in two 1999 episodes of Law & Order. Her first film role was in Center Stage (2000) in which she played a ballet dancer. She received early recognition for her work opposite Britney Spears in the road film Crossroads (2002). Beginning in 2009, Saldaña achieved a career breakthrough with her roles as Nyota Uhura in the Star Trek film series and Neytiri in James Cameron's Avatar film series. She portrayed Gamora in the Marvel Cinematic Universe, from Guardians of the Galaxy (2014) to Guardians of the Galaxy Vol. 3 (2023). In addition to franchise work, Saldaña has starred in the science fiction film The Adam Project and the romantic drama miniseries From Scratch, both for Netflix in 2022.",
-      "birthday": "1978-06-19",
-      "place_of_birth": "Passaic, New Jersey, USA",
-      "known_for": []
-    },
-    {
-      "id": "71070",
-      "known_for_department": "Acting",
-      "name": "Amanda Seyfried",
-      "original_name": "Amanda Seyfried",
-      "genders": "Female",
-      "popularity": 87.198,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/gtBUIpZ3dvLpOMIVORxE6sHSyZj.jpg",
-      "biography": "Amanda Michelle Seyfried (born December 3, 1985) is an American actress, singer and model. She is the recipient of various accolades, including two Satellite Awards, a ShoWest Award, and nominations for an Academy Award, a Screen Actors Guild Award, a Critics' Choice Movie Award and a Saturn Award.\n\nBorn and raised in Allentown, Pennsylvania, she began modeling at age eleven and ventured into acting at age 15 with recurring roles as Lucy Montgomery on the CBS soap opera As the World Turns (1999–2001) and Joni Stafford on the ABC soap opera All My Children (2003). Seyfried came to prominence following her feature film debut in the teen comedy Mean Girls (2004) and her recurring role as Lilly Kane on the UPN television series Veronica Mars (2004–2006) and Sarah Henrickson on the HBO drama series Big Love (2006–2011).\n\nSeyfried has appeared in a number of successful films, including Mamma Mia! (2008) and its sequel Mamma Mia! Here We Go Again (2018), Jennifer's Body (2009), Chloe (2009), Dear John (2010), Letters to Juliet (2010), Red Riding Hood (2011), In Time (2011), Gone (2012), Lovelace (2013), A Million Ways to Die in the West (2014), Ted 2 (2015), and First Reformed (2017). She has also occasionally done voice-over work in animation films, such as Epic (2013) and Scoob! (2020). In 2022, she portrayed Elizabeth Holmes in the Hulu limited series The Dropout.\n\nFor her portrayal of Cosette in Tom Hooper's musical film Les Misérables (2012), Seyfried was nominated for the Screen Actors Guild Award for Outstanding Performance by a Cast in a Motion Picture. She received critical acclaim for playing Marion Davies in David Fincher's Mank (2020), which earned her nominations for the Academy Award, Golden Globe Award, and Critics' Choice Movie Award for Best Supporting Actress.\n\nDescription above from the Wikipedia article Amanda Seyfried, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
-      "birthday": "1985-12-03",
-      "place_of_birth": "Allentown, Pennsylvania, USA ",
-      "known_for": []
-    },
-    {
-      "id": "140",
-      "known_for_department": "Acting",
-      "name": "Lucy Liu",
-      "original_name": "Lucy Liu",
-      "genders": "Female",
-      "popularity": 78.19,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9nbtjqsx3De7hO2XDtrBQ7M9VCH.jpg",
-      "biography": "Lucy Alexis Liu (born December 2, 1968) is an American actress. Her accolades include winning a Critics' Choice Television Award, two Screen Actors Guild Awards and a Seoul International Drama Award, in addition to nominations for a Primetime Emmy Award.\n\nLiu has starred as Ling Woo in the television series Ally McBeal (1998–2002), Alex Munday in two Charlie's Angels films (2000 and 2003) and Joan Watson in the crime-drama series Elementary (2012–2019). Her film work includes starring in Payback (1999), Shanghai Noon (2000), Chicago (2002), Kill Bill: Volume 1 (2003), Lucky Number Slevin (2006), Watching the Detectives (2007), The Man with the Iron Fists (2012), and Set It Up (2018).\n\nLiu provided voice acting for Master Viper in the Kung Fu Panda franchise (2008–2016) and Silvermist in the Tinker Bell series (2008–2014). Her other voice credits include Maya & Miguel (2004–2007), Mulan II (2004), as well as the English and Mandarin-dubbed versions of Magic Wonderland (2014) and The Tale of the Princess Kaguya (2013). She also voiced Callisto Mal in the Disney-animated film Strange World (2022). Most recently she starred as Kalypso in Shazam! Fury of the Gods.",
-      "birthday": "1968-12-02",
-      "place_of_birth": "New York City, New York, USA",
-      "known_for": []
-    },
-    {
-      "id": "1373737",
-      "known_for_department": "Acting",
-      "name": "Florence Pugh",
-      "original_name": "Florence Pugh",
-      "genders": "Female",
-      "popularity": 76.795,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/6Sjz9teWjrMY9lF2o9FCo4XmoRh.jpg",
-      "biography": "Florence Pugh (born January 3, 1996) is an English actress. She made her acting debut in 2014 in the drama film The Falling. Pugh gained recognition in 2016 for her leading role as a young bride in the independent drama Lady Macbeth, winning a British Independent Film Award, and drew praise for starring in the miniseries The Little Drummer Girl (2018).\n\nPugh's international breakthrough came in 2019 with her portrayals of professional wrestler Paige in the biographical sports film Fighting with My Family, a despondent American woman in the horror film Midsommar, and Amy March in the period drama Little Women. For the last of these, she received nominations for an Academy Award and a BAFTA Award. Pugh was awarded the Trophée Chopard at the 2019 Cannes Film Festival.\n\nShe has played Yelena Belova in the Marvel Cinematic Universe, beginning with Black Widow (2021) and Hawkeye (2021). She will reprise her role again in Thunderbolts (2024). In the following year, she starred in the thriller Don't Worry Darling and drama The Wonder, and voiced Goldilocks in the animated film Puss in Boots: The Last Wish. Pugh also portrayed Jean Tatlock in Christopher Nolan's biographical film Oppenheimer (2023) and Princess Irulan in Denis Villeneuve’s sci-fi epic Dune: Part Two (2024).",
-      "birthday": "1996-01-03",
-      "place_of_birth": "Oxford, England, UK",
-      "known_for": []
-    },
-    {
-      "id": "13240",
-      "known_for_department": "Acting",
-      "name": "Mark Wahlberg",
-      "original_name": "Mark Wahlberg",
-      "genders": "Male",
-      "popularity": 76.717,
-      "profile_path": "https://media.themoviedb.org/t/p/w300_and_h450_bestv2/bTEFpaWd7A6AZVWOqKKBWzKEUe8.jpg",
-      "biography": "Mark Wahlberg (born June 5, 1971), former stage name Marky Mark, is an American actor, businessman, and former rapper. His work as a leading man spans the comedy, drama, and action genres. He has received multiple accolades, including a BAFTA Award, and nominations for two Academy Awards, three Golden Globe Awards, nine Primetime Emmy Awards, and three Screen Actors Guild Awards.\n\nWahlberg was born in Boston, Massachusetts in 1971. During his early life, he perpetrated several crimes. In the 1990s, Wahlberg was a member of the music group Marky Mark and the Funky Bunch, with whom he released the albums Music for the People (1991) and You Gotta Believe (1992). Wahlberg made his screen debut in Renaissance Man (1994) and had his first starring role in Fear (1996). He received critical praise for his performance as porn actor Dirk Diggler in Boogie Nights (1997).\n\nIn the early 2000s, he ventured into big-budget action movies, such as The Perfect Storm (2000), Planet of the Apes (2001), and The Italian Job (2003). He was nominated for the Academy Award for Best Supporting Actor for playing a police officer in the crime drama The Departed (2006). He was nominated for the Golden Globe Award for Best Actor for the sports drama biopic The Fighter (2010), in which he starred as Micky Ward. In the 2010s, he landed successful comedy roles with The Other Guys (2010), Ted (2012), Ted 2 (2015), Daddy's Home (2015), and Daddy's Home 2 (2017). He also became the protagonist in two films in the Transformers live-action film franchise, Transformers: Age of Extinction and Transformers: The Last Knight. He was the world's highest-paid actor in 2017.\n\nWahlberg served as executive producer of five HBO series: the comedy-drama Entourage (2004–2011), the period crime drama Boardwalk Empire (2010–2014), the comedy-dramas How to Make It in America (2010–2011) and Ballers (2015–2019), and the documentary McMillions (2020). He is co-owner of the Wahlburgers chain and co-starred in the reality TV series about it. He received a star on the Hollywood Walk of Fame in 2010.",
-      "birthday": "1971-06-05",
-      "place_of_birth": "Boston, Massachusetts, USA",
-      "known_for": []
     }
   ],
   "ratings": [
     {
-      "id": "3125",
       "userId": "1",
       "ratestar": {
         "movieId": "3",
         "rating": 10
-      }
+      },
+      "id": "3125"
     },
     {
       "id": "8240",
@@ -1987,6 +1729,14 @@
       "ratestar": {
         "movieId": "33",
         "rating": 2
+      }
+    },
+    {
+      "id": "a8ba",
+      "userId": "1",
+      "ratestar": {
+        "movieId": "14",
+        "rating": 1
       }
     }
   ]

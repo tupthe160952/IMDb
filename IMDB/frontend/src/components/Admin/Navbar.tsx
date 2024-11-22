@@ -13,9 +13,11 @@ const Navbar: React.FC = () => {
         <div>
             {/* Sidebar */}
             <nav className="bg-dark text-white p-3" style={{ width: '250px', minHeight: '100vh' }}>
+                <a href="/">
                 <div className="logo">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" alt="IMDb logo"/>
                 </div>
+                </a>
                 <a className="nav-link text-white mb-3 mt-3" href="/admin" style={{ fontSize: "30px", fontWeight: "bold" }}>Dashboard</a>
                 <ul className="nav flex-column mb-3" onClick={toggleList1} style={{ cursor: 'pointer' }}>
                     <li className="list-group-item text-white">
