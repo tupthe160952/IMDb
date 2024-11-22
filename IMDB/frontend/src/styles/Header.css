@@ -199,6 +199,28 @@
   cursor: pointer;
 }
 
+.suggestions {
+  position: absolute; /* Đặt vị trí tuyệt đối để nó nằm dưới thanh tìm kiếm */
+  top: 100%; /* Đặt vị trí ngay dưới thanh tìm kiếm */
+  left: 0; /* Căn trái */
+  right: 0; /* Căn phải */
+  background-color: white; /* Màu nền của gợi ý */
+  border: 1px solid #ccc; /* Đường viền */
+  border-radius: 4px; /* Bo góc */
+  z-index: 1000; /* Đảm bảo nó nằm trên các phần tử khác */
+  max-height: 200px; /* Chiều cao tối đa */
+  overflow-y: auto; /* Thêm cuộn nếu có nhiều gợi ý */
+}
+
+.suggestion-item {
+  padding: 10px; /* Khoảng cách bên trong cho từng gợi ý */
+  cursor: pointer; /* Con trỏ khi di chuột qua */
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0; /* Màu nền khi di chuột qua */
+}
+
 /*CLOSE BUTTON*/
 .close-dropdown {
   height: 50px;
