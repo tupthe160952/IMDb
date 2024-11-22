@@ -33,6 +33,7 @@ function App() {
             path="/rateStar"
             element={
               <RateStar
+                // eslint-disable-next-line @typescript-eslint/no-unused-vars
                 handleRateStar={function (rating: number): void {
                   throw new Error("Function not implemented.");
                 }}

@@ -159,7 +159,7 @@ const AddMovie: React.FC<Props> = () => {
                                 id="cast"
                                 placeholder="Cast (comma separated)"
                                 className="form-control"
-                                value={movie.cast.join(", ")}
+                                value={movie.cast.join(",")}
                                 onChange={(e) => handleArrayChange("cast", e.target.value)}
                             />
                         </div>
