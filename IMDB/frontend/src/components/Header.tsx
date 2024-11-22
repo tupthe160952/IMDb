@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import "../styles/Header.css";
-import GenreDetail from "../types/Interface";
+import GenreDetail from "../types/Interface"; // Giả sử GenreDetail chứa thông tin về phim
 import { useUser } from "./UserContext";
-import { useNavigate } from "react-router-dom";
 
 const Header: React.FC = () => {
   const navigate = useNavigate();
   const [movieList, setMovieList] = useState<GenreDetail[]>([]);
   const [collapseMenu, setCollapseMenu] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>("");
+  const [allSuggestions, setAllSuggestions] = useState<GenreDetail[]>([]); // Trạng thái cho tất cả gợi ý phim
+  const [filteredSuggestions, setFilteredSuggestions] = useState<GenreDetail[]>([]); // Trạng thái cho gợi ý đã lọc
+  const { user, setUser } = useUser();
 
   const handleWatchlistClick = () => {
     if (!user) {
@@ -21,39 +23,52 @@ const Header: React.FC = () => {
     }
   };
 
-  const { user, setUser } = useUser();
   const handleLogout = () => {
     localStorage.removeItem("user");
     setUser(null);
     window.location.href = "/";
   };
-  const handleProfile = () => {
-    window.location.href = "/profile";
+
+  // Hàm mới để fetch danh sách phim
+  const getMoviesList = async () => {
+    try {
+      const res = await axios.get(`http://localhost:9999/movie`); // Lấy danh sách phim từ API
+      setAllSuggestions(res.data); // Cập nhật danh sách phim cho gợi ý
+      setFilteredSuggestions(res.data);
+    } catch (err) {
+      console.log(err);
+    }
   };
-  const getList = async () => {
-    axios
-      .get(`http://localhost:9999/genres`)
-      .then((res) => {
-        setMovieList(res.data);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
+
+  const getGenresList = async () => {
+    try {
+      const res = await axios.get(`http://localhost:9999/genres`); // Lấy danh sách thể loại từ API
+      setMovieList(res.data); // Cập nhật danh sách thể loại
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   useEffect(() => {
-    getList();
+    getMoviesList(); // Fetch danh sách phim
+    getGenresList(); // Fetch danh sách thể loại
   }, []);
+
+  useEffect(() => {
+    if (searchQuery.trim() === "") {
+      setFilteredSuggestions([]); // Không hiển thị gợi ý nếu ô tìm kiếm rỗng
+      return;
+    }
+
+    const filtered = allSuggestions.filter(movie =>
+      movie.title && movie.title.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
+    setFilteredSuggestions(filtered);
+  }, [searchQuery, allSuggestions]);
 
   const toggleMenu = () => {
     setCollapseMenu((prevState) => !prevState);
-  };
-
-  const capitalizeFirstLetter = (str: string) => {
-    return str
-      .split(" ")
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-      .join(" ");
   };
 
   const handleSearchSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -62,12 +77,14 @@ const Header: React.FC = () => {
       alert("Please enter a search term.");
       return;
     }
-    const normalizedSearchQuery = capitalizeFirstLetter(searchQuery.trim());
-    window.location.href = `/search?title=${encodeURIComponent(
-      normalizedSearchQuery
-    )}`;
+    const normalizedSearchQuery = searchQuery.trim(); // Giữ nguyên tiêu đề tìm kiếm
+    navigate(`/search?title=${encodeURIComponent(normalizedSearchQuery)}`);
   };
 
+  const handleSuggestionClick = (title: string) => {
+    setSearchQuery(title); // Đặt giá trị ô tìm kiếm thành gợi ý
+    setFilteredSuggestions([]); // Xóa gợi ý
+  };
   return (
     <>
       <div className="header">
@@ -92,12 +109,26 @@ const Header: React.FC = () => {
             className="form-search"
             placeholder="Search IMDb"
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => setSearchQuery(e.target.value)} // Cập nhật giá trị ô tìm kiếm
           />
           <button type="submit" className="search-button">
             <i className="fa-solid fa-magnifying-glass"></i>
           </button>
         </form>
+
+        {filteredSuggestions.length > 0 && (
+          <div className="suggestions">
+            {filteredSuggestions.map((movie) => (
+              <div
+                key={movie.id}
+                className="suggestion-item"
+                onClick={() => handleSuggestionClick(movie.title)} // Xử lý khi người dùng nhấp vào gợi ý
+              >
+                {movie.title}
+              </div>
+            ))}
+          </div>
+        )}
 
         <div className="menu">
           <a href="/allmovie" className="btn-menu">
@@ -114,35 +145,35 @@ const Header: React.FC = () => {
         </div>
 
         <div className="sign-in">
-      {user ? (
-        <div className="user-profile">
-          <select
-            title="User  options"
-            defaultValue="" // Đặt giá trị mặc định là rỗng
-            onChange={(e) => {
-              if (e.target.value === "profile") {
-                navigate('/profile'); // Chuyển đến trang profile
-              } else if (e.target.value === "dashboard") {
-                navigate('/admin'); // Chuyển đến trang admin
-              } else if (e.target.value === "logout") {
-                handleLogout();
-              }
-            }}
-          >
-            <option value="" disabled>
-              {user.name} {/* Hiển thị tên người dùng */}
-            </option>
-            {user.role === "admin" && ( // Kiểm tra nếu user là admin
-              <option value="dashboard">AdminPage</option>
-            )}
-            <option value="profile">Profile</option>
-            <option value="logout">Logout</option>
-          </select>
+          {user ? (
+            <div className="user-profile">
+              <select
+                title="User  options"
+                defaultValue="" // Đặt giá trị mặc định là rỗng
+                onChange={(e) => {
+                  if (e.target.value === "profile") {
+                    navigate('/profile'); // Chuyển đến trang profile
+                  } else if (e.target.value === "dashboard") {
+                    navigate('/admin'); // Chuyển đến trang admin
+                  } else if (e.target.value === "logout") {
+                    handleLogout();
+                  }
+                }}
+              >
+                <option value="" disabled>
+                  {user.name} {/* Hiển thị tên người dùng */}
+                </option>
+                {user.role === "admin" && ( // Kiểm tra nếu user là admin
+                  <option value="dashboard">AdminPage</option>
+                )}
+                <option value="profile">Profile</option>
+                <option value="logout">Logout</option>
+              </select>
+            </div>
+          ) : (
+            <a href="/login">Login</a>
+          )}
         </div>
-      ) : (
-        <a href="/login">Login</a>
-      )}
-    </div>
       </div>
       {/* Dropdown menu with collapse effect */}
       <div className={`dropdown ${collapseMenu ? "open" : ""}`}>
