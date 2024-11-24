@@ -1,0 +1,33 @@
+/* Giữ navbar cố định bên trái màn hình */
+.navbar-container {
+    position: fixed; /* Giữ navbar cố định */
+    top: 0;
+    left: 0;
+    height: 100vh; /* Đảm bảo navbar chiếm toàn bộ chiều cao màn hình */
+    width: 290px; /* Chiều rộng của navbar */
+    z-index: 1000; /* Đảm bảo navbar ở trên cùng */
+    overflow-y: auto; /* Cuộn dọc nếu nội dung quá dài */
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Tùy chỉnh cho logo */
+.navbar-logo img {
+    width: 150px;
+    height: 60px;
+    display: flex;
+}
+
+/* Thêm kiểu cho các mục menu */
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-menu .active {
+    background-color: #007bff; /* Màu nền khi item được chọn */
+}

@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Movie } from "../../types/Interface";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../../styles/AddMovie.css"
-import GenreDetail from '../../types/Interface';
+import React, { useEffect, useState } from "react";
+import Navbar from "../../components/Admin/Navbar";
+import "../../styles/AddMovie.css";
+import GenreDetail, { Movie } from '../../types/Interface';
 
 interface Props {
     existingMovies: Movie[]; // Pass the existing movies as a prop
@@ -102,7 +102,10 @@ const AddMovie: React.FC<Props> = () => {
     };
 
     return (
-        <div className="container mt-5" style={{ padding: "0" }}>
+        <div className="container mt-5">
+            <div className="navbar-container">
+                <Navbar />
+            </div>
             <div
                 className="card mx-auto bg-white"
                 style={{

@@ -2,26 +2,26 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import LoginForm from "./components/Login";
+import ProtectedRoute from "./components/ProtectedRoute";
 import RateStar from "./components/RateStar";
 import Register from "./components/Register";
 import { UserProvider } from "./components/UserContext";
-import Watchlist from "./pages/WatchlistDetail";
+import AddMovie from "./pages/admin/AddMovie";
+import MovieList from "./pages/admin/ListMovie";
+import AdminPage from "./pages/AdminPage";
+import AllMovieDetail from "./pages/AllMovieDetail";
 import CelebDetail from "./pages/CelebDetail";
 import ContactUs from "./pages/ContactUs";
+import GenreDetailPage from "./pages/GenreDetail";
 import Home from "./pages/Home";
 import MovieDetail from "./pages/MovieDetail";
 import PopularCeleb from "./pages/PopularCeleb";
 import PopularMovieDetail from "./pages/PopularMovieDetail";
-import UpComingMovieDetail from "./pages/UpComingMovieDetail";
-import GenreDetailPage from "./pages/GenreDetail";
 import SearchResult from "./pages/SearchResult";
-import "./styles/Header.css";
-import ProtectedRoute from "./components/ProtectedRoute";
+import UpComingMovieDetail from "./pages/UpComingMovieDetail";
 import UserProfile from "./pages/UserProfile";
-import AdminPage from "./pages/AdminPage";
-import AddMovie from "./pages/admin/AddMovie";
-import MovieList from "./pages/admin/ListMovie";
-import AllMovieDetail from "./pages/AllMovieDetail";
+import Watchlist from "./pages/WatchlistDetail";
+import "./styles/Header.css";
 function App() {
   return (
     <BrowserRouter>
@@ -63,7 +63,7 @@ function App() {
             }
           />
           <Route
-            path="/addMovie"
+            path="/admin/addMovie"
             element={
               <ProtectedRoute>
                 <AddMovie existingMovies={[]} />{" "}
@@ -71,7 +71,7 @@ function App() {
               </ProtectedRoute>
             } />
             <Route 
-            path="/listMovie" 
+            path="/admin/listMovie" 
             element={
               <ProtectedRoute>
                 <MovieList /> {/* Chỉ cho phép admin truy cập */}
