@@ -34,115 +34,115 @@
   ],
   "genres": [
     {
-      "id": "28",
+      "id": 28,
       "name": "Action",
       "image": "https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/07/the-avengers-jpg-1.jpg",
       "description": "Movies that feature high-intensity physical feats and dynamic combat scenes."
     },
     {
-      "id": "12",
+      "id": 12,
       "name": "Adventure",
       "image": "https://images2.thanhnien.vn/528068263637045248/2023/6/26/02-1687767557517413037370.jpg",
       "description": "Films that take you on exciting journeys and explore unknown territories."
     },
     {
-      "id": "16",
+      "id": 16,
       "name": "Animation",
       "image": "https://vnpay.vn/s1/statics.vnpay.vn/2023/9/0jsuy1vlbnip1694338481368.jpg",
       "description": "Stories brought to life through the art of animation."
     },
     {
-      "id": "35",
+      "id": 35,
       "name": "Comedy",
       "image": "https://images2.minutemediacdn.com/image/upload/c_fill,w_1200,ar_1:1,f_auto,q_auto,g_auto/shape/cover/sport/62455-shout-factory1-869b74b647b88045caac956956bd1ff8.jpg",
       "description": "Movies designed to make you laugh with humor and wit."
     },
     {
-      "id": "80",
+      "id": 80,
       "name": "Crime",
       "image": "https://as1.ftcdn.net/v2/jpg/03/95/41/84/1000_F_395418459_ZYKtZzYaD6vZTGf1pChp64X4kYaYUoNt.jpg",
       "description": "Films that delve into the world of criminals and law enforcement."
     },
     {
-      "id": "99",
+      "id": 99,
       "name": "Documentary",
       "image": "https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQXMj8WvO9yuOxPw2vx1kfInqDfitDTjLqnhZjk4HW-lJ0BXZyOqJboGaohgYLmgCe0UlXJUt1GAvEnigQvVSgl3682KYQLecZRJVyswEbDWnW7_wSVOn6rYWFnLPVKfgZu5mPf5UHReTXh4oVbEi_H17.jpg?r=850",
       "description": "Non-fiction films that depict real-life events and stories."
     },
     {
-      "id": "18",
+      "id": 18,
       "name": "Drama",
       "image": "https://images.summitmedia-digital.com/cosmo/images/2019/04/16/k-drama-theme-songs-1555376539.jpg",
       "description": "Character-driven stories focusing on intense emotional experiences."
     },
     {
-      "id": "10751",
+      "id": 10751,
       "name": "Family",
       "image": "https://i.ytimg.com/vi/VileKLJz6tQ/maxresdefault.jpg",
       "description": "Heartwarming films suitable for viewers of all ages."
     },
     {
-      "id": "14",
+      "id": 14,
       "name": "Fantasy",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAPIkatcprCI6yaPCYmwU26vrzHQaGPGjnVA&s",
       "description": "Stories set in magical worlds filled with wonder and imagination."
     },
     {
-      "id": "36",
+      "id": 36,
       "name": "History",
       "image": "https://special.vietnamplus.vn/wp-content/uploads/2021/03/ttxvn0705ho-1588900082-88.jpg",
       "description": "Movies that depict historical events and figures."
     },
     {
-      "id": "27",
+      "id": 27,
       "name": "Horror",
       "image": "https://media.gq.com/photos/59efa5f866e2d56abcd7a055/16:9/w_2560%2Cc_limit/state-of-horror-gq.jpg",
       "description": "Films designed to scare and thrill the audience."
     },
     {
-      "id": "10402",
+      "id": 10402,
       "name": "Music",
       "image": "https://preview.redd.it/anyone-else-notice-the-eminem-cameo-in-the-movie-8-mile-v0-7gzbijimbsyb1.png?width=1080&crop=smart&auto=webp&s=c8daffd4bb871f486211ef2bb4e553ee8e09e57b",
       "description": "Movies centered around musical performances and themes."
     },
     {
-      "id": "9648",
+      "id": 9648,
       "name": "Mystery",
       "image": "https://i.ytimg.com/vi/vbCg5ZFxgDM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCeSRwWXy8pZEvJjK24UheouxOzfw",
       "description": "Stories that keep you guessing with suspense and intrigue."
     },
     {
-      "id": "10749",
+      "id": 10749,
       "name": "Romance",
       "image": "https://cdn.i-scmp.com/sites/default/files/styles/1200x800/public/images/methode/2017/12/18/9f79b8f4-e39e-11e7-8ff5-d91dc767c75e_1280x720_123332.jpg?itok=A3BRtQUu",
       "description": "Heartfelt stories about love and relationships."
     },
     {
-      "id": "878",
+      "id": 878,
       "name": "Science Fiction",
       "image": "https://upload.wikimedia.org/wikipedia/en/0/06/Pulp_Fiction_%28Soundtrack%29.png",
       "description": "Films that explore futuristic concepts and advanced technology."
     },
     {
-      "id": "10770",
+      "id": 10770,
       "name": "TV Movie",
       "image": "https://www.rollingstone.com/wp-content/uploads/2022/11/TV-Themes.jpg?w=1581&h=1054&crop=1",
       "description": "Films made specifically for television broadcast."
     },
     {
-      "id": "53",
+      "id": 53,
       "name": "Thriller",
       "image": "",
       "description": "Movies that create intense suspense and excitement."
     },
     {
-      "id": "10752",
+      "id": 10752,
       "name": "War",
       "image": "https://media.newyorker.com/photos/59097b84c14b3c606c10947a/master/pass/Brody-Hacksaw-Ridge.jpg",
       "description": "Stories set during times of war and conflict."
     },
     {
-      "id": "37",
+      "id": 37,
       "name": "Western",
       "image": "https://i.ytimg.com/vi/Tkqkr7-RZ5I/sddefault.jpg",
       "description": "Movies set in the American Old West, featuring cowboys and outlaws."
