@@ -83,11 +83,15 @@ const SearchResult: React.FC = () => {
                   birthday={null}
                   place_of_birth={null}
                   genres={[]}
-                  description={""} date={""} genders={""} known_for={""}                />
+                  description={""}
+                  date={""}
+                  genders={""}
+                  known_for={""}
+                />
               </div>
             ))
           ) : (
-            <p>No results found</p>
+            <p className="no-result-search">No results found</p>
           )}
         </div>
       </div>

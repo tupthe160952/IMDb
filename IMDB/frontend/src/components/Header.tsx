@@ -11,7 +11,9 @@ const Header: React.FC = () => {
   const [collapseMenu, setCollapseMenu] = useState<boolean>(false);
   const [searchQuery, setSearchQuery] = useState<string>("");
   const [allSuggestions, setAllSuggestions] = useState<GenreDetail[]>([]); // Trạng thái cho tất cả gợi ý phim
-  const [filteredSuggestions, setFilteredSuggestions] = useState<GenreDetail[]>([]); // Trạng thái cho gợi ý đã lọc
+  const [filteredSuggestions, setFilteredSuggestions] = useState<GenreDetail[]>(
+    []
+  ); // Trạng thái cho gợi ý đã lọc
   const { user, setUser } = useUser();
 
   const handleWatchlistClick = () => {
@@ -60,8 +62,10 @@ const Header: React.FC = () => {
       return;
     }
 
-    const filtered = allSuggestions.filter(movie =>
-      movie.title && movie.title.toLowerCase().includes(searchQuery.toLowerCase())
+    const filtered = allSuggestions.filter(
+      (movie) =>
+        movie.title &&
+        movie.title.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
     setFilteredSuggestions(filtered);
@@ -152,9 +156,9 @@ const Header: React.FC = () => {
                 defaultValue="" // Đặt giá trị mặc định là rỗng
                 onChange={(e) => {
                   if (e.target.value === "profile") {
-                    navigate('/profile'); // Chuyển đến trang profile
+                    navigate("/profile"); // Chuyển đến trang profile
                   } else if (e.target.value === "dashboard") {
-                    navigate('/admin'); // Chuyển đến trang admin
+                    navigate("/admin"); // Chuyển đến trang admin
                   } else if (e.target.value === "logout") {
                     handleLogout();
                   }
@@ -177,35 +181,100 @@ const Header: React.FC = () => {
       </div>
       {/* Dropdown menu with collapse effect */}
       <div className={`dropdown ${collapseMenu ? "open" : ""}`}>
-        <div className="movie-genre">
-          <h3 className="header-title">Movies Types</h3>
-          <ul className="nav-list">
-            {Array.isArray(movieList) && movieList.length > 0 ? (
-              movieList.map((genre) => (
-                <li key={genre.id}>
-                  <p
-                    className="text-nav"
-                    onClick={() => {
-                      navigate(`/genredetail/${genre.id}`);
-                      window.location.reload();
-                    }}
-                  >
-                    {genre.name}
-                  </p>
-                </li>
-              ))
-            ) : (
-              <li>No genres available</li>
-            )}
-          </ul>
-        </div>
-        <div className="close-dropdown" onClick={toggleMenu}>
-          <span
-            className="material-symbols-outlined"
-            style={{ color: "black" }}
-          >
-            close
-          </span>
+        <div
+          className="container-fluid d-flex justify-content-center align-items-center"
+          style={{ minHeight: "100vh" }}
+        >
+          <div className="row text-center">
+            {/* Cột chứa cả Popular và Community */}
+            <div className="col-md-4">
+              <div className="movie-genre">
+                <h3 className="header-title">Popular</h3>
+                <ul className="nav-list">
+                  <li>
+                    <p
+                      className="text-nav"
+                      onClick={() => {
+                        navigate(`/detailpopular`);
+                      }}
+                    >
+                      Movies
+                    </p>
+                    <p
+                      className="text-nav"
+                      onClick={() => {
+                        navigate(`/popular_person`);
+                      }}
+                    >
+                      Actor
+                    </p>
+                    <p
+                      className="text-nav"
+                      onClick={() => {
+                        navigate(`/detailupcoming`);
+                      }}
+                    >
+                      Coming Soon
+                    </p>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="movie-genre">
+                <h3 className="header-title">Community</h3>
+                <ul className="nav-list">
+                  <li>
+                    <p
+                      className="text-nav"
+                      onClick={() => {
+                        navigate(`/contact-us`);
+                      }}
+                    >
+                      Contact Us
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            {/* Cột chứa Genres */}
+            <div className="col-md-4">
+              <div className="movie-genre">
+                <h3 className="header-title">Genres</h3>
+                <ul className="nav-list">
+                  {Array.isArray(movieList) && movieList.length > 0 ? (
+                    movieList.map((genre) => (
+                      <li key={genre.id}>
+                        <p
+                          className="text-nav"
+                          onClick={() => {
+                            navigate(`/genredetail/${genre.id}`);
+                            window.location.reload();
+                          }}
+                        >
+                          {genre.name}
+                        </p>
+                      </li>
+                    ))
+                  ) : (
+                    <li>No genres available</li>
+                  )}
+                </ul>
+              </div>
+            </div>
+
+            {/* Cột đóng dropdown */}
+            <div className="col-md-4">
+              <div className="close-dropdown" onClick={toggleMenu}>
+                <span
+                  className="material-symbols-outlined"
+                  style={{ color: "black" }}
+                >
+                  close
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

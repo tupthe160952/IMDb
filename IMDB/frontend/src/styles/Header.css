@@ -165,7 +165,6 @@
   background-color: rgb(31, 31, 31);
   display: flex;
   justify-content: center;
-  gap: 100px;
   transition: height 0.3s ease-in, 0.3s ease-in-out;
   z-index: 1000;
 }
@@ -182,15 +181,20 @@
   color: rgb(226, 182, 22);
 }
 
+.nav-list {
+  height: 400px;
+  margin: 0 100px;
+}
+
 .nav-list li {
   list-style-type: none;
-  padding: 0.5em 0;
-  margin: 0;
+  padding: 0;
 }
 
 .text-nav {
   text-decoration: none;
   color: white;
+  display: flex;
 }
 
 .text-nav:hover {
