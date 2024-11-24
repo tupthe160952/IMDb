@@ -1,12 +1,7 @@
 .search-page {
   width: 100%;
   background-color: #121212;
-  color: white;
   height: 100vh;
-  margin: 0;
-  padding: 0;
-}
-
-.no-result-search {
-  color: white;
+  overflow-y: auto; /* Add this rule to enable vertical scrolling */
+  padding: 20px; /* Add some padding to create space between the grid and the container */
 }
