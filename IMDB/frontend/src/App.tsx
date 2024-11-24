@@ -6,7 +6,9 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import RateStar from "./components/RateStar";
 import Register from "./components/Register";
 import { UserProvider } from "./components/UserContext";
+import AddCelebrity from "./pages/admin/AddCeleb";
 import AddMovie from "./pages/admin/AddMovie";
+import ListCeleb from "./pages/admin/ListCeleb";
 import MovieList from "./pages/admin/ListMovie";
 import AdminPage from "./pages/AdminPage";
 import AllMovieDetail from "./pages/AllMovieDetail";
@@ -22,8 +24,6 @@ import UpComingMovieDetail from "./pages/UpComingMovieDetail";
 import UserProfile from "./pages/UserProfile";
 import Watchlist from "./pages/WatchlistDetail";
 import "./styles/Header.css";
-import ListCeleb from "./pages/admin/ListCeleb";
-import AddCelebrity from "./pages/admin/AddCeleb";
 function App() {
   return (
     <BrowserRouter>
@@ -81,14 +81,14 @@ function App() {
               </ProtectedRoute>
             } />
             <Route 
-            path="/listCeleb" 
+            path="/admin/listCeleb" 
             element={
               <ProtectedRoute>
                 <ListCeleb /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
             } />
             <Route 
-            path="/addCeleb" 
+            path="/admin/addCeleb" 
             element={
               <ProtectedRoute>
                 <AddCelebrity /> {/* Chỉ cho phép admin truy cập */}

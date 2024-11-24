@@ -107,12 +107,7 @@ const AddMovie: React.FC<Props> = () => {
                 <Navbar />
             </div>
             <div
-                className="add-container mx-auto bg-white"
-                style={{
-                    padding: "15px", // Reduced padding
-                    width: "80%", // Reduced width of the card
-                    maxWidth: "50rem", // Set max-width to make the card smaller
-                }}
+                className="add-container bg-white"
             >
                 <h2 className="text-center mb-4 mt-4">Add a New Movie</h2>
                 <form onSubmit={handleSubmit} className="p-4 m-2">
