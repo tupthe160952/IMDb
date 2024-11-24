@@ -43,7 +43,10 @@ export default interface Celebs {
   biography: string;
   birthday: string | null;
   place_of_birth: string | null;
-  known_for: string;
+  known_for: {
+    movie_name: string;
+    movie_image: string;
+  }[];
 }
 
 // export interface Movie {
