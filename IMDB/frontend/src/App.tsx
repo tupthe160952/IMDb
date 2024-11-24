@@ -22,6 +22,8 @@ import UpComingMovieDetail from "./pages/UpComingMovieDetail";
 import UserProfile from "./pages/UserProfile";
 import Watchlist from "./pages/WatchlistDetail";
 import "./styles/Header.css";
+import ListCeleb from "./pages/admin/ListCeleb";
+import AddCelebrity from "./pages/admin/AddCeleb";
 function App() {
   return (
     <BrowserRouter>
@@ -32,6 +34,7 @@ function App() {
             path="/rateStar"
             element={
               <RateStar
+                // eslint-disable-next-line @typescript-eslint/no-unused-vars
                 handleRateStar={function (rating: number): void {
                   throw new Error("Function not implemented.");
                 }}
@@ -75,6 +78,20 @@ function App() {
             element={
               <ProtectedRoute>
                 <MovieList /> {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } />
+            <Route 
+            path="/listCeleb" 
+            element={
+              <ProtectedRoute>
+                <ListCeleb /> {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } />
+            <Route 
+            path="/addCeleb" 
+            element={
+              <ProtectedRoute>
+                <AddCelebrity /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
             } />
         </Routes>
