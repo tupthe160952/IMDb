@@ -79,6 +79,7 @@ const Header: React.FC = () => {
     }
     const normalizedSearchQuery = searchQuery.trim(); // Giữ nguyên tiêu đề tìm kiếm
     navigate(`/search?title=${encodeURIComponent(normalizedSearchQuery)}`);
+    setFilteredSuggestions([]);
   };
 
   const handleSuggestionClick = (title: string) => {
