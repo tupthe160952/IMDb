@@ -9,7 +9,6 @@ import axios from 'axios';
 const CelebDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const [celebs, setCelebs] = useState<Celebs | null>(null);
-  // const [gender, setGender] = useState<Genders>;
   const [showMore, setShowMore] = useState(false);
   useEffect(() => {
     axios
@@ -44,7 +43,7 @@ const CelebDetail: React.FC = () => {
             />
             <div className="mt-3">
               <h5>Personal Info</h5>
-              <p><strong>Known For:</strong> {celebs.known_for_department}</p>
+              <p><strong>Known For Department:</strong> {celebs.known_for_department}</p>
               <p><strong>Gender:</strong> {celebs.genders}</p>
               <p><strong>Birthday:</strong> {celebs.birthday || 'Unknown'}</p>
               <p><strong>Place of Birth:</strong> {celebs.place_of_birth || 'Unknown'}</p>
@@ -62,15 +61,17 @@ const CelebDetail: React.FC = () => {
             </div>
             <h5 className="mt-5">Known For</h5>
             <Row className="d-flex flex-row overflow-auto">
-              <Col className="mb-3" xs={6} sm={4} md={3} lg={2}>
-                <Image
-                  src="movie1.jpg"
-                  alt="Movie 1"
-                  className="img-fluid rounded"
-                  style={{ height: '180px', objectFit: 'cover' }}
-                />
-                <p className="text-center mt-2">Movie Title</p>
-              </Col>
+              {celebs.known_for && celebs.known_for.map((movie, index) => (
+                <Col key={index} className="mb-3" xs={6} sm={4} md={3} lg={2}>
+                  <Image
+                    src={movie.movie_image || 'default-movie.jpg'}
+                    alt={movie.movie_name}
+                    className="img-fluid rounded"
+                    style={{ height: '180px', objectFit: 'cover' }}
+                  />
+                  <p className="text-center mt-2">{movie.movie_name}</p>
+                </Col>
+              ))}
             </Row>
 
           </Col>

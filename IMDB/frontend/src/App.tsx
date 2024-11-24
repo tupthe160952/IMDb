@@ -23,6 +23,7 @@ import AddMovie from "./pages/admin/AddMovie";
 import MovieList from "./pages/admin/ListMovie";
 import AllMovieDetail from "./pages/AllMovieDetail";
 import ListCeleb from "./pages/admin/ListCeleb";
+import AddCelebrity from "./pages/admin/AddCeleb";
 function App() {
   return (
     <BrowserRouter>
@@ -84,6 +85,13 @@ function App() {
             element={
               <ProtectedRoute>
                 <ListCeleb /> {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } />
+            <Route 
+            path="/addCeleb" 
+            element={
+              <ProtectedRoute>
+                <AddCelebrity /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
             } />
         </Routes>

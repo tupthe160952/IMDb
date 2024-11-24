@@ -1285,30 +1285,6 @@
       "vote_average": 6.6,
       "vote_count": 110,
       "trailer": "https://www.youtube.com/watch?v=qSu6i2iFMO0"
-    },
-    {
-      "id": "1732262035362",
-      "title": "Whisdsa wcwd",
-      "date": "05/11/2024",
-      "cast": [
-        "Tu",
-        "da"
-      ],
-      "genres": [
-        28,
-        12,
-        16,
-        27,
-        10402
-      ],
-      "href": "cas",
-      "thumbnail": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/raDMchyq3dJMqso2TVh75A123Xb.jpg",
-      "banner": "https://images.plex.tv/photo?size=large-1280&url=https%3A%2F%2Fmetadata-static.plex.tv%2Fc%2Fgracenote%2Fc401fa26ee9e94ac93cf8d8bc1180748.jpg",
-      "overview": "12456qwehdqw csc",
-      "popularity": 0,
-      "vote_average": 0,
-      "vote_count": 0,
-      "trailer": "https://www.youtube.com/watch?v=NrNpPMEiTbc"
     }
   ],
   "watchlist": [
@@ -1403,7 +1379,7 @@
       "movieId": "5"
     }
   ],
-    "celebs": [
+  "celebs": [
     {
       "id": "1245",
       "known_for_department": "Acting",
@@ -1415,7 +1391,20 @@
       "biography": "Scarlett Ingrid Johansson (born November 22, 1984) is an American actress. The world's highest-paid actress in 2018 and 2019, she has featured multiple times on the Forbes Celebrity 100 list. Her films have grossed over $14.3 billion worldwide, making Johansson the ninth-highest-grossing box office star of all time. She has received various accolades, including a Tony Award and a British Academy Film Award, in addition to nominations for two Academy Awards and five Golden Globe Awards.\n\nJohansson aspired to be an actress from an early age and first appeared on stage in an Off-Broadway play as a child actor. She made her film debut in the fantasy comedy North (1994), and gained early recognition for her roles in Manny & Lo (1996), The Horse Whisperer (1998), and Ghost World (2001). Johansson shifted to adult roles in 2003 with her performances in Lost in Translation, which won her a BAFTA Award for Best Actress, and Girl with a Pearl Earring. She was nominated for Golden Globe Awards for these films, and for playing a troubled teenager in the drama A Love Song for Bobby Long (2004) and a seductress in psychological thriller Match Point (2005). The latter was her first collaboration with Woody Allen, who later directed her in Scoop (2006) and Vicky Cristina Barcelona (2008).\n\nJohansson's other works of this period include The Prestige (2006) and the albums Anywhere I Lay My Head (2008) and Break Up (2009), both of which charted on the Billboard 200. In 2010, Johansson debuted on Broadway in a revival of A View from the Bridge, which won her a Tony Award for Best Featured Actress, and began portraying Black Widow in the Marvel Cinematic Universe film Iron Man 2. She reprised the role in eight films, most recently in her solo feature Black Widow (2021), gaining global recognition for her performances. During this period, Johansson starred in the science fiction films Her (2013), Under the Skin (2013) and Lucy (2014).\n\nShe received two simultaneous Academy Award nominations—Best Actress and Best Supporting Actress—for the respective roles of an actress going through a divorce in the drama Marriage Story (2019) and a single mother in Nazi Germany in the satire Jojo Rabbit (2019). Labeled a sex symbol, Johansson has been referred to as one of the world's most attractive women by various media outlets. She is a prominent brand endorser and supports several charitable causes. Divorced from actor Ryan Reynolds and businessman Romain Dauriac, Johansson has been married to comedian Colin Jost since 2020. She has two children, one with Dauriac and another with Jost.",
       "birthday": "1984-11-22",
       "place_of_birth": "New York City, New York, USA",
-      "known_for": []
+      "known_for": [
+        {
+          "movie_name": "The Avengers",
+          "movie_image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg"
+        },
+        {
+          "movie_name": "Black Widow",
+          "movie_image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"
+        },
+        {
+          "movie_name": "Lucy",
+          "movie_image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/kRbpUTRNm6QbLQFPFWUcNC4czEm.jpg"
+        }
+      ]
     },
     {
       "id": "1982141",
@@ -1423,10 +1412,10 @@
       "name": "Jess Chanliau",
       "original_name": "Jess Chanliau",
       "genders": "Female",
-      "popularity": 277.021,
+      "popularity": 200,
       "profile_path": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/wx0GIkCqrqt1Vg4SIM63ipbuyZT.jpg",
       "biography": "Jess Chanliau is an American / French actor, movement artist and singer with a BA in Acting from the Royal Conservatoire of Scotland (RCS), Glasgow, UK. Jess' first feature length movie, playing the lead  role of Stone, \"Patients of a Saint\" / \"Inmate Zero\" (UK-USA title) made its debut in Malaysia on December 5, 2019 and its worldwide release beginning January 3, 2020. In August of 2018 Jess co-starred in the play \"South Bend\" at the Edinburgh Fringe festival bringing to life over 20 different characters . They then went on tour with the play in September throughout Scotland to outstanding reviews.\n\nBorn in the United States, Jess moved to Paris and attended French collège and lycée. While in Paris they also attended classes at the Cours Florent. Jess returned to the U.S. for their final year of high school in California to attend the performing arts program at the Marin School of the Arts in Novato. Following graduation, they attended the Pacific Conservatory of the Performing Arts in Santa Maria and then went on to attend RCS. While attending the RCS, Jess spent a semester studying and performing at the Conservatoire National Supérieur d'Art Dramatique in Paris.\n\nIn addition to honing their acting skills, Jess has deepened their love of movement through the techniques of Lecoq, Viewpoints, Laban, Grotowski, Feldenkrais, Yoga and Acrobatics. In the UK Jess is represented by Burnett Crowther Ltd - Lizanne Crowther Jess is seeking representation and opportunities for work in the USA and France.",
-      "birthday": null,
+      "birthday": "1992-01-24",
       "place_of_birth": null,
       "known_for": []
     },
@@ -1454,7 +1443,16 @@
       "biography": "Gary Leonard Oldman (born 21 March 1958) is an English actor and filmmaker. Regarded as one of the best actors of his generation, he is known for his versatility and intense acting style. He received various accolades, including an Academy Award, a Golden Globe Award, a Screen Actors Guild Award, and three British Academy Film Awards. His films have grossed over $11 billion worldwide, making him one of the highest-grossing actors to date.\n\nOldman began acting in theatre in 1979 and made his film debut in Remembrance (1982). He continued to follow a stage career in London's Royal Court. He was a member of the Royal Shakespeare Company, with credits including Cabaret, Romeo and Juliet, Entertaining Mr Sloane, Saved, The Country Wife and Hamlet. He rose to prominence in British film with his portrayals of Sid Vicious in Sid and Nancy (1986), Joe Orton in Prick Up Your Ears (1987) and Rosencrantz in Rosencrantz & Guildenstern Are Dead (1990), while also attracting attention as the leader of a gang of football hooligans in the television film The Firm (1989). Regarded as a member of the \"Brit Pack\", he achieved greater recognition as a New York gangster in State of Grace (1990), Lee Harvey Oswald in JFK (1991) and Count Dracula in Bram Stoker's Dracula (1992).\n\nOldman portrayed the villains in films such as True Romance (1993), The Fifth Element (1997), Air Force One (1997) and The Contender (2000); corrupt DEA agent Norman Stansfield, whom he played in Léon: The Professional (1994), was called one of cinema's best villains. He also played Ludwig van Beethoven in Immortal Beloved (1994). He later appeared in franchise roles such as Sirius Black in the Harry Potter series, James Gordon in The Dark Knight Trilogy (2005–2012) and a human leader, Dreyfus in Dawn of the Planet of the Apes (2014). He won the Academy Award for Best Actor as Winston Churchill in Darkest Hour (2017). He was nominated for his portrayals of George Smiley in Tinker Tailor Soldier Spy (2011) and Herman J. Mankiewicz in Mank (2020).\n\nOldman was executive producer of films like The Contender, Plunkett & Macleane (1999) and Nil by Mouth (1997), the latter of which he also wrote and directed. He featured in television shows such as Fallen Angels, Tracey Takes On... and Friends, voiced Ignitius and Viktor Reznov, respectively, in The Legend of Spyro and Call of Duty video games and appeared in music videos for David Bowie, Guns N' Roses and Annie Lennox.",
       "birthday": "1958-03-21",
       "place_of_birth": "New Cross, London, England, UK",
-      "known_for": []
+      "known_for": [
+        {
+          "movie_name": "The Dark Knight",
+          "movie_image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+        },
+        {
+          "movie_name": "The Dark Knight Rises",
+          "movie_image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg"
+        }
+      ]
     },
     {
       "id": "1253360",
@@ -1467,7 +1465,20 @@
       "biography": "José Pedro Balmaceda Pascal (born April 2, 1975) is a Chilean-American actor. After nearly two decades of taking small roles in film and television, Pascal rose to prominence for portraying Oberyn Martell during the fourth season of the HBO fantasy series Game of Thrones (2014) and as Javier Peña in the Netflix crime series Narcos (2015–2017). Since 2019, he has starred as the title character in the Disney+ Star Wars series The Mandalorian and reprised his role in the spin-off series The Book of Boba Fett (2021). Since 2023, he has played Joel in the HBO drama series The Last of Us.\n\nHe has appeared in the films The Adjustment Bureau (2011), The Great Wall (2016), Kingsman: The Golden Circle (2017), The Equalizer 2 (2018), Triple Frontier (2019), Wonder Woman 1984 (2020), and The Unbearable Weight of Massive Talent (2022).",
       "birthday": "1975-04-02",
       "place_of_birth": "Santiago, Chile",
-      "known_for": []
+      "known_for": [
+        {
+          "movie_name": "The Wild Robot",
+          "movie_image": "https://th.bing.com/th/id/OIP.tkk2Rk1OREKhKpT1b9F1TwHaLu?w=115&h=182&c=7&r=0&o=5&dpr=1.6&pid=1.7"
+        },
+        {
+          "movie_name": "The Last of Us",
+          "movie_image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/uKvVjHNqB5VmOrdxqAt2F7J78ED.jpg"
+        },
+        {
+          "movie_name": "The Equalizer 2 ",
+          "movie_image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/cQvc9N6JiMVKqol3wcYrGshsIdZ.jpg"
+        }
+      ]
     },
     {
       "id": "115440",
@@ -1480,7 +1491,16 @@
       "biography": "Sydney Bernice Sweeney is an American actress. She gained mainstream attention in the Netflix series Everything Sucks! (2018) for her role as Emaline and has portrayed Eden in the Hulu series The Handmaid's Tale (2018) and Alice in the HBO miniseries Sharp Objects (2018). Since 2019, she has starred as Cassie Howard in the HBO teen drama series Euphoria and as Olivia Mossbacher in The White Lotus. In film, she had a role in Quentin Tarantino's 2019 comedy-drama Once Upon a Time in Hollywood, portraying Snake, a member of the Manson Family.",
       "birthday": "1997-09-12",
       "place_of_birth": "Spokane, Washington, USA",
-      "known_for": []
+      "known_for": [
+        {
+          "movie_name": "Anyone But You",
+          "movie_image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/5qHoazZiaLe7oFBok7XlUhg96f2.jpg"
+        },
+        {
+          "movie_name": "Immaculate",
+          "movie_image": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/fdZpvODTX5wwkD0ikZNaClE4AoW.jpg"
+        }
+      ]
     },
     {
       "id": "548128",
@@ -1979,7 +1999,7 @@
     {
       "id": "13240",
       "known_for_department": "Acting",
-      "name": "Mark Wahlberg",
+      "name": "Mark Wahlberg Updated",
       "original_name": "Mark Wahlberg",
       "genders": "Male",
       "popularity": 76.717,
