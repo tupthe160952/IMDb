@@ -107,7 +107,7 @@ const AddMovie: React.FC<Props> = () => {
                 <Navbar />
             </div>
             <div
-                className="card mx-auto bg-white"
+                className="add-container mx-auto bg-white"
                 style={{
                     padding: "15px", // Reduced padding
                     width: "80%", // Reduced width of the card
