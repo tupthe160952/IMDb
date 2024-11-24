@@ -165,7 +165,6 @@
   background-color: rgb(31, 31, 31);
   display: flex;
   justify-content: center;
-  gap: 100px;
   transition: height 0.3s ease-in, 0.3s ease-in-out;
   z-index: 1000;
 }
@@ -182,15 +181,20 @@
   color: rgb(226, 182, 22);
 }
 
+.nav-list {
+  height: 400px;
+  margin: 0 100px;
+}
+
 .nav-list li {
   list-style-type: none;
-  padding: 0.5em 0;
-  margin: 0;
+  padding: 0;
 }
 
 .text-nav {
   text-decoration: none;
   color: white;
+  display: flex;
 }
 
 .text-nav:hover {
@@ -202,14 +206,17 @@
 .suggestions {
   position: absolute; /* Đặt vị trí tuyệt đối để nó nằm dưới thanh tìm kiếm */
   top: 100%; /* Đặt vị trí ngay dưới thanh tìm kiếm */
-  left: 0; /* Căn trái */
-  right: 0; /* Căn phải */
-  background-color: white; /* Màu nền của gợi ý */
-  border: 1px solid #ccc; /* Đường viền */
-  border-radius: 4px; /* Bo góc */
+  left: 540px; /* Căn trái */
+  right: 890px; /* Căn phải */
+  background-color: #121212; /* Màu nền của gợi ý */
+  border: 1px solid rgba(226, 182, 22, 0.555); /* Đường viền */
+  border-radius: 0px; /* Bo góc */
   z-index: 1000; /* Đảm bảo nó nằm trên các phần tử khác */
   max-height: 200px; /* Chiều cao tối đa */
   overflow-y: auto; /* Thêm cuộn nếu có nhiều gợi ý */
+  color: white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .suggestion-item {
@@ -218,7 +225,7 @@
 }
 
 .suggestion-item:hover {
-  background-color: #f0f0f0; /* Màu nền khi di chuột qua */
+  background-color: #3d393900; /* Màu nền khi di chuột qua */
 }
 
 /*CLOSE BUTTON*/
