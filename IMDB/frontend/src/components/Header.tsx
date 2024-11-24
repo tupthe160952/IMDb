@@ -89,6 +89,7 @@ const Header: React.FC = () => {
   const handleSuggestionClick = (title: string) => {
     setSearchQuery(title); // Đặt giá trị ô tìm kiếm thành gợi ý
     setFilteredSuggestions([]); // Xóa gợi ý
+    navigate(`/search?title=${encodeURIComponent(title)}`);
   };
   return (
     <>
