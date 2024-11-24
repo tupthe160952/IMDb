@@ -6,3 +6,37 @@
   padding: 20px; /* Add some padding to create space between the grid and the container */
 }
 
+.no-result-search {
+  color: white;
+}
+
+.result-search {
+  justify-content: flex-start;
+}
+
+.result-search h3 {
+  border-left: 4px solid rgb(226, 182, 22);
+  padding: 0 10px;
+  margin: 20px 0px;
+}
+
+.result-title {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.result-h2 {
+  margin: 0;
+  padding: 0;
+  margin-left: 0;
+}
+
+.actor-search {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 15px;
+  max-width: 100%;
+}
