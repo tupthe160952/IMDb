@@ -106,7 +106,7 @@ const SearchResult: React.FC = () => {
                     description={""}
                     date={""}
                     genders={""}
-                    known_for={""}
+                    known_for={[]}
                   />
                 </div>
               ))

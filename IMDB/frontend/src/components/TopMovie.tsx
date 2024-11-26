@@ -61,10 +61,7 @@ const TopMovie: React.FC = () => {
               thumbnail={""}
               banner={""}
               vote_average={0}
-              trailer={""}
-              popularity={undefined}
-              vote_count={undefined}
-            />
+              trailer={""} user_rating={0} popularity={0} vote_count={0} description={""} date={""} genres={[]} known_for_department={""} original_name={""} genders={""} profile_path={""} biography={""} birthday={null} place_of_birth={null} known_for={[]}            />
           </SwiperSlide>
         ))}
       </Swiper>
