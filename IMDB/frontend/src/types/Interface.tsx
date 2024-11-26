@@ -19,6 +19,7 @@ export default interface CardProps {
   rating: string | number;
   name: string;
   date: string;
+  
 }
 
 export default interface SliderProps {
@@ -48,6 +49,8 @@ export default interface Celebs {
     movie_image: string;
   }[];
 }
+
+
 
 // export interface Movie {
 //   id: number;

@@ -10,6 +10,7 @@ import AddCelebrity from "./pages/admin/AddCeleb";
 import AddMovie from "./pages/admin/AddMovie";
 import ListCeleb from "./pages/admin/ListCeleb";
 import MovieList from "./pages/admin/ListMovie";
+import UserList from "./pages/admin/ListUser";
 import AdminPage from "./pages/AdminPage";
 import AllMovieDetail from "./pages/AllMovieDetail";
 import CelebDetail from "./pages/CelebDetail";
@@ -92,6 +93,13 @@ function App() {
             element={
               <ProtectedRoute>
                 <AddCelebrity /> {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } />
+            <Route 
+            path="/admin/listUser" 
+            element={
+              <ProtectedRoute>
+                <UserList /> {/* Chỉ cho phép admin truy cập */}
               </ProtectedRoute>
             } />
         </Routes>

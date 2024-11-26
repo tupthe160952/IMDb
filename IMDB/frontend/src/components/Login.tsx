@@ -12,6 +12,7 @@ const LoginForm: React.FC = () => {
   const [loading, setLoading] = useState(false); // Trạng thái loading
   const [keepSignedIn, setKeepSignedIn] = useState(false); // Trạng thái giữ đăng nhập
 
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
@@ -24,6 +25,14 @@ const LoginForm: React.FC = () => {
       if (users.length > 0) {
         // Đăng nhập thành công
         const loggedInUser  = users[0];
+
+        // Kiểm tra trạng thái isActive
+        if (!loggedInUser .isActive) {
+          setError('Your account has been deactivated.');
+          return; // Dừng xử lý nếu tài khoản bị cấm
+        }
+
+        // Nếu tài khoản hoạt động, tiếp tục đăng nhập
         if (keepSignedIn) {
           localStorage.setItem('user', JSON.stringify(loggedInUser ));
         } else {

@@ -88,7 +88,7 @@ const Watchlist: React.FC = () => {
                     place_of_birth={null}
                     genres={[]}
                     description={""}
-                    date={""} genders={""} known_for={""}            />
+                    date={""} genders={""}  known_for={[]}            />
           </SwiperSlide>
         ))}
       </Swiper>
