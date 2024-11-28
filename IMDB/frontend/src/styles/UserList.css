@@ -1,0 +1,21 @@
+/* CSS cho cấu trúc bố cục */
+.container {
+    width: 100%;
+}
+
+.navbar-container {
+    display: inline-block;
+    width: 290px;  /* Đặt chiều rộng cho navbar */
+    background-color: #f4f4f4;
+    height: 100vh;  /* Chiều cao toàn bộ màn hình */
+    padding: 10px;
+    vertical-align: top;  /* Đảm bảo navbar căn trên cùng với movie-list */
+}
+
+.list-user-container {
+    display: inline-block;
+    width: 110%;
+    padding: 20px;
+    margin-left: 100px; /* Đẩy sang phải 50px */
+    vertical-align: top;  /* Đảm bảo căn trên cùng với navbar */
+}

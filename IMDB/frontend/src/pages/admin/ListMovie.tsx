@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { Button, Form, Modal } from 'react-bootstrap';
 import Navbar from '../../components/Admin/Navbar';
+import Header from '../../components/Header';
 import "../../styles/MovieList.css";
 import GenreDetail, { Movie } from '../../types/Interface';
 
@@ -116,10 +117,13 @@ const MovieList: React.FC = () => {
 
     return (
         <div className="container">
+            <div>
+                <Header />
+            </div>
             <div className="navbar-container">
                 <Navbar />
             </div>
-            <div className="movie-list-container" >
+            <div className="movie-list-container" style={{marginTop: '80px'}}>
                 <h1>Movie List</h1>
                 {error && <p style={{ color: 'red' }}>{error}</p>}
                 {!error && (

@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Table, Button } from 'react-bootstrap';
+import { Button, Table } from 'react-bootstrap';
 import Navbar from '../../components/Admin/Navbar';
+import Header from '../../components/Header';
+import '../../styles/UserList.css';
 
 interface User {
     id: number;
@@ -62,12 +64,13 @@ const UserList: React.FC = () => {
 
     return (
         <div className="container mt-5 ">
-            <div className='list-user-container' style={{
-                marginLeft:'90px'
-            }}>
-                <div className="navbar-container">
-                    <Navbar />
-                </div>
+            <div>
+                <Header />
+            </div>
+            <div className="navbar-container">
+                <Navbar />
+            </div>
+            <div className='list-user-container' style={{marginTop: '30px'}}>
                 <h2>User List</h2>
                 <Table striped bordered hover>
                     <thead>

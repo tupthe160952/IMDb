@@ -1,0 +1,33 @@
+label {
+    margin-bottom: 5px;
+    /* Add margin to separate label */
+}
+
+/* CSS cho cấu trúc bố cục */
+.container {
+    width: 100%;
+}
+
+.navbar-container {
+    display: inline-block;
+    width: 290px;
+    /* Đặt chiều rộng cho navbar */
+    background-color: #f4f4f4;
+    height: 100vh;
+    /* Chiều cao toàn bộ màn hình */
+    padding: 10px;
+    vertical-align: top;
+    /* Đảm bảo navbar căn trên cùng với movie-list */
+}
+
+.add-celeb-container {
+    display: inline-block;
+    width: 80%;
+    margin-left: 400px;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 15px;
+    max-width: 50rem;
+    /* Đảm bảo căn trên cùng với navbar */
+}

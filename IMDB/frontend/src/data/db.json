@@ -24,7 +24,8 @@
       "password": "12345678",
       "role": "admin",
       "id": "3",
-      "createdAt": "2024-10-21"
+      "createdAt": "2024-10-21",
+      "isActive": true
     },
     {
       "id": "42ec",

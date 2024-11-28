@@ -2,6 +2,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React, { useEffect, useState } from "react";
 import Navbar from "../../components/Admin/Navbar";
+import Header from "../../components/Header";
 import "../../styles/AddMovie.css";
 import GenreDetail, { Movie } from '../../types/Interface';
 
@@ -103,12 +104,13 @@ const AddMovie: React.FC<Props> = () => {
 
     return (
         <div className="container mt-5">
+            <div>
+                <Header />
+            </div>
             <div className="navbar-container">
                 <Navbar />
             </div>
-            <div
-                className="add-container bg-white"
-            >
+            <div className="add-container bg-white" style={{marginTop: '30px'}}>
                 <h2 className="text-center mb-4 mt-4">Add a New Movie</h2>
                 <form onSubmit={handleSubmit} className="p-4 m-2">
                     {/* Row 1 */}

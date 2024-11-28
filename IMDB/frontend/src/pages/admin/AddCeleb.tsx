@@ -1,6 +1,9 @@
-import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Form, Button, Container, Row, Col } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+import Navbar from '../../components/Admin/Navbar';
+import Header from '../../components/Header';
+import '../../styles/AddCeleb.css';
 
 interface KnownFor {
   movie_name: string;
@@ -87,15 +90,21 @@ const AddCelebrity: React.FC = () => {
 
   return (
     <Container className="mt-5">
+      <div>
+        <Header />
+      </div>
+      <div className="navbar-container">
+        <Navbar />
+      </div>
       <div
-        className="card mx-auto bg-white"
-        style={{
-          marginTop: '10px',
-          marginBottom: '10px',
-          padding: '15px',
-          width: '80%',
-          maxWidth: '50rem',
-        }}
+        className="add-celeb-container bg-white"
+        // style={{
+        //   marginTop: '90px',
+        //   marginBottom: '10px',
+        //   padding: '15px',
+        //   width: '80%',
+        //   maxWidth: '50rem',
+        // }}
       >
         <h2 style={{ textAlign: 'center' }}>Add Celebrity Information</h2>
         <Form onSubmit={handleSubmit} style={{ marginTop: '10px' }}>
