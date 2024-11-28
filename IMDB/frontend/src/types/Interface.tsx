@@ -6,7 +6,7 @@ export default interface Genre {
   name: string;
 }
 
-export default interface GenreDetail {
+export interface GenreDetail {
   id: number;
   name: string;
   image: string;
@@ -32,7 +32,7 @@ export default interface SliderProps {
   genres: number[];
 }
 
-export default interface Celebs {
+export interface Celebs {
   id: number;
   known_for_department: string;
   name: string;
@@ -71,14 +71,14 @@ export interface Movie {
   title: string;
   date: string;
   cast: string[];
-  genres: number[]; 
+  genres: number[];
   href: string;
   thumbnail: string;
   banner: string;
   overview: string;
   popularity: number;
-  vote_average: number; 
-  vote_count: number; 
+  vote_average: number;
+  vote_count: number;
   trailer: string;
 }
 
@@ -87,3 +87,12 @@ export interface Movie {
 //   userId: number;
 //   movieId: number;
 // }
+
+export interface User {
+  name: string;
+  email: string;
+  password: string;
+  id: string;
+  role: string;
+  createdAt: string;
+}

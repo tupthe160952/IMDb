@@ -5,8 +5,9 @@
     left: 0;
     height: 100vh; /* Đảm bảo navbar chiếm toàn bộ chiều cao màn hình */
     width: 290px; /* Chiều rộng của navbar */
-    z-index: 1000; /* Đảm bảo navbar ở trên cùng */
     overflow-y: auto; /* Cuộn dọc nếu nội dung quá dài */
+    background-color: #121212;
+    margin-top: -10px;
 }
 
 .navbar-logo {

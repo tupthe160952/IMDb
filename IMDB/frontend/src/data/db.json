@@ -21,7 +21,8 @@
       "email": "admin@gmail.com",
       "password": "12345678",
       "role": "admin",
-      "id": "3"
+      "id": "3",
+      "createdAt": "2024-10-21"
     },
     {
       "id": "42ec",
@@ -172,8 +173,8 @@
       "banner": "https://image.tmdb.org/t/p/original/3V4kLQg0kSqPLctI5ziYWabAZYF.jpg",
       "overview": "Eddie and Venom are on the run. Hunted by both of their worlds and with the net closing in, the duo are forced into a devastating decision that will bring the curtains down on Venom and Eddie's last dance.",
       "popularity": 5184.196,
-      "vote_average": 6.705633802816902,
-      "vote_count": 497,
+      "vote_average": 6.712248995983936,
+      "vote_count": 498,
       "trailer": "https://www.youtube.com/watch?v=HyIyd9joTTc"
     },
     {
@@ -1173,8 +1174,8 @@
       "banner": "https://www.kino-zeit.de/sites/default/files/styles/2560_x_1440_header_/public/2024-02/woodwalkers_2024_3.jpg?itok=68XJ2FKk",
       "overview": "Humans who can shapeshift into animals struggle to integrate with others without giving away their special abilities. As a group, they strive to inform and institute change in the world perspective of deforestation and the importance of natural habitats. However, when that can’t happen, they are forced to take matters into their own hands.",
       "popularity": 411,
-      "vote_average": 0,
-      "vote_count": 0,
+      "vote_average": 9,
+      "vote_count": 1,
       "trailer": "https://www.youtube.com/watch?v=Cp3IusvmtNI"
     },
     {
@@ -2041,6 +2042,22 @@
       "ratestar": {
         "movieId": "14",
         "rating": 1
+      }
+    },
+    {
+      "id": "4882",
+      "userId": "3",
+      "ratestar": {
+        "movieId": "39",
+        "rating": 9
+      }
+    },
+    {
+      "id": "0cc4",
+      "userId": "2",
+      "ratestar": {
+        "movieId": "1",
+        "rating": 10
       }
     }
   ]

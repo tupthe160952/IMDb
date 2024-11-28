@@ -1,0 +1,10 @@
+.stat-card {
+    width: 200px; /* Chiều ngang cố định */
+    height: 200px; /* Chiều dọc cố định */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
+    border-radius: 0.35rem;
+}

@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
             </a>
             <ul className="list-unstyled">
                 <li className="mb-3">
-                    <a href="#" className="text-light text-decoration-none d-flex justify-content-between align-items-center">
+                    <a href="/admin" className="text-light text-decoration-none d-flex justify-content-between align-items-center">
                         <h2>Dashboard</h2>
                     </a>
                 </li>

@@ -1,0 +1,23 @@
+/* src/App.css hoặc src/styles.css */
+body {
+    background-color: #f8f9fa;
+    /* Màu nền nhẹ nhàng cho toàn trang */
+}
+
+.navbar-container {
+    display: inline-block;
+    width: 290px;  /* Đặt chiều rộng cho navbar */
+    background-color: #f4f4f4;
+    height: 100vh;  /* Chiều cao toàn bộ màn hình */
+    padding: 10px;
+    vertical-align: top;  /* Đảm bảo navbar căn trên cùng với movie-list */
+}
+
+.statistic-container {
+    display: inline-block;
+    width: 95%;
+    padding: 20px;
+    margin-left: 160px; /* Đẩy sang phải 50px */
+    vertical-align: top;  /* Đảm bảo căn trên cùng với navbar */
+}
+
