@@ -229,7 +229,7 @@ const Header: React.FC = () => {
                     <p
                       className="text-nav"
                       onClick={() => {
-                        navigate(`/contact-us`);
+                        navigate(`/contact_us`);
                       }}
                     >
                       Contact Us
