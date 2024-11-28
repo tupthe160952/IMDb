@@ -318,8 +318,8 @@
       "banner": "https://i.ytimg.com/vi/vDX6Yt-Uat0/maxresdefault.jpg",
       "overview": "While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.",
       "popularity": 2075.981,
-      "vote_average": 5.703159441587069,
-      "vote_count": 1361,
+      "vote_average": 5.7055800293685754,
+      "vote_count": 1362,
       "trailer": "https://www.youtube.com/watch?v=_OKAwz2MsJs"
     },
     {
@@ -1389,6 +1389,21 @@
       "id": "7760",
       "userId": "3",
       "movieId": "17"
+    },
+    {
+      "id": "a76c",
+      "userId": "3",
+      "movieId": "41"
+    },
+    {
+      "id": "2614",
+      "userId": "3",
+      "movieId": "18"
+    },
+    {
+      "id": "2526",
+      "userId": "3",
+      "movieId": "6"
     }
   ],
   "celebs": [
@@ -2053,6 +2068,14 @@
       "ratestar": {
         "movieId": "14",
         "rating": 1
+      }
+    },
+    {
+      "id": "4ccf",
+      "userId": "3",
+      "ratestar": {
+        "movieId": "6",
+        "rating": 9
       }
     }
   ]
