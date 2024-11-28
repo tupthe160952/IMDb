@@ -11,6 +11,7 @@ import AddMovie from "./pages/admin/AddMovie";
 import Dashboard from "./pages/admin/Dashboard";
 import ListCeleb from "./pages/admin/ListCeleb";
 import MovieList from "./pages/admin/ListMovie";
+import UserList from "./pages/admin/ListUser";
 import AllMovieDetail from "./pages/AllMovieDetail";
 import CelebDetail from "./pages/CelebDetail";
 import ContactUs from "./pages/ContactUs";
@@ -100,6 +101,13 @@ function App() {
 
           <Route path="/genresrating" element={<GenresRating />} />
 
+            <Route 
+            path="/admin/listUser" 
+            element={
+              <ProtectedRoute>
+                <UserList /> {/* Chỉ cho phép admin truy cập */}
+              </ProtectedRoute>
+            } />
         </Routes>
 
 

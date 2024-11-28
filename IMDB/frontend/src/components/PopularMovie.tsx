@@ -72,7 +72,7 @@ const PopularMovie: React.FC = () => {
               birthday={null}
               place_of_birth={null}
               genres={[]}
-              description={""} date={""} genders={""} known_for={""}            />
+              description={""} date={""} genders={""} known_for={[]}            />
           </SwiperSlide>
         ))}
       </Swiper>

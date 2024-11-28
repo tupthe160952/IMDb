@@ -176,13 +176,18 @@
 }
 
 .header-title {
-  margin: 0.5em 0;
+  margin: 20px 0;
   font-weight: bold;
   color: rgb(226, 182, 22);
 }
 
 .nav-list {
   height: 400px;
+  margin: 0px;
+  white-space: nowrap;
+}
+
+.movie-genre {
   margin: 0 100px;
 }
 
@@ -238,6 +243,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-left: 100px;
 }
 
 .close-dropdown span {

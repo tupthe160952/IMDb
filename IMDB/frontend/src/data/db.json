@@ -6,7 +6,8 @@
       "password": "12345678",
       "id": "1",
       "role": "user",
-      "createdAt": "2024-11-21"
+      "createdAt": "2024-11-21",
+      "isActive": true
     },
     {
       "name": "aaa",
@@ -14,7 +15,8 @@
       "password": "12345678",
       "role": "user",
       "id": "2",
-      "createdAt": "2024-11-21"
+      "createdAt": "2024-11-21",
+      "isActive": true
     },
     {
       "name": "Admin",
@@ -30,7 +32,17 @@
       "email": "abc@gmail.com",
       "password": "123456789",
       "role": "user",
-      "createdAt": "2024-11-21"
+      "createdAt": "2024-11-21",
+      "isActive": true
+    },
+    {
+      "id": "e21a",
+      "name": "thanhthanh",
+      "email": "a@gmail.com",
+      "password": "12345678",
+      "role": "user",
+      "createdAt": "2024-11-26",
+      "isActive": true
     }
   ],
   "genres": [
@@ -307,8 +319,8 @@
       "banner": "https://i.ytimg.com/vi/vDX6Yt-Uat0/maxresdefault.jpg",
       "overview": "While struggling with his dual identity, Arthur Fleck not only stumbles upon true love, but also finds the music that's always been inside him.",
       "popularity": 2075.981,
-      "vote_average": 5.703159441587069,
-      "vote_count": 1361,
+      "vote_average": 5.7055800293685754,
+      "vote_count": 1362,
       "trailer": "https://www.youtube.com/watch?v=_OKAwz2MsJs"
     },
     {
@@ -1378,6 +1390,21 @@
       "id": "7760",
       "userId": "3",
       "movieId": "17"
+    },
+    {
+      "id": "a76c",
+      "userId": "3",
+      "movieId": "41"
+    },
+    {
+      "id": "2614",
+      "userId": "3",
+      "movieId": "18"
+    },
+    {
+      "id": "2526",
+      "userId": "3",
+      "movieId": "6"
     }
   ],
   "celebs": [
@@ -2057,14 +2084,6 @@
       "userId": "2",
       "ratestar": {
         "movieId": "1",
-        "rating": 10
-      }
-    },
-    {
-      "id": "9d69",
-      "userId": "3",
-      "ratestar": {
-        "movieId": "3",
         "rating": 10
       }
     }
