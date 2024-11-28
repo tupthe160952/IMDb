@@ -227,8 +227,8 @@
       "banner": "https://img.youtube.com/vi/67vbA5ZJdKQ/maxresdefault.jpg",
       "overview": "After a shipwreck, an intelligent robot called Roz is stranded on an uninhabited island. To survive the harsh environment, Roz bonds with the island's animals and cares for an orphaned baby goose.",
       "popularity": 3545.825,
-      "vote_average": 8.547566014160765,
-      "vote_count": 2401,
+      "vote_average": 8.548170691090755,
+      "vote_count": 2402,
       "trailer": "https://www.youtube.com/watch?v=67vbA5ZJdKQ"
     },
     {
@@ -2057,6 +2057,14 @@
       "userId": "2",
       "ratestar": {
         "movieId": "1",
+        "rating": 10
+      }
+    },
+    {
+      "id": "9d69",
+      "userId": "3",
+      "ratestar": {
+        "movieId": "3",
         "rating": 10
       }
     }
