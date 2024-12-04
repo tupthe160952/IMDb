@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import "../styles/rateStar.css";
 
-// Khai báo kiểu cho props
 interface RateStarProps {
     handleRateStar: (rating: number) => void;
     currentRating: number | null;

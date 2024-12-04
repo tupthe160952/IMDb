@@ -9,11 +9,11 @@ import RateStar from "./RateStar";
 import { useUser } from "./UserContext";
 
 const HeaderTrailer: React.FC<any> = (props) => {
-    const { id } = useParams<{ id: string }>();  // movieId
+    const { id } = useParams<{ id: string }>();  
     const [movieData, setMovieData] = useState<any>(null);
-    const { user } = useUser();  // Lấy thông tin người dùng
-    const [userRating, setUserRating] = useState<number | null>(null);  // Lưu rating của user cho phim này
-    const [userRatingId, setUserRatingId] = useState<string | null>(null);  // Lưu id của rating đã lưu trong database
+    const { user } = useUser(); 
+    const [userRating, setUserRating] = useState<number | null>(null); 
+    const [userRatingId, setUserRatingId] = useState<string | null>(null);  
     const [showRateModal, setShowRateModal] = useState(false);
     const [voteAverage, setVoteAverage] = useState<number>(0);
     const [voteCount, setVoteCount] = useState<number>(0);
@@ -26,28 +26,24 @@ const HeaderTrailer: React.FC<any> = (props) => {
                 .get(`http://localhost:9999/movie/${id}`)
                 .then((response) => {
                     console.log("Movie data:", response.data);
-                    setMovieData(response.data); // Update movie data
-                    setVoteAverage(response.data.vote_average); // Set initial vote_average
-                    setVoteCount(response.data.vote_count); // Set initial vote_count
+                    setMovieData(response.data); 
+                    setVoteAverage(response.data.vote_average);
+                    setVoteCount(response.data.vote_count); 
                 })
                 .catch((error) => {
                     console.error("Error fetching movie data:", error);
                 });
 
-            // Fetch user rating for the current movie and user
             axios
                 .get(`http://localhost:9999/ratings?movieId=${id}&userId=${user.id}`)
                 .then((response) => {
-                    // Tìm vị trí của rating có movieId khớp với id
                     const index = response.data.findIndex((rating: any) => rating.ratestar.movieId === id);
 
                     if (index !== -1) {
-                        // Nếu tìm thấy rating, lấy ra rating tại vị trí tìm được
                         const existingRating = response.data[index];
                         setUserRating(existingRating.ratestar.rating);
                         setUserRatingId(existingRating.id);
                     } else {
-                        // Nếu không tìm thấy rating, thiết lập lại giá trị
                         setUserRating(null);
                         setUserRatingId(null);
                     }
@@ -56,7 +52,7 @@ const HeaderTrailer: React.FC<any> = (props) => {
                     console.error("Error fetching ratings:", error);
                 });
         }
-    }, [id, user]);  // Chạy lại effect khi id hoặc user thay đổi
+    }, [id, user]); 
 
     if (!movieData) return <div>Loading...</div>;
 
