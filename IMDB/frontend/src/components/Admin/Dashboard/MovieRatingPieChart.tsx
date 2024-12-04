@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect, useState } from 'react';
 import { Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts';
 
-// Định nghĩa kiểu cho dữ liệu phim
 interface Movie {
     id: number;
     title: string;
@@ -10,19 +9,19 @@ interface Movie {
 }
 
 const MovieRatingPieChart = () => {
-    const [movies, setMovies] = useState<Movie[]>([]); // Chỉ định kiểu cho state
+    const [movies, setMovies] = useState<Movie[]>([]);
 
     useEffect(() => {
         const fetchMovies = async () => {
             const response = await fetch('http://localhost:9999/movie');
-            const data: Movie[] = await response.json(); // Chỉ định kiểu cho dữ liệu nhận được
+            const data: Movie[] = await response.json();
             setMovies(data);
         };
 
         fetchMovies();
     }, []);
 
-    const categorizeMovies = (movies: Movie[]) => { // Chỉ định kiểu cho tham số
+    const categorizeMovies = (movies: Movie[]) => {
         const categories: { [key: string]: number } = {
             'Bad Movie': 0,
             'Fair Movie': 0,
@@ -30,7 +29,7 @@ const MovieRatingPieChart = () => {
             'Super Movie': 0,
         };
 
-        movies.forEach((movie: Movie) => { // Chỉ định kiểu cho tham số
+        movies.forEach((movie: Movie) => {
             const rating = movie.vote_average;
             if (rating >= 0 && rating < 3) {
                 categories['Bad Movie']++;

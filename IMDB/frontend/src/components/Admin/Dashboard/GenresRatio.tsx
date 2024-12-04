@@ -18,7 +18,7 @@ interface Genre {
 interface Movie {
     id: number;
     title: string;
-    genres: number[]; // Đổi `genreId` thành `genres` là mảng số
+    genres: number[];
 }
 
 interface GenreData {
@@ -38,19 +38,17 @@ const GenresRatio: React.FC = () => {
                 const genres = genresResponse.data;
                 const movies = moviesResponse.data;
 
-                // Tính số lượng phim theo từng thể loại
                 const data = genres.map((genre) => {
-                    const count = movies.filter((movie) => movie.genres.includes(genre.id)).length; // Kiểm tra xem genre.id có trong mảng genres không
+                    const count = movies.filter((movie) => movie.genres.includes(genre.id)).length; 
                     return { name: genre.name, count };
                 });
 
-                // Đảm bảo tất cả thể loại được hiển thị, kể cả có số lượng là 0
                 const completeData = genres.map((genre) => {
                     const count = data.find(d => d.name === genre.name)?.count || 0;
                     return { name: genre.name, count };
                 });
 
-                console.log('Genres Data:', completeData); // Kiểm tra dữ liệu
+                console.log('Genres Data:', completeData);
                 setGenresData(completeData);
             } catch (error) {
                 console.error('Error fetching data:', error);

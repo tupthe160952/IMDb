@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useEffect, useState } from 'react';
 import { Cell, Legend, Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts';
 
-// Màu sắc cho các phần của biểu đồ
 const COLORS = ['#0088FE', '#FFBB28'];
 
 interface User {
@@ -38,10 +37,8 @@ const RatingRatio: React.FC = () => {
                 const ratedUserIds = new Set(ratings.map(rating => rating.userId));
                 const ratedUserCount = ratedUserIds.size;
 
-                // Tính tỷ lệ phần trăm
                 const ratedPercentage = (ratedUserCount / totalUsers) * 100;
 
-                // Dữ liệu cho biểu đồ
                 const data = [
                     { name: 'Người dùng đã đánh giá', value: ratedPercentage },
                     { name: 'Người dùng chưa đánh giá', value: 100 - ratedPercentage },

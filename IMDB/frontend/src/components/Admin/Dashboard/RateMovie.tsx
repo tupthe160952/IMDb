@@ -19,7 +19,6 @@ const RateMovie: React.FC = () => {
     const [movies, setMovies] = useState<Movie[]>([]);
 
     useEffect(() => {
-        // Gọi API từ json-server
         axios.get('http://localhost:9999/movie')
             .then(response => {
                 setMovies(response.data);
@@ -29,10 +28,9 @@ const RateMovie: React.FC = () => {
             });
     }, []);
 
-    // Chuyển dữ liệu thành Dataset cho BarChart
     const dataset = movies.map((movie) => ({
         name: movie.title,
-        vote_average: parseFloat(movie.vote_average.toFixed(2)), // Làm tròn 2 chữ số
+        vote_average: parseFloat(movie.vote_average.toFixed(2)),
     }));
 
     return (

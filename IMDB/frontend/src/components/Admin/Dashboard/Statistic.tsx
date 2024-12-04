@@ -11,22 +11,18 @@ const Statistic: React.FC = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                // Fetch movies
                 const movieResponse = await fetch('http://localhost:9999/movie');
                 const movies: Movie[] = await movieResponse.json();
                 setMovieCount(movies.length);
 
-                // Fetch celebrities
                 const celebResponse = await fetch('http://localhost:9999/celebs');
                 const celebs: Celebs[] = await celebResponse.json();
                 setCelebCount(celebs.length);
 
-                // Fetch genres
                 const genreResponse = await fetch('http://localhost:9999/genres');
                 const genres: GenreDetail[] = await genreResponse.json();
                 setGenreCount(genres.length);
 
-                // Fetch user
                 const userResponse = await fetch('http://localhost:9999/users');
                 const user: User[] = await userResponse.json();
                 setUserCount(user.length);
@@ -36,13 +32,12 @@ const Statistic: React.FC = () => {
         };
 
         fetchData();
-    }, []); // Chạy chỉ một lần khi component được mount
+    }, []); 
 
 
     return (
         <div className="container mt-4">
             <div className="d-flex justify-content-between">
-                {/* Movie */}
                 <div className="card border-left-primary shadow h-100 py-2 mx-2" style={{width: '335px', borderLeft: '7px solid #0d6efd'}}>
                     <div className="card-body">
                         <div className="row no-gutters align-items-center">
@@ -59,7 +54,6 @@ const Statistic: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Celebrity */}
                 <div className="card border-left-success shadow h-100 py-2 mx-2" style={{width: '335px', borderLeft: '7px solid #19876f'}}>
                     <div className="card-body">
                         <div className="row no-gutters align-items-center">
@@ -76,7 +70,6 @@ const Statistic: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Tasks */}
                 <div className="card border-left-info shadow h-100 py-2 mx-2" style={{width: '335px', borderLeft: '7px solid #0dcaf0'}}>
                     <div className="card-body">
                         <div className="row no-gutters align-items-center">
@@ -88,18 +81,7 @@ const Statistic: React.FC = () => {
                                     <div className="col-auto">
                                         <div className="h5 mb-0 mr-3 font-weight-bold text-gray-800"><h3>{genreCount}</h3></div>
                                     </div>
-                                    {/* <div className="col">
-                                        <div className="progress progress-sm mr-2">
-                                            <div
-                                                className="progress-bar"
-                                                role="progressbar"
-                                                style={{ width: '50%' }}
-                                                aria-valuenow={50}
-                                                aria-valuemin={0}
-                                                aria-valuemax={100}
-                                            ></div>
-                                        </div>
-                                    </div> */}
+
                                 </div>
                             </div>
                             <div className="col-auto">
@@ -109,7 +91,6 @@ const Statistic: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Pending Requests */}
                 <div className="card border-left-warning shadow h-100 py-2 mx-2" style={{width: '335px', borderLeft: '7px solid #ffc107'}}>
                     <div className="card-body">
                         <div className="row no-gutters align-items-center">

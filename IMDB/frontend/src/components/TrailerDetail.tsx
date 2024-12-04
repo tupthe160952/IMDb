@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { useUser } from './UserContext'; // Assuming you have a UserContext for user information
+import { useUser } from './UserContext';
 
 const Trailer: React.FC = () => {
     const { id } = useParams<{ id: string }>();
@@ -10,7 +10,7 @@ const Trailer: React.FC = () => {
     const [genres, setGenres] = useState<any>([]);
     const [inWatchlist, setInWatchlist] = useState(false);
     const [watchlistItemId, setWatchlistItemId] = useState<number | null>(null);
-    const { user } = useUser();  // Assuming the user context is used to get the logged-in user
+    const { user } = useUser();  
 
     useEffect(() => {
         // Fetch movie data
@@ -37,7 +37,6 @@ const Trailer: React.FC = () => {
                 console.error('Error fetching genres:', error);
             });
 
-        // Check if the movie is in the user's watchlist
         if (user) {
             axios
                 .get(`http://localhost:9999/watchlist`, {
@@ -46,7 +45,7 @@ const Trailer: React.FC = () => {
                 .then((res) => {
                     if (res.data.length > 0) {
                         setInWatchlist(true);
-                        setWatchlistItemId(res.data[0].id); // Save ID of watchlist item
+                        setWatchlistItemId(res.data[0].id);
                     }
                 })
                 .catch((error) => {
@@ -83,7 +82,7 @@ const Trailer: React.FC = () => {
                 });
                 if (response.status === 200 || response.status === 201) {
                     setInWatchlist(true);
-                    setWatchlistItemId(response.data.id); // Save ID of newly added item
+                    setWatchlistItemId(response.data.id); 
                     alert("Added to watchlist");
                 }
             } catch (error) {
@@ -111,13 +110,11 @@ const Trailer: React.FC = () => {
         <div className="text-white py-4" style={{ width: '100%' }}>
             <div className="row w-100 mx-0">
                 <div className="col-7 text-start ps-3">
-                    {/* Overview */}
                     <div className="mb-4">
                         <p>{movie.overview}</p>
                     </div>
                     <hr />
 
-                    {/* Cast */}
                     <div className="mb-4">
                         <p>
                             <strong>Stars:</strong> {movie.cast.join(' · ')}
@@ -129,7 +126,6 @@ const Trailer: React.FC = () => {
                         <hr />
                     </div>
 
-                    {/* Reviews and IMDb Link Section */}
                     <div>
                         <a href="#" className="text-info">
                             See production info at IMDbPro
@@ -137,15 +133,12 @@ const Trailer: React.FC = () => {
                     </div>
                 </div>
 
-                {/* Right Section: 3/10 */}
                 <div className="col-3 d-flex flex-column align-items-start" style={{ margin: '25px 0 0 150px' }}>
-                    {/* Release Date Section */}
                     <div className="mb-4">
                         <strong>Release Date:</strong>
                         <p>{movie.date}</p>
                     </div>
 
-                    {/* Watchlist Section */}
                     <button
                         className="btn btn-warning w-100 mb-3"
                         onClick={handleWatchlistToggle}
@@ -154,7 +147,6 @@ const Trailer: React.FC = () => {
                     </button>
                 </div>
 
-                {/* Spacer Section: Remaining 1/10 */}
                 <div className="col-2"></div>
             </div>
         </div>

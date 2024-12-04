@@ -15,7 +15,7 @@ import { GenreDetail } from '../../../types/Interface';
 
 const GenresRating: React.FC = () => {
     const [genres, setGenres] = useState<GenreDetail[]>([]);
-    const [movies, setMovies] = useState<any[]>([]); // Thay 'any' bằng kiểu dữ liệu tương ứng nếu có
+    const [movies, setMovies] = useState<any[]>([]); 
 
     useEffect(() => {
         const fetchData = async () => {
@@ -32,12 +32,9 @@ const GenresRating: React.FC = () => {
         fetchData();
     }, []);
 
-    // Chuyển dữ liệu thành Dataset cho BarChart
     const dataset = genres.map((genre) => {
-        // Lấy tất cả các bộ phim có genre.id
         const relevantMovies = movies.filter(movie => movie.genres.includes(genre.id));
 
-        // Tính điểm trung bình cho các bộ phim thuộc thể loại hiện tại
         const averageRating = relevantMovies.length > 0
             ? relevantMovies.reduce((sum, movie) => sum + movie.vote_average, 0) / relevantMovies.length
             : 0;
